@@ -1,0 +1,4714 @@
+[
+  {
+    "disciplina": "Administração e Gestão",
+    "pergunta": "Planejar envolve definir objetivos e os meios para alcançá-los.",
+    "respostaCorreta": 0,
+    "explicacao": "O planejamento estabelece objetivos e caminhos para sua realização.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "pergunta": "Delegar uma tarefa elimina toda a responsabilidade do gestor sobre seus resultados.",
+    "respostaCorreta": 1,
+    "explicacao": "O gestor mantém a responsabilidade de acompanhar os resultados da tarefa delegada.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "pergunta": "O recrutamento interno busca candidatos que já fazem parte da organização.",
+    "respostaCorreta": 0,
+    "explicacao": "O recrutamento interno considera os profissionais do próprio quadro.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "pergunta": "Recrutamento e seleção são exatamente a mesma etapa.",
+    "respostaCorreta": 1,
+    "explicacao": "Recrutar atrai candidatos; selecionar avalia e escolhe entre eles.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "pergunta": "Uma empresa lucrativa pode enfrentar falta de caixa.",
+    "respostaCorreta": 0,
+    "explicacao": "Lucro e caixa são diferentes: vendas a prazo podem gerar resultado antes do recebimento.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "pergunta": "Receita e lucro são sinônimos.",
+    "respostaCorreta": 1,
+    "explicacao": "O lucro considera a dedução de custos e despesas da receita.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "pergunta": "Segmentar um mercado consiste em identificar grupos com características ou necessidades semelhantes.",
+    "respostaCorreta": 0,
+    "explicacao": "A segmentação ajuda a adequar a oferta e a comunicação a diferentes grupos.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "pergunta": "Marketing se resume à publicidade.",
+    "respostaCorreta": 1,
+    "explicacao": "Marketing também envolve pesquisa, produto, preço, distribuição e relacionamento.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "pergunta": "Um modelo de negócio descreve como a organização cria, entrega e captura valor.",
+    "respostaCorreta": 0,
+    "explicacao": "Essas dimensões ajudam a compreender a lógica de funcionamento do negócio.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "pergunta": "Validar uma ideia garante que o empreendimento terá sucesso.",
+    "respostaCorreta": 1,
+    "explicacao": "A validação reduz incertezas, mas não elimina riscos de mercado e execução.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "pergunta": "O estoque de segurança ajuda a absorver variações de demanda ou de prazo de reposição.",
+    "respostaCorreta": 0,
+    "explicacao": "Ele funciona como proteção contra incertezas, com custos que precisam ser avaliados.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "pergunta": "Manter estoques cada vez maiores sempre reduz o custo total de logística.",
+    "respostaCorreta": 1,
+    "explicacao": "Estoques elevados também geram custos de armazenagem, capital e obsolescência.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "pergunta": "O ciclo PDCA inclui planejar, executar, verificar e agir.",
+    "respostaCorreta": 0,
+    "explicacao": "Essas quatro etapas organizam a melhoria contínua.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "pergunta": "A qualidade é responsabilidade exclusiva da inspeção final.",
+    "respostaCorreta": 1,
+    "explicacao": "A qualidade depende de processos e pessoas ao longo de toda a produção.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "pergunta": "Na análise SWOT, forças e fraquezas se referem ao ambiente interno.",
+    "respostaCorreta": 0,
+    "explicacao": "Oportunidades e ameaças se referem ao ambiente externo.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "pergunta": "Um indicador isolado é suficiente para explicar todos os resultados de uma organização.",
+    "respostaCorreta": 1,
+    "explicacao": "Indicadores precisam ser interpretados com contexto e outras evidências.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "pergunta": "Um conflito de interesses pode comprometer a imparcialidade de uma decisão profissional.",
+    "respostaCorreta": 0,
+    "explicacao": "Interesses pessoais podem interferir no julgamento e devem ser tratados com transparência.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "pergunta": "Uma decisão legal é necessariamente ética em qualquer contexto.",
+    "respostaCorreta": 1,
+    "explicacao": "Legalidade e ética são dimensões diferentes; cumprir a lei não encerra a reflexão ética.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "pergunta": "Um backup facilita a recuperação de dados após uma perda.",
+    "respostaCorreta": 0,
+    "explicacao": "Cópias de segurança precisam ser mantidas e sua restauração verificada.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "pergunta": "Compartilhar senhas individuais melhora a rastreabilidade das ações.",
+    "respostaCorreta": 1,
+    "explicacao": "Senhas compartilhadas dificultam identificar quem realizou uma ação.",
+    "formato": "vf",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Um organograma representa relações formais de autoridade.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele mostra cargos, unidades e vínculos hierárquicos formais.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "A organização informal só existe quando está desenhada no organograma.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Relações informais surgem das interações, independentemente do desenho formal.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Uma política fornece orientação geral para decisões recorrentes.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Políticas estabelecem diretrizes para situações semelhantes.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Um procedimento e um objetivo administrativo têm a mesma função.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O procedimento descreve passos; o objetivo define o resultado desejado.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Coordenar atividades ajuda a reduzir esforços duplicados entre setores.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A coordenação alinha dependências, responsabilidades e recursos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "O controle administrativo acontece apenas depois que todos os trabalhos terminam.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Também há controles preventivos e acompanhamento durante a execução.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Um recurso material pode ser uma máquina utilizada pela organização.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Máquinas, instalações e insumos são exemplos de recursos materiais.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Comunicação descendente é aquela que parte dos funcionários para a direção.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A comunicação descendente parte de níveis superiores para inferiores.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Um cronograma relaciona atividades a prazos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele permite acompanhar sequência e duração prevista dos trabalhos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Ter autoridade formal garante, por si só, que uma pessoa exerça liderança eficaz.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A liderança também depende de influência, confiança e comportamento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "O atendimento ao cliente pode fornecer informações para melhorar a gestão.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Reclamações e sugestões ajudam a identificar problemas e necessidades.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Uma meta sem prazo permite verificar se foi atingida no tempo previsto.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Sem prazo não há referência temporal definida para avaliar a entrega.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Registrar decisões de uma reunião facilita o acompanhamento dos responsáveis.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O registro reduz ambiguidades sobre decisões, prazos e encaminhamentos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Aumentar o número de subordinados diretos sempre melhora a supervisão.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A amplitude adequada depende da complexidade e da autonomia da equipe.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Conflitos entre metas de vendas e capacidade produtiva exigem coordenação entre áreas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O alinhamento evita promessas comerciais incompatíveis com a operação.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Uma decisão não programada deve seguir automaticamente uma rotina já pronta.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Situações novas exigem análise, pois não há resposta rotineira suficiente.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Uma estrutura matricial pode combinar vínculos por função e por projeto.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Essa combinação exige clareza sobre prioridades e autoridade compartilhada.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Um indicador de quantidade entregue mede necessariamente a qualidade do serviço.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Volume e qualidade são dimensões diferentes e precisam de medidas apropriadas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Delegar com clareza inclui definir resultados esperados e limites de decisão.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A autonomia precisa vir acompanhada de expectativas e recursos.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Na abordagem contingencial, existe uma estrutura ótima para qualquer ambiente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A adequação depende de fatores como ambiente, tecnologia e estratégia.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "A escuta ativa inclui confirmar se a mensagem foi compreendida corretamente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Parafrasear e esclarecer dúvidas reduz falhas de interpretação.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Um desvio entre resultado e meta prova automaticamente negligência da equipe.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Metas inadequadas, restrições externas e problemas de processo também geram desvios.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Ao avaliar uma unidade, melhorar um indicador local pode prejudicar o resultado global.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O ganho local pode transferir custos ou atrasos para outras áreas.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Sob racionalidade limitada, gestores conseguem analisar todas as alternativas possíveis.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Limitações de tempo, informação e capacidade restringem a análise.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Uma mudança de estrutura sem ajustar incentivos pode preservar os comportamentos antigos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "As recompensas e expectativas influenciam a adoção das novas práticas.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Uma correlação entre treinamento e produtividade prova que o treinamento causou todo o ganho.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Outros fatores e diferenças entre grupos podem explicar a associação.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Concentrar decisões pode aumentar a uniformidade, mas também tornar respostas locais mais lentas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Centralização envolve uma troca entre padronização e agilidade.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "vf",
+    "pergunta": "Custos irrecuperáveis devem justificar manter um projeto mesmo quando sua continuidade destrói valor.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A decisão deve comparar custos e benefícios futuros relevantes, não recuperar o passado.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "A descrição de cargo apresenta atividades e responsabilidades da função.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela esclarece o que se espera do ocupante.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "O salário é o único fator que influencia a permanência de funcionários.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Liderança, reconhecimento e desenvolvimento também influenciam a retenção.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "O acolhimento inicial ajuda o novo funcionário a compreender rotinas e expectativas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A integração reduz incertezas de entrada.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Feedback eficaz deve tratar a personalidade, sem exemplos de comportamento.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O feedback deve se apoiar em fatos e comportamentos observáveis.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Uma entrevista pode ser estruturada com perguntas iguais para candidatos à mesma vaga.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Isso favorece comparabilidade e critérios consistentes.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Treinamento só é útil para funcionários recém-contratados.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Mudanças de tarefa e lacunas de competência também exigem capacitação.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Absenteísmo está relacionado a ausências ao trabalho.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O indicador ajuda a acompanhar faltas e seus impactos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Avaliar desempenho significa apenas apontar erros.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A avaliação também identifica resultados positivos e necessidades de desenvolvimento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Uma equipe pode ter diversidade de experiências e perspectivas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Diferenças podem ampliar a análise quando há inclusão.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Reconhecimento profissional exige necessariamente pagamento em dinheiro.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Também pode ocorrer por feedback, oportunidades e valorização das contribuições.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Um plano de desenvolvimento individual pode incluir objetivos e ações de aprendizagem.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O plano orienta o desenvolvimento e seu acompanhamento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Uma pesquisa de clima mede diretamente o lucro contábil.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ela investiga percepções sobre o ambiente de trabalho.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "A clareza de papéis reduz dúvidas sobre responsabilidades da equipe.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Expectativas claras ajudam a evitar conflitos de atribuição.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Aplicar um curso é suficiente para provar que o desempenho melhorou.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "É preciso verificar aprendizagem, aplicação e resultados.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Uma avaliação 360 graus pode reunir percepções de diferentes públicos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Pode incluir liderança, pares, subordinados e autoavaliação.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Uma alta rotatividade sempre significa que a seleção foi a única causa do problema.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Remuneração, gestão e condições de trabalho também precisam ser investigadas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "A entrevista por competências busca exemplos de comportamentos em situações vividas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "As evidências ajudam a avaliar competências relevantes para o cargo.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "O efeito halo ocorre quando cada critério é avaliado independentemente dos demais.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "No efeito halo, uma impressão geral contamina diferentes avaliações.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Um plano de sucessão prepara alternativas para posições críticas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele reduz a dependência de uma única pessoa.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Clima e cultura organizacional são conceitos idênticos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Clima trata de percepções do ambiente; cultura envolve valores e padrões compartilhados.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "A segurança psicológica favorece o relato de dúvidas e erros sem medo de humilhação.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Isso apoia aprendizagem e identificação de problemas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Uma meta individual deve ser mantida mesmo que incentive comportamentos contrários ao trabalho da equipe.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Metas e incentivos precisam ser alinhados ao resultado coletivo.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Comparar produtividade antes e depois de um curso sem considerar outras mudanças limita a conclusão causal.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Mudanças de equipamento ou demanda podem influenciar o resultado.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Selecionar apenas pessoas semelhantes ao entrevistador elimina vieses de contratação.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A semelhança pode gerar viés de afinidade e restringir a diversidade.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Uma competência crítica pode justificar desenvolvimento mesmo sem retorno financeiro imediato mensurável.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Riscos, continuidade e estratégia também são critérios de decisão.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Otimizar o custo salarial isoladamente garante menor custo total de pessoas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Rotatividade, erros e perda de conhecimento podem elevar o custo total.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Um aumento de desligamentos em uma única área justifica investigar fatores específicos daquela liderança e operação.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A segmentação dos dados ajuda a localizar causas.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "vf",
+    "pergunta": "Um instrumento de seleção confiável é necessariamente válido para qualquer cargo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Consistência de medida não garante adequação ao que o cargo exige.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "O ativo reúne recursos controlados pela entidade.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Esses recursos têm potencial de gerar benefícios econômicos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "O passivo representa exclusivamente dinheiro disponível.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Passivos são obrigações; disponibilidades são ativos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "O patrimônio líquido corresponde, de forma básica, à diferença entre ativos e passivos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A relação patrimonial é ativo igual a passivo mais patrimônio líquido.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Fluxo de caixa e demonstração do resultado registram necessariamente os mesmos valores em cada mês.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Os momentos de recebimento e reconhecimento podem divergir.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Uma venda a prazo pode gerar um valor a receber.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O recebimento ocorrerá em momento posterior.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Depreciação significa necessariamente uma saída de caixa no mês em que é reconhecida.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ela apropria o valor depreciável ao longo da vida útil, sem pagamento simultâneo obrigatório.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Um orçamento compara receitas e gastos planejados.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele apoia o planejamento e o controle financeiro.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Todo custo permanece igual quando o volume produzido muda.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Custos variáveis acompanham o nível de atividade, dentro das condições adotadas.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Capital de giro está ligado ao funcionamento cotidiano do negócio.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Estoques, recebíveis e obrigações operacionais influenciam sua necessidade.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Faturar mais garante receber todo o dinheiro imediatamente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Vendas a prazo e inadimplência podem atrasar ou impedir recebimentos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Juros remuneram o uso de capital ao longo do tempo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O custo depende de taxa, prazo e regime de capitalização.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Um desconto de 10% seguido de aumento de 10% restaura exatamente o preço inicial.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "As bases são diferentes: 0,9 multiplicado por 1,1 resulta em 0,99.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "A conciliação bancária compara registros internos com o extrato do banco.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela ajuda a encontrar diferenças, tarifas e lançamentos pendentes.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Um índice de liquidez corrente alto garante que a empresa não terá problemas de caixa.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Estoques lentos e recebíveis vencidos podem reduzir a liquidez efetiva.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "A margem de contribuição é a receita menos custos e despesas variáveis.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela contribui para cobrir gastos fixos e formar resultado.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "No ponto de equilíbrio contábil, a receita é obrigatoriamente igual a zero.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A receita cobre os gastos considerados, deixando resultado contábil nulo.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "O prazo entre pagar fornecedores e receber clientes influencia a necessidade de financiamento.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Um intervalo maior tende a exigir mais capital de giro.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Uma taxa mensal pode ser convertida em taxa anual composta apenas multiplicando por doze.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Em juros compostos, a taxa equivalente usa capitalização ao longo dos meses.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Uma aplicação com maior retorno prometido pode envolver maior risco.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Retorno deve ser avaliado junto com risco e liquidez.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "O valor presente líquido ignora o momento dos fluxos de caixa.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O VPL desconta os fluxos conforme suas datas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Uma despesa já incorrida e irrecuperável não muda os fluxos futuros entre alternativas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela é um custo afundado para a decisão de continuidade.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Uma margem percentual menor sempre implica lucro total menor.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Volume, composição e custos fixos também afetam o lucro total.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Se a margem de contribuição unitária cai e os custos fixos não mudam, o ponto de equilíbrio em unidades aumenta.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "São necessárias mais unidades para cobrir o mesmo gasto fixo.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Um projeto com payback menor sempre apresenta VPL maior.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Payback não incorpora todos os fluxos nem necessariamente o valor do dinheiro no tempo.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Financiar ativos de longo prazo com dívidas muito curtas pode aumentar o risco de refinanciamento.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A empresa pode precisar renovar a dívida antes de gerar caixa suficiente.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Projetos mutuamente exclusivos devem ser escolhidos apenas pela maior taxa interna de retorno.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Diferenças de escala e de fluxos podem tornar o VPL mais adequado.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "Um aumento de estoque sem aumento proporcional de vendas pode imobilizar caixa.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Recursos ficam presos em mercadorias ainda não vendidas.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "vf",
+    "pergunta": "O custo de oportunidade de usar um imóvel próprio é necessariamente zero.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O uso impede alternativas, como alugá-lo, que podem ter valor econômico.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "O público-alvo orienta a comunicação de uma oferta.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Conhecer o público ajuda a escolher linguagem e canais.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Preço é o único componente do composto de marketing.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Produto, praça e promoção também integram os quatro Ps tradicionais.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Uma marca pode ajudar o consumidor a reconhecer uma oferta.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A marca identifica e diferencia produtos ou serviços.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Satisfação do cliente e faturamento são medidas idênticas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Satisfação trata de percepção; faturamento mede receita de vendas.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Pós-venda pode incluir acompanhamento da experiência do cliente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O relacionamento continua após a compra.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Uma pesquisa precisa ouvir apenas clientes satisfeitos para representar todo o público.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Isso produz viés e exclui experiências importantes.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Um canal de distribuição conecta a oferta ao comprador.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Lojas, distribuidores e canais digitais são exemplos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Desconto e valor percebido são necessariamente a mesma coisa.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Valor inclui benefícios percebidos em relação aos custos para o cliente.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Uma persona é uma representação de um perfil de cliente baseada em informações.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela auxilia o entendimento de necessidades e comportamentos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Uma promessa comercial deve ignorar a capacidade de entrega.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Promessas incompatíveis podem gerar frustração e perda de confiança.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "A taxa de conversão relaciona resultados desejados ao total de oportunidades observadas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O denominador deve ser definido, como visitas ou contatos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Ter muitos seguidores garante vendas elevadas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Alcance não prova conversão, adequação da oferta ou receita.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Pesquisar concorrentes ajuda a identificar alternativas disponíveis ao cliente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A análise apoia diferenciação e posicionamento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Posicionamento consiste apenas em escolher a localização física da loja.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ele trata da posição desejada da oferta na percepção do público.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "O custo de aquisição de cliente relaciona gastos de aquisição ao número de clientes conquistados.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Os gastos e clientes devem usar períodos e critérios compatíveis.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Uma campanha com mais cliques necessariamente tem maior rentabilidade.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Cliques podem não virar vendas ou gerar margem suficiente.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Um teste A/B deve comparar versões com uma diferença definida e métricas prévias.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O desenho facilita interpretar o efeito da mudança.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Aumentar o preço sempre eleva a receita total.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A reação da quantidade demandada pode compensar ou superar o aumento.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Uma proposta de valor deve explicar benefícios relevantes para um público específico.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela relaciona necessidades do cliente à solução oferecida.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Churn mede exclusivamente novos clientes adquiridos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Churn representa perda ou cancelamento de clientes, conforme a métrica adotada.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "A recompra pode reduzir a dependência de aquisição contínua de novos clientes.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Retenção e aquisição são partes complementares do crescimento.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Uma amostra formada apenas por voluntários de uma rede social é automaticamente representativa de todos os consumidores.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A seleção pode excluir perfis e gerar viés.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Avaliar uma promoção exige considerar margem, custos e eventual substituição de vendas normais.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O faturamento adicional sozinho pode superestimar o benefício.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "O retorno sobre gasto em anúncios é igual ao lucro líquido da campanha.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "ROAS relaciona receita atribuída a anúncios ao gasto publicitário, sem todos os custos.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Uma correlação entre exposição a anúncios e compras pode refletir seleção de consumidores já interessados.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Sem desenho adequado, a causalidade permanece incerta.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "O último clique sempre identifica todo o efeito causal dos canais anteriores.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A atribuição ao último clique simplifica uma jornada que pode ter múltiplas influências.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Um aumento de vendas de um produto pode reduzir vendas de outro da mesma empresa.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Esse efeito é chamado de canibalização.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "vf",
+    "pergunta": "Uma média de satisfação alta torna desnecessário investigar segmentos insatisfeitos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A média pode ocultar problemas relevantes de grupos específicos.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Uma oportunidade pode surgir de uma necessidade ainda mal atendida.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Problemas de clientes podem orientar soluções de negócio.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Uma ideia criativa já comprova que existe demanda pagante.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "É necessário testar interesse, uso e disposição para pagar.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Um protótipo permite experimentar características de uma solução.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele reduz o custo de aprender antes da implantação completa.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Empreender exige ignorar riscos para agir rapidamente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Riscos precisam ser identificados e administrados.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Uma proposta de valor relaciona uma solução a necessidades do público.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela explica por que o cliente consideraria a oferta útil.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "O plano de negócios só pode ser usado antes da abertura da empresa.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ele também pode orientar expansão e revisão de estratégia.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Custos fixos precisam ser considerados ao estimar a viabilidade do negócio.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Mesmo sem vendas, alguns gastos continuam ocorrendo.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Todo empreendimento social deixa de precisar de sustentabilidade financeira.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A continuidade depende de recursos e de um modelo viável.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Ouvir clientes pode revelar problemas diferentes dos imaginados pelo fundador.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A investigação testa suposições iniciais.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Um concorrente indireto vende necessariamente o mesmo produto.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ele pode resolver a mesma necessidade por outra solução.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Receita recorrente pode resultar de assinaturas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O cliente realiza pagamentos periódicos pelo acesso ou serviço.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Um negócio digital não tem custos operacionais.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Infraestrutura, atendimento, aquisição e pessoal também geram custos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "A equipe fundadora pode reunir competências complementares.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Isso amplia a capacidade de executar diferentes funções.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Um MVP deve conter todas as funcionalidades da versão definitiva.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ele contém o necessário para testar hipóteses importantes.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Uma hipótese de negócio deve permitir obter evidências que a apoiem ou contrariem.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Afirmações testáveis tornam a aprendizagem mais útil.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Pivotar significa mudar tudo sem considerar o que foi aprendido.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O pivô é uma mudança orientada por evidências sobre hipóteses relevantes.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "O ponto de equilíbrio ajuda a avaliar o volume mínimo para cobrir gastos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele relaciona custos fixos e contribuição por unidade.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Crescer em vendas elimina a necessidade de capital de giro.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Mais vendas a prazo podem aumentar a necessidade de financiamento.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Uma parceria pode fornecer recursos que a empresa não possui internamente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O benefício deve ser avaliado junto com dependências e responsabilidades.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Escalabilidade significa que custos e receita sempre aumentam exatamente na mesma proporção.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ela envolve capacidade de crescer sem aumento proporcional de todos os recursos.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Um experimento com pré-venda pode testar disposição para pagar.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Compromissos de compra dão evidência diferente de elogios.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Faturamento alto é suficiente para provar que o modelo de negócio é rentável.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Custos, margem e despesas precisam ser considerados.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Uma startup com caixa de R$ 120 mil e consumo líquido mensal constante de R$ 20 mil tem seis meses de fôlego.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A estimativa simplificada divide caixa pelo consumo líquido mensal.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Aumentar usuários com contribuição unitária negativa garante rentabilidade futura.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Crescer pode ampliar perdas se a economia por cliente não mudar.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "A validação em um pequeno grupo pode não se repetir em outro mercado.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Perfil do público, canal e contexto podem alterar os resultados.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "A necessidade de investimento pode ser estimada apenas pelos gastos de abertura.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Também é preciso considerar operação, capital de giro e reservas.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Abandonar uma hipótese refutada pode preservar recursos para uma alternativa melhor.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Aprendizagem inclui interromper caminhos sem evidência suficiente.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "vf",
+    "pergunta": "Uma barreira de entrada protege a empresa de toda mudança tecnológica.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Novas tecnologias podem reduzir ou contornar barreiras existentes.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Inventário físico envolve conferir quantidades existentes.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A contagem pode revelar diferenças em relação aos registros.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Lead time é sinônimo de preço unitário.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Lead time é o tempo entre etapas definidas de um processo, como pedido e recebimento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "O recebimento deve conferir quantidade e condição dos materiais.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Isso ajuda a identificar divergências antes da armazenagem.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "O estoque não representa recursos financeiros imobilizados.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Materiais armazenados consomem capital até sua utilização ou venda.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "A localização identificada facilita encontrar produtos no armazém.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Endereçamento reduz tempo de busca e erros.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Qualquer material pode ser armazenado nas mesmas condições ambientais.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Produtos podem exigir condições específicas de temperatura, umidade e segurança.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "A embalagem pode proteger o produto durante transporte e manuseio.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A proteção adequada reduz danos e perdas.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Uma entrega antecipada é sempre melhor, independentemente do espaço do cliente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Antecipação pode gerar custos e dificuldades de recebimento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Rastreabilidade permite acompanhar a origem ou o percurso de um item.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Identificação e registros sustentam esse acompanhamento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Logística reversa significa apenas entregar produtos novos mais rapidamente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ela envolve fluxos de retorno para reaproveitamento, destinação ou outras finalidades.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Picking é a separação de itens para atender pedidos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A atividade prepara produtos para expedição.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "O menor preço de compra sempre representa a melhor aquisição.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Frete, qualidade, prazo e manutenção também influenciam o custo total.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "O fornecedor precisa ser avaliado também pela confiabilidade das entregas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Atrasos podem causar ruptura ou paradas.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "A curva ABC classifica itens exclusivamente pelo peso físico.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Uma aplicação comum considera o valor de consumo, combinando quantidade e custo.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "O ponto de pedido considera consumo durante a reposição e estoque de segurança.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele indica quando iniciar uma nova compra.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "A demanda independente é determinada exclusivamente pelo plano de produção de outro item.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Essa descrição corresponde à demanda dependente.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "O sistema PEPS prioriza a saída dos itens que entraram primeiro.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele pode auxiliar a organização do fluxo de estoque.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Para itens com validade, a data de entrada é sempre mais importante que a de vencimento.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O FEFO prioriza o vencimento mais próximo.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Um inventário rotativo distribui contagens ao longo do tempo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele permite conferir grupos de itens sem depender de uma única contagem geral.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Reduzir o estoque a zero sempre aumenta a disponibilidade ao cliente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Falta de proteção diante de incertezas pode gerar rupturas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "A consolidação de cargas pode reduzir custo por unidade transportada.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O benefício deve ser comparado ao prazo de espera e ao nível de serviço.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "O MRP dispensa informações sobre estrutura de produto e estoque.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Esses dados são essenciais para calcular necessidades de materiais.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Variabilidade maior da demanda pode exigir mais proteção para manter o mesmo nível de serviço.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A incerteza influencia a definição do estoque de segurança.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "O lote econômico clássico considera demanda altamente imprevisível sem necessidade de ajustes.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O modelo básico supõe condições estáveis e simplificadoras.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Melhorar a previsão reduz incerteza, mas não elimina todo o risco de ruptura.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Variações residuais e falhas de suprimento continuam possíveis.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "O efeito chicote significa que variações de pedidos diminuem obrigatoriamente em direção aos fornecedores.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "As oscilações podem ser amplificadas a montante da cadeia.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Uma compra em grande lote pode reduzir frete unitário e aumentar custo de armazenagem.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A decisão envolve equilibrar componentes do custo total.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "vf",
+    "pergunta": "Dois fornecedores com o mesmo preço unitário têm necessariamente o mesmo custo total.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Diferenças de defeitos, prazo, frete e confiabilidade alteram o custo.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Padronizar uma atividade pode reduzir variações indesejadas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Um método comum facilita execução e controle.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Retrabalho não consome recursos porque o produto já foi feito.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Refazer exige tempo, materiais ou capacidade adicional.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Um defeito pode causar insatisfação e custos de correção.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O impacto pode atingir cliente e operação.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Inspecionar todos os produtos impede que defeitos sejam gerados.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Inspeção detecta problemas, mas prevenção atua nas causas.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Manutenção preventiva é planejada antes de uma falha.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela busca reduzir a probabilidade de paradas.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "A produtividade mede apenas o número total de funcionários.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ela relaciona saídas a recursos utilizados.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Um fluxograma pode representar a sequência de uma operação.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele facilita visualizar etapas e decisões.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Desperdício se resume a material jogado fora.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Esperas, movimentações e retrabalho também podem ser desperdícios.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "O cliente ajuda a definir requisitos de qualidade.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Qualidade deve considerar necessidades e requisitos aplicáveis.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "A melhoria contínua só ocorre por grandes investimentos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Pequenas mudanças sucessivas também podem melhorar processos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Uma lista de verificação ajuda a conferir etapas importantes.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O checklist reduz esquecimentos quando bem utilizado.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Produzir antes de haver necessidade nunca gera desperdício.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Superprodução pode criar estoque, custos e risco de obsolescência.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Organização e limpeza podem favorecer segurança e eficiência.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Essas práticas integram a lógica do 5S.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "O diagrama de Ishikawa comprova automaticamente a causa de um problema.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ele organiza hipóteses de causas, que precisam ser verificadas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "O gráfico de Pareto ajuda a priorizar categorias de problemas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele mostra a concentração das ocorrências ou impactos.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Capacidade instalada e produção efetiva são sempre iguais.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Paradas, demanda e restrições podem reduzir a produção efetiva.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Um gargalo limita a vazão de uma sequência produtiva.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Sua capacidade restringe o fluxo do sistema.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Aumentar produção antes do gargalo sempre aumenta a saída final.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Pode apenas acumular estoque em processo.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Um processo pode ser estável e ainda não atender às especificações.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Estabilidade e capacidade são propriedades distintas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Limites de controle estatístico são necessariamente iguais aos limites de especificação.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Os primeiros vêm do comportamento do processo; os segundos dos requisitos.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Tempo de setup é o período de preparação ou troca entre operações ou produtos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Reduzi-lo pode facilitar lotes menores.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "A média de tempo de atendimento revela sozinha toda a variabilidade do serviço.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Duas operações podem ter a mesma média e dispersões distintas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Com demanda de 80 unidades em 400 minutos disponíveis, o takt time é 5 minutos por unidade.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Divide-se tempo disponível pela demanda.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Um indicador de eficiência local deve ser maximizado mesmo que gere superprodução.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A eficiência precisa ser alinhada ao fluxo e à demanda do sistema.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "O OEE combina disponibilidade, desempenho e qualidade.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O produto dos três fatores mede a efetividade global do equipamento.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Aumentar a inspeção final é sempre mais barato que prevenir a causa do defeito.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Os custos totais e a eficácia das alternativas precisam ser comparados.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Quando o gargalo muda de etapa, a prioridade de melhoria deve ser reavaliada.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A restrição relevante do sistema pode se deslocar.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "vf",
+    "pergunta": "Reduzir a variabilidade não tem relação com previsibilidade de prazos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Menor dispersão pode tornar entregas e capacidade mais previsíveis.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Uma visão organizacional expressa uma situação futura desejada.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela orienta a direção de longo prazo.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Missão e meta numérica mensal têm obrigatoriamente o mesmo significado.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Missão expressa propósito; meta define um resultado específico.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Um processo transforma entradas em saídas por meio de atividades.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele conecta recursos, execução e resultados.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Toda atividade de um processo precisa pertencer ao mesmo departamento.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Processos podem atravessar diferentes áreas.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Um indicador precisa de definição clara de cálculo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Isso permite interpretação e comparação consistentes.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "O planejamento estratégico trata apenas da agenda diária de tarefas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ele aborda escolhas de direção e posicionamento de longo prazo.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Um responsável pelo processo ajuda a acompanhar seu desempenho integrado.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A responsabilidade transversal evita foco exclusivo em etapas isoladas.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Uma ameaça externa é um recurso interno forte da empresa.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ameaças pertencem ao ambiente externo; forças ao interno.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Mapear o processo atual ajuda a compreender como o trabalho acontece.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O mapa fornece uma base para melhorias.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Um objetivo estratégico dispensa qualquer forma de acompanhamento.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Indicadores e revisões ajudam a verificar o avanço.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Um risco envolve incerteza que pode afetar objetivos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Sua gestão considera probabilidade e impacto, entre outros fatores.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Ter muitas iniciativas garante que a estratégia esteja bem executada.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "É necessário priorizar, coordenar e avaliar resultados.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "A proposta de valor pode orientar escolhas estratégicas de oferta e público.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela conecta estratégia às necessidades atendidas.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Uma análise SWOT bem feita dispensa decisões e planos de ação.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O diagnóstico precisa ser traduzido em escolhas e execução.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "O estado futuro desejado de um processo pode ser representado no mapa to be.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele descreve como o processo deverá funcionar.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Benchmarking é copiar qualquer prática externa sem adaptação.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A prática deve ser avaliada e adaptada ao contexto.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Indicadores antecedentes podem sinalizar resultados antes de sua ocorrência final.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Eles apoiam ações preventivas e acompanhamento de causas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Um indicador atrasado sempre prevê o futuro com precisão.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ele registra resultados já ocorridos.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "O Balanced Scorecard tradicional inclui dimensões além da financeira.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Clientes, processos e aprendizagem complementam a visão financeira.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Um processo automatizado deixa de precisar de revisão.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Regras, dados e necessidades podem mudar.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Padronizar antes de automatizar pode evitar multiplicar inconsistências.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "É preciso entender e melhorar o fluxo, não apenas digitalizá-lo.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Uma atividade que beneficia um departamento sempre beneficia o processo inteiro.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ganhos locais podem criar filas e custos em outras etapas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "A análise de cenários explora futuros plausíveis sem afirmar que um deles é certo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela amplia a preparação para incertezas.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Uma capacidade valiosa e rara garante vantagem sustentável, mesmo sendo fácil de imitar.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A facilidade de imitação pode eliminar a vantagem.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Escolhas estratégicas envolvem renunciar a algumas alternativas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Recursos limitados exigem prioridades e coerência.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "A matriz de riscos elimina a incerteza dos projetos classificados como baixos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Classificar risco não o extingue nem garante resultado.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Um incentivo baseado apenas em velocidade pode piorar a qualidade do processo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A métrica pode induzir comportamento que prejudica outros objetivos.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "vf",
+    "pergunta": "Resultados ruins em um trimestre provam, isoladamente, que toda a estratégia é inválida.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "É necessário avaliar execução, hipóteses, contexto e horizonte de resultados.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Um código de ética pode orientar comportamentos esperados na organização.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele explicita princípios e padrões de conduta.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Confidencialidade permite compartilhar informações internas com qualquer conhecido.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O acesso deve respeitar finalidade, autorização e necessidade.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Transparência contribui para a prestação de contas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Informações claras ajudam a compreender decisões e responsabilidades.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Um conflito de interesses deixa de existir apenas porque ninguém o percebeu.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O conflito depende da situação, não apenas de sua descoberta.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Um contrato deve ser lido antes de ser aceito.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A leitura ajuda a compreender obrigações e condições.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Receber um presente de fornecedor nunca pode influenciar uma decisão de compra.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Presentes podem criar conflito ou aparência de favorecimento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Registrar decisões ajuda a demonstrar os critérios utilizados.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A documentação favorece rastreabilidade e responsabilização.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Cumprir uma meta justifica falsificar registros internos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Resultados não legitimam fraude ou omissão deliberada.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Dados de uma pessoa identificável podem ser dados pessoais.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A identificação pode ocorrer direta ou indiretamente.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Uma organização pode tratar qualquer dado pessoal sem finalidade definida.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O tratamento precisa de finalidade legítima e demais requisitos aplicáveis.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "O princípio da necessidade orienta limitar dados ao que é pertinente para a finalidade.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Coleta excessiva contraria a minimização.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "O consentimento é a única hipótese que pode permitir tratamento de dados pessoais.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A LGPD prevê outras bases legais, conforme o caso.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Informações de saúde vinculadas a uma pessoa são dados pessoais sensíveis.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Dados sensíveis recebem proteção específica.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Ter um código de ética publicado garante que ele seja cumprido.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Treinamento, liderança, controles e canais de relato também importam.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Separar solicitação, aprovação e pagamento pode reduzir oportunidades de fraude.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A segregação de funções evita concentração de etapas críticas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Um canal de denúncias deve presumir culpada toda pessoa mencionada.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Relatos precisam de apuração adequada e respeito aos envolvidos.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Uma decisão de compra deve considerar critérios verificáveis e conflitos declarados.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Critérios claros reduzem favorecimento indevido.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Anonimização e mera troca do nome por um código são sempre equivalentes.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Se houver possibilidade de reidentificação, a proteção precisa ser reavaliada.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Uma cláusula ambígua deve ser esclarecida antes de assumir o compromisso.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O esclarecimento reduz disputas de interpretação.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Um treinamento de integridade substitui todos os controles internos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Capacitação e controles se complementam.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Responsabilidade socioambiental pode envolver a avaliação dos impactos da cadeia de fornecedores.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Os impactos não se limitam às instalações próprias.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "A pressão por resultados elimina o dever de comunicar um risco relevante.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Riscos devem ser reportados pelos canais apropriados.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Uma apuração deve distinguir evidências verificadas de rumores.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A distinção evita conclusões precipitadas e injustas.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Concentrar autorização e conferência na mesma pessoa aumenta necessariamente a independência do controle.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A concentração pode enfraquecer a verificação independente.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Uma exceção a um procedimento deve ter justificativa e aprovação compatíveis com o risco.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Exceções informais podem criar brechas de controle.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "A ausência de denúncias prova que não existem problemas éticos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Medo de retaliação ou desconhecimento do canal podem reduzir relatos.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Avaliar terceiros apenas pelo preço pode ignorar riscos de integridade.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Histórico, capacidade e práticas também podem ser relevantes.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "vf",
+    "pergunta": "Apagar o histórico de uma decisão contestada é uma forma adequada de transparência.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Preservar registros é importante para apurar e prestar contas.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Um sistema ERP pode integrar informações de diferentes áreas da empresa.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A integração reduz registros isolados e melhora a consistência dos dados.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "CRM é uma ferramenta destinada exclusivamente ao controle de máquinas industriais.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "CRM apoia o relacionamento com clientes.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Permissões de acesso devem acompanhar as necessidades da função.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O acesso adequado limita exposição desnecessária de informações.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Uma senha forte torna desnecessário verificar mensagens suspeitas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Phishing e outros golpes também exploram comportamento e confiança.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Um documento compartilhado pode ter histórico de versões.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O histórico ajuda a acompanhar alterações e recuperar versões.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Armazenar um arquivo na nuvem significa que qualquer pessoa pode acessá-lo automaticamente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O acesso depende da configuração de compartilhamento e permissões.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Um painel de indicadores reúne informações para acompanhamento.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele deve apresentar métricas relevantes com definições claras.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Dados duplicados nunca afetam relatórios administrativos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Duplicações podem inflar contagens, valores e cadastros.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Uma ferramenta de agenda pode ajudar a organizar compromissos e prazos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Lembretes e calendários apoiam a coordenação.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Enviar dados para um sistema garante que estejam corretos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Qualidade depende de validação, origem e atualização.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Autenticação multifator acrescenta uma camada de verificação ao acesso.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela reduz dependência exclusiva de uma senha.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Um antivírus elimina toda possibilidade de incidente digital.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Segurança depende de várias medidas e nenhuma garante risco zero.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Padronizar nomes e campos ajuda a organizar documentos e cadastros.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Padrões facilitam busca, integração e interpretação.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Automatizar uma tarefa com regras erradas corrige automaticamente o processo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A automação pode repetir os erros em maior escala.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Um CRM pode registrar interações e etapas de atendimento ao cliente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Isso apoia continuidade e acompanhamento do relacionamento.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Migrar dados significa apenas copiá-los, sem conferir o resultado.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A migração precisa verificar integridade, formato e completude.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Um identificador único ajuda a relacionar registros sem confundir pessoas ou produtos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Nomes podem se repetir, enquanto identificadores distinguem registros.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Um relatório atualizado diariamente fornece necessariamente dados em tempo real.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A atualização diária possui defasagem entre cargas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Uma trilha de auditoria registra ações relevantes realizadas no sistema.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela apoia rastreabilidade e investigação.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Uma resposta produzida por inteligência artificial dispensa conferência das fontes.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O conteúdo pode conter erros e precisa de verificação adequada.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "A validação de entrada pode impedir datas ou valores fora do formato esperado.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela reduz erros de cadastro, embora não garanta toda a qualidade.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "A instalação de um sistema novo elimina a necessidade de treinamento.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Os usuários precisam compreender fluxos, responsabilidades e funcionalidades.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Ao integrar sistemas, falhas de comunicação precisam de tratamento e monitoramento.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Erros podem deixar processos incompletos ou informações divergentes.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Repetir uma operação de pagamento após falha de conexão nunca pode duplicá-la.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Sem controle de idempotência, uma repetição pode produzir duplicidade.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "O princípio do menor privilégio recomenda conceder somente os acessos necessários.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Isso reduz o alcance de erros ou uso indevido.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Um backup é suficiente mesmo que nunca seja possível restaurá-lo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A restauração precisa ser viável e testada.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Métricas com definições diferentes podem gerar divergências mesmo usando o mesmo banco.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Filtros, datas e regras de cálculo mudam resultados.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "vf",
+    "pergunta": "Uma integração sem autenticação fica segura apenas por ter endereço difícil de adivinhar.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ocultar o endereço não substitui controles de acesso.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "No Excel, uma célula é identificada pela combinação de coluna e linha, como B3.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "B3 indica coluna B e linha 3.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Uma pasta de trabalho pode conter apenas uma planilha.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Uma pasta pode reunir várias planilhas.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Uma fórmula normalmente começa com o sinal de igual.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O sinal indica ao Excel que deve calcular uma expressão.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "A fórmula =SOMA(A1:A3) soma apenas A1 e A3.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O intervalo inclui A1, A2 e A3.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "A função MÉDIA calcula a média aritmética dos valores numéricos considerados.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela divide a soma pela quantidade de valores numéricos.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Aplicar um filtro apaga permanentemente as linhas que não atendem ao critério.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O filtro apenas oculta temporariamente as linhas da visualização.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Classificar dados pode organizar valores em ordem crescente ou decrescente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A classificação muda a ordem das linhas conforme critérios.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Formatar uma célula como moeda converte automaticamente qualquer texto em número válido.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Formatação visual não corrige necessariamente o tipo do dado.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "O símbolo $ pode fixar uma coluna ou linha em uma referência.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ele controla o comportamento ao copiar fórmulas.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "A função MÁXIMO retorna o menor valor de um intervalo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "MÁXIMO retorna o maior valor numérico.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "A função MÍNIMO pode encontrar o menor valor numérico de um intervalo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela é útil para identificar limites inferiores.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Congelar painéis impede qualquer edição na planilha.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O recurso mantém linhas ou colunas visíveis durante a rolagem.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "A formatação condicional pode destacar valores que atendem a uma regra.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O destaque muda conforme o conteúdo e os critérios definidos.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Um gráfico de linhas é sempre inadequado para mostrar evolução mensal.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Linhas são úteis para visualizar tendências ao longo do tempo.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "A função SE escolhe resultados conforme um teste lógico.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela retorna um valor para condição verdadeira e outro para falsa.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Ao copiar =A1 uma linha para baixo, a referência relativa permanece obrigatoriamente A1.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ela passa a A2, acompanhando o deslocamento.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "A referência $A$1 mantém coluna e linha fixas ao copiar a fórmula.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ambas as partes estão absolutas.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "A referência A$1 fixa a coluna A e deixa a linha livre.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ela fixa a linha 1 e deixa a coluna relativa.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "SOMASE permite somar valores conforme um critério.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A função combina teste e soma dos valores correspondentes.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "CONT.SE calcula necessariamente a soma dos valores que atendem ao critério.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Ela conta células que atendem ao critério.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Uma Tabela Dinâmica pode resumir vendas por categoria.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela agrupa dados e aplica operações de agregação.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Usar correspondência aproximada em uma busca é sempre adequado para códigos exatos de produto.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Identificadores normalmente exigem correspondência exata.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "No Excel com PROCX, a correspondência exata é o modo padrão.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Outros modos podem ser definidos explicitamente.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR",
+    "fonte": "https://support.microsoft.com/pt-br/excel/functions/xlookup-function"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Ocultar uma coluna é uma medida suficiente para proteger dados confidenciais de quem acessa o arquivo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A coluna pode ser reexibida; são necessários controles apropriados.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Ao copiar =$B2*C$1 de D2 para E3, a fórmula passa a =$B3*D$1.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A coluna B e a linha 1 ficam fixas; as partes relativas se deslocam.",
+    "dificuldade": "Difícil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "A média simples de médias de grupos sempre coincide com a média de todos os registros.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Isso depende dos tamanhos dos grupos; pesos diferentes exigem ponderação.",
+    "dificuldade": "Difícil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Uma busca que retorna apenas a primeira correspondência pode ocultar duplicidades de cadastro.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "É necessário verificar a unicidade das chaves.",
+    "dificuldade": "Difícil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Usar SEERRO para substituir todo erro por zero garante que o relatório esteja correto.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Isso pode esconder problemas de dados ou fórmulas.",
+    "dificuldade": "Difícil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "No PROCX com busca binária crescente, a matriz de pesquisa deve estar ordenada adequadamente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Sem ordenação compatível, o resultado pode ser inválido.",
+    "dificuldade": "Difícil",
+    "tipo": "Excel Microsoft 365 • pt-BR",
+    "fonte": "https://support.microsoft.com/pt-br/excel/functions/xlookup-function"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "vf",
+    "pergunta": "Arredondar cada linha antes de somar sempre equivale a arredondar apenas o total.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Arredondamentos intermediários podem gerar diferenças.",
+    "dificuldade": "Difícil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Inflação corresponde a uma elevação do nível de preços, reduzindo o poder de compra da moeda.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Com preços maiores, o mesmo valor compra menos bens e serviços.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.ibge.gov.br/explica/inflacao.php"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Inflação menor significa necessariamente que todos os preços caíram.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Uma desaceleração da inflação pode significar preços ainda subindo, porém mais devagar.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.ibge.gov.br/explica/inflacao.php"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "O PIB mede a produção de bens e serviços finais de uma economia em determinado período.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "É uma medida de atividade econômica, não de riqueza acumulada.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.ibge.gov.br/explica/pib.php"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "O PIB de um país é igual ao saldo de dinheiro disponível no governo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "PIB mede produção, não caixa governamental.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.ibge.gov.br/explica/pib.php"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "A Selic é uma referência importante para o custo do crédito no Brasil.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Ela influencia outras taxas de juros da economia.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.bcb.gov.br/controleinflacao/"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "A taxa básica de juros de um país é necessariamente igual à taxa cobrada de todo cliente bancário.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Risco, custos, tributos e outras condições afetam a taxa final.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.bcb.gov.br/controleinflacao/"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Uma empresa importadora pode ter custos afetados pela variação do dólar.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O preço em reais depende também do câmbio.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://bcb.gov.br/estabilidadefinanceira/oqueecambio"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Uma alta do dólar reduz automaticamente o custo em reais de uma compra com preço fixo em dólares.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Mantido o preço externo, são necessários mais reais.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://bcb.gov.br/estabilidadefinanceira/oqueecambio"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Exportar significa vender bens ou serviços para compradores no exterior.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Exportações conectam a empresa a mercados externos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Uma projeção econômica é um resultado futuro já confirmado.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Projeções dependem de hipóteses e podem ser revisadas.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Desemprego e renda das famílias podem influenciar a demanda por produtos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Mudanças no mercado de trabalho afetam capacidade e disposição de consumo.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Uma empresa deve olhar apenas sua receita nominal para saber se vendeu maior volume.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Preços e mix também alteram a receita nominal.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "O regime brasileiro de meta contínua de inflação passou a vigorar em janeiro de 2025.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A apuração considera a inflação em doze meses, mês a mês.",
+    "dificuldade": "Fácil",
+    "tipo": "Atualidades • regime desde 2025",
+    "fonte": "https://bcb.gov.br/controleinflacao/historicometas",
+    "dataReferencia": "2025-01-01"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Na atualização do FMI de julho de 2026, as projeções representam resultados anuais já observados.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O documento apresenta estimativas para 2026 e 2027, sujeitas a revisão.",
+    "dificuldade": "Fácil",
+    "tipo": "Atualidades • FMI julho/2026",
+    "fonte": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+    "dataReferencia": "2026-07-08"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "No regime brasileiro vigente desde janeiro de 2025, o centro da meta de inflação foi fixado em 3%.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A meta possui intervalo de tolerância de 1,5 ponto percentual para cada lado.",
+    "dificuldade": "Fácil",
+    "tipo": "Atualidades • regime desde 2025",
+    "fonte": "https://bcb.gov.br/controleinflacao/historicometas",
+    "dataReferencia": "2025-01-01"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Uma redução da inflação de 6% para 4% representa queda de 2% no nível geral de preços.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A taxa caiu dois pontos percentuais; isso não implica queda dos preços.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação",
+    "fonte": "https://www.ibge.gov.br/explica/inflacao.php"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Juros mais altos podem tornar projetos financiados menos atraentes.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O custo de capital e as condições de demanda influenciam a viabilidade.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação",
+    "fonte": "https://www.bcb.gov.br/controleinflacao/"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Uma empresa que vende em reais e deve em dólares não está exposta ao câmbio.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A dívida pode aumentar em reais quando o dólar sobe.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação",
+    "fonte": "https://bcb.gov.br/estabilidadefinanceira/oqueecambio"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Choques no preço de energia podem pressionar custos de transporte e produção.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O impacto depende da estrutura de custos e dos contratos da empresa.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação",
+    "fonte": "https://www.ibge.gov.br/explica/pib.php"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Crescimento do PIB garante aumento de vendas em todos os setores.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A expansão pode ser desigual entre atividades e regiões.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação",
+    "fonte": "https://www.ibge.gov.br/explica/pib.php"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "O FMI, em julho de 2026, projetou crescimento mundial de 3,0% para 2026 e 3,4% para 2027.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "São projeções daquela edição, não taxas definitivas.",
+    "dificuldade": "Médio",
+    "tipo": "Atualidades • FMI julho/2026",
+    "fonte": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+    "dataReferencia": "2026-07-08"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Na avaliação do FMI de julho de 2026, choques de guerra e demanda ligada à IA afetam todas as economias de modo idêntico.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O relatório descreve impactos diferentes conforme exposição a energia e tecnologia.",
+    "dificuldade": "Médio",
+    "tipo": "Atualidades • FMI julho/2026",
+    "fonte": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+    "dataReferencia": "2026-07-08"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Uma tarifa de importação pode elevar o custo de um insumo estrangeiro.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O efeito final também depende de câmbio, preços e condições comerciais.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Diversificar fornecedores internacionais elimina qualquer risco geopolítico.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A diversificação pode reduzir concentração, mas não elimina todos os riscos.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Se preços sobem 10% e a receita nominal sobe 10%, o volume vendido pode ter permanecido constante, com mix inalterado.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O crescimento nominal pode ser explicado integralmente pelos preços.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Uma queda na taxa de juros produz efeitos completos e imediatos em toda a economia.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A transmissão ocorre por diferentes canais e com defasagens.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise",
+    "fonte": "https://www.bcb.gov.br/controleinflacao/transmissaopoliticamonetaria"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Uma empresa exportadora que também importa insumos precisa avaliar sua exposição cambial líquida.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Receitas e gastos em moeda estrangeira podem se compensar parcialmente.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Comparar crescimento nominal de dois países basta para concluir qual produziu mais em termos reais.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Inflação, moedas e bases de comparação precisam ser consideradas.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Um orçamento pode usar cenários de câmbio e juros para avaliar sensibilidade de caixa.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Cenários ajudam a preparar decisões sob incerteza.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise",
+    "fonte": "https://www.bcb.gov.br/controleinflacao/"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "vf",
+    "pergunta": "Um cenário internacional favorável dispensa analisar riscos específicos do mercado brasileiro.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Condições locais, setoriais e da própria empresa continuam relevantes.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  }
+]

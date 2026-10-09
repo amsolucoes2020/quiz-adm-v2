@@ -1,65 +1,46 @@
-# Quiz ADM
+# Quiz ADM — V1.5
 
-Aplicação de estudos de Administração com React 18, Vite 5, Tailwind CSS 3 e Firebase Authentication/Firestore. O site de produção é https://quiz-adm-v2.vercel.app e a Vercel publica os commits da branch `main` deste repositório.
+Aplicativo pedagógico de Administração com React, Vite e Firebase, hospedado na Vercel. Firebase Authentication identifica os alunos; Firestore guarda os dados; a API da Vercel calcula pontuação e processa temporadas.
 
-## Desenvolvimento
+## Desenvolvimento e validação
 
-Use Node.js 22 ou superior. Execute os comandos nesta pasta, que contém o `package-lock.json` da aplicação:
+Use Node.js 22 ou 24 nesta pasta, que contém o package-lock.json. A pasta superior adm_quiz é legada.
 
-```sh
-npm ci
-npm run dev
-npm test
-npm run build
-```
+    npm ci
+    npm run dev
+    npm test
+    npm run build
 
-A pasta superior `adm_quiz` não é a raiz da aplicação. Seu outro `package.json` é legado e não deve ser usado para instalar ou executar este site.
+O desenvolvimento padrão utiliza o perfil fictício e o armazenamento local. O build de produção sempre utiliza Firebase real. VITE_REAL_BACKEND=true permite testar login real durante o desenvolvimento; nesse caso a API também deve estar disponível pelo servidor local da Vercel. O Firebase de produção nunca recebe o progresso do perfil fictício.
 
-## Estrutura
+## Estudo e pontuação
 
-- `src/App.jsx`: telas e coordenação da sessão.
-- `src/domain/questions.js`: validação, categorias oficiais, deduplicação e embaralhamento.
-- `src/domain/periods.js`: calendário no fuso America/Sao_Paulo e resets.
-- `src/domain/gamification.js`: catálogo de conquistas permanentes e missões temporárias.
-- `src/domain/progress.js`: pontuação e aplicação idempotente dos eventos de quiz.
-- `src/services/quizService.js`: transações, importação e temporadas no Firestore.
-- `src/data/questions.json`: banco principal versionado, com 200 questões (20 por área).
-- `tests/quiz.test.js`: testes de regressão das regras de negócio e do banco.
+Questões fáceis/médias/difíceis/especialistas rendem 10/20/30/50 XP. Verdadeiro/falso tem 30 segundos e desconta 3 XP a cada dez segundos; os outros formatos têm 60 segundos. A primeira resposta distinta do dia avança estatísticas. Repetição e revisão não rendem XP; múltiplas respostas admitem metade do XP na segunda tentativa correta após um primeiro erro, uma vez ao dia.
 
-## Regras de estudo
+Combos de 3/5/10 acertos rendem 10/20/30 XP, cada marco uma vez por partida. Desempenho de 7–8/9/10 acertos rende 20/40/60 XP, somente em partidas completas de dez questões inéditas do dia. Missões, conquistas, carreira e sequência usam XP permanente.
 
-Um quiz completo tem dez questões. Sessões menores e revisões não geram bônus de conclusão, conquistas de quiz perfeito ou contadores de quizzes completos. O modo de revisão inicia sua própria contagem de acertos e XP e permite revisar novamente os erros persistentes.
+## Ligas e temporadas
 
-Cada pergunta tem 60 segundos. O XP base é 15/30/50 para fácil/médio/difícil, com desconto de três pontos a cada dez segundos. Questões repetidas no mesmo dia recebem metade do XP e interrompem o bônus de sequência. Na revisão, a base é 10/15/25. Respostas corretas rápidas podem desbloquear a conquista Velocista; erros e respostas com cinco segundos ou mais não a desbloqueiam.
+Temporadas mensais seguem America/Sao_Paulo. Bronze, Prata, Ouro e Diamante usam salas de até 30 participantes. Pontos competitivos vêm de acertos elegíveis e bônus de desempenho; missões, conquistas, combos, sequência e novas tentativas não aumentam o ranking.
 
-Conquistas são permanentes, baseadas no histórico geral. Missões diárias, semanais e mensais seguem o calendário de São Paulo, com semana ISO iniciada na segunda-feira. Um dia ativo exige cinco questões distintas respondidas. O encerramento manual da temporada zera apenas seu XP; mantém conquistas, histórico e missões do calendário. Não recupera conquistas que versões antigas já apagaram.
+Salas de 30 promovem os cinco primeiros e rebaixam os cinco últimos; Bronze não rebaixa. Em salas menores, as vagas são proporcionais; menos de seis participantes não gera mudança de liga. Empates usam acertos e UID estável. Novos cadastros depois de 75% do mês ficam em classificação para o mês seguinte.
 
-A gravação de resposta, progresso e recompensas ocorre na mesma transação. Os 64 eventos mais recentes ficam identificados para evitar duplicação causada por retentativas de rede. A interface bloqueia ações simultâneas e mostra falhas de gravação.
+O servidor registra as campanhas antes de renovar pontos, missões e salas. XP permanente, conquistas e histórico são preservados. A Vercel agenda o processamento no primeiro dia do mês às 03h UTC; o plano Hobby pode executar dentro dessa hora. Todo acesso autenticado também verifica a virada, garantindo o corte pelo horário do servidor.
 
 ## Banco de questões
 
-O importador aceita um array JSON. Cada item contém `disciplina`, `dificuldade`, `tipo`, `pergunta`, `alternativas` (cinco textos), `respostaCorreta` (inteiro de 0 a 4) e `explicacao`.
+O conjunto versionado contém 561 questões conceituais ativas. Outras 262 questões de análise ficam preservadas e filtradas. A importação acrescenta conteúdo sem sobrescrever IDs existentes ou excluir questões personalizadas. O total remoto depende do conteúdo já cadastrado.
 
-O arquivo inteiro é validado antes da primeira gravação. Categorias legadas conhecidas são normalizadas; letras iniciais nas alternativas são removidas. Enunciados iguais após normalização de caixa e espaços são considerados duplicados. A importação usa IDs determinísticos e lotes de até 400 itens. Se houver falha em um lote posterior, o aviso informa quantos itens foram importados e o arquivo pode ser reenviado.
+O importador aceita um array JSON com disciplina, dificuldade, tipo, pergunta, alternativas, explicacao e formato. multipla usa cinco opções e respostaCorreta (0–4); vf usa Verdadeiro/Falso nessa ordem e respostaCorreta (0–1); multipla_resposta usa quatro opções, respostasCorretas (2–4 índices distintos) e explicacoesAlternativas (quatro textos). fonte HTTPS e dataReferencia AAAA-MM-DD são opcionais.
 
-O administrador pode importar o banco principal pela tela inicial quando o banco remoto estiver vazio. Os JSONs e TXT fora deste repositório são materiais de elaboração; somente o banco em `src/data` integra a publicação.
+## Publicação e acesso
 
-## Firebase e publicação
+Projeto Firebase: quiz-administracao, banco Standard (default), região southamerica-east1. O administrador existente é autorizado pelo UID, não por um campo enviado pelo navegador. As regras deixam perfis privados, permitem ler perguntas e projeções públicas após login e reservam gravações de progresso e competição ao backend.
 
-O projeto existente é `quiz-administracao`, banco `(default)`, edição Standard, região `southamerica-east1`. A configuração web de conexão está em `src/firebase.js`. Ela identifica o projeto e não substitui as regras de autorização.
+Configure na Vercel as variáveis de servidor FIREBASE_SERVICE_ACCOUNT_JSON e CRON_SECRET, ambas como secrets. A conta de serviço usa roles/datastore.user e roles/firebaseauth.viewer. Nunca use prefixo VITE_ para credenciais privadas. .local, .vercel, backups e arquivos .env ficam fora do Git.
 
-O encerramento de temporada grava `settings/season` e redefine o XP dos perfis no mesmo lote. Há limite explícito de 200 perfis por operação para evitar uma atualização parcial; instalações maiores precisam de processamento no servidor. A configuração global define a temporada para novos cadastros. O ranking usa uma coleção separada, sem e-mail, curso, turma ou unidade; os perfis completos só podem ser lidos pelo próprio aluno e pelo administrador. As regras publicadas precisam permitir as consultas e transações documentadas no código.
+Antes de publicar, rode testes e build, valide as regras, preserve um backup, importe questões sem duplicação e teste o deployment em staging. Depois publique firestore.rules e promova o deployment. Firebase e Vercel são publicações separadas.
 
-A autorização administrativa não deve depender somente dos botões do navegador. O administrador é identificado pelo UID da conta existente, e alterações de identidade/privilégios são bloqueadas para os alunos. A validação de pontuação nesta versão ainda é executada pelo cliente; transações e bloqueios de interface evitam erros acidentais, mas não substituem pontuação autoritativa no servidor contra adulteração deliberada.
+O backend aplica gabaritos do banco, eventos idempotentes e relógio do servidor. A interface fornece feedback com gabaritos e informa o tempo de resposta: a aplicação não representa uma avaliação supervisionada contra toda forma de fraude.
 
-Antes de publicar: `npm test` e `npm run build`. Envie as alterações para `main` e confirme o deployment Production da Vercel correspondente ao commit. A publicação do site e a das regras do Firebase são operações separadas.
-
-O projeto está sem faturamento habilitado. Cloud Functions para pontuação autoritativa exigirá uma decisão separada sobre infraestrutura/plano. As regras foram fortalecidas e devem ser reavaliadas ao adicionar novos campos ou fluxos.
-
-## Preparação do teste de 14 de setembro de 2026
-
-O reset solicitado para o teste inclui XP geral e da temporada, estatísticas, categorias, missões, conquistas e eventos processados. Preserva contas do Authentication, informações de cadastro e perguntas. O ranking deve ser reconstruído a partir dos perfis já zerados; apagar apenas `rankings` não zera a origem dos pontos em `users`.
-
-`initialProgress` define um estado inicial único para novos cadastros e resets. O cadastro pode ser concluído novamente quando a conta foi criada, mas a gravação do perfil falhou por conexão. A criação transacional não sobrescreve um perfil já existente.
-
-As 21 simulações em `tests/security-cases.json` foram executadas na [API de testes de regras do Firebase](https://firebase.google.com/docs/reference/rules/rest/v1/projects/test), sem gravar os documentos simulados. Elas incluem leitura privada, cadastro, autopromoção, alteração de identidade, validação de perguntas e projeção pública do ranking.
+As regras são um protótipo validado por testes de acesso e precisam ser reavaliadas ao mudar coleções, privilégios ou o modo de avaliação.

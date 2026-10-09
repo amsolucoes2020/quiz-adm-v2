@@ -1,0 +1,249 @@
+[
+  {
+    "disciplina": "Administração e Gestão",
+    "dificuldade": "Fácil",
+    "formato": "multipla_resposta",
+    "tipo": "Conceitos e definições",
+    "pergunta": "Quais são funções clássicas do processo administrativo? Selecione todas as alternativas corretas.",
+    "alternativas": [
+      "Planejamento",
+      "Organização",
+      "Direção",
+      "Controle"
+    ],
+    "respostasCorretas": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explicacoesAlternativas": [
+      "Define objetivos e ações.",
+      "Estrutura atividades e recursos.",
+      "Orienta e lidera pessoas.",
+      "Acompanha resultados e corrige desvios."
+    ],
+    "explicacao": "O conjunto correto reúne: Planejamento · Organização · Direção · Controle"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "dificuldade": "Fácil",
+    "formato": "multipla_resposta",
+    "tipo": "Conceitos e definições",
+    "pergunta": "Quais conceitos pertencem à gestão de pessoas? Selecione todas as alternativas corretas.",
+    "alternativas": [
+      "Recrutamento",
+      "Seleção",
+      "Depreciação contábil",
+      "Inventário físico"
+    ],
+    "respostasCorretas": [
+      0,
+      1
+    ],
+    "explicacoesAlternativas": [
+      "Atrai candidatos para oportunidades.",
+      "Avalia candidatos para uma função.",
+      "Representa a alocação do valor depreciável de um ativo.",
+      "Confere quantidades de materiais existentes."
+    ],
+    "explicacao": "O conjunto correto reúne: Recrutamento · Seleção"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "dificuldade": "Médio",
+    "formato": "multipla_resposta",
+    "tipo": "Conceitos e definições",
+    "pergunta": "Quais afirmações definem corretamente elementos patrimoniais? Selecione todas as alternativas corretas.",
+    "alternativas": [
+      "Ativos são recursos controlados pela entidade.",
+      "Passivos representam obrigações presentes.",
+      "Patrimônio líquido é a participação residual nos ativos após deduzir os passivos.",
+      "Receita e patrimônio líquido são conceitos idênticos."
+    ],
+    "respostasCorretas": [
+      0,
+      1,
+      2
+    ],
+    "explicacoesAlternativas": [
+      "O ativo reúne recursos econômicos controlados.",
+      "O passivo envolve obrigações presentes.",
+      "O patrimônio líquido corresponde ao valor residual.",
+      "Receita é um fluxo do período; patrimônio líquido é uma posição patrimonial."
+    ],
+    "explicacao": "O conjunto correto reúne: Ativos são recursos controlados pela entidade. · Passivos representam obrigações presentes. · Patrimônio líquido é a participação residual nos ativos após deduzir os passivos."
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "dificuldade": "Fácil",
+    "formato": "multipla_resposta",
+    "tipo": "Conceitos e definições",
+    "pergunta": "Quais itens pertencem aos quatro Ps do marketing? Selecione todas as alternativas corretas.",
+    "alternativas": [
+      "Produto",
+      "Preço",
+      "Praça",
+      "Patrimônio"
+    ],
+    "respostasCorretas": [
+      0,
+      1,
+      2
+    ],
+    "explicacoesAlternativas": [
+      "Produto é a oferta ao mercado.",
+      "Preço expressa o valor cobrado.",
+      "Praça envolve distribuição e acesso à oferta.",
+      "Patrimônio não integra os quatro Ps; o quarto é Promoção."
+    ],
+    "explicacao": "O conjunto correto reúne: Produto · Preço · Praça"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "dificuldade": "Médio",
+    "formato": "multipla_resposta",
+    "tipo": "Conceitos e definições",
+    "pergunta": "Quais definições sobre modelos de negócio estão corretas? Selecione todas as alternativas corretas.",
+    "alternativas": [
+      "Proposta de valor descreve benefícios para o público.",
+      "Fontes de receita descrevem como o negócio obtém receitas.",
+      "MVP é obrigatoriamente o produto definitivo completo.",
+      "Segmentos de clientes descrevem os públicos atendidos."
+    ],
+    "respostasCorretas": [
+      0,
+      1,
+      3
+    ],
+    "explicacoesAlternativas": [
+      "Relaciona benefícios e necessidades do cliente.",
+      "Indicam as formas de geração de receita.",
+      "MVP é uma versão mínima para testar hipóteses.",
+      "Os segmentos identificam grupos de clientes."
+    ],
+    "explicacao": "O conjunto correto reúne: Proposta de valor descreve benefícios para o público. · Fontes de receita descrevem como o negócio obtém receitas. · Segmentos de clientes descrevem os públicos atendidos."
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "dificuldade": "Fácil",
+    "formato": "multipla_resposta",
+    "tipo": "Conceitos e definições",
+    "pergunta": "Quais definições de logística estão corretas? Selecione todas as alternativas corretas.",
+    "alternativas": [
+      "Picking é a separação de itens para pedidos.",
+      "Lead time é o tempo de atendimento de um processo, como a reposição.",
+      "Logística reversa é a distribuição inicial de produtos novos.",
+      "Estoque de segurança é um imposto sobre mercadorias."
+    ],
+    "respostasCorretas": [
+      0,
+      1
+    ],
+    "explicacoesAlternativas": [
+      "Picking separa itens para atender pedidos.",
+      "Lead time mede o intervalo entre início e conclusão do processo considerado.",
+      "Logística reversa trata do fluxo de retorno.",
+      "É uma reserva para lidar com incertezas de demanda ou reposição."
+    ],
+    "explicacao": "O conjunto correto reúne: Picking é a separação de itens para pedidos. · Lead time é o tempo de atendimento de um processo, como a reposição."
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "dificuldade": "Médio",
+    "formato": "multipla_resposta",
+    "tipo": "Conceitos e definições",
+    "pergunta": "Quais afirmações definem ferramentas e práticas de qualidade? Selecione todas as alternativas corretas.",
+    "alternativas": [
+      "PDCA é um ciclo de melhoria.",
+      "Kaizen significa melhoria contínua.",
+      "Poka-yoke é um mecanismo de prevenção de erros.",
+      "Retrabalho é uma forma de receita financeira."
+    ],
+    "respostasCorretas": [
+      0,
+      1,
+      2
+    ],
+    "explicacoesAlternativas": [
+      "O ciclo reúne planejar, executar, verificar e agir.",
+      "Kaizen propõe aperfeiçoamento contínuo.",
+      "Poka-yoke busca evitar erros ou detectá-los imediatamente.",
+      "Retrabalho é a repetição de atividades para corrigir problemas."
+    ],
+    "explicacao": "O conjunto correto reúne: PDCA é um ciclo de melhoria. · Kaizen significa melhoria contínua. · Poka-yoke é um mecanismo de prevenção de erros."
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "dificuldade": "Médio",
+    "formato": "multipla_resposta",
+    "tipo": "Conceitos e definições",
+    "pergunta": "Quais conceitos da matriz SWOT se referem ao ambiente interno? Selecione todas as alternativas corretas.",
+    "alternativas": [
+      "Forças",
+      "Oportunidades",
+      "Fraquezas",
+      "Ameaças"
+    ],
+    "respostasCorretas": [
+      0,
+      2
+    ],
+    "explicacoesAlternativas": [
+      "Forças são características internas favoráveis.",
+      "Oportunidades pertencem ao ambiente externo.",
+      "Fraquezas são limitações internas.",
+      "Ameaças pertencem ao ambiente externo."
+    ],
+    "explicacao": "O conjunto correto reúne: Forças · Fraquezas"
+  },
+  {
+    "disciplina": "Excel",
+    "dificuldade": "Fácil",
+    "formato": "multipla_resposta",
+    "tipo": "Conceitos e definições",
+    "pergunta": "Quais descrições de funções do Excel estão corretas? Selecione todas as alternativas corretas.",
+    "alternativas": [
+      "SOMA adiciona valores.",
+      "MÉDIA calcula a média aritmética dos valores numéricos considerados.",
+      "MÁXIMO retorna o menor valor.",
+      "MÍNIMO retorna o maior valor."
+    ],
+    "respostasCorretas": [
+      0,
+      1
+    ],
+    "explicacoesAlternativas": [
+      "SOMA adiciona os valores informados.",
+      "MÉDIA calcula a média aritmética.",
+      "MÁXIMO retorna o maior valor.",
+      "MÍNIMO retorna o menor valor."
+    ],
+    "explicacao": "O conjunto correto reúne: SOMA adiciona valores. · MÉDIA calcula a média aritmética dos valores numéricos considerados."
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "dificuldade": "Difícil",
+    "formato": "multipla_resposta",
+    "tipo": "Conceitos e definições",
+    "pergunta": "Quais definições econômicas estão corretas? Selecione todas as alternativas corretas.",
+    "alternativas": [
+      "Inflação é a elevação do nível geral de preços.",
+      "Desinflação é a redução da taxa de inflação.",
+      "Deflação é a queda do nível geral de preços.",
+      "Taxa de câmbio é a taxa de desemprego."
+    ],
+    "respostasCorretas": [
+      0,
+      1,
+      2
+    ],
+    "explicacoesAlternativas": [
+      "Inflação representa aumento do nível geral de preços.",
+      "Desinflação não exige queda dos preços, mas redução do ritmo de aumento.",
+      "Deflação corresponde à redução do nível geral de preços.",
+      "Taxa de câmbio é o preço de uma moeda em outra moeda."
+    ],
+    "explicacao": "O conjunto correto reúne: Inflação é a elevação do nível geral de preços. · Desinflação é a redução da taxa de inflação. · Deflação é a queda do nível geral de preços."
+  }
+]

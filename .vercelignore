@@ -1,0 +1,10 @@
+.local/**
+.env*
+.git/**
+.agents/**
+.codex/**
+node_modules/**
+dist/**
+tests/**
+*.log
+TESTE-LOCAL.md

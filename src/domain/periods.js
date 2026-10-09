@@ -1,3 +1,4 @@
+import { resetLearning } from './learning.js';
 export function getPeriods(now = new Date()) {
   const parts = Object.fromEntries(new Intl.DateTimeFormat('en-US', {
     timeZone: 'America/Sao_Paulo', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', hourCycle: 'h23'
@@ -22,21 +23,23 @@ export function resetPeriods(input, missions, now = new Date()) {
     data.missoesConcluidas = data.missoesConcluidas.filter(id => !ids.includes(id));
   };
   if (data.ultimoDiaAtivo !== p.day) {
-    Object.assign(data, { ultimoDiaAtivo: p.day, questoesRespondidasHoje: [], questoesErradasHoje: [], respostasNoDia: 0 });
+    data.multiAttempts = {};
+    Object.assign(data, { ultimoDiaAtivo: p.day, questoesRespondidasHoje: [], questoesErradasHoje: [], respostasNoDia: 0, categoriasHoje: [], dificeisHoje: 0 });
     Object.assign(data.progressoMissoes, { quizzesHoje: 0, acertosHoje: 0 });
     clear('Diária');
   }
   if (data.ultimaSemanaAtiva !== p.week) {
-    data.ultimaSemanaAtiva = p.week;
+    data.ultimaSemanaAtiva = p.week; data.respostasSemana = 0; data.categoriasSemana = [];
     Object.assign(data.progressoMissoes, { quizzesSemana: 0, acertosSemana: 0, quizzesPerfeitosSemana: 0 });
     clear('Semanal');
   }
   if (data.ultimoMesAtivo !== p.month) {
     Object.assign(data, { ultimoMesAtivo: p.month, questoesRespondidasMes: 0, questoesAcertadasMes: 0,
-      quizzesRealizadosMes: 0, diasAtivosMes: [] });
+      quizzesRealizadosMes: 0, diasAtivosMes: [], categoriasMes: [] });
     data.progressoMissoes.quizzesPerfeitosMes = 0;
     clear('Mensal');
   }
+  data.learning = resetLearning(input.learning, p);
   return data;
 }
 
@@ -48,13 +51,16 @@ export function newSeasonData(data, seasonName) {
 export function initialProgress(seasonName = getPeriods().seasonName, now = new Date()) {
   const p = getPeriods(now);
   return {
+    learning: resetLearning(null, p),
+    categoriasHoje: [], categoriasSemana: [], categoriasMes: [], respostasSemana: 0, dificeisHoje: 0,
+    sequenciaDias: 0, maiorSequenciaDias: 0, ultimoDiaSequencia: '', premiosSequencia: [],
     pontuacaoGeral: 0, xpTemporada: 0, quizzesRealizados: 0, questoesRespondidas: 0,
     questoesAcertadas: 0, maiorSequencia: 0, quizzesRealizadosMes: 0,
     questoesRespondidasMes: 0, questoesAcertadasMes: 0, categoriasRespondidas: {},
     conquistasDesbloqueadas: [], missoesConcluidas: [], diasAtivosMes: [],
     ultimoDiaAtivo: p.day, ultimaSemanaAtiva: p.week, ultimoMesAtivo: p.month,
     questoesRespondidasHoje: [], questoesErradasHoje: [], respostasNoDia: 0,
-    temporadaAtual: seasonName, recentQuizEvents: [],
+    temporadaAtual: seasonName, recentQuizEvents: [], partidaAtual: null,
     progressoMissoes: { quizzesHoje: 0, acertosHoje: 0, quizzesSemana: 0,
       acertosSemana: 0, quizzesPerfeitosSemana: 0, quizzesPerfeitosMes: 0 }
   };

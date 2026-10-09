@@ -11,6 +11,7 @@ const night = new Date('2026-09-14T02:00:00Z');
 const question = { id: 'q1', disciplina: 'Gestão de Pessoas', dificuldade: 'Médio', tipo: 'Teste',
   pergunta: 'Qual é a alternativa correta?', alternativas: ['A) Uma', 'B) Duas', 'C) Três', 'D) Quatro', 'E) Cinco'], respostaCorreta: 1, explicacao: 'Duas é a correta.' };
 const profile = () => resetPeriods({ pontuacaoGeral: 0, xpTemporada: 0, conquistasDesbloqueadas: [], categoriasRespondidas: {} }, DEFAULT_MISSIONS, noon);
+const completedProfile = () => ({...profile(),partidaAtual:{id:'session',answers:Array.from({length:10},(_,i)=>`q${i}`),correct:10,eligible:true}});
 const answer = (overrides = {}) => ({ id: 'session:answer:0', type: 'answer', question, selected: 1, remaining: 58, review: false, streak: 0, ...overrides });
 const finish = (overrides = {}) => ({ id: 'session:finish', type: 'finish', total: 10, correctCount: 10, review: false, ...overrides });
 
@@ -39,8 +40,8 @@ test('fast wrong answer and exact five seconds do not unlock speed achievement',
 });
 test('night achievement requires finishing a full normal quiz', () => {
   assert.ok(!applyQuizEvent(profile(), answer(), night).achievements.includes('sec_3'));
-  assert.ok(applyQuizEvent(profile(), finish(), night).achievements.includes('sec_3'));
-  assert.ok(!applyQuizEvent(profile(), finish({ review: true }), night).achievements.includes('sec_3'));
+  assert.ok(applyQuizEvent(completedProfile(), finish(), night).achievements.includes('sec_3'));
+  assert.ok(!applyQuizEvent(completedProfile(), finish({ review: true }), night).achievements.includes('sec_3'));
 });
 test('review and short sessions do not count as complete/perfect quizzes', () => {
   for (const event of [finish({ review: true }), finish({ total: 3, correctCount: 3 })]) {
@@ -54,7 +55,7 @@ test('review and short sessions do not count as complete/perfect quizzes', () =>
 });
 test('retrying answer or finish never duplicates XP, counts or awards', () => {
   for (const event of [answer(), finish()]) {
-    const first = applyQuizEvent(profile(), event, noon);
+    const first = applyQuizEvent(event.type === 'finish' ? completedProfile() : profile(), event, noon);
     const replay = applyQuizEvent(first.data, event, noon);
     assert.deepEqual(replay, first);
   }
@@ -113,7 +114,7 @@ test('bundled bank contains 200 valid unique questions balanced across all ten a
   const bank = JSON.parse(readFileSync(new URL('../src/data/questions.json', import.meta.url), 'utf8'));
   const { questions, duplicates } = validateImport(bank);
   assert.equal(questions.length, 200); assert.equal(duplicates, 0);
-  for (const area of AREAS_ADMINISTRACAO) {
+  for (const area of AREAS_ADMINISTRACAO.slice(0, 10)) {
     const subset = questions.filter(q => q.disciplina === area);
     assert.equal(subset.length, 20);
     for (const [difficulty, count] of [['Fácil',10],['Médio',6],['Difícil',4]]) assert.equal(subset.filter(q => q.dificuldade === difficulty).length, count);

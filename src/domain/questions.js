@@ -2,7 +2,7 @@ export const AREAS_ADMINISTRACAO = [
   'Administração e Gestão', 'Gestão de Pessoas', 'Gestão Financeira e Contábil',
   'Marketing e Vendas', 'Empreendedorismo', 'Materiais e Logística',
   'Produção e Qualidade', 'Estratégia e Processos', 'Direito, Legislação e Ética',
-  'Tecnologia e Ferramentas Administrativas'
+  'Tecnologia e Ferramentas Administrativas', 'Excel', 'Economia e Atualidades'
 ];
 
 const aliases = {
@@ -21,18 +21,42 @@ export function normalizeQuestion(raw) {
   }
   const disciplina = aliases[normalizeText(raw.disciplina)] || normalizeText(raw.disciplina);
   if (!AREAS_ADMINISTRACAO.includes(disciplina)) throw new Error(`Disciplina desconhecida: ${disciplina}.`);
-  if (!['Fácil', 'Médio', 'Difícil'].includes(raw.dificuldade)) throw new Error('Dificuldade inválida.');
-  if (!Array.isArray(raw.alternativas) || raw.alternativas.length !== 5 ||
-      raw.alternativas.some(a => typeof a !== 'string' || !a.trim())) throw new Error('Informe cinco alternativas válidas.');
+  if (!['Fácil', 'Médio', 'Difícil', 'Especialista'].includes(raw.dificuldade)) throw new Error('Dificuldade inválida.');
+  const formato = raw.formato || 'multipla';
+  if (!['vf','multipla','multipla_resposta'].includes(formato)) throw new Error('Formato inválido.');
+  const multiple = formato === 'multipla_resposta';
+  const count = formato === 'vf' ? 2 : multiple ? 4 : 5;
+  if (formato === 'vf' && JSON.stringify(raw.alternativas) !== JSON.stringify(['Verdadeiro','Falso'])) throw new Error('Use Verdadeiro e Falso, nessa ordem.');
+  if (!Array.isArray(raw.alternativas) || raw.alternativas.length !== count ||
+      raw.alternativas.some(a => typeof a !== 'string' || !a.trim())) throw new Error(`Informe ${count} alternativas válidas.`);
   const alternativas = raw.alternativas.map(a => normalizeText(a).replace(/^[A-Ea-e]\s*[).:\-]\s*/, '').trim());
-  if (alternativas.some(a => !a) || new Set(alternativas.map(a => a.toLocaleLowerCase('pt-BR'))).size !== 5) {
+  if (alternativas.some(a => !a) || new Set(alternativas.map(a => a.toLocaleLowerCase('pt-BR'))).size !== count) {
     throw new Error('As alternativas precisam ser preenchidas e diferentes.');
   }
-  if (!Number.isInteger(raw.respostaCorreta) || raw.respostaCorreta < 0 || raw.respostaCorreta > 4) {
-    throw new Error('O gabarito deve ser um número inteiro entre 0 e 4.');
+  if (!multiple && (!Number.isInteger(raw.respostaCorreta) || raw.respostaCorreta < 0 || raw.respostaCorreta >= count)) {
+    throw new Error(`O gabarito deve ser um número inteiro entre 0 e ${count-1}.`);
   }
-  return { disciplina, dificuldade: raw.dificuldade, tipo: typeof raw.tipo === 'string' ? raw.tipo.trim() || 'Geral' : 'Geral',
-    pergunta: normalizeText(raw.pergunta), alternativas, respostaCorreta: raw.respostaCorreta, explicacao: raw.explicacao.trim() };
+  const metadata = {};
+  if (multiple) {
+    if (!Array.isArray(raw.respostasCorretas) || raw.respostasCorretas.length < 2 || raw.respostasCorretas.length > 4 ||
+        new Set(raw.respostasCorretas).size !== raw.respostasCorretas.length || raw.respostasCorretas.some(i=>!Number.isInteger(i)||i<0||i>=4)) throw new Error('Informe de 2 a 4 índices corretos, sem repetição.');
+    if (!Array.isArray(raw.explicacoesAlternativas) || raw.explicacoesAlternativas.length !== 4 || raw.explicacoesAlternativas.some(e=>typeof e!=='string'||!e.trim())) throw new Error('Explique cada uma das quatro alternativas.');
+    metadata.respostasCorretas = [...raw.respostasCorretas].sort((a,b)=>a-b);
+    metadata.explicacoesAlternativas = raw.explicacoesAlternativas.map(e=>e.trim());
+  }
+  if (raw.fonte !== undefined) {
+    let url;
+    try { url = new URL(raw.fonte); } catch { throw new Error('Fonte deve ser um endereço HTTPS válido.'); }
+    if (url.protocol !== 'https:' || url.username || url.password) throw new Error('Fonte deve usar HTTPS sem credenciais.');
+    metadata.fonte = url.href;
+  }
+  if (raw.dataReferencia !== undefined) {
+    if (typeof raw.dataReferencia !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(raw.dataReferencia) ||
+        !Number.isFinite(Date.parse(raw.dataReferencia)) || new Date(raw.dataReferencia).toISOString().slice(0,10) !== raw.dataReferencia) throw new Error('Data de referência inválida.');
+    metadata.dataReferencia = raw.dataReferencia;
+  }
+  return { ...metadata, formato, disciplina, dificuldade: raw.dificuldade, tipo: typeof raw.tipo === 'string' ? raw.tipo.trim() || 'Geral' : 'Geral',
+    pergunta: normalizeText(raw.pergunta), alternativas, ...(!multiple ? {respostaCorreta:raw.respostaCorreta} : {}), explicacao: raw.explicacao.trim() };
 }
 
 export function validateImport(raw, existing = []) {
@@ -69,7 +93,19 @@ export function prepareQuestions(source, user, count = 10) {
     ...shuffleArray(unique.filter(q => answered.includes(q.id) && wrong.includes(q.id)))
   ];
   return ordered.slice(0, count).map(q => {
-    const alternatives = shuffleArray(q.alternativas.map((text, index) => ({ text, correct: index === q.respostaCorreta })));
+    if (q.formato === 'vf') return {...q};
+    const alternatives = shuffleArray(q.alternativas.map((text, index) => ({ text, correct: q.formato==='multipla_resposta' ? q.respostasCorretas.includes(index) : index === q.respostaCorreta, explanation:q.explicacoesAlternativas?.[index] })));
+    if(q.formato==='multipla_resposta') return {...q,alternativas:alternatives.map(a=>a.text),respostasCorretas:alternatives.flatMap((a,i)=>a.correct?[i]:[]),explicacoesAlternativas:alternatives.map(a=>a.explanation)};
     return { ...q, alternativas: alternatives.map(a => a.text), respostaCorreta: alternatives.findIndex(a => a.correct) };
   });
+}
+
+export function gradeAnswer(question, selected, remaining) {
+  if(question.formato!=='multipla_resposta') return {correct:remaining>0 && selected===question.respostaCorreta};
+  const choices=Array.isArray(selected)?selected:[];
+  const valid=choices.every(i=>Number.isInteger(i)&&i>=0&&i<4)&&new Set(choices).size===choices.length;
+  const identified=[...new Set(choices)].filter(i=>question.respostasCorretas.includes(i)).length;
+  const incorrect=[...new Set(choices)].filter(i=>!question.respostasCorretas.includes(i)).length;
+  return {correct:remaining>0&&valid&&identified===question.respostasCorretas.length&&incorrect===0,
+    identified,expected:question.respostasCorretas.length,incorrect};
 }

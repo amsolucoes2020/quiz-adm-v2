@@ -1,5 +1,6 @@
-import { collection, doc, getDoc, getDocs, query, orderBy, limit, runTransaction, writeBatch } from 'firebase/firestore';
-import { auth, db } from '../firebase';
+import {competitionRow, enrollCompetition} from '../domain/competition';
+import { collection, doc, getDoc, getDocs, query, orderBy, limit, runTransaction, writeBatch } from '@backend';
+import { auth, db, isSandbox } from '@backend';
 import { getPeriods, resetPeriods, newSeasonData } from '../domain/periods';
 import { DEFAULT_MISSIONS } from '../domain/gamification';
 import { applyQuizEvent } from '../domain/progress';
@@ -10,14 +11,23 @@ const assertAdmin = () => {
   if (auth.currentUser?.uid !== ADMIN_UID) throw new Error('Acesso restrito ao administrador.');
 };
 const seasonRef = () => doc(db, 'settings', 'season');
-const publicProfile = (uid, data) => ({ uid, nome: data.nome, xpTemporada: data.xpTemporada || 0, pontuacaoGeral: data.pontuacaoGeral || 0, temporadaAtual: data.temporadaAtual || getPeriods().seasonName });
+const publicProfile = competitionRow;
+async function request(action,payload={}) {
+  const token=await auth.currentUser?.getIdToken();
+  if(!token) throw new Error('Entre novamente para continuar.');
+  const response=await fetch('/api/quiz',{method:'POST',headers:{'Content-Type':'application/json',Authorization:`Bearer ${token}`},body:JSON.stringify({action,...payload})});
+  const result=await response.json();
+  if(!response.ok) throw new Error(result.error || 'Não foi possível salvar seu progresso.');
+  return result;
+}
 
 export async function createProfile(uid, data) {
+  if(!isSandbox) return request('createProfile',{data});
   return runTransaction(db, async tx => {
     const season = await tx.get(seasonRef());
     const existing = await tx.get(doc(db, 'users', uid));
     if (existing.exists()) return existing.data();
-    const profile = { ...data, temporadaAtual: season.data()?.name || getPeriods().seasonName };
+    const profile = { ...data, temporadaAtual: season.data().name, competition:enrollCompetition(season.data()) };
     tx.set(doc(db, 'users', uid), profile);
     tx.set(doc(db, 'rankings', uid), publicProfile(uid, profile));
     return profile;
@@ -25,6 +35,7 @@ export async function createProfile(uid, data) {
 }
 
 export async function loadSeason() {
+  if(!isSandbox) return request('loadSeason');
   try {
     const snapshot = await getDoc(seasonRef());
     if (snapshot.exists()) return snapshot.data();
@@ -37,6 +48,7 @@ export async function loadSeason() {
 }
 
 export async function loadProfile(uid) {
+  if(!isSandbox) return request('loadProfile');
   return runTransaction(db, async tx => {
     const season = await tx.get(seasonRef());
     const currentSeason = season.data();
@@ -53,6 +65,7 @@ export async function loadProfile(uid) {
 }
 
 export async function saveQuizEvent(uid, event) {
+  if(!isSandbox) return request('saveQuizEvent',{event});
   if (auth.currentUser?.uid !== uid) throw new Error('Entre novamente para continuar.');
   return runTransaction(db, async tx => {
     const season = await tx.get(seasonRef());
@@ -90,21 +103,4 @@ export async function importQuestions(raw) {
     }
   } catch (error) { throw new Error(`${imported} questões salvas antes da falha. Você pode reenviar o arquivo sem duplicá-las. ${error.message}`); }
   return { imported, duplicates };
-}
-
-export async function closeSeason(name) {
-  assertAdmin();
-  const current = await loadSeason();
-  if (name === current.name) throw new Error('Use um nome diferente para a nova temporada.');
-  const users = await getDocs(collection(db, 'users'));
-  // Atomic update: a failed write must never leave only some students reset.
-  if (users.size > 200) throw new Error('Para mais de 200 alunos, o encerramento precisa ser executado pelo servidor.');
-  const batch = writeBatch(db);
-  batch.set(seasonRef(), { name });
-  for (const user of users.docs) {
-    const data = newSeasonData(user.data(), name);
-    batch.update(user.ref, { xpTemporada: 0, temporadaAtual: name });
-    batch.set(doc(db, 'rankings', user.id), publicProfile(user.id, data));
-  }
-  await batch.commit();
 }

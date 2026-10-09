@@ -1,12 +1,16 @@
+import {CompetitionPanel, CompetitionHistory, CompetitionLab} from './components/Competition';
+import {roomRanking} from './domain/competition';
+import MultipleAnswerOptions from './components/MultipleAnswerOptions';
+import AchievementGallery from './components/AchievementGallery';
 import React, { useState, useEffect, useRef } from 'react';
-import { auth, db } from './firebase';
+import { auth, db, isSandbox } from '@backend';
 import { 
   createUserWithEmailAndPassword, 
   signInWithEmailAndPassword, 
   signOut, 
   onAuthStateChanged,
   sendPasswordResetEmail 
-} from 'firebase/auth';
+} from '@backend';
 import { 
   doc, 
   collection, 
@@ -16,11 +20,11 @@ import {
   query,
   orderBy,
   limit
-} from 'firebase/firestore';
+} from '@backend';
 import { AREAS_ADMINISTRACAO, normalizeQuestion, prepareQuestions } from './domain/questions';
 import { getPeriods, resetPeriods, initialProgress } from './domain/periods';
-import { CONQUISTAS_SISTEMA, DEFAULT_MISSIONS } from './domain/gamification';
-import { saveQuizEvent, importQuestions, loadSeason, closeSeason, loadProfile, createProfile } from './services/quizService';
+import { CONQUISTAS_SISTEMA, DEFAULT_MISSIONS, activeMissions, QUESTION_XP, careerProgress, dailyStreak, CAREER } from './domain/gamification';
+import { saveQuizEvent, importQuestions, loadSeason, loadProfile, createProfile } from './services/quizService';
 const ADMIN_UID = 'ktCddjGUigN8Spm6x9wrdFgzBZy2';
 
 export default function App() {
@@ -37,6 +41,7 @@ export default function App() {
 
   // Filtro interno da aba de Missões ('Todas', 'Diária', 'Semanal', 'Mensal')
   const [filtroMissao, setFiltroMissao] = useState('Todas');
+  const [situacaoMissao, setSituacaoMissao] = useState('Todas');
 
   // Form Login/Cadastro/Reset
   const [email, setEmail] = useState('');
@@ -63,12 +68,22 @@ export default function App() {
   const [isModoRefazer, setIsModoRefazer] = useState(false);
   
   // Gamificação & Streaks
+  const [, setCalendarTick] = useState(0);
+  const [formato, setFormato] = useState('multipla');
+  const [novoFormato, setNovoFormato] = useState('multipla');
   const [streak, setStreak] = useState(0);
   const [mensagemBonus, setMensagemBonus] = useState('');
   const [xpUltimaQuestao, setXpUltimaQuestao] = useState(0);
+  const [pontosUltimaResposta, setPontosUltimaResposta] = useState(0);
 
   const TEMPO_LIMITE = 60; 
   const [tempoRestante, setTempoRestante] = useState(TEMPO_LIMITE);
+
+  useEffect(() => {
+    const tick = () => { setCalendarTick(v=>v+1); setUserData(data=>data ? resetPeriods(data, DEFAULT_MISSIONS) : data); };
+    const timer = setInterval(tick, 30000); window.addEventListener('focus',tick);
+    return () => {clearInterval(timer);window.removeEventListener('focus',tick);};
+  }, []);
 
   // Ranking
   const [rankingAlunos, setRankingAlunos] = useState([]);
@@ -85,7 +100,8 @@ export default function App() {
   const [altE, setAltE] = useState('');
   const [respostaCorretaIndex, setRespostaCorretaIndex] = useState(0);
   const [novaExplicacao, setNovaExplicacao] = useState('');
-  const [nomeNovaTemporada, setNomeNovaTemporada] = useState('');
+  const [competitionSeason, setCompetitionSeason] = useState(null);
+  const previousSeason = useRef(null);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
@@ -128,9 +144,10 @@ export default function App() {
     setLoading(true);
     try {
       const querySnapshot = await getDocs(collection(db, 'questions'));
+      const {isDeferredQuestion} = await import('./data/questionBank');
       const lista = [];
       querySnapshot.forEach((doc) => {
-        try { lista.push({ ...normalizeQuestion(doc.data()), id: doc.id }); }
+        try { if(!isDeferredQuestion(doc.data())) lista.push({ ...normalizeQuestion(doc.data()), id: doc.id }); }
         catch (error) { console.warn(`Questão ${doc.id} ignorada: ${error.message}`); }
       });
       setPerguntas(lista);
@@ -142,13 +159,11 @@ export default function App() {
 
   const carregarRanking = async () => {
     try {
-      const q = query(collection(db, 'rankings'), orderBy('xpTemporada', 'desc'), limit(10));
-      const querySnapshot = await getDocs(q);
-      const ranking = [];
-      querySnapshot.forEach((doc) => {
-        ranking.push(doc.data());
-      });
-      setRankingAlunos(ranking);
+      const querySnapshot = await getDocs(collection(db, 'rankings'));
+      const ranking = querySnapshot.docs.map(doc=>doc.data());
+      const mine=ranking.find(row=>row.uid===auth.currentUser?.uid);
+      setRankingAlunos(roomRanking(ranking,mine?.competition));
+      setCompetitionSeason(await loadSeason());
     } catch (err) {
       console.error("Erro ao carregar ranking:", err);
     }
@@ -158,7 +173,7 @@ export default function App() {
     if (user?.uid !== ADMIN_UID) return;
     setLoading(true);
     try {
-      const { default: questions } = await import('./data/questions.json');
+      const { bundledQuestions: questions } = await import('./data/questionBank');
       const result = await importQuestions(questions);
       alert(`${result.imported} questões importadas; ${result.duplicates} já existentes.`);
       await carregarPerguntas();
@@ -264,17 +279,18 @@ export default function App() {
   const handleCadastrarPergunta = async (e) => {
     e.preventDefault();
     if (user?.uid !== ADMIN_UID) return;
-    if (!altA || !altB || !altC || !altD || !altE) {
+    if (novoFormato === 'multipla' && (!altA || !altB || !altC || !altD || !altE)) {
       alert("Preencha todas as 5 alternativas.");
       return;
     }
 
     const novaQ = {
+      formato: novoFormato,
       disciplina: novaDisciplina,
       dificuldade: novaDificuldade,
       tipo: novoTipo || 'Geral',
       pergunta: novaPergunta,
-      alternativas: [
+      alternativas: novoFormato === 'vf' ? ['Verdadeiro','Falso'] : [
         altA,
         altB,
         altC,
@@ -311,32 +327,41 @@ export default function App() {
     }
   };
 
-  const handleEncerrarTemporada = async () => {
-    if (user?.uid !== ADMIN_UID) return;
-    if (!nomeNovaTemporada.trim()) { alert('Informe o nome da nova temporada.'); return; }
-    if (!window.confirm(`Iniciar ${nomeNovaTemporada.trim()}? O XP da temporada será zerado. Conquistas permanentes e missões do calendário serão preservadas.`)) return;
-    setLoading(true);
-    try {
-      await closeSeason(nomeNovaTemporada.trim());
-      await carregarDadosUsuario(user.uid);
-      await carregarRanking();
-      alert('Nova temporada iniciada!');
-    } catch (err) { alert(`Não foi possível encerrar a temporada: ${err.message}`); }
-    finally { setLoading(false); }
-  };
+  useEffect(() => {
+    if(!user) return;
+    const refresh=async()=>{
+      if(operationLock.current) return;
+      try { await carregarDadosUsuario(user.uid); await carregarRanking(); }
+      catch(err) { console.error('Não foi possível atualizar a liga local.',err); }
+    };
+    const timer=setInterval(refresh,30000);
+    window.addEventListener('focus',refresh);
+    return ()=>{clearInterval(timer);window.removeEventListener('focus',refresh);};
+  },[user?.uid]);
+
+  useEffect(()=>{
+    const id=userData?.competition?.seasonId;
+    if(previousSeason.current && id && previousSeason.current!==id) {
+      setDisciplinaSelecionada(null);setQuizFinalizado(false);setStreak(0);
+      setAbaAtiva('perfil');
+    }
+    if(id) previousSeason.current=id;
+  },[userData?.competition?.seasonId]);
 
   const prepararBlocoQuestoes = (source, count = 10) => prepareQuestions(source, resetPeriods(userData, DEFAULT_MISSIONS), count);
 
   const iniciarQuizPorDisciplina = (disc) => {
     const filtradas = perguntas.filter(
-      (q) => disc === 'Todas' || q.disciplina === disc
+      (q) => (disc === 'Todas' || q.disciplina === disc) && (q.formato || 'multipla') === formato
     );
 
     const blocoPronto = prepararBlocoQuestoes(filtradas, 10);
 
+    if (!blocoPronto.length) { alert('Ainda não há questões nesse formato nesta área.'); return; }
     sessionId.current = crypto.randomUUID();
     setSaveError('');
     setXpUltimaQuestao(0);
+    setPontosUltimaResposta(0);
     setDisciplinaSelecionada(disc);
     setPerguntasSessao(blocoPronto);
     setPerguntasErradasSessao([]);
@@ -348,7 +373,7 @@ export default function App() {
     setStreak(0);
     setIsModoRefazer(false);
     setQuizFinalizado(false);
-    setTempoRestante(TEMPO_LIMITE);
+    setTempoRestante(blocoPronto[0]?.formato === 'vf' ? 30 : 60);
     setMensagemBonus('');
   };
 
@@ -357,6 +382,7 @@ export default function App() {
     setAcertosSessao(0);
     setPontosSessao(0);
     setXpUltimaQuestao(0);
+    setPontosUltimaResposta(0);
     setSaveError('');
     const blocoPronto = prepararBlocoQuestoes(perguntasErradasSessao, perguntasErradasSessao.length);
 
@@ -368,7 +394,7 @@ export default function App() {
     setStreak(0);
     setIsModoRefazer(true);
     setQuizFinalizado(false);
-    setTempoRestante(TEMPO_LIMITE);
+    setTempoRestante(blocoPronto[0]?.formato === 'vf' ? 30 : 60);
     setMensagemBonus('');
   };
 
@@ -382,7 +408,7 @@ export default function App() {
   const perguntaAtual = perguntasSessao[indicePerguntaAtual];
 
   const showAwards = (result) => {
-    if (result.awardXp) alert(`🎉 ${result.achievements.length} conquista(s) e ${result.missions.length} missão(ões)! +${result.awardXp} XP`);
+    if (result.achievements.length || result.missions.length) alert(`🎉 ${result.achievements.length} conquista(s) e ${result.missions.length} missão(ões)! +${result.awardXp} XP`);
   };
 
   const handleConfirmarResposta = async () => {
@@ -394,12 +420,13 @@ export default function App() {
       const result = await saveQuizEvent(user.uid, {
         id: `${sessionId.current}:answer:${indicePerguntaAtual}`, type: 'answer',
         question: perguntaAtual, selected: opcaoSelecionada, remaining: tempoRestante,
-        review: isModoRefazer, streak
+        review: isModoRefazer
       });
       setUserData(result.data);
       setRespostaConfirmada(true);
       setMensagemBonus(result.bonus);
       setXpUltimaQuestao(result.xp + result.awardXp);
+      setPontosUltimaResposta(result.competitivePoints || 0);
       setPontosSessao(prev => prev + result.xp + result.awardXp);
       setStreak(result.streak);
       if (result.correct) setAcertosSessao(prev => prev + 1);
@@ -417,9 +444,10 @@ export default function App() {
       setIndicePerguntaAtual(prev => prev + 1);
       setOpcaoSelecionada(null);
       setRespostaConfirmada(false);
-      setTempoRestante(TEMPO_LIMITE);
+      setTempoRestante(perguntasSessao[indicePerguntaAtual+1]?.formato === 'vf' ? 30 : 60);
       setMensagemBonus('');
       setXpUltimaQuestao(0);
+    setPontosUltimaResposta(0);
       setSaveError('');
       return;
     }
@@ -433,6 +461,7 @@ export default function App() {
       });
       setUserData(result.data);
       setPontosSessao(prev => prev + result.xp + result.awardXp);
+      setMensagemBonus(result.bonus);
       setQuizFinalizado(true);
       showAwards(result);
       await carregarRanking();
@@ -500,7 +529,7 @@ export default function App() {
             <span className="text-5xl mb-4 block">🏆</span>
             <h2 className="text-2xl font-bold text-indigo-400 mb-2">Quiz Concluído!</h2>
             <p className="text-slate-400 text-sm mb-6">
-              {!isModoRefazer && perguntasSessao.length === 10 ? 'Você ganhou +30 XP bônus por finalizar o quiz!' : 'Sessão de estudo concluída!'}
+              {mensagemBonus || 'Sessão de estudo concluída!'}
             </p>
             
             <div className="bg-slate-700/50 p-4 rounded-xl mb-6 border border-slate-600">
@@ -565,13 +594,13 @@ export default function App() {
               className={`h-full transition-all duration-1000 ${
                 tempoRestante <= 10 ? 'bg-red-500' : 'bg-indigo-500'
               }`}
-              style={{ width: `${(tempoRestante / TEMPO_LIMITE) * 100}%` }}
+              style={{ width: `${(tempoRestante / (perguntaAtual.formato === 'vf' ? 30 : 60)) * 100}%` }}
             ></div>
           </div>
 
           <div className="flex gap-2 mb-4">
             <span className="text-[10px] bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 px-2 py-0.5 rounded font-bold">
-              Dificuldade: {perguntaAtual.dificuldade} ({perguntaAtual.dificuldade === 'Fácil' ? '15 XP' : perguntaAtual.dificuldade === 'Difícil' ? '50 XP' : '30 XP'})
+              Dificuldade: {perguntaAtual.dificuldade} ({QUESTION_XP[perguntaAtual.dificuldade]} XP por acerto inédito hoje){perguntaAtual.formato === 'vf' && ' · −3 XP aos 10s e −6 XP aos 20s; tempo esgotado: 0 XP'}
             </span>
             {perguntaAtual.tipo && (
               <span className="text-[10px] bg-slate-700 px-2 py-0.5 rounded text-slate-300">
@@ -584,6 +613,10 @@ export default function App() {
             {perguntaAtual.pergunta}
           </h3>
 
+          {perguntaAtual.formato === 'multipla_resposta' ? (
+            <MultipleAnswerOptions question={perguntaAtual} selected={opcaoSelecionada} onChange={setOpcaoSelecionada}
+              confirmed={respostaConfirmada} disabled={saving || tempoRestante === 0} remaining={tempoRestante}/>
+          ) : (
           <div className="space-y-3 mb-6">
             {perguntaAtual.alternativas.map((alt, index) => {
               let btnEstilo = "bg-slate-900 border-slate-700 hover:border-slate-500 text-slate-200";
@@ -612,12 +645,14 @@ export default function App() {
               );
             })}
           </div>
+          )}
 
           {respostaConfirmada && (
             <div className="mb-6 p-4 rounded-xl bg-slate-900/90 border border-indigo-500/30 text-xs">
               <div className="flex justify-between items-center mb-2">
                 <span className="font-bold text-emerald-400 text-sm">
                   +{xpUltimaQuestao} XP Conquistados
+                  <span className="block text-xs text-amber-300 mt-1">+{pontosUltimaResposta} pontos competitivos</span>
                 </span>
                 {mensagemBonus && (
                   <span className="text-[11px] font-extrabold text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20">
@@ -630,6 +665,8 @@ export default function App() {
               )}
               <span className="font-bold text-indigo-400 block mb-1">📘 Explicação / Revisão:</span>
               <p className="text-slate-300 leading-relaxed">{perguntaAtual.explicacao}</p>
+              {perguntaAtual.fonte && <a className="inline-block underline text-indigo-300 mt-2" href={perguntaAtual.fonte} target="_blank" rel="noopener noreferrer">Consultar fonte</a>}
+              {perguntaAtual.dataReferencia && <p className="text-slate-400 mt-1">Referência: {perguntaAtual.dataReferencia.split('-').reverse().join('/')}</p>}
             </div>
           )}
 
@@ -637,10 +674,10 @@ export default function App() {
           {!respostaConfirmada ? (
             <button
               onClick={handleConfirmarResposta}
-              disabled={saving || (opcaoSelecionada === null && tempoRestante > 0)}
+              disabled={saving || ((opcaoSelecionada === null || (Array.isArray(opcaoSelecionada) && !opcaoSelecionada.length)) && tempoRestante > 0)}
               className="w-full bg-indigo-600 disabled:opacity-50 hover:bg-indigo-500 text-white font-medium py-3 rounded-lg transition"
             >
-              Responder
+              {perguntaAtual.formato === 'multipla_resposta' ? 'Confirmar respostas' : 'Responder'}
             </button>
           ) : (
             <button
@@ -663,7 +700,9 @@ export default function App() {
     const conquistasDesbloqueadas = userData.conquistasDesbloqueadas || [];
     const missoesConcluidas = userData.missoesConcluidas || [];
 
-    const missoesExibidas = DEFAULT_MISSIONS.filter(m => filtroMissao === 'Todas' || m.tipo === filtroMissao);
+    const carreira = careerProgress(userData.pontuacaoGeral);
+    const missoesAtivas = activeMissions();
+    const missoesExibidas = missoesAtivas.filter(m => (filtroMissao === 'Todas' || m.tipo === filtroMissao) && (situacaoMissao === 'Todas' || (situacaoMissao === 'Concluídas') === missoesConcluidas.includes(m.id)));
 
     return (
       <div className="min-h-screen bg-slate-900 text-white flex flex-col items-center p-4">
@@ -724,9 +763,10 @@ export default function App() {
             <div>
               <div className="bg-slate-700/40 p-4 rounded-xl border border-slate-600 flex justify-between items-center mb-6">
                 <div>
-                  <span className="text-xs text-slate-400 block">XP da Temporada ({userData.temporadaAtual || 'Temporada'})</span>
-                  <span className="text-2xl font-black text-emerald-400">{userData.xpTemporada || 0} XP</span>
+                  <span className="text-xs text-slate-400 block">Pontos competitivos ({userData.temporadaAtual || 'Temporada'})</span>
+                  <span className="text-2xl font-black text-emerald-400">{userData.competition?.points || 0} pts</span>
                   <span className="text-[10px] text-slate-400 block mt-0.5">Vitalício: {userData.pontuacaoGeral || 0} XP</span>
+                  <button className="text-xs text-indigo-300 underline mt-2" onClick={()=>{setAbaAtiva('ranking');carregarRanking();}}>{userData.competition?.status === 'classification' ? '🎯 Classificação · Ver próxima temporada' : `🏅 ${userData.competition?.league || 'Bronze'} · Ver minha liga`}</button>
                 </div>
                 {perguntas.length === 0 && isUserAdminAutorizado && (
                   <button 
@@ -746,9 +786,24 @@ export default function App() {
                 )}
               </div>
 
-              <h3 className="text-sm font-semibold text-slate-300 mb-3">Escolha uma Área da Administração:</h3>
+              <div className="mb-5 p-4 rounded-xl bg-indigo-950 border border-indigo-500/40">
+                <strong>Nível {carreira.level} — {carreira.nome}</strong>
+                <p className="text-sm mt-2">🔥 {dailyStreak(userData)} dias de sequência · Recorde: {userData.maiorSequenciaDias || 0}</p>
+                <p className="text-xs text-slate-300 mt-2">5 questões diferentes por dia mantêm sua sequência.</p>
+                <progress className="w-full mt-3" max="100" value={carreira.percent} aria-label="Progresso de carreira" />
+                <p className="text-xs">{carreira.next ? `${carreira.next.xp-userData.pontuacaoGeral} XP para ${carreira.next.nome}` : 'Diretor: último nível alcançado!'}</p>
+              </div>
+              <label className="block text-sm mb-4">Formato da partida
+                <select className="w-full bg-slate-900 rounded p-3 mt-2" value={formato} onChange={e=>setFormato(e.target.value)}>
+                  <option value="multipla">Múltipla escolha</option>
+                  <option value="vf">Verdadeiro ou falso</option>
+                  <option value="multipla_resposta">Múltiplas respostas</option>
+                </select>
+              </label>
+              <p className="text-xs text-slate-400 mb-4">Bônus por partida de 10 questões: 7–8 acertos +20 XP · 9 +40 XP · 10 +60 XP. O bônus exige 10 questões inéditas no dia. {formato === 'multipla_resposta' ? 'Após errar, a segunda tentativa correta vale metade do XP; as seguintes não dão XP no dia.' : 'Revisões e repetições no dia não rendem XP.'}</p>
+              <h3 className="text-sm font-semibold text-slate-300 mb-3">{formato === 'multipla_resposta' ? 'Banco de teste · 10 questões conceituais' : 'Escolha uma Área da Administração:'}</h3>
               <div className="space-y-2 max-h-96 overflow-y-auto pr-1">
-                {listaDisciplinas.map((disc, idx) => (
+                {(formato === 'multipla_resposta' ? ['Todas'] : listaDisciplinas).map((disc, idx) => (
                   <button
                     key={idx}
                     onClick={() => iniciarQuizPorDisciplina(disc)}
@@ -764,6 +819,16 @@ export default function App() {
 
           {abaAtiva === 'missoes' && (
             <div className="space-y-4">
+              <div className="bg-indigo-950/50 border border-indigo-500/30 p-4 rounded-xl">
+                <h3 className="font-bold">🎯 Jornada de estudo</h3>
+                <p className="text-sm text-slate-300 mt-2">{missoesAtivas.filter(m=>missoesConcluidas.includes(m.id)).length}/{missoesAtivas.length} missões concluídas · 3 diárias, 9 semanais e 9 mensais</p>
+                <p className="text-xs text-slate-400 mt-2">As diárias mudam à meia-noite; as semanais, na segunda-feira. Horário de Brasília. Repetições no dia e revisões não avançam as metas.</p>
+              </div>
+              <label className="text-xs text-slate-300 block">Exibir missões
+                <select value={situacaoMissao} onChange={e=>setSituacaoMissao(e.target.value)} className="ml-2 bg-slate-900 rounded p-2">
+                  <option>Todas</option><option>Em andamento</option><option>Concluídas</option>
+                </select>
+              </label>
               {/* Filtro de Abas de Missões */}
               <div className="flex gap-2 bg-slate-900 p-1.5 rounded-xl border border-slate-700">
                 {['Todas', 'Diária', 'Semanal', 'Mensal'].map((tipo) => (
@@ -776,13 +841,14 @@ export default function App() {
                         : 'text-slate-400 hover:text-slate-200'
                     }`}
                   >
-                    {tipo === 'Todas' ? '🌐 Todas' : tipo === 'Diária' ? '🟢 Diárias' : tipo === 'Semanal' ? '🔵 Semanais' : '🔴 Mensais'}
+                    {tipo === 'Todas' ? '🌐 Todas' : tipo === 'Diária' ? '🟢 Diárias' : tipo === 'Semanal' ? '🔵 Semanais' : '🟣 Mensais'}
                   </button>
                 ))}
               </div>
 
               {/* Lista de Missões Filtradas */}
               <div className="space-y-2.5 max-h-[420px] overflow-y-auto pr-1">
+                {missoesExibidas.length === 0 && <p className="text-sm text-slate-400 py-4">Nenhuma missão neste filtro.</p>}
                 {missoesExibidas.map((missao) => {
                   const concluida = missoesConcluidas.includes(missao.id);
                   const valorProgresso = Math.min(missao.progresso(userData), missao.alvo);
@@ -805,7 +871,7 @@ export default function App() {
                                 ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20' 
                                 : missao.tipo === 'Semanal' 
                                 ? 'bg-blue-500/10 text-blue-400 border-blue-500/20' 
-                                : 'bg-red-500/10 text-red-400 border-red-500/20'
+                                : 'bg-purple-500/10 text-purple-400 border-purple-500/20'
                             }`}>
                               {missao.tipo}
                             </span>
@@ -842,45 +908,13 @@ export default function App() {
           )}
 
           {abaAtiva === 'ranking' && (
-            <div>
-              <div className="flex justify-between items-center mb-4">
-                <h3 className="text-sm font-bold text-slate-200 flex items-center gap-2">
-                  🏆 Top Alunos - {userData.temporadaAtual || 'Temporada Atual'}
-                </h3>
-                <span className="text-[10px] bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded font-bold">
-                  Ordenado por XP da Temporada
-                </span>
-              </div>
-
-              <div className="space-y-2">
-                {rankingAlunos.map((aluno, index) => (
-                  <div 
-                    key={index}
-                    className={`p-3.5 rounded-xl border flex items-center justify-between ${aluno.uid === user.uid ? 'bg-indigo-950/60 border-indigo-500' : 'bg-slate-900 border-slate-700'}`}
-                  >
-                    <div className="flex items-center gap-3">
-                      <span className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ${index === 0 ? 'bg-amber-500 text-slate-950' : index === 1 ? 'bg-slate-300 text-slate-950' : index === 2 ? 'bg-amber-700 text-white' : 'bg-slate-800 text-slate-400'}`}>
-                        {index + 1}
-                      </span>
-                      <div>
-                        <span className="text-sm font-medium text-slate-200 block">{aluno.nome}</span>
-                        <div className="flex gap-2">
-                          {aluno.uid === user.uid && <span className="text-[10px] text-indigo-400 font-bold">(Você)</span>}
-                          <span className="text-[10px] text-slate-400">Total: {aluno.pontuacaoGeral || 0} XP</span>
-                        </div>
-                      </div>
-                    </div>
-                    <span className="text-sm font-black text-emerald-400">{aluno.xpTemporada || 0} XP</span>
-                  </div>
-                ))}
-              </div>
-            </div>
+            <CompetitionPanel profile={userData} rows={rankingAlunos} season={competitionSeason} uid={user.uid}/>
           )}
 
           {abaAtiva === 'perfil' && (
             <div className="space-y-4">
               <div className="bg-slate-900 p-5 rounded-xl border border-slate-700 flex items-center gap-4">
-                <div className="w-14 h-14 bg-indigo-600 rounded-full flex items-center justify-center text-xl font-bold text-white shadow-inner">
+                <div className={`w-14 h-14 bg-indigo-600 rounded-full flex items-center justify-center text-xl font-bold text-white shadow-inner ${userData.leagueBadges?.includes('Top 3') ? 'ring-4 ring-amber-400' : ''}`}>
                   {userData.nome ? userData.nome.charAt(0).toUpperCase() : 'U'}
                 </div>
                 <div>
@@ -890,14 +924,20 @@ export default function App() {
                 </div>
               </div>
 
+              <div className="bg-slate-900 p-4 rounded-xl border border-slate-700">
+                <h3 className="font-bold mb-2">Sua carreira: {carreira.nome}</h3>
+                {CAREER.map((level,index)=><p key={level.nome} className={`text-sm py-1 ${userData.pontuacaoGeral >= level.xp ? 'text-emerald-300' : 'text-slate-400'}`}>Nível {index+1} · {level.nome} · {level.xp.toLocaleString('pt-BR')} XP {userData.pontuacaoGeral >= level.xp ? '✓' : ''}</p>)}
+                <p className="text-sm mt-3">🔥 Sequência atual: {dailyStreak(userData)} dias · Recorde: {userData.maiorSequenciaDias || 0}</p>
+                <p className="text-xs text-slate-400 mt-2">Bônus únicos: 3 dias +20 · 7 +50 · 14 +100 · 30 +200 XP.</p>
+              </div>
               <div className="grid grid-cols-2 gap-3">
                 <div className="bg-slate-900 p-4 rounded-xl border border-slate-700">
-                  <span className="text-[11px] text-slate-400 block mb-1">⚡ XP Temporada</span>
-                  <span className="text-2xl font-black text-emerald-400">{userData.xpTemporada || 0} XP</span>
+                  <span className="text-[11px] text-slate-400 block mb-1">🏆 Pontos competitivos</span>
+                  <span className="text-2xl font-black text-emerald-400">{userData.competition?.points || 0} pts</span>
                 </div>
 
                 <div className="bg-slate-900 p-4 rounded-xl border border-slate-700">
-                  <span className="text-[11px] text-slate-400 block mb-1">👑 Pos. Temporada</span>
+                  <span className="text-[11px] text-slate-400 block mb-1">👑 Posição na sala</span>
                   <span className="text-2xl font-black text-amber-400">
                     #{rankingAlunos.findIndex(a => a.uid === user.uid) !== -1 
                       ? rankingAlunos.findIndex(a => a.uid === user.uid) + 1 
@@ -920,39 +960,8 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="bg-slate-900 p-4 rounded-xl border border-slate-700">
-                <div className="flex justify-between items-center mb-3">
-                  <h4 className="text-xs font-bold text-slate-200">🏆 Conquistas Permanentes & Secretas ({conquistasDesbloqueadas.length}/{CONQUISTAS_SISTEMA.length})</h4>
-                  <span className="text-[10px] text-slate-400">Reinicia no fim do mês</span>
-                </div>
-
-                <div className="grid grid-cols-2 gap-2 max-h-64 overflow-y-auto pr-1">
-                  {CONQUISTAS_SISTEMA.map((item) => {
-                    const possui = conquistasDesbloqueadas.includes(item.id);
-                    return (
-                      <div 
-                        key={item.id}
-                        className={`p-2.5 rounded-lg border text-xs flex items-center gap-2.5 transition ${
-                          possui 
-                            ? 'bg-indigo-950/70 border-indigo-500/50 text-slate-100' 
-                            : 'bg-slate-800/40 border-slate-800 text-slate-500 opacity-60'
-                        }`}
-                      >
-                        <span className="text-2xl">{possui ? item.icone : '🔒'}</span>
-                        <div className="overflow-hidden">
-                          <span className={`font-bold block truncate ${possui ? 'text-indigo-300' : 'text-slate-400'}`}>
-                            {item.secreta && !possui ? 'Conquista Secreta' : item.nome}
-                          </span>
-                          <p className="text-[10px] leading-tight text-slate-400 truncate">
-                            {item.secreta && !possui ? 'Descubra como desbloquear.' : item.desc}
-                          </p>
-                          <span className="text-[9px] font-black text-emerald-400">+{item.xp} XP</span>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
+              <CompetitionHistory profile={userData}/>
+              <AchievementGallery data={userData} />
 
               <div className="bg-slate-900 p-4 rounded-xl border border-slate-700 space-y-2 text-xs">
                 <div className="flex justify-between py-1.5 border-b border-slate-800">
@@ -977,37 +986,18 @@ export default function App() {
 
           {abaAtiva === 'admin' && isUserAdminAutorizado && (
             <div>
-              <div className="bg-slate-900 p-4 rounded-xl border border-amber-500/30 mb-6">
-                <h4 className="text-xs font-bold text-amber-300 mb-1 flex items-center gap-1">
-                  🗓️ Gerenciador de Temporada Mensal
-                </h4>
-                <p className="text-[11px] text-slate-400 mb-3">
-                  Ao encerrar a temporada, somente o XP do ranking é zerado. Conquistas permanentes, estatísticas e missões diárias, semanais e mensais são preservadas.
-                </p>
-                <div className="flex gap-2">
-                  <input 
-                    type="text" 
-                    value={nomeNovaTemporada}
-                    onChange={(e) => setNomeNovaTemporada(e.target.value)}
-                    placeholder="Ex: OUTUBRO/2026"
-                    className="bg-slate-800 border border-slate-700 rounded-lg px-3 py-1.5 text-xs flex-1"
-                  />
-                  <button 
-                    onClick={handleEncerrarTemporada}
-                    disabled={loading}
-                    className="bg-amber-600 hover:bg-amber-500 text-white font-semibold px-4 py-1.5 rounded-lg text-xs transition"
-                  >
-                    Encerrar e Reiniciar
-                  </button>
-                </div>
+              <div className="bg-slate-900 border border-slate-700 p-4 rounded-xl mb-4">
+                <h4 className="font-bold">Temporadas mensais automáticas</h4>
+                <p className="text-sm text-slate-400 mt-2">O mês encerra à meia-noite de Brasília. Resultados, promoções e rebaixamentos são registrados antes da nova temporada. {isSandbox ? 'Na prévia local, o processamento acontece ao abrir o app ou enquanto ele estiver em uso.' : 'A temporada é processada no servidor, com agendamento mensal e verificação ao acessar o aplicativo.'}</p>
               </div>
+              {isSandbox && <CompetitionLab/>}
 
               <div className="bg-slate-900 p-4 rounded-xl border border-indigo-500/30 mb-6">
                 <h4 className="text-xs font-bold text-indigo-300 mb-1 flex items-center gap-1">
                   📥 Importação em Massa (Arquivo JSON)
                 </h4>
                 <p className="text-[11px] text-slate-400 mb-3">
-                  Envie arquivos `.json` especificando a `disciplina` com um dos nomes das 10 áreas.
+                  Envie arquivos `.json` especificando a `disciplina` com um dos nomes das 12 áreas.
                 </p>
                 <input 
                   type="file" 
@@ -1044,7 +1034,7 @@ export default function App() {
                     >
                       <option>Fácil</option>
                       <option>Médio</option>
-                      <option>Difícil</option>
+                      <option>Difícil</option><option>Especialista</option>
                     </select>
                   </div>
                 </div>
@@ -1072,14 +1062,19 @@ export default function App() {
                   />
                 </div>
 
-                <div className="space-y-1.5">
+                <label className="block text-xs">Formato
+                  <select className="bg-slate-800 p-2 ml-2" value={novoFormato} onChange={e=>{setNovoFormato(e.target.value);setRespostaCorretaIndex(0);}}>
+                    <option value="multipla">Múltipla escolha</option><option value="vf">Verdadeiro / Falso</option>
+                  </select>
+                </label>
+                {novoFormato === 'multipla' && <div className="space-y-1.5">
                   <label className="block text-[11px] text-slate-400">Alternativas (A até E):</label>
                   <input type="text" required placeholder="Opção A" value={altA} onChange={(e) => setAltA(e.target.value)} className="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-1 text-xs" />
                   <input type="text" required placeholder="Opção B" value={altB} onChange={(e) => setAltB(e.target.value)} className="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-1 text-xs" />
                   <input type="text" required placeholder="Opção C" value={altC} onChange={(e) => setAltC(e.target.value)} className="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-1 text-xs" />
                   <input type="text" required placeholder="Opção D" value={altD} onChange={(e) => setAltD(e.target.value)} className="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-1 text-xs" />
                   <input type="text" required placeholder="Opção E" value={altE} onChange={(e) => setAltE(e.target.value)} className="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-1 text-xs" />
-                </div>
+                </div>}
 
                 <div>
                   <label className="block text-[11px] text-slate-400 mb-1">Qual é a Alternativa Correta?</label>
@@ -1088,11 +1083,11 @@ export default function App() {
                     onChange={(e) => setRespostaCorretaIndex(e.target.value)}
                     className="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-1.5 text-xs font-bold text-emerald-400"
                   >
-                    <option value={0}>Alternativa A</option>
-                    <option value={1}>Alternativa B</option>
-                    <option value={2}>Alternativa C</option>
-                    <option value={3}>Alternativa D</option>
-                    <option value={4}>Alternativa E</option>
+                    <option value={0}>{novoFormato === 'vf' ? 'Verdadeiro' : 'Alternativa A'}</option>
+                    <option value={1}>{novoFormato === 'vf' ? 'Falso' : 'Alternativa B'}</option>
+                    {novoFormato === 'multipla' && <option value={2}>Alternativa C</option>}
+                    {novoFormato === 'multipla' && <option value={3}>Alternativa D</option>}
+                    {novoFormato === 'multipla' && <option value={4}>Alternativa E</option>}
                   </select>
                 </div>
 

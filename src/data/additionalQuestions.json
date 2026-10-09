@@ -1,0 +1,3858 @@
+[
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Uma equipe usa duas versões diferentes da mesma instrução. Qual medida resolve diretamente o problema?",
+    "alternativas": [
+      "Manter uma versão oficial com controle de atualização",
+      "Criar mais cópias sem identificação",
+      "Eliminar os responsáveis pelo documento",
+      "Substituir instruções por comentários informais",
+      "Aumentar apenas o número de reuniões"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O controle de versão evita orientações conflitantes.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Qual registro ajuda a verificar quem fará cada encaminhamento de uma reunião?",
+    "alternativas": [
+      "Lista de aniversários",
+      "Ata com ações, responsáveis e prazos",
+      "Catálogo de produtos",
+      "Folha de presença sem decisões",
+      "Mapa de localização das salas"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Registrar compromissos permite acompanhar sua execução.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Um gerente orienta a equipe sobre prioridades do dia. Qual função está exercendo principalmente?",
+    "alternativas": [
+      "Inventário",
+      "Depreciação",
+      "Direção",
+      "Auditoria externa",
+      "Tributação"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A direção envolve orientar pessoas para executar atividades.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Qual canal representa comunicação horizontal?",
+    "alternativas": [
+      "Ordem da presidência aos supervisores",
+      "Relatório do assistente à diretoria",
+      "Comunicado de demissão individual",
+      "Troca de informações entre setores do mesmo nível",
+      "Prestação de contas ao acionista"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "A comunicação horizontal conecta pares ou áreas de nível equivalente.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Qual exemplo expressa uma política organizacional?",
+    "alternativas": [
+      "Conferir o campo 3 de um formulário",
+      "Digitar uma senha de oito caracteres",
+      "Registrar o horário de uma única entrega",
+      "Transportar uma caixa específica",
+      "Priorizar fornecedores que atendam aos critérios de integridade"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Políticas orientam decisões gerais e recorrentes.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "O que caracteriza um procedimento operacional?",
+    "alternativas": [
+      "Sequência de passos para executar uma atividade",
+      "Declaração da razão de existir da empresa",
+      "Resultado financeiro anual",
+      "Descrição de uma oportunidade externa",
+      "Lista de valores pessoais do fundador"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Procedimentos detalham como realizar o trabalho.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Uma equipe precisa visualizar a data de cada entrega. Qual instrumento é adequado?",
+    "alternativas": [
+      "Balanço patrimonial",
+      "Cronograma",
+      "Pesquisa de clima",
+      "Tabela de depreciação",
+      "Código de ética"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O cronograma organiza atividades e prazos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Qual situação exemplifica coordenação?",
+    "alternativas": [
+      "Contratar sem definir necessidades",
+      "Medir somente a presença do gestor",
+      "Alinhar a promoção comercial à capacidade de entrega",
+      "Duplicar a mesma tarefa em dois setores",
+      "Fixar metas incompatíveis entre equipes"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Coordenar é compatibilizar atividades interdependentes.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Qual informação torna uma meta mais verificável?",
+    "alternativas": [
+      "Apenas um adjetivo motivador",
+      "Nome do concorrente principal",
+      "Cor do relatório mensal",
+      "Quantidade esperada e prazo definidos",
+      "Cargo de quem escreveu a meta"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Resultado mensurável e prazo permitem verificar o cumprimento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Uma medida preventiva de gestão é:",
+    "alternativas": [
+      "Corrigir somente após reclamação judicial",
+      "Apurar exclusivamente o resultado anual",
+      "Ignorar alertas de risco",
+      "Registrar erros sem tratar suas causas",
+      "Conferir requisitos antes de iniciar o serviço"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Prevenir é agir antes que o problema se concretize.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Dois gestores dão ordens conflitantes a uma equipe matricial. Qual ação é prioritária?",
+    "alternativas": [
+      "Definir critérios de prioridade e regras de decisão compartilhadas",
+      "Retirar todas as metas da equipe",
+      "Duplicar cada tarefa recebida",
+      "Escolher sempre a ordem mais recente",
+      "Avaliar somente as horas trabalhadas"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A matriz exige acordos claros sobre autoridade e prioridades.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Uma equipe experiente recebe tarefas rotineiras. Qual fator pode permitir maior amplitude de controle?",
+    "alternativas": [
+      "Aumento da dependência em cada decisão",
+      "Maior autonomia e padronização do trabalho",
+      "Ausência de procedimentos",
+      "Conflitos frequentes de papel",
+      "Novas tarefas sem treinamento"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Rotinas claras e autonomia reduzem a necessidade de supervisão individual.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Um indicador mostra aumento de entregas, mas clientes reclamam mais. Qual leitura é adequada?",
+    "alternativas": [
+      "Concluir que as reclamações são irrelevantes",
+      "Eliminar a medição de entregas",
+      "Complementar volume com medidas de qualidade e satisfação",
+      "Premiar apenas a velocidade",
+      "Presumir que o volume prova qualidade"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Um único indicador não representa todas as dimensões do desempenho.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Um gestor precisa decidir sobre um evento sem precedentes. A decisão é predominantemente:",
+    "alternativas": [
+      "Rotineira automatizada",
+      "Contábil obrigatória",
+      "Padronizada por repetição",
+      "Não programada",
+      "Puramente operacional recorrente"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Problemas novos exigem julgamento e análise específica.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Ao delegar uma compra, o gestor deve informar:",
+    "alternativas": [
+      "Somente o nome do fornecedor favorito",
+      "Apenas a data da próxima reunião",
+      "Todos os detalhes pessoais da equipe",
+      "Nenhuma condição para preservar autonomia",
+      "Limite de orçamento, critérios e resultado esperado"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Delegação eficaz combina autonomia com limites claros.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "A equipe não atingiu a meta após a falta de um insumo crítico. Qual análise é mais adequada?",
+    "alternativas": [
+      "Investigar restrições e causas antes de atribuir responsabilidades",
+      "Aplicar punição igual a todos imediatamente",
+      "Ignorar o impacto do fornecedor",
+      "Aumentar a meta sem diagnóstico",
+      "Excluir os dados do período"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O controle deve distinguir causas internas e externas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Compras economiza R$ 5 mil, mas a opção escolhida gera R$ 12 mil de retrabalho adicional. Qual foi o efeito líquido?",
+    "alternativas": [
+      "Ganho de R$ 17 mil",
+      "Perda de R$ 7 mil para a organização",
+      "Ganho de R$ 7 mil",
+      "Economia de R$ 5 mil sem contrapartida",
+      "Resultado nulo"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O custo adicional de 12 mil supera a economia de 5 mil em 7 mil.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Um projeto já consumiu R$ 80 mil. Continuá-lo custa R$ 30 mil e gera apenas R$ 20 mil adicionais, sem outros efeitos. O que é racional?",
+    "alternativas": [
+      "Continuar para justificar os R$ 80 mil",
+      "Continuar porque o gasto total será maior",
+      "Interromper, pois a continuidade perde R$ 10 mil",
+      "Decidir apenas pela idade do projeto",
+      "Ignorar custos futuros"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Os 80 mil são irrecuperáveis; a decisão relevante compara 30 mil com 20 mil futuros.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Após trocar o organograma, os funcionários continuam sendo premiados por metas antigas. Qual hipótese explica a resistência?",
+    "alternativas": [
+      "O desenho formal determina sozinho o comportamento",
+      "A mudança eliminou automaticamente os conflitos",
+      "O novo organograma invalida qualquer recompensa",
+      "Os incentivos ainda favorecem o comportamento anterior",
+      "Toda resistência decorre de falta de competência"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Estrutura, incentivos e rotinas precisam ser coerentes.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Administração e Gestão",
+    "formato": "multipla",
+    "pergunta": "Uma empresa aplica a mesma estrutura em mercados estáveis e altamente incertos. Qual crítica é contingencial?",
+    "alternativas": [
+      "A hierarquia deve ser sempre abolida",
+      "A formalização máxima serve para todos os casos",
+      "O porte da organização nunca importa",
+      "A tecnologia não influencia a organização",
+      "A estrutura deve ser avaliada conforme ambiente e tarefa"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "A contingência rejeita uma solução organizacional universal.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Qual documento esclarece responsabilidades de uma função?",
+    "alternativas": [
+      "Descrição de cargo",
+      "Extrato bancário",
+      "Catálogo comercial",
+      "Nota fiscal",
+      "Mapa de estoque"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A descrição estabelece atividades e responsabilidades.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Qual ação favorece a integração de um contratado?",
+    "alternativas": [
+      "Deixar o funcionário sem orientação",
+      "Apresentar equipe, rotinas e expectativas",
+      "Exigir resultados sem recursos",
+      "Restringir perguntas iniciais",
+      "Omitir regras importantes"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A integração orienta a adaptação ao trabalho.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "O indicador de faltas ao trabalho é chamado de:",
+    "alternativas": [
+      "Market share",
+      "Liquidez",
+      "Absenteísmo",
+      "Giro de estoque",
+      "Margem bruta"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Absenteísmo acompanha ausências.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Qual exemplo é um feedback baseado em fatos?",
+    "alternativas": [
+      "Você é uma pessoa impossível",
+      "Todos sabem que você é ruim",
+      "Seu jeito nunca vai mudar",
+      "O relatório teve três campos sem preenchimento",
+      "Você não serve para nada"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "O exemplo trata de comportamento observável, não de ataque pessoal.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Uma pesquisa de clima investiga principalmente:",
+    "alternativas": [
+      "Valor de mercado das ações",
+      "Volume físico de estoque",
+      "Alíquota de importação",
+      "Taxa básica de juros",
+      "Percepções sobre o ambiente de trabalho"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Clima se refere à percepção dos trabalhadores.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Qual ação é uma forma não financeira de reconhecimento?",
+    "alternativas": [
+      "Valorizar publicamente uma contribuição, com respeito à preferência da pessoa",
+      "Atrasar o feedback positivo",
+      "Retirar autonomia como prêmio",
+      "Ignorar a contribuição da equipe",
+      "Aumentar tarefas sem explicação"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Reconhecimento pode ocorrer sem pagamento adicional.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "O objetivo de um plano de desenvolvimento é:",
+    "alternativas": [
+      "Substituir toda avaliação de resultados",
+      "Organizar ações para ampliar competências",
+      "Eliminar o treinamento",
+      "Garantir promoção automática",
+      "Definir exclusivamente o salário"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Desenvolvimento exige objetivos, ações e acompanhamento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Qual prática facilita comparar candidatos?",
+    "alternativas": [
+      "Avaliar pela aparência pessoal",
+      "Mudar todos os critérios em cada entrevista",
+      "Usar critérios e perguntas estruturadas",
+      "Decidir apenas por afinidade",
+      "Considerar somente a ordem de chegada"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Padronização reduz inconsistências entre avaliações.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Qual atividade é típica da gestão de pessoas?",
+    "alternativas": [
+      "Calcular o estoque mínimo de peças",
+      "Emitir cotação cambial oficial",
+      "Definir tarifas alfandegárias",
+      "Identificar necessidades de capacitação",
+      "Produzir o balanço nacional"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Capacitação desenvolve competências para o trabalho.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Uma conversa de feedback deve incluir:",
+    "alternativas": [
+      "Rumores sem confirmação",
+      "Comparações humilhantes",
+      "Somente rótulos pessoais",
+      "Ameaças vagas",
+      "Comportamentos observados e próximos passos"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Fatos e ações concretas tornam o feedback útil.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Um avaliador atribui notas altas em tudo porque o empregado é simpático. Qual viés aparece?",
+    "alternativas": [
+      "Efeito halo",
+      "Rotação de cargos",
+      "Empowerment",
+      "Enriquecimento de cargo",
+      "Sucessão"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Uma impressão favorável contamina critérios diferentes.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Um curso teve alta satisfação, mas ninguém aplica o conteúdo. O que falta avaliar?",
+    "alternativas": [
+      "Somente a decoração da sala",
+      "Transferência da aprendizagem ao trabalho",
+      "A quantidade de certificados",
+      "A cor do material",
+      "A popularidade do instrutor"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Gostar do curso não prova mudança de comportamento.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "A saída de uma especialista paralisa um processo. Qual prática reduz essa vulnerabilidade?",
+    "alternativas": [
+      "Concentrar mais tarefas na especialista",
+      "Impedir documentação",
+      "Compartilhar conhecimento e preparar sucessores",
+      "Suspender todo treinamento",
+      "Manter acesso exclusivo sem alternativa"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Sucessão e documentação reduzem dependência individual.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Qual pergunta é típica de entrevista por competências?",
+    "alternativas": [
+      "Qual é sua cor favorita?",
+      "Você conhece meu time de futebol?",
+      "Qual foi seu último filme?",
+      "Conte uma situação em que resolveu um conflito e o resultado",
+      "Você concorda com todas as minhas opiniões?"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Situações passadas fornecem evidências de comportamento.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Um setor tem muitas saídas e avaliações ruins de liderança. Qual ação é mais adequada?",
+    "alternativas": [
+      "Atribuir todas as saídas à economia",
+      "Demitir toda a equipe",
+      "Ignorar relatos qualitativos",
+      "Reduzir a transparência dos dados",
+      "Cruzar dados e investigar causas naquele setor"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Dados segmentados orientam um diagnóstico mais específico.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "A avaliação 360 graus se caracteriza por:",
+    "alternativas": [
+      "Múltiplas perspectivas sobre o desempenho",
+      "Uma nota dada somente pelo cliente",
+      "A ausência de autoavaliação em todos os casos",
+      "A substituição do gestor por sorteio",
+      "O uso exclusivo de resultados financeiros"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A avaliação amplia os pontos de vista sobre comportamentos e resultados.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Uma equipe média de 50 pessoas teve 5 desligamentos no mês. Usando desligamentos/equipe média, qual taxa resulta?",
+    "alternativas": [
+      "1%",
+      "10%",
+      "5%",
+      "20%",
+      "50%"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Cinco dividido por cinquenta equivale a 0,10.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Um curso custa R$ 8 mil e gera R$ 12 mil de benefício incremental estimado. Qual ROI simples, usando (benefício−custo)/custo?",
+    "alternativas": [
+      "150%",
+      "25%",
+      "50%",
+      "66,7%",
+      "200%"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "O ganho líquido de 4 mil dividido pelo custo de 8 mil é 50%.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Uma prova gera notas consistentes, mas avalia habilidades irrelevantes para a vaga. Qual diagnóstico é correto?",
+    "alternativas": [
+      "É válida apenas porque é consistente",
+      "Não pode ser confiável se for escrita",
+      "A validade independe do cargo",
+      "Pode ser confiável sem ser válida para a seleção",
+      "Toda prova padronizada garante desempenho"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Confiabilidade e validade medem propriedades diferentes.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão de Pessoas",
+    "formato": "multipla",
+    "pergunta": "Reduzir salários economiza R$ 20 mil, mas gera R$ 35 mil adicionais de reposição e retrabalho. Qual avaliação é adequada?",
+    "alternativas": [
+      "A economia líquida foi de R$ 55 mil",
+      "O resultado líquido foi zero",
+      "A economia foi de R$ 20 mil independentemente dos efeitos",
+      "Os custos indiretos não entram na análise",
+      "A medida elevou o custo total em R$ 15 mil"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "É necessário considerar a economia e os custos adicionais causados.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Uma empresa tem R$ 50 mil de ativos e R$ 20 mil de passivos. Qual é o patrimônio líquido?",
+    "alternativas": [
+      "R$ 30 mil",
+      "R$ 70 mil",
+      "R$ 20 mil",
+      "R$ 50 mil",
+      "R$ 10 mil"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Patrimônio líquido é 50 mil menos 20 mil.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Qual item é uma obrigação da empresa?",
+    "alternativas": [
+      "Dinheiro em caixa",
+      "Empréstimo a pagar",
+      "Máquina própria",
+      "Cliente a receber",
+      "Estoque de mercadorias"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O empréstimo representa obrigação de pagamento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Qual instrumento projeta entradas e saídas de dinheiro?",
+    "alternativas": [
+      "Organograma",
+      "Descrição de cargo",
+      "Fluxo de caixa previsto",
+      "Mapa de empatia",
+      "Catálogo de produtos"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A projeção permite antecipar faltas e sobras de caixa.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Uma venda será recebida em 30 dias. Até lá, qual conta representa o direito?",
+    "alternativas": [
+      "Salários a pagar",
+      "Empréstimos a pagar",
+      "Capital social",
+      "Clientes a receber",
+      "Fornecedor a pagar"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "A venda a prazo gera um direito de recebimento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Qual gasto tende a variar diretamente com unidades produzidas?",
+    "alternativas": [
+      "Aluguel mensal fixo da fábrica",
+      "Seguro anual de valor fixo",
+      "Salário fixo da diretoria",
+      "Licença anual de preço fixo",
+      "Matéria-prima por unidade"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "O consumo de matéria-prima acompanha a produção.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Conferir o extrato com os registros da empresa é:",
+    "alternativas": [
+      "Conciliação bancária",
+      "Recrutamento",
+      "Segmentação",
+      "Depreciação acelerada",
+      "Inventário físico"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A conciliação identifica diferenças entre registros e banco.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Um produto de R$ 200 recebe desconto de 10%. Qual preço final?",
+    "alternativas": [
+      "R$ 190",
+      "R$ 180",
+      "R$ 210",
+      "R$ 220",
+      "R$ 160"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Dez por cento de 200 são 20; o preço cai para 180.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Qual indicador representa receita menos gastos variáveis?",
+    "alternativas": [
+      "Saldo inicial de caixa",
+      "Patrimônio líquido",
+      "Margem de contribuição",
+      "Capital social",
+      "Valor residual"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A contribuição ajuda a cobrir gastos fixos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Qual é a finalidade básica do orçamento?",
+    "alternativas": [
+      "Garantir lucro em qualquer cenário",
+      "Eliminar a necessidade de controle",
+      "Registrar somente o passado",
+      "Planejar e acompanhar receitas e gastos",
+      "Substituir todas as decisões gerenciais"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "O orçamento serve como referência para planejamento e acompanhamento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Qual situação pode explicar lucro com falta de caixa?",
+    "alternativas": [
+      "Todas as vendas recebidas e nenhuma saída",
+      "Ausência de qualquer venda",
+      "Lucro sempre recebido em dinheiro",
+      "Inexistência de contas a receber",
+      "Vendas reconhecidas, mas ainda não recebidas"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "O reconhecimento do resultado pode anteceder o recebimento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Preço de R$ 100 e gasto variável de R$ 60 geram qual contribuição unitária?",
+    "alternativas": [
+      "R$ 40",
+      "R$ 160",
+      "R$ 60",
+      "R$ 100",
+      "R$ 20"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A contribuição é 100 menos 60.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Gastos fixos de R$ 4 mil e contribuição de R$ 40 por unidade exigem quantas unidades no equilíbrio?",
+    "alternativas": [
+      "40",
+      "100",
+      "160",
+      "400",
+      "10"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Divide-se o gasto fixo pela contribuição unitária.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Ativo circulante de R$ 90 mil e passivo circulante de R$ 60 mil geram liquidez corrente de:",
+    "alternativas": [
+      "0,67",
+      "3",
+      "1,5",
+      "0,5",
+      "2,5"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "O índice é 90 dividido por 60.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Uma empresa recebe em 60 dias e paga em 15, sem estoques. Qual intervalo precisa financiar?",
+    "alternativas": [
+      "75 dias",
+      "15 dias",
+      "60 dias",
+      "45 dias",
+      "4 dias"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "O intervalo entre pagamento e recebimento é 60 menos 15.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "R$ 1.000 aplicados a juros simples de 2% ao mês por 3 meses geram quanto de juros?",
+    "alternativas": [
+      "R$ 20",
+      "R$ 1.060",
+      "R$ 61,21",
+      "R$ 600",
+      "R$ 60"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Juros simples: 1.000 vezes 0,02 vezes 3.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "R$ 1.000 a 10% por período, em juros compostos por dois períodos, tornam-se:",
+    "alternativas": [
+      "R$ 1.210",
+      "R$ 1.200",
+      "R$ 1.100",
+      "R$ 1.020",
+      "R$ 1.300"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O montante é 1.000 vezes 1,1 ao quadrado.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Investir R$ 100 hoje retorna R$ 121 em dois anos. Com desconto de 10% ao ano, qual é o VPL?",
+    "alternativas": [
+      "R$ 21",
+      "R$ 0",
+      "R$ 10",
+      "R$ 11",
+      "−R$ 21"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O valor presente de 121 é 100; descontado o investimento, o VPL é zero.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Uma máquina própria poderia ser alugada por R$ 2 mil mensais. Ao usá-la em novo projeto, esse valor representa:",
+    "alternativas": [
+      "Custo afundado obrigatório",
+      "Receita já recebida",
+      "Custo de oportunidade",
+      "Depreciação necessariamente fiscal",
+      "Passivo vencido"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "O uso sacrifica a alternativa de aluguel.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Uma firma reduz o prazo de recebimento de 50 para 30 dias, sem mudar vendas ou pagamentos. Qual efeito esperado?",
+    "alternativas": [
+      "Maior estoque obrigatório",
+      "Aumento automático da margem unitária",
+      "Eliminação de todos os riscos",
+      "Menor necessidade de capital de giro",
+      "Redução obrigatória das vendas"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Receber antes reduz o intervalo financiado.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Gestão Financeira e Contábil",
+    "formato": "multipla",
+    "pergunta": "Dois projetos exclusivos têm VPLs de R$ 40 mil e R$ 55 mil, calculados com taxas adequadas e sem outras restrições. Qual escolha maximiza valor?",
+    "alternativas": [
+      "O projeto de menor VPL",
+      "Qualquer um, pois VPL não compara valor",
+      "O de menor investimento, independentemente do VPL",
+      "O de maior faturamento bruto, sem considerar custos",
+      "O projeto de VPL de R$ 55 mil"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Sob essas condições, o maior VPL adiciona mais valor.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Uma loja quer compreender quem compra seus produtos. Qual pesquisa ajuda diretamente?",
+    "alternativas": [
+      "Perfil e necessidades dos clientes",
+      "Somente a cor das embalagens do fornecedor",
+      "Horário de almoço da diretoria",
+      "Placas dos veículos da empresa",
+      "Número de cadeiras do escritório"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Conhecer características e necessidades orienta a oferta.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Qual item representa praça nos quatro Ps?",
+    "alternativas": [
+      "Salário do vendedor",
+      "Canais de distribuição",
+      "Lucro acumulado",
+      "Taxa de juros",
+      "Registro de ponto"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Praça trata de acesso e distribuição da oferta.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Qual atividade pertence ao pós-venda?",
+    "alternativas": [
+      "Abandonar o cliente após o pagamento",
+      "Omitir instruções de uso",
+      "Acompanhar o uso e atender dúvidas após a compra",
+      "Interromper canais de atendimento",
+      "Eliminar registros de reclamação"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "O pós-venda apoia a experiência e o relacionamento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Uma loja teve 200 visitantes e 20 compras. Qual conversão de visitantes em compradores?",
+    "alternativas": [
+      "20%",
+      "1%",
+      "50%",
+      "10%",
+      "90%"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "A razão 20/200 resulta em 10%.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Qual exemplo expressa benefício para o cliente?",
+    "alternativas": [
+      "Ter cinco departamentos internos",
+      "Usar o organograma da empresa",
+      "Possuir três salas de reunião",
+      "Manter o código do fornecedor",
+      "Reduzir o tempo gasto na tarefa"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Benefícios descrevem valor percebido pelo usuário.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "O que caracteriza público-alvo?",
+    "alternativas": [
+      "Grupo de consumidores priorizado pela oferta",
+      "Todos os funcionários do estoque",
+      "Lista de fornecedores inadimplentes",
+      "Apenas os acionistas",
+      "Qualquer pessoa sem critério"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O público-alvo orienta foco e comunicação.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Uma boa escuta em vendas envolve:",
+    "alternativas": [
+      "Interromper todas as perguntas",
+      "Entender a necessidade antes de propor uma solução",
+      "Prometer qualquer condição",
+      "Ignorar restrições do cliente",
+      "Falar sem confirmar entendimento"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A solução deve se ajustar à necessidade identificada.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Qual informação é mais útil ao tratar uma reclamação?",
+    "alternativas": [
+      "Somente a idade do vendedor",
+      "Nome do concorrente menos conhecido",
+      "Descrição do problema e condições em que ocorreu",
+      "Cor do uniforme do gerente",
+      "Quantidade de seguidores da empresa"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Fatos sobre o problema orientam a solução.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Uma marca ajuda principalmente a:",
+    "alternativas": [
+      "Garantir lucro automático",
+      "Eliminar concorrentes legalmente",
+      "Substituir qualidade do produto",
+      "Identificar e diferenciar a oferta",
+      "Fixar a taxa de câmbio"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "A marca facilita reconhecimento e associações.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Qual métrica acompanha cancelamentos de clientes?",
+    "alternativas": [
+      "Liquidez corrente",
+      "Giro físico",
+      "Absenteísmo",
+      "Depreciação",
+      "Churn"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Churn mede perda de clientes conforme critério definido.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Gastar R$ 3 mil para adquirir 30 clientes gera qual CAC?",
+    "alternativas": [
+      "R$ 100",
+      "R$ 10",
+      "R$ 900",
+      "R$ 3.030",
+      "R$ 30"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "CAC é o gasto de aquisição dividido pelos clientes conquistados.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Uma campanha gerou R$ 12 mil de receita atribuída com R$ 3 mil em anúncios. Qual ROAS?",
+    "alternativas": [
+      "0,25",
+      "4",
+      "9",
+      "15",
+      "3"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "ROAS é 12 mil dividido por 3 mil; não é lucro líquido.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Dois anúncios serão comparados. Qual procedimento melhora o teste?",
+    "alternativas": [
+      "Alterar todas as condições sem registro",
+      "Escolher vencedor antes do teste",
+      "Definir métrica e distribuir público comparável entre versões",
+      "Exibir cada versão para públicos incompatíveis",
+      "Medir apenas opiniões internas"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Comparabilidade e critério prévio reduzem vieses.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Uma empresa se apresenta como a opção de atendimento mais rápido para pequenas lojas. Isso descreve:",
+    "alternativas": [
+      "Depreciação",
+      "Inventário",
+      "Conciliação",
+      "Posicionamento",
+      "Absenteísmo"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "A mensagem define uma posição desejada para um público.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Uma campanha traz muitos cliques e poucas vendas. Qual investigação é mais útil?",
+    "alternativas": [
+      "Concluir sucesso apenas pelos cliques",
+      "Aumentar o orçamento sem diagnóstico",
+      "Remover a métrica de vendas",
+      "Ignorar a página de destino",
+      "Verificar adequação do público, oferta e processo de compra"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "O problema pode estar em diferentes etapas da conversão.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Uma assinatura começou com 100 clientes e perdeu 8 no período. Usando perdidos/iniciais, qual churn?",
+    "alternativas": [
+      "8%",
+      "0,8%",
+      "12,5%",
+      "92%",
+      "80%"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Oito dividido por cem equivale a 8%.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Uma promoção vende 100 unidades extras com contribuição de R$ 20 cada e custo adicional de R$ 2.500. Sem outros efeitos, qual resultado incremental?",
+    "alternativas": [
+      "Ganho de R$ 2.000",
+      "Perda de R$ 500",
+      "Ganho de R$ 4.500",
+      "Ganho de R$ 500",
+      "Resultado zero"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A contribuição de 2 mil não cobre o custo de 2,5 mil.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Uma nova linha gera R$ 8 mil de contribuição, mas reduz em R$ 3 mil a contribuição da linha antiga. Qual incremento líquido?",
+    "alternativas": [
+      "R$ 11 mil",
+      "R$ 8 mil",
+      "R$ 5 mil",
+      "R$ 3 mil",
+      "−R$ 5 mil"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "É necessário descontar a contribuição canibalizada.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "Compradores de uma campanha já tinham forte intenção de compra. Qual risco existe ao atribuir todas as vendas ao anúncio?",
+    "alternativas": [
+      "Subestimar sempre o preço do produto",
+      "Eliminar a necessidade de comparação",
+      "Provar causalidade automaticamente",
+      "Confundir seleção do público com efeito causal",
+      "Medir apenas custo fixo"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Parte das vendas poderia ocorrer sem o anúncio.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Marketing e Vendas",
+    "formato": "multipla",
+    "pergunta": "O preço sobe 10% e a quantidade cai 20%. Qual mudança aproximada e exata, usando as bases originais, ocorre na receita?",
+    "alternativas": [
+      "Alta de 10%",
+      "Queda de 10%",
+      "Alta de 12%",
+      "Receita inalterada",
+      "Queda de 12%"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "A nova receita é 1,10 vezes 0,80 igual a 0,88 da original.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Uma pessoa identifica filas recorrentes em pequenos consultórios. Qual é o primeiro passo mais útil para uma solução?",
+    "alternativas": [
+      "Investigar causas e necessidades dos usuários",
+      "Comprar equipamentos sem diagnóstico",
+      "Escolher o logotipo definitivo",
+      "Abrir várias filiais imediatamente",
+      "Fixar preço sem ouvir ninguém"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Compreender o problema orienta a solução.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Qual elemento descreve como o negócio recebe dinheiro?",
+    "alternativas": [
+      "Cor institucional",
+      "Fonte de receita",
+      "Organograma informal",
+      "Nome do fundador",
+      "Layout do depósito"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Fontes de receita representam formas de captura de valor.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "O que é um protótipo?",
+    "alternativas": [
+      "Garantia de venda futura",
+      "Registro obrigatório de lucro",
+      "Representação de uma solução para testar ideias",
+      "Contrato definitivo com todo o mercado",
+      "Balanço patrimonial final"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Protótipos ajudam a aprender antes da implantação completa.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Qual situação demonstra concorrência indireta?",
+    "alternativas": [
+      "Dois produtos sem necessidade em comum",
+      "Fornecedores de energia de países sem conexão",
+      "Dois departamentos da mesma equipe",
+      "Aplicativo de refeições disputando com cozinhar em casa",
+      "Máquinas idênticas no mesmo estoque"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Alternativas distintas podem atender à mesma necessidade.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Um negócio por assinatura recebe:",
+    "alternativas": [
+      "Somente doações ocasionais",
+      "Apenas juros bancários",
+      "Exclusivamente venda de ativos",
+      "Receita necessariamente única",
+      "Pagamentos periódicos pelo serviço ou acesso"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Assinaturas estruturam receita recorrente.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Qual evidência é mais forte de disposição para pagar?",
+    "alternativas": [
+      "Compra efetiva ou pré-venda confirmada",
+      "Elogio informal sem compromisso",
+      "Curtida de um familiar",
+      "Opinião exclusiva do fundador",
+      "Nome escolhido para a marca"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Um compromisso financeiro é diferente de mera aprovação verbal.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Uma equipe com habilidades complementares pode:",
+    "alternativas": [
+      "Eliminar toda necessidade de coordenação",
+      "Cobrir melhor necessidades distintas do negócio",
+      "Garantir sucesso automático",
+      "Dispensar contato com clientes",
+      "Ignorar restrições de caixa"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Competências diferentes ajudam em funções diversas.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Qual gasto deve entrar na análise de uma loja virtual?",
+    "alternativas": [
+      "Somente a impressão de cartões",
+      "Apenas o aluguel de vitrine física",
+      "Atendimento, plataforma e aquisição de clientes",
+      "Nenhum, pois é digital",
+      "Somente a abertura do CNPJ"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Negócios digitais também possuem custos operacionais.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Uma oportunidade de negócio envolve:",
+    "alternativas": [
+      "Somente preferência pessoal do fundador",
+      "Garantia de ausência de concorrência",
+      "Lucro sem investimento",
+      "Necessidade atendível e possibilidade de criar valor",
+      "Demanda comprovada apenas por intuição"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Oportunidades relacionam problema, solução e viabilidade.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Qual documento organiza hipóteses de mercado, operação e finanças?",
+    "alternativas": [
+      "Atestado de frequência",
+      "Lista de ramais",
+      "Extrato de ponto",
+      "Catálogo de feriados",
+      "Plano de negócios"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "O plano integra dimensões do empreendimento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Um MVP deve priorizar:",
+    "alternativas": [
+      "O teste da hipótese mais importante com escopo suficiente",
+      "Todas as funções imaginadas",
+      "Acabamento final antes de qualquer teste",
+      "Expansão nacional imediata",
+      "Apenas a preferência estética do fundador"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O objetivo é aprender com o menor esforço adequado.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Clientes usam o produto para finalidade diferente da prevista. Qual ação é adequada?",
+    "alternativas": [
+      "Proibir qualquer feedback",
+      "Investigar o uso real e revisar hipóteses",
+      "Ignorar o comportamento observado",
+      "Ampliar apenas a publicidade antiga",
+      "Manter a proposta sem análise"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O uso real pode revelar uma oportunidade ou necessidade de ajuste.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Um negócio tem R$ 90 mil em caixa e consome R$ 15 mil líquidos por mês. Qual runway simples?",
+    "alternativas": [
+      "15 meses",
+      "9 meses",
+      "6 meses",
+      "3 meses",
+      "75 meses"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "O fôlego estimado é 90 dividido por 15.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Um canal gera muitos usuários gratuitos, mas quase nenhuma compra. Qual hipótese testar?",
+    "alternativas": [
+      "Se o logotipo é suficiente para provar lucro",
+      "Se qualquer usuário é cliente rentável",
+      "Se faturamento e acessos são iguais",
+      "Se a oferta paga entrega valor percebido ao público",
+      "Se todos os custos desaparecerão com escala"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "É preciso investigar conversão e valor da oferta paga.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Qual prática reduz dependência de um parceiro crítico?",
+    "alternativas": [
+      "Concentrar todas as decisões sem registro",
+      "Eliminar indicadores do parceiro",
+      "Ignorar riscos de interrupção",
+      "Assumir que parceria exclui conflitos",
+      "Avaliar alternativas e definir responsabilidades contratuais"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Alternativas e acordos claros ajudam a gerir dependências.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Um empreendimento vende mais, mas recebe depois de pagar fornecedores. Qual necessidade pode crescer?",
+    "alternativas": [
+      "Capital de giro",
+      "Somente patrimônio histórico",
+      "Apenas identidade visual",
+      "Número de marcas registradas",
+      "Reserva de depreciação sem caixa"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O intervalo financeiro precisa ser financiado.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Cada cliente paga R$ 40 e gera R$ 50 de gasto variável. Sem mudanças, dobrar clientes tende a:",
+    "alternativas": [
+      "Tornar a contribuição positiva",
+      "Dobrar a perda variável total",
+      "Eliminar o déficit por cliente",
+      "Garantir lucro operacional",
+      "Reduzir a perda total à metade"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A contribuição unitária é negativa em R$ 10.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Um teste teve 8 compras entre 10 conhecidos do fundador. Qual limitação é relevante?",
+    "alternativas": [
+      "Dez pessoas provam toda a demanda nacional",
+      "A compra não é nenhuma evidência útil",
+      "A amostra pode não representar o mercado pretendido",
+      "A proximidade elimina todo viés",
+      "A taxa observada garante escala"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "O grupo pode ter motivações e características diferentes do público amplo.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Um projeto já gastou recursos, mas testes repetidos refutaram a demanda. Qual decisão usa melhor as evidências?",
+    "alternativas": [
+      "Continuar apenas para justificar o gasto passado",
+      "Ignorar todos os testes",
+      "Aumentar produção antes de revisar hipóteses",
+      "Reavaliar continuidade e alternativas com base nos resultados",
+      "Declarar demanda sem novos dados"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Custos passados não justificam ampliar uma aposta sem suporte.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Empreendedorismo",
+    "formato": "multipla",
+    "pergunta": "Receita cresce 40%, mas custos variáveis crescem 80% e não há mudança de preços. Qual análise é prioritária?",
+    "alternativas": [
+      "Concluir escalabilidade apenas pela receita",
+      "Ignorar custos porque houve crescimento",
+      "Avaliar somente número de seguidores",
+      "Presumir margem constante",
+      "Investigar deterioração da economia por unidade e do mix"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Crescimento precisa ser acompanhado de contribuição e estrutura de custos.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Conferir mercadorias existentes com registros é:",
+    "alternativas": [
+      "Inventário físico",
+      "Segmentação",
+      "Conciliação de salários",
+      "Depreciação",
+      "Pesquisa de clima"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A contagem verifica quantidades disponíveis.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "O tempo entre emitir um pedido e recebê-lo é:",
+    "alternativas": [
+      "Margem de contribuição",
+      "Lead time de reposição",
+      "Taxa de conversão",
+      "Prazo de validade",
+      "Custo fixo"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O prazo mede a duração da reposição.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Qual atividade é chamada picking?",
+    "alternativas": [
+      "Emissão de folha salarial",
+      "Definição da missão empresarial",
+      "Separação dos itens de um pedido",
+      "Cobrança de juros",
+      "Pesquisa de satisfação"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Picking prepara os itens para expedição.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Qual informação ajuda a localizar um produto no armazém?",
+    "alternativas": [
+      "Nome do acionista",
+      "Saldo bancário",
+      "Lucro anual",
+      "Endereço de armazenagem",
+      "Preço da ação"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "O endereçamento identifica sua posição física.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Ao receber um lote danificado, a primeira ação adequada é:",
+    "alternativas": [
+      "Aceitar sem conferir",
+      "Misturar os itens com os aprovados",
+      "Descartar os registros",
+      "Alterar o pedido para ocultar o dano",
+      "Registrar e tratar a divergência conforme o procedimento"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "A divergência deve ser documentada e encaminhada.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Qual custo acompanha a manutenção de estoques?",
+    "alternativas": [
+      "Armazenagem",
+      "Somente comissão de venda",
+      "Apenas propaganda",
+      "Somente treinamento de liderança",
+      "Exclusivamente imposto de renda pessoal"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Espaço, manuseio e capital compõem custos de estoque.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Qual fluxo caracteriza logística reversa?",
+    "alternativas": [
+      "Venda inicial ao consumidor",
+      "Retorno de embalagens para reaproveitamento",
+      "Pagamento de salários",
+      "Planejamento do organograma",
+      "Recrutamento de motoristas"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A logística reversa trata de fluxos de retorno.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Qual critério deve integrar a avaliação de fornecedores?",
+    "alternativas": [
+      "Somente afinidade pessoal",
+      "Apenas cor da embalagem",
+      "Qualidade e pontualidade",
+      "Exclusivamente distância da residência do comprador",
+      "Número de seguidores do vendedor"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A aquisição depende de desempenho, não só de preço.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Uma identificação de lote ajuda principalmente na:",
+    "alternativas": [
+      "Motivação salarial",
+      "Formação da taxa Selic",
+      "Segmentação demográfica",
+      "Rastreabilidade",
+      "Definição da missão"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "O lote permite relacionar produtos a origem e movimentações.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Qual prática reduz erros de expedição?",
+    "alternativas": [
+      "Embalar sem identificação",
+      "Ignorar códigos dos produtos",
+      "Misturar pedidos sem separação",
+      "Expedir antes de receber o pedido",
+      "Conferir itens e quantidades do pedido"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "A conferência verifica correspondência com a solicitação.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Consumo de 10 unidades/dia, reposição em 5 dias e segurança de 20 unidades geram qual ponto de pedido?",
+    "alternativas": [
+      "70 unidades",
+      "50 unidades",
+      "30 unidades",
+      "100 unidades",
+      "15 unidades"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Consumo no prazo de 50 mais segurança de 20.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Um item custa R$ 50 e tem consumo anual de 1.000 unidades. Qual valor anual de consumo?",
+    "alternativas": [
+      "R$ 1.050",
+      "R$ 50 mil",
+      "R$ 20 mil",
+      "R$ 5 mil",
+      "R$ 500 mil"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Multiplica-se custo unitário pelo consumo anual.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Produtos com vencimentos distintos devem priorizar qual saída?",
+    "alternativas": [
+      "Ordem alfabética da marca",
+      "Maior preço sempre primeiro",
+      "FEFO, vencimento mais próximo",
+      "Maior peso sempre primeiro",
+      "Último vencimento primeiro"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "FEFO reduz o risco de perda por validade.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Qual informação é necessária para calcular materiais de um produto no MRP?",
+    "alternativas": [
+      "Somente o logotipo",
+      "Apenas a idade do gerente",
+      "Cor da frota",
+      "Estrutura de componentes do produto",
+      "Número de reuniões mensais"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "A estrutura liga produção planejada a necessidades de componentes.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "O estoque médio é 100 unidades e saem 600 no período. Qual giro físico simplificado?",
+    "alternativas": [
+      "0,17 vez",
+      "100 vezes",
+      "500 vezes",
+      "60 vezes",
+      "6 vezes"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "O giro é a saída dividida pelo estoque médio.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Contar grupos de itens semanalmente é exemplo de:",
+    "alternativas": [
+      "Inventário rotativo",
+      "Inventário inexistente",
+      "Centralização financeira",
+      "Pesquisa de marca",
+      "Depreciação linear"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "As contagens são distribuídas no calendário.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Um desconto economiza R$ 4 mil, mas adiciona R$ 6 mil de armazenagem e perdas. Qual efeito líquido?",
+    "alternativas": [
+      "Economia de R$ 10 mil",
+      "Custo adicional de R$ 2 mil",
+      "Economia de R$ 4 mil",
+      "Custo adicional de R$ 6 mil sem compensação",
+      "Resultado nulo"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O acréscimo de 6 mil supera a economia de 4 mil.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Pedidos aos fornecedores oscilam muito mais que as vendas finais. Qual fenômeno é compatível?",
+    "alternativas": [
+      "Equilíbrio contábil",
+      "Rotatividade de pessoas",
+      "Efeito chicote",
+      "Economia de escopo obrigatória",
+      "Sazonalidade eliminada"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A variabilidade se amplifica ao longo da cadeia.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Demanda e prazo de reposição ficam mais incertos. Mantido o nível de serviço, qual medida deve ser reavaliada?",
+    "alternativas": [
+      "Somente a cor das etiquetas",
+      "Apenas a razão social",
+      "Exclusivamente a comissão do vendedor",
+      "Estoque de segurança",
+      "O número de acionistas"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Maior incerteza altera a proteção necessária.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Materiais e Logística",
+    "formato": "multipla",
+    "pergunta": "Fornecedor A cobra R$ 10 por peça e R$ 3 de custos adicionais; B cobra R$ 12 e R$ 0,50 adicionais. Para 100 peças, qual é mais barato no total?",
+    "alternativas": [
+      "A, por R$ 200",
+      "A, por R$ 50",
+      "B, por R$ 250",
+      "Ambos custam o mesmo",
+      "B, por R$ 50"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "A custa 1.300 e B 1.250, diferença de 50.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Refazer um serviço por erro é chamado de:",
+    "alternativas": [
+      "Retrabalho",
+      "Benchmarking",
+      "Segmentação",
+      "Sucessão",
+      "Capitalização"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Retrabalho corrige uma execução inadequada.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Qual ação é preventiva?",
+    "alternativas": [
+      "Consertar após parar toda a linha",
+      "Revisar equipamento antes de ocorrer a falha",
+      "Descartar registros de manutenção",
+      "Inspecionar somente reclamações antigas",
+      "Aguardar quebra para agir"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A prevenção ocorre antes do problema.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Qual ferramenta ajuda a evitar esquecer etapas?",
+    "alternativas": [
+      "Balanço patrimonial",
+      "Pesquisa cambial",
+      "Checklist",
+      "Organograma societário",
+      "Contrato de financiamento"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A lista de verificação explicita itens importantes.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Qual situação é desperdício de espera?",
+    "alternativas": [
+      "Produto sendo processado corretamente",
+      "Cliente recebendo solução adequada",
+      "Máquina produzindo item necessário",
+      "Equipe parada aguardando liberação de material",
+      "Inspeção planejada obrigatória"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "A espera consome tempo sem avançar o fluxo.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Produzir 100 peças com 20 horas de trabalho gera produtividade de:",
+    "alternativas": [
+      "20 peças por hora",
+      "2 peças por hora",
+      "100 peças por hora",
+      "0,2 peça por hora",
+      "5 peças por hora"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Divide-se a produção pelo recurso utilizado.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "O que um fluxograma representa?",
+    "alternativas": [
+      "Etapas e decisões de um processo",
+      "Somente custos anuais",
+      "Apenas cargos de direção",
+      "Preço das ações",
+      "Taxas de câmbio"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O fluxo visualiza a sequência do trabalho.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Qual prática se relaciona ao 5S?",
+    "alternativas": [
+      "Aumentar estoques sem controle",
+      "Organizar o ambiente e manter padrões",
+      "Esconder materiais sem uso",
+      "Eliminar limpeza de rotina",
+      "Ignorar condições de segurança"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O 5S promove organização e disciplina.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Qual exemplo é superprodução?",
+    "alternativas": [
+      "Produzir a quantidade solicitada",
+      "Corrigir uma informação de cadastro",
+      "Fabricar além da necessidade do processo ou cliente",
+      "Realizar manutenção programada",
+      "Atender um pedido confirmado"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Produzir sem necessidade pode gerar estoque e perdas.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "A qualidade deve ser avaliada em relação a:",
+    "alternativas": [
+      "Somente preferência do operador",
+      "Apenas o tamanho da empresa",
+      "Número de uniformes",
+      "Requisitos e necessidades relevantes",
+      "Idade das máquinas isoladamente"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "O atendimento aos requisitos orienta a avaliação.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "O que significa padronizar uma tarefa?",
+    "alternativas": [
+      "Impedir toda melhoria futura",
+      "Eliminar a necessidade de treinamento",
+      "Proibir registro de problemas",
+      "Garantir ausência de erros para sempre",
+      "Definir um método consistente de execução"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Padrões orientam o trabalho e podem ser melhorados.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Qual ferramenta organiza hipóteses de causas em categorias?",
+    "alternativas": [
+      "Diagrama de Ishikawa",
+      "Balanço de caixa",
+      "Matriz BCG",
+      "Folha de salários",
+      "Tabela de preços"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O diagrama apoia investigação, sem provar sozinho a causa.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Poucas causas concentram a maioria dos defeitos. Qual ferramenta ajuda a priorizá-las?",
+    "alternativas": [
+      "Organograma",
+      "Gráfico de Pareto",
+      "Mapa de férias",
+      "Tabela salarial",
+      "Fluxo de caixa"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Pareto evidencia concentração de ocorrências ou impacto.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Etapas sucessivas processam 20, 12 e 18 unidades por hora. Qual é o limite do fluxo estável?",
+    "alternativas": [
+      "50 unidades por hora",
+      "20 unidades por hora",
+      "12 unidades por hora",
+      "18 unidades por hora",
+      "16,7 unidades por hora"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A etapa de menor capacidade é o gargalo.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Há 420 minutos disponíveis para demanda de 140 unidades. Qual takt time?",
+    "alternativas": [
+      "140 minutos por unidade",
+      "0,33 minuto por unidade",
+      "560 minutos por unidade",
+      "3 minutos por unidade",
+      "280 minutos por unidade"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Takt é tempo disponível dividido pela demanda.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Trocar ferramentas entre dois produtos é parte do:",
+    "alternativas": [
+      "Churn",
+      "CAC",
+      "VPL",
+      "Absenteísmo",
+      "Setup"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Setup é preparação ou mudança da operação.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Um processo apresenta pouca variação, mas todas as peças estão acima do tamanho máximo permitido. Ele é:",
+    "alternativas": [
+      "Possivelmente estável, porém incapaz de atender à especificação",
+      "Necessariamente instável e capaz",
+      "Perfeito porque varia pouco",
+      "Adequado apenas por ter média constante",
+      "Dispensado de correção"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Consistência não garante atendimento aos requisitos.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Disponibilidade de 90%, desempenho de 80% e qualidade de 95% produzem OEE de:",
+    "alternativas": [
+      "88,3%",
+      "68,4%",
+      "265%",
+      "72%",
+      "76%"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "OEE é 0,90 vezes 0,80 vezes 0,95.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "A etapa anterior ao gargalo dobra sua produção, sem mudança na demanda nem na restrição. Qual efeito é provável?",
+    "alternativas": [
+      "Duplicação obrigatória da saída final",
+      "Eliminação do gargalo",
+      "Aumento de estoque em processo",
+      "Redução automática de todos os prazos",
+      "Aumento da qualidade garantido"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Produzir antes da restrição não amplia sua capacidade.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Duas filas têm média de espera de 10 minutos, mas uma varia muito mais. Qual conclusão é correta?",
+    "alternativas": [
+      "Ambas têm necessariamente a mesma dispersão",
+      "A maior variação sempre melhora o serviço",
+      "A média revela todos os atrasos",
+      "A média igual não implica igual previsibilidade",
+      "Não há motivo para medir dispersão"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "A variabilidade influencia a consistência do atendimento.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Produção e Qualidade",
+    "formato": "multipla",
+    "pergunta": "Uma melhoria eleva a capacidade do antigo gargalo acima da etapa seguinte. O que fazer?",
+    "alternativas": [
+      "Continuar investindo só no antigo gargalo",
+      "Ignorar o fluxo total",
+      "Aumentar estoques em todas as etapas",
+      "Eliminar a medição de capacidade",
+      "Identificar a nova restrição e reavaliar prioridades"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "A restrição pode mudar após a melhoria.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Qual declaração descreve o futuro desejado de uma organização?",
+    "alternativas": [
+      "Visão",
+      "Procedimento de caixa",
+      "Nota fiscal",
+      "Inventário",
+      "Ata de presença"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A visão aponta uma condição futura desejada.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Um processo é melhor descrito como:",
+    "alternativas": [
+      "Somente uma lista de cargos",
+      "Atividades que transformam entradas em saídas",
+      "Apenas um saldo bancário",
+      "Um conjunto de logotipos",
+      "Uma reunião sem objetivo"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Processos organizam transformação e entrega de resultados.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Qual item é uma ameaça externa?",
+    "alternativas": [
+      "Equipe interna qualificada",
+      "Patente própria",
+      "Entrada de um concorrente com solução substituta",
+      "Máquina interna eficiente",
+      "Cultura colaborativa da equipe"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A ameaça vem do ambiente externo.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Qual informação deve acompanhar um indicador?",
+    "alternativas": [
+      "Somente uma cor decorativa",
+      "Apenas o nome do diretor",
+      "Número de páginas do relatório",
+      "Regra de cálculo e período de referência",
+      "Marca do computador"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Definição clara permite interpretar a medida.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Mapear o processo atual é registrar o:",
+    "alternativas": [
+      "To be",
+      "Payback",
+      "Churn",
+      "Markup",
+      "As is"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "As is representa o funcionamento existente.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Qual prática ajuda a executar a estratégia?",
+    "alternativas": [
+      "Definir responsáveis, recursos e acompanhamento",
+      "Listar ideias sem prioridade",
+      "Evitar revisar resultados",
+      "Separar metas de recursos",
+      "Trocar objetivos diariamente sem análise"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Execução exige organização e acompanhamento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Uma força na SWOT é:",
+    "alternativas": [
+      "Nova restrição externa",
+      "Competência interna relevante",
+      "Queda da demanda do mercado",
+      "Entrada de concorrente",
+      "Mudança desfavorável do câmbio"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Forças são características internas favoráveis.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Uma meta verificável deve indicar:",
+    "alternativas": [
+      "Somente intenção genérica",
+      "Apenas entusiasmo",
+      "Resultado esperado e prazo",
+      "Cor do material",
+      "Nome da sala"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Critérios objetivos permitem avaliar alcance.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Um processo transversal pode:",
+    "alternativas": [
+      "Existir somente na diretoria",
+      "Dispensar qualquer responsável",
+      "Ter apenas uma atividade obrigatoriamente",
+      "Passar por vários departamentos",
+      "Eliminar todas as entradas"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Muitos processos conectam funções diferentes.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Qual ação faz parte da gestão de riscos?",
+    "alternativas": [
+      "Prometer que nada dará errado",
+      "Ignorar sinais de alerta",
+      "Eliminar todos os registros",
+      "Avaliar apenas resultados passados",
+      "Identificar eventos incertos e suas consequências"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Riscos precisam ser reconhecidos e tratados.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "O mapa to be descreve:",
+    "alternativas": [
+      "Como o processo deverá funcionar",
+      "Apenas o passado distante",
+      "O balanço de abertura",
+      "Somente os cargos atuais",
+      "O valor do estoque"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "To be representa o desenho futuro proposto.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Adotar prática de outra empresa após análise e adaptação é:",
+    "alternativas": [
+      "Imitação sem critério",
+      "Benchmarking",
+      "Depreciação",
+      "Capitalização",
+      "Conciliação"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Benchmarking usa referências para aprender e melhorar.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Qual indicador é predominantemente antecedente de falhas de equipamento?",
+    "alternativas": [
+      "Quantidade de falhas já ocorridas",
+      "Custo de reparos passados",
+      "Percentual de manutenção preventiva executada",
+      "Número de paradas do mês encerrado",
+      "Horas perdidas no trimestre anterior"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A manutenção pode influenciar falhas futuras.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Automatizar um fluxo com etapas desnecessárias pode:",
+    "alternativas": [
+      "Eliminar todo desperdício por definição",
+      "Tornar a análise do processo inútil",
+      "Garantir satisfação do cliente",
+      "Reproduzir desperdícios mais rapidamente",
+      "Substituir a necessidade de dados corretos"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Digitalizar não corrige automaticamente o desenho do processo.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Qual conjunto integra o BSC tradicional?",
+    "alternativas": [
+      "Somente caixa, lucro, juros e dívida",
+      "Somente produção e vendas",
+      "Apenas recrutamento e seleção",
+      "Preço, praça, produto e promoção",
+      "Financeiro, clientes, processos internos e aprendizagem"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "O BSC relaciona quatro perspectivas de desempenho.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "O setor de análise conclui rápido, mas transfere erros à aprovação. Qual medida melhora a visão do processo?",
+    "alternativas": [
+      "Medir prazo total e retrabalho entre etapas",
+      "Premiar só o tempo da análise",
+      "Excluir os erros da medição",
+      "Otimizar cada setor sem coordenação",
+      "Aumentar formulários sem diagnóstico"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Métricas integradas evitam ganhos locais prejudiciais.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Uma iniciativa custa R$ 20 mil e reduz perdas esperadas de R$ 50 mil para R$ 15 mil. Qual benefício líquido esperado?",
+    "alternativas": [
+      "R$ 35 mil",
+      "R$ 15 mil",
+      "R$ 65 mil",
+      "−R$ 5 mil",
+      "R$ 5 mil"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A redução esperada é 35 mil; descontando o custo, restam 15 mil.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Uma capacidade é valiosa e rara, mas concorrentes podem copiá-la rapidamente. Qual limite existe?",
+    "alternativas": [
+      "A vantagem é garantidamente eterna",
+      "A capacidade deixa de ter qualquer valor",
+      "A vantagem tende a ser temporária",
+      "A raridade elimina a imitação",
+      "A organização não precisa explorar o recurso"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Imitação reduz a persistência da diferenciação.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Dois cenários econômicos plausíveis exigem respostas distintas. Qual uso estratégico é adequado?",
+    "alternativas": [
+      "Escolher um cenário como certeza absoluta",
+      "Somar as previsões como se fossem fatos",
+      "Ignorar incerteza",
+      "Preparar ações condicionais e sinais de acompanhamento",
+      "Adiar qualquer preparação até o evento ocorrer"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Cenários apoiam flexibilidade e preparação.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Estratégia e Processos",
+    "formato": "multipla",
+    "pergunta": "Uma meta de atendimento rápido gera encerramentos sem solução. O que isso evidencia?",
+    "alternativas": [
+      "Que rapidez sempre equivale a qualidade",
+      "Que indicadores não influenciam comportamento",
+      "Que o cliente deixou de importar",
+      "Que toda meta deve ser abolida",
+      "Incentivo mal alinhado ao resultado desejado"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "A medida deve refletir a solução, além da velocidade.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Qual documento orienta padrões de conduta na empresa?",
+    "alternativas": [
+      "Código de ética",
+      "Tabela de preços",
+      "Mapa de estoque",
+      "Escala de entrega",
+      "Catálogo de produtos"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O código explicita princípios e comportamentos esperados.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Um fornecedor oferece vantagem pessoal para vencer uma compra. Qual atitude é adequada?",
+    "alternativas": [
+      "Aceitar se o valor parecer baixo",
+      "Recusar e comunicar pelo canal apropriado",
+      "Ocultar a proposta",
+      "Alterar critérios para favorecê-lo",
+      "Dividir a vantagem com colegas"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A vantagem compromete a imparcialidade da decisão.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Antes de aceitar um contrato, deve-se:",
+    "alternativas": [
+      "Assinar sem leitura",
+      "Confiar apenas na capa",
+      "Compreender obrigações, prazos e condições",
+      "Ignorar cláusulas de pagamento",
+      "Verificar somente o logotipo"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "O compromisso deve ser assumido com conhecimento das condições.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Qual prática favorece transparência?",
+    "alternativas": [
+      "Apagar dados desfavoráveis",
+      "Omitir conflitos conhecidos",
+      "Alterar números sem registro",
+      "Registrar critérios e justificativas de uma decisão",
+      "Usar apenas acordos secretos"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Registros claros apoiam prestação de contas.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Uma informação sobre pessoa identificável é:",
+    "alternativas": [
+      "Sempre dado anônimo",
+      "Exclusivamente segredo industrial",
+      "Apenas informação financeira",
+      "Obrigatoriamente dado público sem proteção",
+      "Dado pessoal"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "O vínculo a pessoa identificada ou identificável caracteriza dado pessoal.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Qual princípio recomenda coletar apenas dados pertinentes à finalidade?",
+    "alternativas": [
+      "Necessidade",
+      "Superprodução",
+      "Centralização",
+      "Exclusividade comercial",
+      "Rotatividade"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A necessidade limita o tratamento ao mínimo adequado.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Qual exemplo é dado pessoal sensível na LGPD?",
+    "alternativas": [
+      "Preço de um produto sem vínculo pessoal",
+      "Informação de saúde vinculada a uma pessoa",
+      "Temperatura de uma máquina",
+      "Volume total de estoque",
+      "Nome de uma matéria-prima"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Dados de saúde pessoais integram a categoria sensível.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Ao perceber erro relevante em um relatório, a conduta adequada é:",
+    "alternativas": [
+      "Ocultar para cumprir a meta",
+      "Apagar o histórico",
+      "Comunicar e corrigir com registro",
+      "Transferir a culpa sem apuração",
+      "Repetir o erro no próximo período"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A correção transparente preserva a confiabilidade.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Uma decisão imparcial busca:",
+    "alternativas": [
+      "Beneficiar amigos do decisor",
+      "Ignorar evidências",
+      "Premiar quem oferece presentes",
+      "Aplicar critérios pertinentes sem favorecimento pessoal",
+      "Mudar critérios após conhecer o vencedor"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Imparcialidade exige critérios adequados e tratamento consistente.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Qual ação protege informação confidencial?",
+    "alternativas": [
+      "Enviar a todos os contatos pessoais",
+      "Publicar capturas sem avaliação",
+      "Usar a informação em benefício próprio",
+      "Abandonar documentos em local aberto",
+      "Compartilhar apenas com pessoas autorizadas e por canais adequados"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "A proteção depende de acesso e meios compatíveis.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Separar quem aprova e quem paga uma despesa aplica qual controle?",
+    "alternativas": [
+      "Segregação de funções",
+      "Concentração de autoridade",
+      "Ausência de conferência",
+      "Rodízio de clientes",
+      "Segmentação de mercado"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A separação reduz concentração de etapas críticas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Um gerente deve escolher empresa de um familiar. Qual primeiro cuidado é adequado?",
+    "alternativas": [
+      "Omitir o vínculo",
+      "Declarar o conflito e seguir o procedimento de avaliação independente",
+      "Garantir a contratação automática",
+      "Eliminar todas as outras propostas",
+      "Alterar registros depois da compra"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A declaração permite tratar o risco de favorecimento.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação",
+    "fonte": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Uma denúncia chegou sem documentação completa. Qual abordagem é adequada?",
+    "alternativas": [
+      "Condenar imediatamente o citado",
+      "Descartar por definição toda denúncia incompleta",
+      "Registrar e apurar de forma proporcional e imparcial",
+      "Divulgar nomes publicamente",
+      "Presumir que o denunciante sempre mente"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A apuração busca evidências e protege os envolvidos.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Um contrato contém obrigações contraditórias. O que fazer antes de assinar?",
+    "alternativas": [
+      "Escolher informalmente a parte mais conveniente",
+      "Ignorar a contradição",
+      "Assinar e apagar o trecho depois",
+      "Pedir esclarecimento e ajuste das condições",
+      "Presumir que não haverá consequências"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Ambiguidades devem ser resolvidas antes do compromisso.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Uma pessoa solicita dados sem necessidade para sua função. Qual resposta é adequada?",
+    "alternativas": [
+      "Enviar tudo para evitar demora",
+      "Conceder acesso permanente sem análise",
+      "Publicar os dados para simplificar",
+      "Pedir que use a senha de um colega",
+      "Verificar autorização e finalidade antes de conceder acesso"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "O acesso deve estar vinculado à necessidade e autorização.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação",
+    "fonte": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Um curso de ética foi concluído por todos, mas surgem fraudes. Qual conclusão é adequada?",
+    "alternativas": [
+      "Treinamento precisa ser acompanhado por controles e práticas coerentes",
+      "O certificado impede qualquer fraude",
+      "Todos os controles podem ser removidos",
+      "Fraudes deixam de ser relevantes",
+      "A responsabilidade é apenas do material didático"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Integridade depende de um conjunto de medidas.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "A empresa não recebe denúncias, mas empregados temem represálias. Qual interpretação é correta?",
+    "alternativas": [
+      "Ausência de relatos comprova ausência de problemas",
+      "O silêncio pode refletir insegurança para relatar",
+      "O canal é eficaz por definição",
+      "Aumentar punições ao denunciante resolve o problema",
+      "Somente o número de relatos basta para avaliar integridade"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A confiança no canal afeta sua utilização.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Uma exceção urgente ao processo de compras é necessária. Qual solução preserva melhor o controle?",
+    "alternativas": [
+      "Eliminar todos os critérios de compra",
+      "Pagar sem identificar o fornecedor",
+      "Justificar, aprovar por autoridade adequada e manter registro",
+      "Omitir a exceção do histórico",
+      "Aprovar verbalmente e descartar comprovantes"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Rastreabilidade e aprovação proporcional reduzem riscos da exceção.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Uma investigação usa apenas rumores repetidos por várias pessoas. Qual fragilidade existe?",
+    "alternativas": [
+      "Muitas repetições provam automaticamente o fato",
+      "A documentação se torna desnecessária",
+      "A origem da informação não importa",
+      "Repetição não substitui evidência independente e verificável",
+      "A apuração deve terminar sem exame"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Relatos podem derivar de uma única fonte não confirmada.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Direito, Legislação e Ética",
+    "formato": "multipla",
+    "pergunta": "Um fornecedor barato apresenta histórico comprovado de fraude relevante. Qual avaliação é mais adequada?",
+    "alternativas": [
+      "Ignorar o histórico por causa do desconto",
+      "Tratar preço como único critério",
+      "Presumir que contrato elimina todo risco",
+      "Dispensar verificação para fornecedores novos",
+      "Comparar preço com riscos de integridade e continuidade"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "O custo e o risco total vão além do preço de aquisição.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Qual sistema costuma integrar compras, estoque e finanças?",
+    "alternativas": [
+      "ERP",
+      "Editor de imagens",
+      "Reprodutor de áudio",
+      "Calculadora simples",
+      "Leitor de PDF"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "ERP integra processos e informações empresariais.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Uma ferramenta voltada ao relacionamento com clientes é:",
+    "alternativas": [
+      "Antivírus",
+      "CRM",
+      "Compactador de arquivos",
+      "Driver de impressora",
+      "Sistema de ventilação"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "CRM organiza dados e interações com clientes.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Qual prática ajuda a recuperar dados perdidos?",
+    "alternativas": [
+      "Usar a mesma senha em tudo",
+      "Apagar versões anteriores sem critério",
+      "Manter cópias de segurança e testar a restauração",
+      "Guardar somente na lixeira",
+      "Compartilhar todos os arquivos publicamente"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Backup útil precisa ser recuperável.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Uma mensagem pede senha com urgência em link desconhecido. O que fazer?",
+    "alternativas": [
+      "Enviar a senha para evitar bloqueio",
+      "Repassar o link a todos",
+      "Desativar verificações de segurança",
+      "Verificar a origem por canal confiável antes de agir",
+      "Usar a senha de outra pessoa"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Urgência e links suspeitos podem indicar phishing.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Qual recurso acrescenta uma segunda verificação ao login?",
+    "alternativas": [
+      "Ampliação do monitor",
+      "Compactação do arquivo",
+      "Formatação do texto",
+      "Mudança de papel de parede",
+      "Autenticação multifator"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "MFA exige um fator adicional de autenticação.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Qual dado ajuda a distinguir dois clientes com o mesmo nome?",
+    "alternativas": [
+      "Identificador único do cadastro",
+      "Cor do relatório",
+      "Número da página impressa",
+      "Nome do gerente",
+      "Data de instalação do sistema"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Identificadores evitam ambiguidades de nomes repetidos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "O histórico de versões permite:",
+    "alternativas": [
+      "Garantir que ninguém cometa erros",
+      "Acompanhar alterações de um documento",
+      "Substituir toda política de acesso",
+      "Eliminar a necessidade de salvar",
+      "Criar automaticamente contratos válidos"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Versões registram estados anteriores do documento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Um dashboard é usado principalmente para:",
+    "alternativas": [
+      "Substituir qualquer análise humana",
+      "Guardar exclusivamente senhas",
+      "Acompanhar indicadores relevantes",
+      "Formatar discos",
+      "Eliminar processos de gestão"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Painéis apresentam métricas para acompanhamento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Qual prática melhora a qualidade de um cadastro?",
+    "alternativas": [
+      "Aceitar qualquer formato sem revisão",
+      "Repetir registros para aumentar volume",
+      "Omitir identificadores",
+      "Validar campos e evitar duplicidades",
+      "Misturar datas e valores no mesmo campo"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Validação e identificação reduzem inconsistências.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Compartilhar um arquivo com permissão somente de leitura permite ao destinatário:",
+    "alternativas": [
+      "Alterar obrigatoriamente todos os dados",
+      "Assumir a propriedade automaticamente",
+      "Gerenciar todas as senhas",
+      "Acessar qualquer arquivo da empresa",
+      "Consultar sem editar pelo acesso concedido"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "A permissão limita a edição no sistema de compartilhamento.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Uma migração transferiu mil registros. Qual conferência é mais adequada?",
+    "alternativas": [
+      "Comparar quantidades, campos e amostras entre origem e destino",
+      "Verificar apenas a cor da tela",
+      "Apagar a origem antes de validar",
+      "Presumir sucesso pela ausência de mensagem",
+      "Conferir só o nome do sistema"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A validação deve avaliar completude e integridade.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Dois relatórios mostram receitas diferentes. Qual primeiro exame ajuda?",
+    "alternativas": [
+      "Trocar o computador do gestor",
+      "Comparar períodos, filtros e regras de reconhecimento",
+      "Apagar o relatório menor",
+      "Escolher o valor mais alto",
+      "Presumir fraude imediatamente"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Definições diferentes podem explicar a divergência.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Uma automação envia cobranças duplicadas. Qual ação é prioritária?",
+    "alternativas": [
+      "Aumentar a frequência dos envios",
+      "Ignorar reclamações",
+      "Investigar regras e controle de duplicidade antes de ampliar o uso",
+      "Excluir todos os registros de erro",
+      "Automatizar mais etapas sem diagnóstico"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A automação deve ser corrigida na causa.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Uma trilha de auditoria ajuda a responder:",
+    "alternativas": [
+      "Qual será o lucro garantido do ano",
+      "Qual candidato deve ser contratado automaticamente",
+      "Qual produto nunca terá defeitos",
+      "Quem realizou determinada ação e quando",
+      "Qual concorrente sairá do mercado"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Logs apoiam rastreabilidade das operações.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Uma resposta de IA cita números sem fonte. Qual conduta é adequada?",
+    "alternativas": [
+      "Tratar a fluência do texto como prova",
+      "Publicar sem revisão",
+      "Inventar uma referência",
+      "Ignorar divergências conhecidas",
+      "Conferir os dados em fontes confiáveis antes de usá-los"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "A aparência convincente não garante exatidão.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Uma integração fica indisponível temporariamente. Qual recurso ajuda a operação?",
+    "alternativas": [
+      "Registrar falhas e tratar novas tentativas de forma controlada",
+      "Descartar silenciosamente todos os pedidos",
+      "Repetir indefinidamente sem registro",
+      "Desativar autenticação",
+      "Assumir que nenhuma operação foi concluída"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Monitoramento e repetição segura reduzem perdas e duplicidades.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Um pagamento foi processado, mas a resposta não chegou ao cliente. Qual controle evita duplicá-lo ao tentar novamente?",
+    "alternativas": [
+      "Novo identificador a cada clique",
+      "Chave de idempotência por operação",
+      "Aumento do brilho da tela",
+      "Exclusão dos registros do pagamento",
+      "Reenvio sem consultar estado"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A mesma operação deve ser reconhecida e não executada duas vezes.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Uma conta de consulta recebe permissão para apagar toda a base. Qual princípio foi desrespeitado?",
+    "alternativas": [
+      "Economia de escala",
+      "Segmentação comercial",
+      "Menor privilégio",
+      "Custo médio",
+      "Rotação física"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A permissão excede a necessidade da função.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "O backup existe, mas a restauração falha. Qual conclusão é correta?",
+    "alternativas": [
+      "O backup é suficiente apenas por existir",
+      "A falha prova que não houve cópia",
+      "A restauração é irrelevante",
+      "A recuperação não está garantida e precisa ser corrigida e testada",
+      "O histórico de arquivos substitui qualquer teste"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "O objetivo do backup é permitir recuperação efetiva.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Tecnologia e Ferramentas Administrativas",
+    "formato": "multipla",
+    "pergunta": "Uma empresa digitaliza formulários sem revisar campos duplicados e aprovações inúteis. Qual risco ocorre?",
+    "alternativas": [
+      "Eliminar todos os gargalos automaticamente",
+      "Garantir qualidade por usar software",
+      "Dispensar treinamento e governança",
+      "Reduzir necessariamente todas as etapas",
+      "Transferir ineficiências do processo para o sistema"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "A tecnologia não substitui o redesenho necessário do processo.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Qual referência indica coluna C e linha 5?",
+    "alternativas": [
+      "C5",
+      "5C",
+      "C:5:1",
+      "LinhaC",
+      "Coluna5"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O padrão combina a letra da coluna com o número da linha.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Em Excel em português, qual fórmula soma de B2 até B6?",
+    "alternativas": [
+      "=MÉDIA(B2:B6)",
+      "=SOMA(B2:B6)",
+      "=MÁXIMO(B2:B6)",
+      "=MÍNIMO(B2:B6)",
+      "=CONT.NÚM(B2:B6)"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "SOMA adiciona os valores do intervalo completo.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "B1 contém 10, B2 contém 20 e B3 contém 30. Quanto retorna =MÉDIA(B1:B3)?",
+    "alternativas": [
+      "60",
+      "10",
+      "20",
+      "30",
+      "3"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A soma 60 dividida por três valores resulta em 20.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Qual recurso mantém os cabeçalhos visíveis durante a rolagem?",
+    "alternativas": [
+      "Remover Duplicatas",
+      "Proteger Pasta",
+      "Localizar e Substituir",
+      "Congelar Painéis",
+      "Classificar Z a A"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Congelar mantém linhas ou colunas na área visível.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "O filtro de uma lista serve para:",
+    "alternativas": [
+      "Apagar todos os registros ocultos",
+      "Converter texto em moeda automaticamente",
+      "Bloquear edição em toda a pasta",
+      "Criar uma cópia física do arquivo",
+      "Exibir registros que atendem a critérios"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "O filtro muda a visualização, sem excluir os dados.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Qual função retorna o maior número de um intervalo?",
+    "alternativas": [
+      "MÁXIMO",
+      "MÍNIMO",
+      "MÉDIA",
+      "CONT.SE",
+      "SOMASE"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "MÁXIMO identifica o maior valor numérico.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Para destacar automaticamente despesas acima do orçamento, use:",
+    "alternativas": [
+      "Congelar painéis",
+      "Formatação condicional",
+      "Quebra de página",
+      "Zoom",
+      "Cabeçalho de impressão"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A regra pode destacar células conforme valores.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Qual símbolo fixa partes de uma referência de célula?",
+    "alternativas": [
+      "%",
+      "&",
+      "$",
+      "!",
+      "#"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "O cifrão torna absoluta a coluna ou a linha indicada.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Com A1=5, qual resultado de =SE(A1>=5;\"Sim\";\"Não\")?",
+    "alternativas": [
+      "Não",
+      "5",
+      "0",
+      "Sim",
+      "Erro obrigatório"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Cinco atende à condição maior ou igual a cinco.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Para mostrar vendas ao longo de 12 meses, qual gráfico é geralmente adequado?",
+    "alternativas": [
+      "Organograma",
+      "Fluxograma",
+      "Diagrama de rede sem eixo temporal",
+      "Mapa de assentos",
+      "Linhas"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Linhas facilitam visualizar evolução temporal.",
+    "dificuldade": "Fácil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Ao copiar =A2*B2 da linha 2 para a linha 3, o resultado da fórmula escrita é:",
+    "alternativas": [
+      "=A3*B3",
+      "=A2*B2",
+      "=$A$2*$B$2",
+      "=A4*B4",
+      "=B2*C2"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Referências relativas acompanham o deslocamento de uma linha.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Qual referência mantém coluna A e linha 1 fixas?",
+    "alternativas": [
+      "A1",
+      "$A$1",
+      "A$1",
+      "$A1",
+      "A2"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Os dois cifrões fixam ambas as dimensões.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Para contar quantas células de A2:A20 contêm \"Pago\", qual fórmula é adequada?",
+    "alternativas": [
+      "=SOMA(A2:A20)",
+      "=MÉDIA(A2:A20)",
+      "=CONT.SE(A2:A20;\"Pago\")",
+      "=MÁXIMO(A2:A20)",
+      "=CONT.NÚM(A2:A20)"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "CONT.SE conta células que satisfazem o critério.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Categorias estão em A2:A10 e valores em B2:B10. Como somar apenas a categoria \"Frete\"?",
+    "alternativas": [
+      "=SOMA(B2:B10)",
+      "=CONT.SE(A2:A10;\"Frete\")",
+      "=MÉDIA(B2:B10)",
+      "=SOMASE(A2:A10;\"Frete\";B2:B10)",
+      "=MÁXIMO(B2:B10)"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "SOMASE testa a categoria e soma os valores correspondentes.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Qual recurso resume uma base de vendas por vendedor e mês?",
+    "alternativas": [
+      "Somente o zoom",
+      "Congelar primeira coluna",
+      "Visualização de quebra de página",
+      "Verificação ortográfica",
+      "Tabela Dinâmica"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "A Tabela Dinâmica agrupa dimensões e agrega valores.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "No PROCX disponível no Excel Microsoft 365, qual correspondência é usada por padrão?",
+    "alternativas": [
+      "Exata",
+      "Sempre o menor valor",
+      "Sempre o maior valor",
+      "Aproximada sem critério",
+      "Aleatória"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O modo padrão busca correspondência exata.",
+    "dificuldade": "Médio",
+    "tipo": "Excel Microsoft 365 • pt-BR",
+    "fonte": "https://support.microsoft.com/pt-br/excel/functions/xlookup-function"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "A fórmula =$B2*C$1 está em D2. Copiada para E3, torna-se:",
+    "alternativas": [
+      "=$C3*D$2",
+      "=$B3*D$1",
+      "=$B2*C$1",
+      "=B3*D1",
+      "=$B3*C$1"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O deslocamento é uma coluna e uma linha, respeitando as partes fixas.",
+    "dificuldade": "Difícil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Uma turma de 10 alunos tem média 8 e outra de 30 tem média 6. Qual média conjunta correta?",
+    "alternativas": [
+      "7",
+      "7,5",
+      "6,5",
+      "6",
+      "8"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "A média ponderada é (10×8+30×6)/40=6,5.",
+    "dificuldade": "Difícil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Um relatório troca todo erro de busca por zero com SEERRO. Qual risco existe?",
+    "alternativas": [
+      "Eliminar todos os problemas de cadastro",
+      "Garantir reconciliação automática",
+      "Corrigir toda chave duplicada",
+      "Confundir dado ausente ou inválido com valor real zero",
+      "Provar que a base está completa"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "O tratamento visual pode esconder a causa do erro.",
+    "dificuldade": "Difícil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Excel",
+    "formato": "multipla",
+    "pergunta": "Dois valores são 0,014 e 0,014. Arredondando cada um a duas casas e somando, versus somando antes de arredondar, obtém-se:",
+    "alternativas": [
+      "0,03 e 0,02",
+      "0,02 e 0,02",
+      "0,03 e 0,03",
+      "0,04 e 0,03",
+      "0,02 e 0,03"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Cada parcela vira 0,01; o total original 0,028 arredonda para 0,03.",
+    "dificuldade": "Difícil",
+    "tipo": "Excel Microsoft 365 • pt-BR"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Uma família compra menos com o mesmo salário nominal após alta generalizada de preços. Qual fenômeno explica isso?",
+    "alternativas": [
+      "Perda de poder de compra pela inflação",
+      "Aumento obrigatório da renda real",
+      "Deflação generalizada",
+      "Queda de todos os preços",
+      "Eliminação do custo de vida"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A inflação reduz o poder de compra quando a renda nominal não acompanha.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "O PIB de um período representa principalmente:",
+    "alternativas": [
+      "Saldo da conta bancária do governo",
+      "Produção de bens e serviços finais",
+      "Soma de todas as fortunas pessoais",
+      "Somente exportações agrícolas",
+      "Apenas a receita tributária"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "PIB é medida de produção econômica no período.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.ibge.gov.br/explica/pib.php"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Uma empresa compra US$ 1.000. Sem taxas, com dólar a R$ 5, quanto paga?",
+    "alternativas": [
+      "R$ 1.000",
+      "R$ 200",
+      "R$ 5.000",
+      "R$ 6.000",
+      "R$ 50.000"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Multiplica-se o valor em dólares pela cotação em reais.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://bcb.gov.br/estabilidadefinanceira/oqueecambio"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Qual variável influencia diretamente o custo de empréstimos no Brasil?",
+    "alternativas": [
+      "Somente o nome do banco",
+      "A cor do cartão",
+      "O tamanho do logotipo",
+      "Taxa Selic",
+      "O número de salas da empresa"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "A Selic influencia juros, embora não determine sozinha a taxa final.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Uma previsão publicada para o crescimento do ano seguinte deve ser tratada como:",
+    "alternativas": [
+      "Resultado já realizado",
+      "Garantia contratual de vendas",
+      "Valor imutável",
+      "Dado sem qualquer possibilidade de revisão",
+      "Estimativa condicionada a hipóteses"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Projeções incorporam hipóteses e incerteza.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Qual atividade representa importação?",
+    "alternativas": [
+      "Comprar equipamento de fornecedor estrangeiro",
+      "Vender para outro bairro da mesma cidade",
+      "Transferir mercadoria entre depósitos próprios locais",
+      "Contratar funcionário da mesma unidade",
+      "Pagar aluguel nacional"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Importação envolve aquisição no exterior.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Se a inflação passa de 8% para 5%, o que se pode afirmar?",
+    "alternativas": [
+      "Todos os preços caíram 3%",
+      "O ritmo de aumento dos preços diminuiu",
+      "O nível de preços necessariamente ficou igual",
+      "O poder de compra sempre aumentou",
+      "O PIB obrigatoriamente caiu"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Inflação menor não equivale a deflação.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos",
+    "fonte": "https://www.ibge.gov.br/explica/inflacao.php"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Uma transportadora acompanha petróleo e combustíveis porque eles podem afetar:",
+    "alternativas": [
+      "Apenas o nome da empresa",
+      "Somente o número de acionistas",
+      "Seus custos operacionais",
+      "Exclusivamente sua identidade visual",
+      "A validade das senhas"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Energia e combustíveis integram sua estrutura de custos.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Qual indicador pode ajudar a avaliar a capacidade de consumo das famílias?",
+    "alternativas": [
+      "Somente quantidade de logotipos",
+      "Apenas o número de empresas listadas",
+      "Cor da moeda",
+      "Renda real",
+      "Tamanho dos anúncios"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "Renda real considera poder de compra.",
+    "dificuldade": "Fácil",
+    "tipo": "Fundamentos"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Na meta contínua brasileira iniciada em 2025, a inflação em doze meses é verificada:",
+    "alternativas": [
+      "Somente a cada dez anos",
+      "Apenas no dia de uma eleição",
+      "Uma única vez na implantação",
+      "Exclusivamente em dezembro",
+      "Mensalmente"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "O novo regime acompanha mensalmente o acumulado de doze meses.",
+    "dificuldade": "Fácil",
+    "tipo": "Atualidades • regime desde 2025",
+    "fonte": "https://bcb.gov.br/controleinflacao/historicometas",
+    "dataReferencia": "2025-01-01"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Uma dívida de US$ 10 mil é convertida de câmbio R$ 5 para R$ 6, sem outros efeitos. Quanto aumenta em reais?",
+    "alternativas": [
+      "R$ 10 mil",
+      "R$ 1 mil",
+      "R$ 60 mil",
+      "R$ 50 mil",
+      "Não aumenta"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O valor passa de 50 mil para 60 mil reais.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação",
+    "fonte": "https://bcb.gov.br/estabilidadefinanceira/oqueecambio"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Uma empresa elevou receita nominal em 10% com preços 10% maiores e mix constante. Qual hipótese é compatível?",
+    "alternativas": [
+      "Volume obrigatoriamente 10% maior",
+      "Volume vendido constante",
+      "Volume necessariamente 20% maior",
+      "Preços sem efeito na receita",
+      "Inflação igual a zero"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O aumento de preço pode explicar toda a variação nominal.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Uma tarifa de 10% incide sobre base de R$ 20 mil, sem outros encargos. Qual valor da tarifa?",
+    "alternativas": [
+      "R$ 20 mil",
+      "R$ 200",
+      "R$ 2 mil",
+      "R$ 22 mil",
+      "R$ 10 mil"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "Dez por cento de 20 mil são 2 mil.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Segundo a edição de julho de 2026 do FMI, qual crescimento mundial era projetado para 2026?",
+    "alternativas": [
+      "0,3%",
+      "7,0%",
+      "10,0%",
+      "3,0%",
+      "−3,0%"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "O WEO de julho de 2026 projetou 3,0%; trata-se de previsão daquela edição.",
+    "dificuldade": "Médio",
+    "tipo": "Atualidades • FMI julho/2026",
+    "fonte": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+    "dataReferencia": "2026-07-08"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Um setor cresce enquanto outro retrai. Qual conclusão sobre a economia agregada é correta?",
+    "alternativas": [
+      "Todos os setores necessariamente tiveram o mesmo resultado",
+      "O PIB não pode ser calculado",
+      "Uma retração setorial prova queda de todo o país",
+      "O setor menor determina sozinho a economia",
+      "O resultado agregado pode esconder desempenhos setoriais diferentes"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "Agregados combinam atividades com pesos e dinâmicas distintos.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Diante de fornecedores concentrados em uma região instável, qual medida reduz dependência?",
+    "alternativas": [
+      "Avaliar fontes alternativas e planos de continuidade",
+      "Eliminar todos os contratos sem análise",
+      "Aumentar concentração sem avaliar risco",
+      "Ignorar prazos de transporte",
+      "Pressupor que risco externo não afeta compras"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Alternativas podem mitigar concentração, sem garantir risco zero.",
+    "dificuldade": "Médio",
+    "tipo": "Aplicação"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Uma exportadora recebe US$ 100 mil e paga US$ 70 mil em insumos, no mesmo período. Antes de outros efeitos, qual exposição líquida?",
+    "alternativas": [
+      "Dívida líquida de US$ 170 mil",
+      "Receita líquida de US$ 30 mil",
+      "Receita líquida de US$ 170 mil",
+      "Exposição nula",
+      "Dívida líquida de US$ 30 mil"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Recebimentos menos pagamentos resultam em 30 mil dólares.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise",
+    "fonte": "https://bcb.gov.br/estabilidadefinanceira/oqueecambio"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "A receita nominal subiu 21% e os preços médios 10%, com mix constante. Qual crescimento do volume?",
+    "alternativas": [
+      "11%",
+      "21%",
+      "10%",
+      "31%",
+      "1%"
+    ],
+    "respostaCorreta": 2,
+    "explicacao": "O fator de volume é 1,21 dividido por 1,10, igual a 1,10.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "Qual decisão orçamentária é mais adequada quando juros e câmbio são incertos?",
+    "alternativas": [
+      "Usar uma única previsão como certeza",
+      "Ignorar despesas financeiras",
+      "Converter todas as hipóteses em fatos",
+      "Simular cenários e avaliar impactos no caixa",
+      "Eliminar acompanhamento durante o ano"
+    ],
+    "respostaCorreta": 3,
+    "explicacao": "A sensibilidade mostra a exposição às hipóteses.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise",
+    "fonte": "https://www.bcb.gov.br/controleinflacao/"
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "formato": "multipla",
+    "pergunta": "O banco central reduz juros, mas investimentos não reagem imediatamente. Qual explicação é plausível?",
+    "alternativas": [
+      "Juros nunca influenciam decisões",
+      "Todo investimento deve reagir no mesmo dia",
+      "A redução prova recessão em todos os setores",
+      "O custo de capital deixou de existir",
+      "A transmissão tem defasagens e depende de crédito, expectativas e demanda"
+    ],
+    "respostaCorreta": 4,
+    "explicacao": "O efeito monetário não é automático nem uniforme.",
+    "dificuldade": "Difícil",
+    "tipo": "Análise",
+    "fonte": "https://www.bcb.gov.br/controleinflacao/transmissaopoliticamonetaria"
+  }
+]

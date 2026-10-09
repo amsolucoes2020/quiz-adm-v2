@@ -1,0 +1,189 @@
+[
+  {
+    "disciplina": "Excel",
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos e definições",
+    "formato": "multipla",
+    "pergunta": "O que é uma pasta de trabalho no Excel?",
+    "alternativas": [
+      "Um arquivo que pode conter uma ou mais planilhas",
+      "Uma única célula selecionada",
+      "Um tipo de gráfico financeiro",
+      "Uma fórmula que soma colunas",
+      "Uma regra de formatação condicional"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A pasta de trabalho é o arquivo do Excel que reúne planilhas e outros elementos, como gráficos."
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos e definições",
+    "formato": "multipla",
+    "pergunta": "O que é taxa de câmbio?",
+    "alternativas": [
+      "O preço de uma moeda expresso em outra moeda",
+      "A taxa de crescimento da população",
+      "A soma de todos os impostos do país",
+      "A quantidade de trabalhadores empregados",
+      "O valor total das exportações"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A taxa de câmbio expressa a relação de preço entre duas moedas."
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos e definições",
+    "formato": "multipla",
+    "pergunta": "O que caracteriza a política fiscal?",
+    "alternativas": [
+      "Decisões do governo sobre receitas e despesas públicas",
+      "Definição das metas de vendas de uma empresa",
+      "Escolha de embalagens para exportação",
+      "Gestão de estoques de uma indústria",
+      "Registro de patentes de produtos"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A política fiscal envolve instrumentos de arrecadação e gasto público."
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos e definições",
+    "formato": "multipla",
+    "pergunta": "O que significa política monetária?",
+    "alternativas": [
+      "A atuação sobre as condições monetárias e de crédito da economia",
+      "A definição de cargos no serviço público",
+      "O planejamento de rotas de transporte",
+      "A fiscalização da qualidade dos produtos",
+      "A escolha dos produtos vendidos no varejo"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A política monetária utiliza instrumentos como a taxa de juros para influenciar as condições monetárias e de crédito."
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos e definições",
+    "formato": "multipla",
+    "pergunta": "O que é a balança comercial de bens?",
+    "alternativas": [
+      "O registro das exportações e importações de mercadorias de uma economia",
+      "O total de salários pagos pelo governo",
+      "A soma dos lucros de todos os bancos",
+      "A medida do desemprego de um país",
+      "O cadastro de empresas prestadoras de serviços"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "A balança comercial de bens registra as exportações e as importações de mercadorias."
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "dificuldade": "Fácil",
+    "tipo": "Conceitos e definições",
+    "formato": "multipla",
+    "pergunta": "Qual é a definição de PIB real?",
+    "alternativas": [
+      "O valor da produção medido a preços constantes, descontando o efeito da variação de preços",
+      "O valor da produção medido apenas em moeda estrangeira",
+      "O saldo de caixa do governo no fim do ano",
+      "O total de empréstimos das empresas",
+      "A soma dos preços de todos os produtos importados"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O PIB real utiliza preços constantes para medir a evolução da produção sem confundi-la com a variação de preços."
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "dificuldade": "Médio",
+    "tipo": "Conceitos e definições",
+    "formato": "vf",
+    "pergunta": "Deflação é a queda do nível geral de preços de uma economia.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Deflação corresponde à redução do nível geral de preços; difere de desinflação, que é a redução da taxa de inflação."
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "dificuldade": "Médio",
+    "tipo": "Conceitos e definições",
+    "formato": "vf",
+    "pergunta": "Desinflação é o aumento da taxa de inflação.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "Desinflação é a diminuição da taxa de inflação, sem exigir queda do nível geral de preços."
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "dificuldade": "Médio",
+    "tipo": "Conceitos e definições",
+    "formato": "vf",
+    "pergunta": "Custo de oportunidade é o valor da melhor alternativa abandonada em uma escolha.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "O custo de oportunidade representa o benefício da melhor alternativa de que se abre mão."
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "dificuldade": "Médio",
+    "tipo": "Conceitos e definições",
+    "formato": "vf",
+    "pergunta": "Escassez econômica significa que os recursos disponíveis são ilimitados.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "A escassez decorre da limitação dos recursos diante de necessidades e desejos concorrentes."
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "dificuldade": "Médio",
+    "tipo": "Conceitos e definições",
+    "formato": "vf",
+    "pergunta": "Bens complementares são bens cujo consumo está relacionado ao uso conjunto.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Bens complementares tendem a ser utilizados em conjunto para atender uma necessidade."
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "dificuldade": "Médio",
+    "tipo": "Conceitos e definições",
+    "formato": "vf",
+    "pergunta": "Monopólio é uma estrutura de mercado caracterizada pela presença de muitos vendedores de produtos idênticos.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 1,
+    "explicacao": "O monopólio caracteriza-se pela presença de um único ofertante no mercado relevante, com barreiras à entrada."
+  },
+  {
+    "disciplina": "Economia e Atualidades",
+    "dificuldade": "Médio",
+    "tipo": "Conceitos e definições",
+    "formato": "vf",
+    "pergunta": "Externalidade é um efeito de uma atividade sobre terceiros que não é integralmente refletido nos preços de mercado.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "respostaCorreta": 0,
+    "explicacao": "Externalidades podem representar custos ou benefícios para terceiros não integralmente incorporados aos preços."
+  }
+]

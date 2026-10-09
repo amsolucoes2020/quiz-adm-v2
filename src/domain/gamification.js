@@ -1,3 +1,5 @@
+import { EXTRA_MISSIONS, EXTRA_ACHIEVEMENTS } from './challenges.js';
+import { AREAS_ADMINISTRACAO } from './questions.js';
 import { getPeriods } from './periods.js';
 
 // Tabela Oficial de Conquistas Permanentes + Secretas
@@ -25,36 +27,53 @@ export const CONQUISTAS_SISTEMA = [
   // 🏅 Categorias / Disciplinas
   { id: 'cat_1', cat: 'Categorias', nome: 'Explorador', desc: 'Responder ≥10 questões em 3 categorias', icone: '🗺️', xp: 50, secreta: false, checar: (u) => Object.keys(u.categoriasRespondidas || {}).filter(k => u.categoriasRespondidas[k] >= 10).length >= 3 },
   { id: 'cat_2', cat: 'Categorias', nome: 'Multidisciplinar', desc: 'Responder questões em 5 categorias', icone: '🧩', xp: 100, secreta: false, checar: (u) => Object.keys(u.categoriasRespondidas || {}).length >= 5 },
-  { id: 'cat_3', cat: 'Categorias', nome: 'Generalista', desc: 'Responder questões nas 10 categorias', icone: '🎓', xp: 200, secreta: false, checar: (u) => Object.keys(u.categoriasRespondidas || {}).length >= 10 },
+  { id: 'cat_3', cat: 'Categorias', nome: 'Generalista', desc: `Responder questões nas ${AREAS_ADMINISTRACAO.length} categorias`, icone: '🎓', xp: 200, secreta: false, checar: (u) => AREAS_ADMINISTRACAO.every(area => (u.categoriasRespondidas?.[area] || 0) > 0) },
 
   // 🔒 Conquistas Secretas (Ocultas até desbloquear)
   { id: 'sec_1', cat: 'Secreta', nome: 'Velocista ADM', desc: 'Respondeu e acertou uma questão em menos de 5s', icone: '⚡', xp: 100, secreta: true, checar: (_, __, tempoRestante) => tempoRestante > 55 },
   { id: 'sec_2', cat: 'Secreta', nome: 'Perfeição Absoluta', desc: 'Concluiu um quiz com 100% sem cometer erros', icone: '💎', xp: 200, secreta: true, checar: (_, acertosQuiz) => acertosQuiz === 10 },
-  { id: 'sec_3', cat: 'Secreta', nome: 'Coruja da Madrugada', desc: 'Estudou e concluiu um quiz no turno da noite/madrugada', icone: '🦉', xp: 80, secreta: true, checar: (_, acertosQuiz) => { const h = getPeriods().hour; return acertosQuiz >= 0 && (h >= 22 || h < 4); } }
+  { id: 'sec_3', cat: 'Secreta', nome: 'Coruja da Madrugada', desc: 'Estudou e concluiu um quiz no turno da noite/madrugada', icone: '🦉', xp: 80, secreta: true, checar: (_, acertosQuiz) => { const h = getPeriods().hour; return acertosQuiz >= 0 && (h >= 22 || h < 4); } },
+  ...EXTRA_ACHIEVEMENTS
 ];
 
-// Array Completo de Missões (DEFAULT_MISSIONS) - 3 Diárias | 5 Semanais | 8 Mensais
+// Three daily tracks: practice, learning and a rotating category. Refreshing never rerolls them.
 export const DEFAULT_MISSIONS = [
-  // 🟢 Diárias (3)
-  { id: 'dia_1', tipo: 'Diária', nome: 'Primeiro Bloco', desc: 'Completar 1 quiz completo', alvo: 1, xp: 30, progresso: (u) => u.progressoMissoes?.quizzesHoje || 0 },
-  { id: 'dia_2', tipo: 'Diária', nome: 'Foco Diário', desc: 'Obter 3 acertos em questões hoje', alvo: 3, xp: 35, progresso: (u) => u.progressoMissoes?.acertosHoje || 0 },
-  { id: 'dia_3', tipo: 'Diária', nome: 'Meta do Dia', desc: 'Obter 5 acertos em questões hoje', alvo: 5, xp: 50, progresso: (u) => u.progressoMissoes?.acertosHoje || 0 },
-
-  // 🔵 Semanais (5)
-  { id: 'sem_1', tipo: 'Semanal', nome: 'Maratona Semanal', desc: 'Completar 5 quizzes nesta semana', alvo: 5, xp: 100, progresso: (u) => u.progressoMissoes?.quizzesSemana || 0 },
-  { id: 'sem_2', tipo: 'Semanal', nome: 'Construindo Base', desc: 'Obter 15 acertos esta semana', alvo: 15, xp: 120, progresso: (u) => u.progressoMissoes?.acertosSemana || 0 },
-  { id: 'sem_3', tipo: 'Semanal', nome: 'Domínio Semanal', desc: 'Obter 30 acertos esta semana', alvo: 30, xp: 180, progresso: (u) => u.progressoMissoes?.acertosSemana || 0 },
-  { id: 'sem_4', tipo: 'Semanal', nome: 'Mestre da Semana', desc: 'Completar 10 quizzes nesta semana', alvo: 10, xp: 220, progresso: (u) => u.progressoMissoes?.quizzesSemana || 0 },
-  { id: 'sem_5', tipo: 'Semanal', nome: 'Precisão Cirúrgica', desc: 'Completar 1 quiz com 100% de precisão (10/10)', alvo: 1, xp: 200, progresso: (u) => u.progressoMissoes?.quizzesPerfeitosSemana || 0 },
-
-  // 🔴 Mensais (8)
-  { id: 'men_1', tipo: 'Mensal', nome: 'Ritmo Mensal', desc: 'Completar 20 quizzes durante o mês', alvo: 20, xp: 300, progresso: (u) => u.quizzesRealizadosMes || 0 },
-  { id: 'men_2', tipo: 'Mensal', nome: 'Meio Caminho', desc: 'Obter 50 acertos no mês', alvo: 50, xp: 250, progresso: (u) => u.questoesAcertadasMes || 0 },
-  { id: 'men_3', tipo: 'Mensal', nome: 'Centena', desc: 'Obter 100 acertos no mês', alvo: 100, xp: 400, progresso: (u) => u.questoesAcertadasMes || 0 },
-  { id: 'men_4', tipo: 'Mensal', nome: 'Acúmulo de XP', desc: 'Alcançar 2500 XP na temporada atual', alvo: 2500, xp: 500, progresso: (u) => u.xpTemporada || 0 },
-  { id: 'men_5', tipo: 'Mensal', nome: 'Consistência de Aço', desc: 'Completar 50 quizzes no mês', alvo: 50, xp: 600, progresso: (u) => u.quizzesRealizadosMes || 0 },
-  { id: 'men_6', tipo: 'Mensal', nome: 'Subindo de Nível', desc: 'Alcançar o Nível 5 de progresso', alvo: 5, xp: 350, progresso: (u) => Math.floor((u.pontuacaoGeral || 0) / 500) + 1 },
-  { id: 'men_7', tipo: 'Mensal', nome: 'Perfeição Constante', desc: 'Completar 5 quizzes sem errar nada (100% de precisão)', alvo: 5, xp: 500, progresso: (u) => u.progressoMissoes?.quizzesPerfeitosMes || 0 },
-  { id: 'men_8', tipo: 'Mensal', nome: 'Lenda do Mês', desc: 'Obter 300 acertos acumulados no mês', alvo: 300, xp: 800, progresso: (u) => u.questoesAcertadasMes || 0 }
+  { id:'dia_1', tipo:'Diária', nome:'Dez por dia', desc:'Responda 10 questões diferentes hoje', alvo:10, xp:30, progresso:u=>u.questoesRespondidasHoje?.length || 0 },
+  { id:'dia_2', tipo:'Diária', nome:'Cinco acertos', desc:'Acerte 5 questões diferentes hoje', alvo:5, xp:30, progresso:u=>u.progressoMissoes?.acertosHoje || 0 },
+  { id:'dia_3', tipo:'Diária', nome:'Explore', desc:'Responda em 2 categorias hoje', alvo:2, xp:30, progresso:u=>u.categoriasHoje?.length || 0 },
+  { id:'dia_4', tipo:'Diária', nome:'Uma partida', desc:'Complete 1 partida de 10 questões', alvo:1, xp:30, progresso:u=>u.progressoMissoes?.quizzesHoje || 0 },
+  { id:'dia_5', tipo:'Diária', nome:'Desafio diário', desc:'Acerte 3 questões difíceis ou especialistas diferentes', alvo:3, xp:40, progresso:u=>u.dificeisHoje || 0 },
+  { id:'sem_1', tipo:'Semanal', nome:'Ritmo semanal', desc:'Responda 50 questões na semana (repetições no mesmo dia não contam)', alvo:50, xp:150, progresso:u=>u.respostasSemana || 0 },
+  { id:'sem_2', tipo:'Semanal', nome:'Novos horizontes', desc:'Responda em 4 categorias na semana', alvo:4, xp:150, progresso:u=>u.categoriasSemana?.length || 0 },
+  { id:'sem_3', tipo:'Semanal', nome:'Precisão semanal', desc:'Tenha 80% de acertos em pelo menos 30 questões da semana', alvo:30, xp:200, progresso:u=>(u.progressoMissoes?.acertosSemana || 0)/Math.max(1,u.respostasSemana || 0)>=0.8 ? u.respostasSemana : 0 },
+  { id:'men_1', tipo:'Mensal', nome:'Duzentas questões', desc:'Responda 200 questões no mês (repetições no mesmo dia não contam)', alvo:200, xp:500, progresso:u=>u.questoesRespondidasMes || 0 },
+  { id:'men_2', tipo:'Mensal', nome:'Visão completa', desc:`Responda nas ${AREAS_ADMINISTRACAO.length} categorias no mês`, alvo:AREAS_ADMINISTRACAO.length, xp:500, progresso:u=>AREAS_ADMINISTRACAO.filter(area=>u.categoriasMes?.includes(area)).length },
+  { id:'men_3', tipo:'Mensal', nome:'Presença constante', desc:'Estude em 15 dias do mês: 5 questões diferentes por dia', alvo:15, xp:700, progresso:u=>u.diasAtivosMes?.length || 0 },
+  { id:'men_4', tipo:'Mensal', nome:'Vinte partidas', desc:'Complete 20 partidas de 10 questões no mês', alvo:20, xp:600, progresso:u=>u.quizzesRealizadosMes || 0 },
+  ...EXTRA_MISSIONS
 ];
-
+export function activeMissions(now = new Date()) {
+  const day = Math.floor(Date.parse(getPeriods(now).day+'T12:00:00Z')/86400000);
+  const general = DEFAULT_MISSIONS.filter(m=>/^dia_[1-5]$/.test(m.id));
+  const learning = DEFAULT_MISSIONS.filter(m=>m.tipo==='Diária' && !/^dia_[1-5]$/.test(m.id) && !m.id.startsWith('dia_area_'));
+  const areas = DEFAULT_MISSIONS.filter(m=>m.id.startsWith('dia_area_'));
+  const selected = [general[day % general.length].id, learning[day % learning.length].id, areas[day % areas.length].id];
+  return DEFAULT_MISSIONS.filter(m=>m.tipo!=='Diária' || selected.includes(m.id));
+}
+export const QUESTION_XP = { 'Fácil':10, 'Médio':20, 'Difícil':30, 'Especialista':50 };
+export const COMBO_XP = {3:10, 5:20, 10:30};
+export const performanceBonus = correct => correct===10 ? 60 : correct>=9 ? 40 : correct>=7 ? 20 : 0;
+export const CAREER = [
+  {nome:'Aprendiz',xp:0}, {nome:'Assistente',xp:500}, {nome:'Analista',xp:1500},
+  {nome:'Supervisor',xp:3000}, {nome:'Coordenador',xp:5000}, {nome:'Gerente',xp:8000}, {nome:'Diretor',xp:12000}
+];
+export function careerProgress(xp=0) {
+  const index = CAREER.findLastIndex(level=>xp>=level.xp);
+  const current = CAREER[Math.max(0,index)], next = CAREER[index+1];
+  return {...current, level:Math.max(0,index)+1, next, percent:next ? Math.max(0,Math.min(100,(xp-current.xp)/(next.xp-current.xp)*100)) : 100};
+}
+export function dailyStreak(data, now=new Date()) {
+  const day = getPeriods(now).day;
+  const gap=(Date.parse(day)-Date.parse(data.ultimoDiaSequencia))/86400000;
+  return gap<=1 ? data.sequenciaDias || 0 : 0;
+}
