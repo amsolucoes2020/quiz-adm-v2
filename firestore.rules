@@ -31,10 +31,15 @@ service cloud.firestore {
     function validQuestion(d) {
       let f=d.get('formato','multipla');
       return d.keys().hasAll(['disciplina','dificuldade','tipo','pergunta','alternativas','explicacao'])
-        && d.keys().hasOnly(['disciplina','dificuldade','tipo','pergunta','alternativas','explicacao','formato','respostaCorreta','respostasCorretas','explicacoesAlternativas','fonte','dataReferencia'])
+        && d.keys().hasOnly(['disciplina','dificuldade','tipo','pergunta','alternativas','explicacao','formato','respostaCorreta','respostasCorretas','explicacoesAlternativas','fonte','dataReferencia','grupoPedagogico','idBanco','edicaoBanco','objetivo','ativo'])
         && d.disciplina in ['Administração e Gestão','Gestão de Pessoas','Gestão Financeira e Contábil','Marketing e Vendas','Empreendedorismo','Materiais e Logística','Produção e Qualidade','Estratégia e Processos','Direito, Legislação e Ética','Tecnologia e Ferramentas Administrativas','Excel','Economia e Atualidades']
         && d.dificuldade in ['Fácil','Médio','Difícil','Especialista']
         && text(d.tipo,200) && text(d.pergunta,10000) && text(d.explicacao,20000)
+        && (!('grupoPedagogico' in d) || text(d.grupoPedagogico,100))
+        && (!('idBanco' in d) || text(d.idBanco,100))
+        && (!('edicaoBanco' in d) || text(d.edicaoBanco,100))
+        && (!('objetivo' in d) || text(d.objetivo,300))
+        && (!('ativo' in d) || d.ativo is bool)
         && d.alternativas is list && d.alternativas.size()>=2 && d.alternativas.size()<=5
         && d.alternativas.toSet().size()==d.alternativas.size() && option(d,0) && option(d,1)
         && (!('fonte' in d) || (text(d.fonte,2000) && d.fonte.matches('https://[^/@]+/.*')))

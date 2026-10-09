@@ -1,0 +1,143 @@
+[MC]
+Estratégia corporativa|Escolhas sobre negócios e áreas de atuação do conjunto da organização
+Estratégia competitiva|Escolhas sobre como obter vantagem em um mercado definido
+Estratégia funcional|Escolhas de uma área para apoiar os objetivos do negócio
+Estratégia deliberada|Direção formulada intencionalmente antes da execução
+Estratégia emergente|Padrão de ação que se forma ao longo da prática
+Força na análise SWOT|Condição interna favorável aos objetivos da organização
+Fraqueza na análise SWOT|Condição interna desfavorável aos objetivos da organização
+Oportunidade na análise SWOT|Condição externa que pode favorecer os objetivos da organização
+Ameaça na análise SWOT|Condição externa que pode dificultar os objetivos da organização
+Análise PESTEL|Exame de fatores políticos, econômicos, sociais, tecnológicos, ambientais e legais
+Liderança em custos|Posição competitiva baseada em estrutura de custos relativamente baixa
+Diferenciação competitiva|Posição baseada em atributos valorizados que distinguem a oferta
+Enfoque competitivo|Posição baseada no atendimento de um segmento delimitado
+Integração vertical|Expansão para atividades anteriores ou posteriores na cadeia do negócio
+Diversificação|Expansão para outras ofertas ou áreas de negócio
+Rivalidade entre concorrentes|Intensidade da disputa entre participantes que já atuam no mercado
+Ameaça de novos entrantes|Pressão potencial de empresas que podem ingressar no mercado
+Ameaça de substitutos|Pressão de soluções diferentes que atendem à mesma necessidade
+Poder de negociação dos compradores|Capacidade dos clientes de influenciar condições de troca
+Poder de negociação dos fornecedores|Capacidade dos supridores de influenciar condições de fornecimento
+Recurso estratégico|Meio controlado que pode contribuir para vantagem no negócio
+Capacidade organizacional|Aptidão de combinar recursos para executar atividades
+Competência essencial|Capacidade coletiva relevante a diferentes ofertas e difícil de reproduzir
+Vantagem competitiva|Condição de produzir valor ou resultado superior às alternativas concorrentes
+Capacidade dinâmica|Aptidão de renovar recursos e capacidades diante de mudanças
+Balanced Scorecard|Sistema que articula objetivos e indicadores em perspectivas complementares
+Mapa estratégico|Representação das relações entre objetivos de uma estratégia
+Indicador-chave de desempenho|Medida escolhida para acompanhar um resultado relevante
+OKR|Sistema que relaciona objetivos a resultados-chave mensuráveis
+Iniciativa estratégica|Ação ou conjunto de ações para contribuir a um objetivo da estratégia
+Processo de negócio|Conjunto articulado de atividades que gera uma entrega para um destinatário
+Subprocesso|Parte delimitada de um processo mais amplo
+Atividade de processo|Unidade de trabalho que integra um fluxo
+Tarefa de processo|Ação mais detalhada dentro de uma atividade
+Procedimento de processo|Descrição de como executar uma atividade ou sequência
+Processo primário|Fluxo diretamente ligado à entrega de valor ao cliente externo
+Processo de apoio|Fluxo que fornece condições para executar outros processos
+Processo gerencial|Fluxo que orienta e acompanha o funcionamento da organização
+Dono do processo|Responsável pela gestão do desempenho de um fluxo de ponta a ponta
+Cliente do processo|Destinatário que recebe a saída de um fluxo
+AS-IS|Representação de como um processo funciona atualmente
+TO-BE|Representação de como se pretende que um processo funcione
+SIPOC|Representação resumida de fornecedores, entradas, processo, saídas e clientes
+BPM|Gestão contínua de processos de negócio
+BPMN|Notação para representar atividades, eventos e relações de processos
+Benchmarking|Comparação estruturada de práticas ou desempenho com referências
+Reengenharia|Redesenho profundo de processos para mudanças significativas de desempenho
+Melhoria contínua de processos|Ajustes sucessivos orientados por acompanhamento e aprendizagem
+Automação de processos|Uso de tecnologia para executar etapas antes realizadas manualmente
+Padronização de processos|Definição de referências comuns para execução e acompanhamento
+Projeto|Esforço temporário para produzir uma entrega singular
+Programa de projetos|Conjunto de projetos relacionados geridos de forma coordenada
+Portfólio de projetos|Conjunto de iniciativas selecionadas para objetivos estratégicos
+Operação continuada|Atividade recorrente que sustenta o funcionamento regular
+Produto de projeto|Entrega resultante do esforço planejado
+Escopo de projeto|Trabalho e entregas que delimitam o que será realizado
+Cronograma de projeto|Organização temporal das atividades e marcos previstos
+Orçamento de projeto|Estimativa e autorização dos recursos monetários previstos
+Risco de projeto|Evento ou condição incerta que pode afetar objetivos do esforço
+Qualidade de projeto|Grau de atendimento de requisitos relevantes às entregas e à gestão
+[VF]
+Perspectiva financeira do BSC|Conjunto de objetivos relacionados a resultados econômicos e financeiros
+Perspectiva de clientes do BSC|Conjunto de objetivos relacionados a valor e relações com públicos atendidos
+Perspectiva de processos internos do BSC|Conjunto de objetivos relacionados a fluxos relevantes da operação
+Perspectiva de aprendizagem e crescimento do BSC|Conjunto de objetivos relacionados a capacidades que sustentam evolução
+Alinhamento estratégico|Coerência entre escolhas gerais e ações das unidades
+Marco de projeto|Ponto relevante que sinaliza um evento ou entrega no cronograma
+Dependência de atividade|Relação que condiciona a execução de uma tarefa a outra
+Caminho crítico|Sequência que determina a duração mínima do projeto no modelo do cronograma
+Folga de atividade|Tempo de atraso possível sem afetar um prazo de referência
+Linha de base de projeto|Referência aprovada usada para comparar o desempenho
+Sponsor de projeto|Pessoa ou grupo que apoia e viabiliza o esforço junto à organização
+Gerente de projeto|Responsável pela integração do trabalho e da gestão do esforço
+Equipe de projeto|Grupo que realiza atividades para produzir as entregas
+PMO|Estrutura que apoia ou coordena práticas de gestão de projetos
+Stakeholder de projeto|Parte que pode influenciar ou ser afetada pelo esforço e seus resultados
+Identificação de risco|Reconhecimento de eventos e condições incertos relevantes
+Análise de risco|Exame de características como probabilidade e impacto
+Resposta a risco|Escolha de ações para tratar uma incerteza identificada
+Monitoramento de risco|Acompanhamento de condições e eficácia dos tratamentos
+Risco residual|Exposição que permanece após uma resposta aplicada
+Evitar risco|Alteração do plano para retirar uma fonte ou exposição
+Mitigar risco|Redução da probabilidade ou do impacto de uma ameaça
+Transferir risco|Atribuição de efeitos ou responsabilidades a outra parte por um arranjo
+Aceitar risco|Decisão de conviver com a exposição sob condições definidas
+Explorar oportunidade|Ação para aumentar a certeza de obter um efeito favorável
+Product backlog|Lista ordenada de necessidades de um produto
+Sprint backlog|Plano de trabalho selecionado para uma iteração do Scrum
+Incremento|Resultado utilizável que se soma ao produto segundo critérios definidos
+Objetivo da sprint|Propósito que orienta o trabalho da iteração
+Definição de pronto|Critérios compartilhados para considerar uma entrega concluída
+Product Owner|Responsável por maximizar valor e gerir a ordenação das necessidades do produto
+Scrum Master|Responsável por apoiar compreensão e aplicação do Scrum
+Developers no Scrum|Profissionais responsáveis por criar o incremento utilizável
+Sprint Review|Inspeção do resultado da iteração com interessados relevantes
+Sprint Retrospective|Discussão de melhorias na forma de trabalhar da equipe
+Entrada de processo|Recurso ou informação recebido para transformação
+Saída de processo|Entrega produzida pela execução do fluxo
+Evento de processo|Ocorrência que afeta o início, a continuidade ou o término do fluxo
+Decisão de processo|Ponto de escolha de caminhos conforme condições
+Interface de processo|Conexão em que fluxos ou participantes trocam entregas e informações
+[MR]
+Análise VRIO|+Examina valor de recursos|+Examina raridade e dificuldade de imitação|+Considera organização para explorar recursos|-Classifica participação e crescimento de mercado~Esse foco pertence à matriz BCG
+Cadeia de valor|+Distingue atividades que contribuem para a oferta|+Ajuda a examinar fontes de custo e diferenciação|-Representa a sequência de cargos~Isso é hierarquia|-Se limita à movimentação física de produtos~Inclui outras atividades do negócio
+Matriz BCG|+Relaciona crescimento e participação relativa|+Apoia análise de portfólio|-Classifica atividades por urgência e importância~Essa é outra matriz|-Avalia valor e imitabilidade de recursos~Esse é o foco VRIO
+Penetração na matriz de Ansoff|+Relaciona produtos atuais e mercados atuais|+Busca ampliar atuação no mercado atendido|-Combina produto novo e mercado novo~Isso é diversificação|-É a entrada em mercado novo com produto atual~Isso é desenvolvimento de mercado
+Desenvolvimento de mercado em Ansoff|+Leva produtos atuais a novos mercados|+Pode envolver novos públicos ou regiões|+Difere da criação de um produto novo|-É ampliar vendas no mesmo mercado com a mesma oferta~Isso é penetração
+Desenvolvimento de produto em Ansoff|+Oferece produtos novos a mercados atuais|+Pode usar relações comerciais existentes|-É combinação de mercado e produto novos~Isso é diversificação|-É entrada em nova região com a mesma oferta~Isso é desenvolvimento de mercado
+Diversificação relacionada|+Envolve negócios com conexões relevantes|+Pode compartilhar capacidades|-Tem como requisito a ausência de conexão entre capacidades dos negócios~Isso se associa à diversificação não relacionada|-É vender mais do mesmo no mesmo mercado~Isso é penetração
+Integração vertical para trás|+Avança em direção a etapas de fornecimento|+Pode internalizar atividades de suprimento|-Avança em direção ao consumidor final por definição~Essa é integração para frente|-É aquisição de concorrente na mesma etapa~Isso é integração horizontal
+Integração vertical para frente|+Avança em direção à distribuição ou ao cliente|+Pode internalizar canais comerciais|+Difere da integração de fornecedores|-É aquisição de concorrente na mesma etapa~Isso é integração horizontal
+Integração horizontal|+Envolve atuação na mesma etapa de mercado|+Pode ocorrer por aquisição de concorrentes|-É internalização de fornecedor por definição~Isso é integração para trás|-É adoção de software de processos~Tecnologia não define integração horizontal
+Formulação de cenários|+Explora futuros plausíveis|+Examina incertezas relevantes|-É previsão única com certeza de realização~Cenários não garantem um futuro|-Dispensa explicitar premissas~Premissas sustentam a análise
+Indicador antecedente|+Acompanha fator que pode preceder um resultado|+Pode orientar ação preventiva|+Depende de uma relação relevante com objetivos|-É definido pelo resultado final já realizado~Isso caracteriza indicador consequente
+Indicador consequente|+Acompanha resultado produzido|+Ajuda a verificar alcance de objetivos|-É a ação planejada antes da execução~Plano de ação não é resultado medido|-Garante explicar a causa do desempenho~Resultado isolado não prova causa
+Resultado-chave de OKR|+Explicita evidência de avanço|+Deve permitir avaliar realização|-É a atividade planejada independentemente do resultado medido~Atividade não é necessariamente resultado|-É uma descrição vaga sem critério~Critério é necessário à avaliação
+Desdobramento estratégico|+Conecta objetivos gerais e ações de áreas|+Pode definir responsáveis e medidas|+Exige coerência entre níveis|-É a reprodução do mesmo indicador sem considerar contexto~Desdobramento pode exigir medidas diferentes
+Governança de processos|+Define responsabilidades pelo fluxo|+Estabelece critérios de acompanhamento|-Se resume à instalação de software~Governança inclui papéis e regras|-É sinônimo de execução de uma tarefa~Execução não define governança
+Medida de tempo de processo|+Pode incluir espera e execução|+Depende da fronteira observada|-É definida pelo custo do produto~Custo e tempo são dimensões distintas|-Exclui esperas por definição~Tempo total pode incluir espera
+Medida de qualidade de processo|+Pode examinar conformidade da saída|+Pode examinar taxa de erro|+Relaciona resultado a requisitos|-É igual ao volume produzido~Volume não prova qualidade
+Retrabalho em processos|+Repete atividade para corrigir uma entrega|+Pode consumir capacidade adicional|-É definido como trabalho em paralelo planejado~Paralelismo não é retrabalho|-É uma entrega aprovada na primeira passagem~Aprovação inicial não exige repetição
+Handoff de processo|+É passagem de trabalho entre participantes|+Pode exigir clareza sobre critérios de entrega|-É o evento que encerra a instância do processo~Pode ocorrer entre etapas|-É sinônimo de automatizar uma tarefa~Automação e passagem são diferentes
+Gateway exclusivo em BPMN|+Pode representar escolha de um caminho|+Utiliza condições para direcionar o fluxo|+Difere da abertura de caminhos paralelos|-Abre os caminhos em paralelo sem avaliar condição de escolha~Isso se associa a gateway paralelo
+Gateway paralelo em BPMN|+Pode abrir caminhos simultâneos|+Pode sincronizar caminhos|-Escolhe um caminho por condição mutuamente exclusiva~Isso se associa a gateway exclusivo|-É definido como encerramento de instância~Gateway organiza fluxo, não define término
+Evento de início em BPMN|+Marca o começo do processo representado|+Pode ter um gatilho definido|-É tarefa executada por um participante~Evento e tarefa são elementos diferentes|-Representa o encerramento por definição~Encerramento usa evento de fim
+Raia em representação de processo|+Agrupa atividades por participante ou responsabilidade|+Ajuda a visualizar interfaces|+Não é uma etapa executada em si|-Define duração de cada atividade por si~A duração exige informação adicional
+Estrutura analítica do projeto|+Decompõe o escopo em partes gerenciáveis|+Ajuda a organizar entregas|-É a sequência temporal das atividades~Sequência temporal pertence ao cronograma|-É a lista de riscos ordenados~Riscos são outro instrumento
+Controle de mudanças de projeto|+Examina efeitos de solicitações|+Registra decisões sobre alterações|-Aceita alterações sem avaliar impacto~Controle exige avaliação|-Tem como função impedir solicitações de alteração do escopo~Mudanças podem ser aprovadas
+Crescimento não controlado de escopo|+Envolve expansão sem controle adequado|+Pode afetar prazo e custo|+Pode decorrer de requisitos não formalizados|-É a alteração formalmente aprovada após análise de impacto~Mudança controlada não define esse fenômeno
+Aceitação de entrega|+Examina atendimento aos critérios acordados|+Pode exigir validação do destinatário|-É comprovada pelo término da atividade interna sem examinar critérios~Concluir atividade não prova aceitação|-Dispensa requisitos definidos~Critérios precisam de referência
+Estimativa de projeto|+Depende de informações e premissas|+Pode ser revisada ao obter evidências|-É um valor garantido independentemente do contexto~Estimativa envolve incerteza|-É igual ao gasto já realizado~Estimativa e realização são distintos
+Comunicação de projeto|+Considera necessidades dos interessados|+Pode definir frequência e canais|+Deve apoiar entendimento das decisões|-É o envio indiferenciado dos dados sem considerar necessidades dos públicos~Comunicação exige adequação ao público
+Método preditivo|+Planeja antecipadamente parte relevante do trabalho|+Pode usar requisitos mais estáveis|-Exige ausência de acompanhamento~Acompanhamento permanece necessário|-É sinônimo de improvisação sem plano~O método depende de planejamento
+Método adaptativo|+Ajusta a abordagem conforme aprendizado|+Pode entregar em ciclos curtos|-Dispensa objetivos e prioridades~Objetivos e prioridades orientam adaptação|-É definido por documentar tudo antes de começar~Isso se aproxima da abordagem preditiva
+Daily Scrum|+Inspeciona progresso em relação ao objetivo da sprint|+Apoia adaptação do plano dos Developers|+É evento com duração limitada|-É reunião de aprovação de pagamentos~O propósito é inspeção e adaptação do trabalho
+Sprint Planning|+Define por que a sprint tem valor|+Seleciona e planeja trabalho|-É apresentação do incremento concluído~Isso ocorre na Sprint Review|-É avaliação individual de salários~Esse não é seu propósito
+Limite de trabalho em andamento|+Restringe atividades simultâneas|+Pode ajudar a identificar bloqueios|-É definido pelo número de tarefas concluídas~Concluídas não estão em andamento|-Exige iniciar tudo que chega~Limite impede essa abertura indiscriminada
+Fluxo contínuo de melhoria|+Acompanha desempenho do processo|+Pode priorizar problemas recorrentes|+Revisa práticas com base em evidências|-É uma intervenção sem acompanhamento posterior~Continuidade exige acompanhamento
+Gestão de benefícios|+Examina valor esperado das entregas|+Pode continuar após concluir o projeto|-É definida pelo cumprimento do cronograma isolado~Prazo não prova benefício|-É a produção de relatório sem examinar o valor das entregas~Relatório não demonstra valor por si
+Aprendizados de projeto|+Registram experiências relevantes|+Podem orientar novos esforços|-São restritos a falhas por definição~Podem incluir acertos|-Substituem a análise do contexto futuro~Aprendizados precisam de adaptação ao contexto
+Priorização de iniciativas|+Considera contribuição aos objetivos|+Considera recursos e restrições|-É definida pela ordem de chegada de pedidos~Chegada não determina contribuição estratégica|-Dispensa examinar dependências~Dependências afetam a seleção
+Coerência de execução estratégica|+Articula objetivos e processos|+Considera indicadores relevantes|+Considera recursos disponíveis|+Revisa escolhas diante de resultados e mudanças

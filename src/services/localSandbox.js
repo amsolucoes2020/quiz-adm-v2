@@ -24,10 +24,14 @@ export async function getDoc(ref) {return snap(ref,read()[ref.path]);}
 export const orderBy = (field,direction) => ({field,direction});
 export const limit = count => ({count});
 export const query = (ref,...filters) => ({...ref,filters});
+export const where = (field,op,value) => ({kind:'where',field,op,value});
 export async function getDocs(ref) {
   let rows=Object.entries(read()).filter(([path,data])=>path.startsWith(ref.table+'/') && (ref.table !== 'questions' || !isDeferredQuestion(data))).map(([path,data])=>snap({path,id:path.split('/')[1]},data));
   for(const filter of ref.filters || []) {
-    if(filter.field) rows.sort((a,b)=>(a.data()[filter.field]-b.data()[filter.field])*(filter.direction==='desc'?-1:1));
+    if(filter.kind==='where') {
+      if(filter.op!=='==')throw new Error('Filtro local não suportado.');
+      rows=rows.filter(row=>row.data()[filter.field]===filter.value);
+    } else if(filter.field) rows.sort((a,b)=>(a.data()[filter.field]-b.data()[filter.field])*(filter.direction==='desc'?-1:1));
     if(filter.count) rows=rows.slice(0,filter.count);
   }
   return {docs:rows,size:rows.length,forEach:fn=>rows.forEach(fn)};

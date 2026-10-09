@@ -1,0 +1,143 @@
+[MC]
+Empreendedorismo|Identificação e desenvolvimento de oportunidades para criar valor
+Intraempreendedorismo|Desenvolvimento de iniciativas empreendedoras dentro de uma organização
+Empreendedorismo social|Criação de iniciativas orientadas a resolver necessidades sociais
+Empreendedorismo por oportunidade|Início de atividade a partir de uma possibilidade de negócio identificada
+Empreendedorismo por necessidade|Início de atividade motivado pela falta de alternativas de renda ou trabalho
+Ideia de negócio|Proposição inicial de uma possível atividade econômica
+Oportunidade de negócio|Possibilidade de atender uma necessidade com condições de criação de valor
+Modelo de negócio|Descrição de como uma organização cria, entrega e captura valor
+Plano de negócio|Documento que organiza análises e ações para desenvolver uma atividade
+Estratégia de negócio|Conjunto de escolhas sobre como competir e alcançar objetivos
+Proposta de valor no Canvas|Benefícios que a oferta entrega a um segmento de clientes
+Segmentos de clientes no Canvas|Grupos de pessoas ou organizações que o negócio pretende atender
+Canais no Canvas|Meios de comunicação e entrega da proposta aos clientes
+Relacionamento com clientes no Canvas|Formas de interação mantidas com os segmentos atendidos
+Fontes de receita no Canvas|Formas pelas quais o negócio recebe valores dos clientes
+Recursos-chave no Canvas|Meios essenciais ao funcionamento do modelo de negócio
+Atividades-chave no Canvas|Ações essenciais à criação e à entrega da proposta
+Parcerias-chave no Canvas|Relações externas relevantes para viabilizar o modelo
+Estrutura de custos no Canvas|Gastos associados à operação do modelo de negócio
+Viabilidade econômica|Capacidade da atividade de produzir retorno compatível com seus recursos
+Hipótese de negócio|Suposição relevante que precisa ser examinada com evidências
+Experimento de negócio|Procedimento para investigar uma hipótese de forma delimitada
+Produto mínimo viável|Versão suficiente para obter aprendizado sobre hipóteses da oferta
+Protótipo|Representação de uma solução para explorar ou testar características
+Prova de conceito|Demonstração da possibilidade técnica de uma solução
+Descoberta de clientes|Investigação de problemas e necessidades de potenciais compradores
+Validação de clientes|Verificação de condições de aceitação e repetição do modelo comercial
+Product-market fit|Adequação relevante entre uma oferta e necessidades de um mercado
+Pivotagem|Mudança significativa de direção baseada em aprendizado do negócio
+Iteração|Revisão sucessiva de uma solução a partir de resultados e feedback
+Inovação de produto|Introdução de bem ou serviço novo ou significativamente melhorado
+Inovação de processo de negócio|Introdução de modo novo ou significativamente melhorado de operar
+Inovação incremental|Melhoria gradual em uma oferta ou prática existente
+Inovação radical|Mudança de grande alcance em capacidades, ofertas ou práticas
+Inovação aberta|Uso de fluxos de conhecimento internos e externos na inovação
+Startup|Organização que busca um modelo repetível e escalável sob incerteza
+Escalabilidade|Capacidade de ampliar resultados sem elevar recursos na mesma proporção
+Repetibilidade|Capacidade de reproduzir a oferta ou operação com características consistentes
+Bootstrapping|Desenvolvimento do negócio com recursos próprios e recursos gerados pela operação
+Incubação empresarial|Apoio estruturado ao desenvolvimento inicial de empreendimentos
+Investidor-anjo|Pessoa que investe recursos e pode apoiar negócios em fase inicial
+Capital de risco|Investimento em participação de negócios com potencial de crescimento e risco elevado
+Crowdfunding|Captação de recursos por contribuições de um conjunto de apoiadores
+Financiamento por dívida|Captação de recursos com obrigação de pagamento ao credor
+Financiamento por participação|Captação de recursos em troca de participação no negócio
+Modelo por assinatura|Cobrança recorrente para acesso a uma oferta
+Modelo freemium|Oferta básica gratuita combinada com funcionalidades ou serviços pagos
+Modelo marketplace|Intermediação de transações entre grupos de compradores e vendedores
+Modelo de licenciamento|Autorização de uso de um ativo mediante condições de remuneração
+Modelo de franquia|Replicação contratual de uma operação com marca e padrões estabelecidos
+Pitch|Apresentação concisa de uma proposta para um público relevante
+Pitch deck|Conjunto de materiais visuais que apoia a apresentação do empreendimento
+Elevator pitch|Apresentação muito breve da ideia e de seu valor
+Sumário executivo|Síntese dos elementos centrais de um plano ou proposta
+One-page business plan|Registro resumido dos elementos do negócio em uma página
+Burn rate|Ritmo de consumo de recursos financeiros em um período
+Runway|Tempo estimado de operação até o esgotamento dos recursos disponíveis
+Cap table|Registro da distribuição de participações no capital
+Valuation|Estimativa do valor econômico de um negócio
+Diluição societária|Redução da proporção de participação de um sócio após alteração do capital
+[VF]
+Desejabilidade de solução|Adequação da proposta às necessidades do público
+Viabilidade financeira de solução|Compatibilidade da proposta com geração e uso de recursos monetários
+Factibilidade técnica de solução|Possibilidade de construir e executar a proposta com capacidades disponíveis
+Usabilidade de solução|Facilidade de utilização por um público em determinado contexto
+Sustentabilidade do modelo|Capacidade de manter a operação e suas condições de criação de valor
+Mapa de stakeholders do negócio|Representação dos públicos que influenciam ou são afetados pela iniciativa
+Mapa de proposta de valor|Organização de tarefas, dores e ganhos do cliente em relação à oferta
+Mapa de jornada de descoberta|Representação das etapas de experiência investigadas junto ao público
+Mapa de hipóteses|Organização de suposições e incertezas que precisam de verificação
+Mapa de riscos do empreendimento|Organização de eventos incertos que podem afetar os objetivos
+Problema do cliente|Necessidade ou dificuldade que motiva a procura de uma solução
+Ganho esperado do cliente|Benefício desejado ao realizar uma atividade
+Dor do cliente|Dificuldade ou efeito indesejado ligado à realização de uma atividade
+Alternativa existente do cliente|Forma já utilizada para atender à necessidade investigada
+Tarefa do cliente|Atividade que o público procura executar em seu contexto
+Canal de aquisição|Meio pelo qual um negócio alcança novos clientes
+Canal de entrega|Meio pelo qual a solução chega ao usuário
+Canal de suporte|Meio pelo qual o usuário recebe assistência
+Canal de pagamento|Meio pelo qual o cliente realiza a transferência de valores
+Canal de feedback|Meio pelo qual o cliente comunica percepções sobre a oferta
+Parceria comercial|Relação entre organizações para desenvolver acesso a clientes e transações
+Parceria tecnológica|Relação entre organizações para obter ou desenvolver capacidades técnicas
+Parceria de distribuição|Relação entre organizações para disponibilizar ofertas ao público
+Parceria de produção|Relação entre organizações para executar a fabricação ou prestação
+Parceria de pesquisa|Relação entre organizações para investigar conhecimentos e soluções
+Métrica de vaidade|Medida com aparência favorável mas pouca ligação com decisões relevantes
+Métrica acionável|Medida que ajuda a orientar uma decisão sobre o negócio
+Métrica de coorte|Medida de comportamento de um grupo definido por característica ou momento comum
+Métrica de retenção de produto|Medida da continuidade de uso por usuários ao longo do tempo
+Métrica de ativação|Medida da realização de uma ação inicial relevante na experiência
+Rodada pré-semente|Captação inicial para desenvolver hipóteses e primeiras condições do negócio
+Rodada semente|Captação associada ao desenvolvimento e à validação inicial da operação
+Série A|Rodada usualmente ligada à estruturação e expansão de um modelo já desenvolvido
+Investimento corporativo de risco|Aplicação de uma empresa em participação de empreendimentos inovadores
+Saída do investidor|Realização da participação por venda ou outra forma prevista
+Mercado total endereçável|Estimativa do conjunto amplo de demanda para uma oferta definida
+Mercado atendível|Parcela da demanda ampla alcançável pelas condições de atuação do negócio
+Mercado obtenível|Parcela do mercado atendível que se estima capturar em condições reais
+Barreira de entrada|Condição que dificulta o ingresso de novos competidores
+Vantagem de pioneirismo|Benefício potencial decorrente de entrar antes de outros competidores
+[MR]
+Busca de evidências|+Distingue opinião de comportamento observado|+Pode usar entrevistas e testes|-É concluída pela concordância dos fundadores~Concordância interna não valida mercado|-Exige amostra de amigos como regra~Amigos podem introduzir viés
+Entrevista de problema|+Explora experiências anteriores do público|+Investiga alternativas já usadas|+Procura compreender necessidades|-Tem por objetivo confirmar a solução com perguntas indutivas~Perguntas indutivas prejudicam descoberta
+Teste de solução|+Examina a resposta a uma proposta|+Pode usar uma representação da oferta|-Prova viabilidade financeira por aprovação verbal~Aprovação verbal não prova resultado financeiro|-Dispensa delimitar o público~Aceitação depende do público testado
+Teste de disposição a pagar|+Investiga condições de troca aceitas|+Pode comparar propostas de preço|-É definido pela contagem de seguidores~Seguidores não indicam disposição a pagar|-Confirma demanda por uma pergunta hipotética isolada~Intenção declarada exige evidências complementares
+Página de teste de demanda|+Apresenta uma proposta ao público|+Pode medir uma ação de interesse|+Exige comunicação honesta sobre disponibilidade|-Comprova entrega técnica do produto~Interesse na página não prova capacidade técnica
+Pré-venda|+Pode investigar compromisso de compra|+Exige clareza sobre prazo e condições|-Dispensa obrigações perante o comprador~Obrigações contratuais permanecem|-Equivale à entrega concluída~Contratação antecipada não é entrega
+Experimento concierge|+Entrega a solução com intervenção manual|+Permite aprender sobre necessidades|-Exige automação completa da operação~Intervenção manual é característica desse teste|-É definido por alterar o quadro societário~Isso é uma questão de capital
+Experimento Wizard of Oz|+Simula automação com trabalho manual de apoio|+Permite testar uma experiência proposta|-Demonstra que a automação está implementada~A automação é simulada|-É o mesmo que investimento-anjo~Investimento é outro processo
+Critério de sucesso experimental|+É definido antes da interpretação do teste|+Relaciona resultado observado à hipótese|+Ajuda a decidir próximos passos|-É estabelecido depois de observar o resultado para aprová-lo~Redefinição oportunista enfraquece evidência
+Aprendizado validado|+Depende de evidências sobre hipóteses|+Orienta decisões do empreendimento|-É medido pelo esforço investido~Esforço não prova hipótese|-Equivale a finalizar o plano de negócio~Documento concluído não valida suposições
+Ciclo construir-medir-aprender|+Relaciona teste e observação de resultados|+Usa resultados para orientar ajustes|-Prevê escalar antes de examinar resultados~O ciclo prioriza aprendizado|-É um método de avaliação contábil de ativos~É um ciclo de desenvolvimento do negócio
+Backlog de hipóteses|+Organiza suposições a investigar|+Pode priorizar incertezas críticas|+Permite acompanhar testes|-É definido pela lista de pedidos pagos~Pedidos são transações, não hipóteses
+Risco de execução do negócio|+Envolve capacidade de realizar a proposta|+Pode incluir limitações operacionais|-É definido pela falta de demanda~Falta de demanda se relaciona a risco de mercado|-Equivale à preferência pessoal do fundador~Preferência não define capacidade de execução
+Risco de mercado do empreendimento|+Envolve aceitação e demanda pela oferta|+Pode envolver concorrência e canais|-É a impossibilidade técnica de fabricar~Isso é risco técnico|-É definido pelo erro em um software interno~Erro de execução não define demanda
+Complementaridade da equipe fundadora|+Combina capacidades diferentes|+Pode ampliar cobertura de funções|+Exige articulação entre integrantes|-É caracterizada pela repetição das mesmas capacidades na equipe~Complementaridade depende de diferenças úteis
+Acordo de sócios|+Pode definir direitos e deveres|+Pode prever solução de divergências|-Permite afastar normas legais obrigatórias pelo acordo~Acordo não afasta a legislação|-É o mesmo que registro de uma marca~Registro de marca trata de propriedade industrial
+Vesting|+Pode condicionar aquisição de participação|+Pode considerar tempo e marcos|-É definido como pagamento imediato de salário~Vesting trata de direitos condicionados|-Garante participação sem cumprir condições~Condições integram o mecanismo
+Term sheet|+Resume condições propostas para uma operação|+Pode orientar a negociação|+Pode conter cláusulas com efeitos distintos|-É o instrumento que conclui definitivamente a operação de investimento~Efeitos dependem do documento e das cláusulas
+Due diligence de investimento|+Examina informações relevantes do negócio|+Pode investigar riscos e obrigações|-É definida pela apresentação promocional do fundador~Apresentação não substitui verificação|-Garante ausência de riscos futuros~Verificação não elimina incerteza
+Unidade econômica de cliente|+Relaciona receitas e custos por cliente|+Ajuda a examinar sustentabilidade da aquisição|-Se define pelo faturamento total isolado~Unidade econômica requer custos e unidade de análise|-Dispensa delimitar o período~Período influencia comparação
+Unit economics de transação|+Considera receita e custo de uma operação|+Pode apoiar decisões de escala|+Exige definir a unidade observada|-É equivalente ao número total de usuários~Contagem de usuários não mede contribuição econômica
+Efeito de rede|+Pode ampliar valor conforme cresce a participação|+Depende das relações entre usuários|-É crescimento de custos por usuário~Isso não define efeito de rede|-É a queda de custo por volume produzido~Essa queda caracteriza economia de escala
+Economia de escala no empreendimento|+Pode reduzir custo médio com maior volume|+Depende das condições de operação|-É sinônimo de crescimento proporcional de custos~Redução relativa é parte do conceito|-Exige aumento do valor entre usuários~Valor entre usuários é efeito de rede
+Custo de mudança do cliente|+Envolve esforços para trocar de solução|+Pode incluir aprendizagem e migração de dados|+Pode influenciar permanência|-É definido pelo custo de produção do fornecedor~Custo interno não define custo de mudança
+Diferencial competitivo sustentável|+Depende da dificuldade de imitação|+Pode combinar recursos e relações|-É caracterizado pelo desconto temporário facilmente copiável~Desconto imitável não demonstra sustentabilidade|-É garantido por lançar primeiro~Pioneirismo não garante manutenção da vantagem
+Patente no empreendimento|+Pode proteger invenção que cumpra requisitos|+Exige processo próprio de concessão|-É o registro do nome comercial~Nome e sinais são questões de marca|-Tem como objeto de proteção a ideia abstrata sem requisitos técnicos~Proteção depende do objeto e dos requisitos
+Marca no empreendimento|+Distingue a oferta no mercado|+Pode ser objeto de registro|-Confere patente de tecnologia~Marca e patente têm objetos diferentes|-É sinônimo de domínio de internet~Domínio não equivale a registro de marca
+Licença de uso de tecnologia|+Define condições de utilização|+Pode prever remuneração e limites|+Não exige transferência de titularidade|-Tem como efeito a transferência da titularidade da tecnologia~Licença pode preservar titularidade
+Franqueador|+Disponibiliza marca e sistema contratados|+Define padrões previstos na relação|-É o consumidor final da unidade~Consumidor não é franqueador|-É sinônimo de sócio do franqueado~Franquia não exige sociedade entre as partes
+Franqueado|+Opera uma unidade segundo o contrato|+Pode pagar taxas previstas|-Passa a ser empregado do franqueador por definição~Franquia não define vínculo empregatício|-Recebe liberdade irrestrita para alterar a marca~Uso depende das condições contratuais
+Negócio de impacto|+Procura resultado socioambiental intencional|+Pode gerar receita pela atividade|+Exige atenção à mensuração do impacto|-É caracterizado pela doação eventual sem objetivo de impacto no modelo~Doação eventual não define o modelo
+Inovação frugal|+Busca atender necessidades com restrição de recursos|+Considera acessibilidade da solução|-É definida pela retirada de segurança necessária~Frugalidade não exige insegurança|-Equivale à cópia sem adaptação~A solução pode exigir redesenho
+Inovação disruptiva|+Envolve trajetória que pode alterar relações de mercado|+Pode começar em segmentos pouco atendidos|-É uma melhoria gradual de pequena intensidade na oferta existente~Melhoria incremental não define disrupção|-É sinônimo de tecnologia cara~Custo alto não define a trajetória
+Ecossistema empreendedor|+Inclui instituições e redes de apoio|+Considera relações entre diferentes atores|+Pode incluir capital e conhecimento|-É definido pela equipe interna de uma empresa~Ecossistema ultrapassa uma organização
+Aceleradora|+Pode oferecer mentoria e conexões|+Pode estruturar programa de desenvolvimento|-É um órgão de concessão de empréstimos bancários aos empreendimentos~Condições variam e sucesso é incerto|-É o órgão que concede patentes~Concessão é atribuição institucional própria
+Hub de inovação|+Articula atores e iniciativas|+Pode facilitar colaboração|-É definido como demonstração de resultado~É um ambiente de articulação|-Reúne iniciativas voltadas ao mesmo produto como requisito do conceito~Diversidade de iniciativas é possível
+Resiliência empreendedora|+Envolve adaptação diante de dificuldades|+Pode incluir revisão de decisões|+É compatível com reconhecer limites|-Consiste em preservar a solução apesar das evidências contrárias~Persistência cega não define resiliência
+Decisão de encerramento|+Pode considerar falta de viabilidade|+Exige atenção às obrigações pendentes|-É uma avaliação da incapacidade técnica do empreendedor~Encerrar pode ser uma decisão fundamentada|-Dispensa comunicar partes afetadas~Obrigações e relações exigem cuidado
+Aprendizagem com falhas|+Examina causas e condições do resultado|+Pode orientar novos experimentos|-Se define por culpar indivíduos sem apuração~Aprendizagem requer compreender evidências|-Confirma a hipótese original pela ocorrência de falha no teste~Falha não confirma a hipótese original
+Formalização do empreendimento|+Exige examinar a forma jurídica|+Considera registros aplicáveis|+Considera obrigações tributárias|+Considera licenças exigidas para a atividade

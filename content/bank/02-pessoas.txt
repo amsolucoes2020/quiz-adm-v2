@@ -1,0 +1,143 @@
+[MC]
+Recrutamento|Atração de candidatos para oportunidades de trabalho
+Seleção|Avaliação de candidatos diante de requisitos de uma função
+Integração de novos empregados|Apresentação do contexto e das práticas a quem ingressa
+Treinamento|Preparação para demandas de desempenho relacionadas ao trabalho
+Desenvolvimento profissional|Ampliação de capacidades para desafios de carreira
+Descrição de cargo|Registro das atividades e responsabilidades de uma posição
+Especificação de cargo|Registro dos requisitos necessários para ocupar uma posição
+Desenho de cargo|Definição do conteúdo e das relações de uma posição
+Avaliação de cargos|Comparação do valor relativo das posições na organização
+Análise de cargos|Levantamento de informações sobre atividades e requisitos das posições
+Salário-base|Valor contratual regular ligado ao trabalho prestado
+Remuneração variável|Parcela de pagamento vinculada a condições ou resultados definidos
+Benefício|Vantagem oferecida ao empregado além do pagamento salarial direto
+Remuneração total|Conjunto de pagamentos e benefícios associados ao vínculo de trabalho
+Pesquisa salarial|Levantamento de referências de pagamento no mercado
+Avaliação de desempenho|Exame do trabalho realizado em relação a critérios definidos
+Feedback de desempenho|Comunicação sobre condutas e resultados para orientar melhorias
+Gestão de desempenho|Ciclo de objetivos, acompanhamento, avaliação e desenvolvimento
+Plano de desenvolvimento individual|Registro de ações para desenvolver capacidades de uma pessoa
+Calibração de avaliações|Discussão de critérios e julgamentos para reduzir diferenças entre avaliadores
+Competência técnica|Conhecimento e capacidade especializada para realizar atividades
+Competência comportamental|Padrão de atuação interpessoal relevante ao trabalho
+Competência gerencial|Capacidade de orientar recursos e pessoas para resultados
+Lacuna de competência|Diferença entre capacidades requeridas e capacidades demonstradas
+Mapeamento de competências|Identificação das capacidades necessárias e disponíveis
+Recrutamento interno|Busca de candidatos entre pessoas que trabalham na organização
+Recrutamento externo|Busca de candidatos fora do quadro da organização
+Recrutamento misto|Combinação de fontes internas e externas de candidatos
+Banco de talentos|Registro organizado de candidatos ou profissionais com potencial de aproveitamento
+Indicação profissional|Apresentação de um candidato por alguém da rede de relacionamentos
+Entrevista estruturada|Conversa de avaliação com roteiro e critérios previamente definidos
+Entrevista por competências|Investigação de comportamentos anteriores ligados a capacidades requeridas
+Teste de conhecimento|Avaliação do domínio de conteúdos relevantes à função
+Amostra de trabalho|Avaliação pela execução de tarefa representativa da função
+Dinâmica de grupo|Observação de comportamentos em atividade com interação entre candidatos
+Rotatividade|Movimentação de entradas e saídas do quadro de empregados
+Absenteísmo|Ausências ao trabalho previstas na apuração de um indicador
+Retenção de pessoas|Capacidade de manter profissionais relevantes na organização
+Mobilidade interna|Mudança de função ou unidade dentro da organização
+Sucessão|Preparação de pessoas para assumir posições relevantes no futuro
+Carreira vertical|Progressão para posições de maior nível hierárquico
+Carreira horizontal|Progressão com ampliação de domínio ou responsabilidades no mesmo nível
+Carreira em Y|Modelo com caminhos de progressão gerencial e especializada
+Carreira em rede|Modelo com diferentes trajetórias e conexões entre posições
+Carreira proteana|Trajetória orientada pela pessoa e por seus valores
+Mentoria|Orientação baseada na experiência de alguém para desenvolvimento de outra pessoa
+Coaching|Processo de apoio à definição de objetivos e ações de desenvolvimento
+Tutoria|Acompanhamento de aprendizagem sobre atividades ou conteúdos delimitados
+Job rotation|Passagem planejada por diferentes atividades ou funções
+Job shadowing|Aprendizagem por observação do trabalho de outro profissional
+Engajamento|Envolvimento ativo com o trabalho e seus objetivos
+Satisfação no trabalho|Avaliação favorável que uma pessoa faz de sua experiência profissional
+Comprometimento organizacional|Vínculo psicológico da pessoa com a organização
+Segurança psicológica|Percepção de que é possível se manifestar sem humilhação interpessoal
+Pertencimento|Percepção de aceitação e inclusão em um grupo
+Diversidade|Presença de diferenças de características e experiências entre pessoas
+Inclusão|Condições para participação e reconhecimento de pessoas diferentes
+Equidade|Tratamento que considera diferenças para reduzir barreiras de acesso
+Igualdade de tratamento|Aplicação de critérios equivalentes a pessoas em condições comparáveis
+Acessibilidade|Remoção de barreiras à participação de pessoas com diferentes necessidades
+[VF]
+Socialização organizacional|Aprendizagem de normas e práticas ao ingressar em uma organização
+Contrato psicológico|Expectativas recíprocas percebidas entre pessoa e organização
+Marca empregadora|Percepção da organização como lugar para trabalhar
+Experiência do empregado|Vivências da pessoa ao longo de sua relação com a organização
+Proposta de valor ao empregado|Conjunto de atributos oferecidos em troca da contribuição profissional
+Avaliação 360 graus|Coleta de percepções de diferentes públicos que interagem com o avaliado
+Autoavaliação|Exame do próprio desempenho pela pessoa avaliada
+Avaliação por objetivos|Exame do desempenho pelo alcance de resultados acordados
+Escala gráfica de avaliação|Classificação em graus definidos para fatores de desempenho
+Incidentes críticos|Registro de comportamentos relevantes para o desempenho observado
+Erro de halo|Generalização de uma impressão sobre um aspecto para os demais
+Viés de recência|Peso excessivo dado a acontecimentos próximos da avaliação
+Tendência central|Concentração de avaliações nas posições intermediárias da escala
+Viés de semelhança|Preferência por pessoas percebidas como parecidas com o avaliador
+Viés de confirmação|Busca ou interpretação de informações favoráveis a uma crença prévia
+Aprendizagem síncrona|Participação de instrutor e aprendizes no mesmo momento
+Aprendizagem assíncrona|Participação em atividades em momentos diferentes
+Aprendizagem experiencial|Construção de conhecimento a partir de vivências e reflexão
+Aprendizagem social|Construção de conhecimento pela interação e observação de outras pessoas
+Aprendizagem autodirigida|Condução de objetivos e estratégias de estudo pelo próprio aprendiz
+Reação ao treinamento|Percepção dos participantes sobre a experiência de capacitação
+Aprendizagem no treinamento|Mudança de conhecimentos ou capacidades após a capacitação
+Transferência de treinamento|Aplicação no trabalho do que foi aprendido na capacitação
+Resultado do treinamento|Efeito da capacitação sobre resultados relevantes da organização
+Necessidade de treinamento|Demanda de aprendizagem ligada a uma diferença de desempenho
+Equipe multifuncional|Grupo com integrantes de diferentes especialidades
+Equipe autogerida|Grupo com responsabilidade ampliada pela organização do próprio trabalho
+Equipe virtual|Grupo que trabalha com interação mediada por tecnologias a distância
+Grupo informal de trabalho|Conjunto formado por relações espontâneas entre integrantes
+Comunidade de prática|Conjunto que compartilha aprendizagem sobre uma atividade de interesse comum
+Conflito de tarefa|Divergência sobre o conteúdo ou a solução do trabalho
+Conflito de relacionamento|Divergência ligada a tensões pessoais entre envolvidos
+Conflito de processo|Divergência sobre a distribuição ou a execução do trabalho
+Mediação|Apoio de um terceiro à construção de um acordo entre as partes
+Arbitragem|Resolução de uma controvérsia por decisão de um terceiro escolhido
+Pesquisa de clima|Levantamento de percepções sobre o ambiente organizacional
+Entrevista de desligamento|Coleta de informações ao término da relação de trabalho
+People analytics|Uso de dados para compreender questões relacionadas às pessoas
+Planejamento da força de trabalho|Estimativa de necessidades de pessoas e capacidades para a operação
+Dimensionamento de pessoal|Definição da quantidade de profissionais necessária às atividades
+[MR]
+Triagem curricular|+Compara experiências com requisitos|+Apoia a seleção inicial|-Substitui a verificação das informações~Verificação pode ser necessária|-Comprova comportamento no trabalho pela descrição do currículo~Descrição curricular não prova comportamento
+Critérios de seleção|+Devem se relacionar à função|+Podem incluir conhecimentos relevantes|+Orientam a comparação de candidatos|-São definidos para justificar uma escolha já feita~Critérios devem orientar a avaliação
+Validade de instrumento seletivo|+Relaciona a avaliação ao que se pretende medir|+Depende do uso pretendido|-Equivale à repetibilidade dos resultados~Isso é confiabilidade|-É comprovada pela consistência sem examinar o conteúdo~Consistência não basta para demonstrar validade
+Confiabilidade de instrumento seletivo|+Envolve consistência das medidas|+Pode ser examinada em aplicações comparáveis|-Prova a pertinência do instrumento para o cargo~Pertinência depende da validade|-É a aceitação subjetiva dos candidatos~Aceitação e consistência são dimensões distintas
+Entrevista comportamental|+Investiga ações em experiências anteriores|+Busca evidências ligadas ao trabalho|+Pode usar critérios padronizados|-Investiga principalmente respostas a situações futuras hipotéticas~Essa ênfase caracteriza entrevista situacional
+Plano de integração|+Apresenta responsabilidades da função|+Apresenta práticas da organização|-É o processo de comparar candidatos antes da contratação~Essa comparação pertence à seleção|-Tem por finalidade decidir a contratação já realizada~Integração ocorre após o ingresso
+Levantamento de necessidades de capacitação|+Pode examinar tarefas e desempenho|+Orienta prioridades de aprendizagem|+Considera capacidades disponíveis|-É a avaliação da satisfação após o curso~Satisfação posterior é avaliação de reação
+Objetivo de aprendizagem|+Descreve uma capacidade esperada|+Orienta a avaliação do aprendizado|-Corresponde à satisfação com o instrutor~Satisfação é reação|-Corresponde ao orçamento do curso~Orçamento é um recurso
+Educação corporativa|+Articula aprendizagem às necessidades organizacionais|+Pode combinar diferentes modalidades|-É a comparação de valor relativo dos cargos~Esse é o papel da avaliação de cargos|-Tem como finalidade classificar candidatos ao ingresso~Essa finalidade pertence à seleção
+Conhecimento tácito no trabalho|+Está ligado à experiência pessoal|+Pode ser difícil de explicitar|+Pode ser compartilhado pela prática|-É definido pela codificação em um manual~Codificação caracteriza conhecimento explícito
+Conhecimento explícito no trabalho|+Pode ser registrado em documentos|+Pode ser transmitido por instruções codificadas|-É definido pela impossibilidade de registro~O conceito envolve possibilidade de codificação|-É o saber dependente de experiência não codificada~Esse saber é associado ao conhecimento tácito
+Reconhecimento profissional|+Comunica valorização de contribuições|+Pode ocorrer por formas não financeiras|+Pode reforçar comportamentos relevantes|-É definido como pagamento do salário-base~Salário-base é uma parcela remuneratória
+Incentivo de curto prazo|+Pode se vincular a metas do período|+É parte da política de recompensas|-É a concessão de participação condicionada a anos de permanência~Essa condição se associa a incentivo de longo prazo|-Corresponde à atualização do salário-base por índice~Reajuste de salário-base não define incentivo variável
+Incentivo de longo prazo|+Pode alinhar interesses a resultados futuros|+Pode prever condições de permanência|-Corresponde ao reembolso de despesas~Reembolso não define incentivo|-É a remuneração da meta mensal já apurada~Esse é um horizonte de curto prazo
+Justiça distributiva|+Envolve percepção sobre a divisão de resultados|+Pode envolver recompensas recebidas|+Pode envolver oportunidades distribuídas|-É definida pela forma de explicar uma decisão~Explicação se relaciona à justiça informacional
+Justiça procedimental|+Envolve percepção sobre processos de decisão|+Considera consistência dos critérios|-É definida pelo valor final da recompensa~Valor distribuído se relaciona à justiça distributiva|-É o respeito demonstrado na interação pessoal~Esse foco se associa à justiça interpessoal
+Justiça interpessoal|+Envolve tratamento respeitoso|+Considera dignidade nas interações|+Pode influenciar a percepção de uma decisão|-É a avaliação da proporção de recompensas distribuídas~Esse foco se associa à justiça distributiva
+Saúde ocupacional|+Considera a relação entre trabalho e saúde|+Envolve prevenção de agravos|-É a comparação do mérito profissional dos empregados~Mérito não define saúde ocupacional|-Se limita ao tratamento da doença depois do diagnóstico~O conceito também abrange prevenção
+Ergonomia no trabalho|+Considera adaptação do trabalho às pessoas|+Abrange aspectos físicos e cognitivos|-Tem por base adaptar as pessoas a exigências sem rever o trabalho~A adaptação do trabalho às pessoas é central|-É a seleção médica de candidatos~Seleção e ergonomia têm objetos diferentes
+Risco psicossocial|+Pode envolver demandas e relações no trabalho|+Pode afetar a saúde dos trabalhadores|+Depende de condições organizacionais|-É uma característica da personalidade tomada isoladamente~Condições do trabalho são relevantes
+Carga de trabalho|+Inclui volume de tarefas|+Inclui exigências cognitivas da atividade|-É definida pela jornada contratual sem considerar a tarefa~Duração não esgota exigências|-É o grau de satisfação com a função~Satisfação e carga são conceitos distintos
+Assédio moral no trabalho|+Pode envolver condutas humilhantes reiteradas|+Afeta a dignidade no contexto profissional|-Equivale a um feedback respeitoso~Feedback respeitoso não é humilhação|-É o estabelecimento de meta legítima acompanhado de respeito~Meta legítima não define humilhação
+Avaliação de potencial|+Considera capacidade para desafios futuros|+Difere da avaliação do desempenho atual|+Pode apoiar decisões de desenvolvimento|-É a reprodução da nota de desempenho passado sem outras evidências~Potencial exige perspectiva futura
+Matriz desempenho-potencial|+Combina resultados atuais e perspectiva futura|+Pode apoiar discussões de desenvolvimento|-Classifica o valor relativo dos cargos~Esse é o papel da avaliação de cargos|-É a escala de satisfação do empregado~Satisfação não é uma das dimensões desse instrumento
+Gestão de talentos|+Integra atração e desenvolvimento|+Considera necessidades de pessoas da organização|+Pode incluir retenção e sucessão|-É a contratação sem acompanhamento do desenvolvimento~A gestão integra outras etapas
+Plano de carreira|+Explicita caminhos de progressão|+Pode definir critérios de desenvolvimento|-Equivale a garantia de promoção por tempo~Progressão depende dos critérios estabelecidos|-É definido pela lista de candidatos externos~Essa lista pode compor recrutamento
+Entrevista de permanência|+Investiga razões para continuar na organização|+Pode identificar necessidades de melhoria|-É feita para apurar a rescisão concluída~Isso corresponde à entrevista de desligamento|-É a avaliação de comportamentos para aprovação na contratação~Essa é uma entrevista seletiva
+Desligamento responsável|+Envolve comunicação cuidadosa|+Considera obrigações do encerramento do vínculo|+Pode incluir apoio à transição|-É definido como mudança de função interna~Mudança interna não encerra o vínculo
+Outplacement|+Apoia a transição profissional de desligados|+Pode incluir preparação para recolocação|-É definido como integração de admitidos~Integração atende novos integrantes|-É a transferência de empregados entre funções internas~Isso é mobilidade interna
+Trabalho remoto|+É realizado fora das instalações usuais|+Pode usar tecnologias de comunicação|-É definido pela ausência de vínculo de trabalho~Local de execução não determina vínculo|-Equivale a jornada reduzida~Local e duração são dimensões distintas
+Trabalho híbrido|+Combina períodos presenciais e remotos|+Exige coordenação da interação da equipe|+Pode exigir acordos sobre disponibilidade|-É a contratação de empregados e autônomos na mesma equipe~Híbrido refere-se aos locais de trabalho
+Avaliação de diversidade|+Pode examinar composição do quadro|+Pode examinar acesso a oportunidades|-É a comparação exclusiva das médias de produtividade~Produtividade não descreve diversidade|-É a mesma coisa que avaliar satisfação individual~Satisfação e diversidade são dimensões distintas
+Inclusão de pessoas com deficiência|+Envolve acessibilidade nos processos|+Pode exigir adaptações nas condições de trabalho|+Considera participação efetiva|-É definida pela dispensa de avaliar competências relevantes~Inclusão não elimina critérios pertinentes
+Aprendizagem contínua|+Envolve atualização ao longo da trajetória|+Pode ocorrer no próprio trabalho|-É definida por um curso de ingresso isolado~Continuidade ultrapassa uma atividade isolada|-Requer que a aprendizagem ocorra fora do exercício profissional~O trabalho também pode ser espaço de aprendizagem
+Gestão do conhecimento em equipes|+Facilita o compartilhamento de experiências|+Pode registrar aprendizados relevantes|-Equivale a medir frequência ao trabalho~Frequência não mede conhecimento|-É a elaboração de instruções sem compartilhamento entre pessoas~Parte do conhecimento pode permanecer tácita
+Competência intercultural|+Apoia interação entre referências culturais diferentes|+Envolve compreensão de contextos|-É definida pela nacionalidade da pessoa~Nacionalidade não prova competência|-É o domínio de um idioma tomado como evidência suficiente~Idioma pode ajudar, mas não esgota a competência
+Comunicação não violenta|+Distingue observações de julgamentos|+Expressa necessidades e pedidos|+Valoriza reconhecimento de sentimentos|-É definida por ocultar divergências~O modelo não exige ocultação de divergências
+Escuta ativa|+Envolve atenção à mensagem do interlocutor|+Pode usar confirmação do entendimento|-Equivale a preparar uma resposta sem ouvir~Isso prejudica a escuta|-É definida pelo cargo hierárquico~Cargo não define essa prática
+Confidencialidade em gestão de pessoas|+Protege informações de acesso restrito|+Exige cuidado com dados dos empregados|-Utiliza divulgação pública de salários individuais como instrumento de proteção~Divulgação depende de finalidade e autorização|-Corresponde a excluir registros sem avaliar obrigações~Retenção depende das exigências aplicáveis
+Trabalho colaborativo|+Envolve contribuição para objetivos comuns|+Exige articulação entre participantes|+Pode incluir compartilhamento de conhecimentos|+Mantém responsabilidades individuais e coletivas

@@ -1,0 +1,143 @@
+[MC]
+Dado|Registro de um fato ou observação ainda sem interpretação necessária
+Informação|Dado organizado e contextualizado para um propósito
+Conhecimento|Compreensão construída pela interpretação de informações e experiências
+Metadado|Registro que descreve características de outros dados
+Indicador digital|Medida selecionada para acompanhar uma condição ou resultado
+ERP|Sistema integrado de apoio a diferentes funções administrativas
+CRM|Sistema de apoio à gestão de relações e interações com clientes
+BI|Práticas e ferramentas para organizar dados e apoiar análise do negócio
+GED|Sistema de organização e controle de documentos eletrônicos
+BPM suite|Conjunto de ferramentas para modelar, executar e acompanhar processos
+Banco de dados|Conjunto organizado de registros com condições de armazenamento e acesso
+Sistema gerenciador de banco de dados|Software que controla operações e estruturas de uma base
+Tabela de banco relacional|Estrutura que organiza registros em linhas e atributos em colunas
+Registro de banco de dados|Conjunto de valores que representa uma ocorrência em uma estrutura
+Campo de banco de dados|Atributo que armazena uma característica de um registro
+Chave primária|Atributo ou conjunto que identifica de forma única um registro
+Chave estrangeira|Atributo que estabelece referência a chave de outra estrutura relacionada
+Consulta de dados|Solicitação de seleção ou organização de registros conforme critérios
+Índice de banco de dados|Estrutura auxiliar que favorece determinadas buscas e operações
+Restrição de integridade|Regra que limita valores ou relações para manter consistência
+SaaS|Oferta de software acessado como serviço gerenciado pelo provedor
+PaaS|Oferta de plataforma para desenvolver e executar aplicações
+IaaS|Oferta de recursos de infraestrutura computacional como serviço
+Nuvem pública|Ambiente de serviços disponibilizado por um provedor a diferentes clientes
+Nuvem privada|Ambiente de serviços destinado ao uso de uma organização definida
+Autenticação|Verificação de uma identidade declarada
+Autorização|Definição ou verificação das ações permitidas a uma identidade
+Auditoria de acesso|Registro e exame de ações realizadas em recursos
+Criptografia|Transformação de dados para protegê-los com mecanismos e chaves
+Backup|Cópia de dados destinada a apoiar recuperação
+Confidencialidade da informação|Proteção contra acesso ou divulgação não autorizados
+Integridade da informação|Proteção contra alterações indevidas em dados e registros
+Disponibilidade da informação|Condição de acesso e utilização quando necessário
+Autenticidade da informação|Confiança na origem ou identidade associada ao registro
+Rastreabilidade digital|Possibilidade de relacionar ações e alterações às suas evidências
+Malware|Software desenvolvido para executar ações maliciosas
+Phishing|Tentativa de obter dados ou ações por mensagens ou páginas enganosas
+Ransomware|Ataque que restringe acesso a recursos e exige pagamento
+Engenharia social|Manipulação de pessoas para obter acesso, dados ou ações
+Vulnerabilidade|Fragilidade que pode ser explorada para comprometer um recurso
+API|Interface que define como aplicações solicitam ou trocam funcionalidades e dados
+Webhook|Mecanismo de envio de aviso a outra aplicação quando um evento ocorre
+ETL|Processo de extrair, transformar e carregar dados
+RPA|Automação de tarefas com interação estruturada em aplicações
+Middleware|Camada que conecta componentes ou sistemas
+Data warehouse|Repositório organizado para análise integrada de dados históricos
+Data lake|Repositório que pode armazenar dados em diferentes formatos e níveis de estrutura
+Data mart|Conjunto de dados analíticos delimitado para uma área ou necessidade
+Dashboard|Painel que apresenta medidas e informações de acompanhamento
+Relatório operacional|Apresentação de dados sobre execução de atividades correntes
+Software livre|Programa com liberdades de uso, estudo, modificação e distribuição segundo licença
+Software proprietário|Programa cujo uso e modificação são limitados por condições do titular
+Código-fonte|Representação de instruções em linguagem usada para desenvolver um programa
+Software de código aberto|Programa com código disponibilizado sob licença que permite práticas definidas de acesso e alteração
+Licença de software|Conjunto de condições jurídicas para utilização e distribuição de um programa
+Inteligência artificial|Conjunto de técnicas para realizar tarefas associadas a capacidades cognitivas
+Aprendizado de máquina|Técnicas que ajustam modelos a partir de dados para realizar uma tarefa
+IA generativa|Modelos que produzem conteúdo a partir de padrões aprendidos e instruções
+Automação baseada em regras|Execução de ações conforme condições explicitamente definidas
+Modelo preditivo|Representação usada para estimar resultados a partir de variáveis de entrada
+[VF]
+Autenticação multifator|Verificação que combina fatores de categorias diferentes
+Gerenciador de senhas|Ferramenta para armazenar e apoiar uso de credenciais
+Controle de acesso por papéis|Distribuição de permissões conforme funções definidas
+Privilégio mínimo|Atribuição dos acessos necessários à atividade sem ampliar além da necessidade
+Revisão de acessos|Exame periódico da adequação de permissões concedidas
+Validação de entrada|Verificação de dados recebidos contra regras definidas
+Sanitização de entrada|Tratamento de conteúdo para reduzir elementos indesejados ou perigosos
+Log de aplicação|Registro de eventos do funcionamento de um sistema
+Monitoramento de aplicação|Acompanhamento de condições e desempenho de um sistema
+Alerta de aplicação|Aviso gerado quando uma condição definida é detectada
+Versionamento de arquivos|Registro de alterações que permite acompanhar estados de um conteúdo
+Controle de versão de código|Gestão do histórico e da colaboração sobre instruções de software
+Branch de código|Linha de desenvolvimento separada dentro de um histórico
+Commit de código|Registro de um conjunto de alterações em um histórico
+Merge de código|Integração de alterações entre linhas de desenvolvimento
+Teste unitário|Verificação de uma parte delimitada de software
+Teste de integração|Verificação da interação entre componentes
+Teste de aceitação|Verificação de atendimento a necessidades ou critérios acordados
+Teste de regressão|Verificação de que mudanças não prejudicaram comportamentos existentes
+Teste de carga|Verificação do comportamento sob volume definido de solicitações
+Ambiente de desenvolvimento|Contexto usado para construir e ajustar software
+Ambiente de homologação|Contexto usado para validar alterações antes do uso regular
+Ambiente de produção|Contexto usado na operação real do serviço
+Implantação de software|Disponibilização de uma versão em um ambiente
+Rollback de software|Retorno a uma versão anterior para recuperar uma condição
+Disponibilidade de serviço|Proporção de tempo em que um recurso atende às condições definidas
+Latência de serviço|Tempo entre solicitação e resposta de uma operação
+Vazão de serviço|Quantidade de operações concluídas por unidade de tempo
+Taxa de erro de serviço|Proporção de operações que apresentam falha no período
+Escalabilidade de serviço|Capacidade de ampliar atendimento mediante ajuste de recursos
+Dados estruturados|Registros organizados segundo esquema definido
+Dados semiestruturados|Registros com elementos organizacionais flexíveis como etiquetas ou pares de valores
+Dados não estruturados|Conteúdo sem organização tabular ou esquema rígido prévio
+Dados mestres|Registros de entidades centrais compartilhados entre processos
+Dados transacionais|Registros de eventos e operações do negócio
+Classificação de informação|Atribuição de categorias para orientar proteção e uso
+Retenção digital|Definição das condições e do tempo de guarda de registros
+Descarte digital seguro|Eliminação de registros com cuidados proporcionais à proteção necessária
+Portabilidade de dados|Possibilidade de transferir informações entre contextos conforme condições aplicáveis
+Governança de dados|Definição de responsabilidades, regras e decisões sobre informações
+[MR]
+Qualidade de dados|+Inclui exatidão e consistência|+Depende da finalidade de uso|-É garantida pelo grande volume de registros~Volume não prova qualidade|-É definida pelo formato colorido do painel~Apresentação não corrige dados
+Duplicidade de cadastro|+Pode representar a mesma entidade mais de uma vez|+Pode distorcer indicadores|+Exige critérios de identificação|-É comprovada pela igualdade de nome sem outros critérios de identidade~Pessoas distintas podem compartilhar nomes
+Integração entre sistemas|+Exige compatibilidade dos dados trocados|+Pode usar interfaces documentadas|-É garantida por usar o mesmo fabricante~Fabricante não elimina necessidade de compatibilidade|-Dispensa tratar falhas de comunicação~Falhas precisam de tratamento
+Interoperabilidade|+Permite troca e uso de informação|+Exige entendimento das representações|-É a disponibilização do arquivo executável sem interface de troca de dados~Executável não garante troca de informação|-Requer identidade de plataformas como condição de troca de dados~Sistemas diferentes podem interoperar
+Identidade digital|+Pode vincular uma conta a um usuário|+Depende de mecanismos de verificação|+Pode ser usada para controle de acesso|-É comprovada pela escolha de um nome de exibição~Nome de exibição não prova identidade
+Fatores de autenticação|+Podem envolver conhecimento e posse|+Podem envolver característica biométrica|-Duas senhas formam dois fatores distintos~Senhas pertencem à mesma categoria|-Um nome público de usuário é segredo de autenticação~Nome público não é fator secreto
+Segurança de credenciais|+Exige proteger segredos de acesso|+Pode usar senhas diferentes por serviço|-Reutilização ampla reduz o efeito de vazamentos~Reutilização amplia exposição|-Exposição no código público facilita proteção~Segredos públicos comprometem controle
+Permissões administrativas|+Podem permitir ações de maior impacto|+Exigem concessão criteriosa|-São o nível de acesso indicado aos usuários comuns sem necessidade administrativa~Acesso deve seguir necessidade|-São equivalentes a acesso de leitura~Administração pode incluir mudanças
+Segregação de ambientes digitais|+Pode separar dados e acessos de teste|+Reduz interferência na operação real|+Ajuda a validar mudanças|-Exige copiar dados pessoais reais sem avaliação~Uso de dados de teste exige proteção
+Backup e restauração|+Recuperação deve ser testada|+Cópias precisam de proteção|-Criar cópia prova que restauração funcionará~Recuperação precisa ser verificada|-Cópia no mesmo disco protege contra perda do disco~Falha do disco pode atingir ambas
+Objetivo de ponto de recuperação|+Define tolerância à perda de dados no tempo|+Influencia frequência de proteção|-É o prazo para voltar a operar~Esse prazo é RTO|-É o número de usuários cadastrados~Usuários não definem RPO
+Objetivo de tempo de recuperação|+Define prazo desejado para restaurar operação|+Apoia planejamento de continuidade|+É distinto da tolerância à perda de dados|-É a idade máxima dos dados perdidos~Isso corresponde ao RPO
+Plano de recuperação de desastre|+Prevê procedimentos para retomada|+Considera recursos e responsabilidades|-É equivalente a criar uma cópia isolada~Plano inclui mais que backup|-Dispensa testes de execução~Testes apoiam a confiabilidade
+Tratamento de incidente digital|+Exige conter e investigar a ocorrência|+Pode envolver recuperação e comunicação|-É concluído por apagar logs~Logs podem ser necessários à apuração|-É substituído por trocar o nome da conta~Mudança de nome não trata comprometimento
+Atualização de segurança|+Pode corrigir vulnerabilidades conhecidas|+Exige considerar compatibilidade|+Pode demandar validação e planejamento|-Elimina a necessidade de controle de acesso~Atualização não substitui permissões
+Conexão HTTPS|+Protege comunicação em trânsito|+Usa mecanismos de autenticação do servidor|-Prova honestidade do conteúdo do site~Proteção de conexão não prova legitimidade da oferta|-É o mecanismo de criptografia dos dados já armazenados no servidor~Armazenamento exige medidas próprias
+Hash criptográfico|+Produz resumo a partir de dados|+Pode apoiar verificação de integridade|-É uma criptografia reversível para recuperar a entrada~Hash não se destina à reversão|-Tem a mesma função de um backup~Resumo não recupera conteúdo
+Assinatura digital|+Pode verificar integridade e autoria|+Usa mecanismos criptográficos|+Depende da proteção das chaves|-É a mesma coisa que imagem de assinatura manuscrita~Imagem não fornece as mesmas garantias
+Criptografia simétrica|+Usa segredo compartilhado na operação|+Exige cuidado na distribuição da chave|-Usa par público e privado por definição~Esse par caracteriza criptografia assimétrica|-É o registro do evento de acesso~Registro não é criptografia
+Criptografia assimétrica|+Usa chaves relacionadas pública e privada|+Exige proteger a chave privada|-Depende de divulgar a chave privada aos usuários~A privada deve ser protegida|-É equivalente a codificar texto em Base64~Codificação não é criptografia
+Painel e interpretação|+Exige definir as medidas apresentadas|+Pode usar filtros de período|+Deve manter contexto dos dados|-Prova causalidade por exibir correlação~Painel não prova causa
+ETL e qualidade|+Pode aplicar transformações antes de carregar|+Exige regras de mapeamento|-Elimina necessidade de validar fontes~Fonte ainda precisa ser validada|-É usado para conceder permissão de usuário por definição~Seu foco é fluxo de dados
+ELT|+Carrega dados antes de transformar|+Pode usar processamento do destino|-Transforma tudo antes de carregar por definição~Isso caracteriza ETL|-É sinônimo de backup de arquivo~ELT trata integração de dados
+Automação robótica de tarefas|+Pode reproduzir interações estruturadas|+Depende de regras e condições|+Pode exigir tratamento de exceções|-Dispensa tratar situações fora das regras configuradas~Automação tem limites definidos
+Escolha de automação|+Considera estabilidade e frequência da tarefa|+Considera custos e riscos|-É indicada para tarefa instável sem examinar regras e exceções~Adequação depende do contexto|-Dispensa redesenhar processos deficientes~Automatizar pode manter problemas existentes
+Modelo de IA e dados|+Qualidade da entrada afeta resultados|+Pode reproduzir vieses presentes nos dados|-Garante neutralidade por ser computacional~Modelos podem ter vieses|-Dispensa avaliar população de uso~Contexto de uso importa
+IA generativa e verificação|+Pode produzir informação incorreta|+Exige avaliação do conteúdo gerado|+Pode auxiliar redação e síntese|-Uma resposta fluente prova exatidão~Fluência não garante correção
+Supervisão humana de IA|+Define responsabilidades sobre uso|+Pode avaliar efeitos sobre pessoas|-É eliminada por contratar um fornecedor~Contratação não elimina responsabilidade de uso|-Se resume à presença de um usuário cadastrado~Supervisão exige práticas efetivas
+Dados de treinamento e de teste|+Podem ter finalidades distintas|+Separação adequada apoia avaliação|-Usar os mesmos dados garante generalização~Sobreposição pode distorcer desempenho|-Dados de teste são destinados ao ajuste dos parâmetros do modelo~Teste avalia comportamento fora do ajuste
+Sobreajuste de modelo|+Pode apresentar bom desempenho nos dados de treino|+Pode prejudicar generalização|+Exige avaliação em dados adequados|-É evidência suficiente de generalização para dados não vistos~Generalização pode piorar
+Colaboração em documentos digitais|+Pode usar permissões e histórico|+Exige cuidado com compartilhamento|-Um link público equivale a acesso restrito~Link público pode ampliar acesso|-Compartilhar dispensa verificar a identidade do destinatário~Destinatário precisa ser adequado
+Gestão de versões de documentos|+Ajuda a identificar alterações|+Pode permitir recuperar estados anteriores|-Define por si o prazo legal de guarda do documento~Retenção é outra decisão|-É a verificação do conteúdo de cada alteração por critérios de qualidade~Histórico registra alterações sem provar qualidade
+Assinatura eletrônica e processo|+Exige identificar o tipo de mecanismo|+Deve considerar requisitos do documento|+Pode envolver evidências de autoria e integridade|-Uma imagem de assinatura fornece verificação criptográfica de integridade~Mecanismos têm garantias diferentes
+Migração de dados|+Transfere informações entre estruturas|+Exige verificar correspondência e integridade|-É concluída pela existência de um arquivo exportado~Importação e conferência ainda podem faltar|-Dispensa planejar retorno em caso de falha~Contingência é relevante
+Arquivamento digital|+Organiza guarda de documentos|+Pode considerar acesso e preservação|-É sinônimo de excluir definitivamente~Arquivar não é eliminar|-Dispensa classificação do conteúdo~Classificação ajuda a gerir guarda e acesso
+Idempotência em operações digitais|+Permite repetir pedido sem duplicar o efeito definido|+É relevante a tentativas após falha|+Depende do desenho da operação|-Significa que repetir a solicitação deve retornar um horário idêntico~O conceito trata do efeito, não de qualquer campo da resposta
+SLA de serviço|+Registra condições de atendimento acordadas|+Pode definir metas de disponibilidade|-É prova de ausência de incidentes~Acordo não garante ausência de falhas|-Equivale a um manual de usuário~Manual e acordo têm funções diferentes
+Custo total de solução digital|+Pode incluir implantação e treinamento|+Pode incluir operação e manutenção|-É definido pelo valor da mensalidade sem incluir implantação~Há custos adicionais|-Exclui migração por definição~Migração pode compor o custo
+Transformação digital|+Pode alterar processos e formas de atuação|+Exige capacidades organizacionais|-É comprovada pela compra de computadores~Equipamento isolado não demonstra transformação|-É equivalente a converter um papel em arquivo~Digitalização é mais delimitada
+Uso responsável de ferramentas digitais|+Considera finalidade|+Considera proteção dos dados|+Considera verificação dos resultados|+Considera permissões e responsabilidades

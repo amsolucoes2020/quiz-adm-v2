@@ -29,7 +29,11 @@ O servidor registra as campanhas antes de renovar pontos, missões e salas. XP p
 
 ## Banco de questões
 
-O conjunto versionado contém 561 questões conceituais ativas. Outras 262 questões de análise ficam preservadas e filtradas. A importação acrescenta conteúdo sem sobrescrever IDs existentes ou excluir questões personalizadas. O total remoto depende do conteúdo já cadastrado.
+O conjunto versionado contém 1.680 questões conceituais ativas nas 12 categorias: 60 múltiplas escolhas, 40 verdadeiro/falso e 40 múltiplas respostas por categoria. Cada formato mantém 50% fáceis, 30% médias e 20% difíceis. [Currículo, manutenção e critérios editoriais](content/bank/README.md).
+
+O banco anterior permanece arquivado para preservar IDs e histórico. O balanceamento não altera perfis, XP, rankings nem conquistas. `ativo: false` e o índice de enunciados aposentados impedem que cópias antigas retornem ao quiz. Novas questões manuais continuam permitidas; sua inclusão altera a distribuição planejada.
+
+Use `npm run bank:build`, `npm run bank:check` e `npm run bank:audit` para gerar, conferir e auditar o banco. A publicação do banco no Firestore usa `node scripts/publish-balanced-bank.mjs --credential <arquivo-protegido>` em modo de simulação; `--apply` salva backup e aplica as mudanças. Credenciais e backups nunca devem ser versionados.
 
 O importador aceita um array JSON com disciplina, dificuldade, tipo, pergunta, alternativas, explicacao e formato. multipla usa cinco opções e respostaCorreta (0–4); vf usa Verdadeiro/Falso nessa ordem e respostaCorreta (0–1); multipla_resposta usa quatro opções, respostasCorretas (2–4 índices distintos) e explicacoesAlternativas (quatro textos). fonte HTTPS e dataReferencia AAAA-MM-DD são opcionais.
 

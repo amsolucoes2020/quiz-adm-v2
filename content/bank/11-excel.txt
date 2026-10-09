@@ -1,0 +1,143 @@
+[MC]
+Pasta de trabalho do Excel|Arquivo que reúne planilhas e outros elementos
+Planilha do Excel|Grade de células organizada em linhas e colunas
+Célula do Excel|Interseção de uma linha com uma coluna
+Intervalo do Excel|Conjunto de células definido para uma operação
+Tabela do Excel|Estrutura de dados com cabeçalhos e recursos próprios de organização
+Referência relativa|Endereço que se ajusta quando a fórmula é copiada
+Referência absoluta|Endereço cuja linha e coluna permanecem fixas na cópia da fórmula
+Referência mista|Endereço com linha ou coluna fixa na cópia da fórmula
+Referência estruturada|Endereço que utiliza nomes de tabela e de suas partes
+Referência externa|Endereço que aponta para dados de outra pasta de trabalho
+SOMA|Função que adiciona valores numéricos
+MÉDIA|Função que calcula média aritmética de valores numéricos
+MÍNIMO|Função que retorna o menor valor numérico do conjunto
+MÁXIMO|Função que retorna o maior valor numérico do conjunto
+CONT.NÚM|Função que conta células com valores numéricos
+CONT.VALORES|Função que conta células não vazias no conjunto
+CONTAR.VAZIO|Função que conta células consideradas vazias no intervalo
+CONT.SE|Função que conta células que atendem a um critério
+SOMASE|Função que soma valores associados a um critério
+MÉDIASE|Função que calcula média de valores associados a um critério
+SE|Função que retorna um resultado conforme uma condição lógica
+E|Função que verifica se todas as condições informadas são verdadeiras
+OU|Função que verifica se alguma condição informada é verdadeira
+NÃO|Função que inverte o valor de uma expressão lógica
+SEERRO|Função que fornece um resultado alternativo quando a expressão gera erro
+SOMASES|Função que soma valores associados a múltiplos critérios
+CONT.SES|Função que conta registros que atendem a múltiplos critérios
+MÉDIASES|Função que calcula média dos valores associados a múltiplos critérios
+SOMARPRODUTO|Função que soma produtos de valores correspondentes em matrizes
+SUBTOTAL|Função que executa cálculo agregado com tratamento próprio de linhas filtradas
+PROCV|Função que procura na primeira coluna e retorna valor de coluna indicada
+PROCH|Função que procura na primeira linha e retorna valor de linha indicada
+ÍNDICE|Função que retorna valor na posição indicada de um intervalo
+CORRESP|Função que retorna a posição de um item procurado em um intervalo
+PROCX|Função que procura em um intervalo e retorna correspondência em outro
+ARRED|Função que arredonda um valor para a quantidade de dígitos indicada
+ARREDONDAR.PARA.CIMA|Função que arredonda um valor afastando-o de zero
+ARREDONDAR.PARA.BAIXO|Função que arredonda um valor aproximando-o de zero
+INT|Função que retorna o inteiro menor ou igual ao valor numérico
+TRUNCAR|Função que remove a parte fracionária conforme precisão indicada
+HOJE|Função que retorna a data atual do sistema
+AGORA|Função que retorna a data e a hora atuais do sistema
+DATA|Função que constrói uma data a partir de ano, mês e dia
+DIATRABALHO|Função que calcula data após uma quantidade de dias úteis
+DIATRABALHOTOTAL|Função que conta dias úteis entre duas datas
+ESQUERDA|Função que extrai caracteres do começo de um texto
+DIREITA|Função que extrai caracteres do final de um texto
+EXT.TEXTO|Função que extrai caracteres a partir de uma posição informada
+NÚM.CARACT|Função que informa a quantidade de caracteres de um texto
+ARRUMAR|Função que remove espaços excedentes de um texto segundo suas regras
+Classificação de dados|Reorganização de linhas conforme a ordem de valores em campos
+Filtro de dados|Exibição de registros que atendem a condições definidas
+Validação de dados|Definição de condições para entrada de valores em células
+Formatação condicional|Aplicação de aparência conforme valores ou regras
+Remover duplicatas|Exclusão de registros repetidos conforme colunas escolhidas
+Tabela Dinâmica|Resumo interativo de dados por campos e formas de agregação
+Gráfico Dinâmico|Representação gráfica vinculada a um resumo dinâmico
+Segmentação de dados|Controle visual para aplicar filtros em estruturas compatíveis
+Power Query|Ferramenta de obtenção, transformação e combinação de dados
+Modelo de Dados|Estrutura que permite relacionar tabelas para análises na pasta
+[VF]
+Formato XLSX|Arquivo de pasta de trabalho que não armazena código de macro VBA
+Formato XLSM|Arquivo de pasta de trabalho habilitado a armazenar macros VBA
+Formato CSV|Arquivo de texto que organiza valores com delimitadores
+Formato PDF de exportação|Arquivo de apresentação destinado a preservar uma representação visual
+Modelo XLTX|Arquivo de referência para criar novas pastas sem macros VBA
+Gráfico de colunas|Representação que compara valores por altura de barras verticais
+Gráfico de barras|Representação que compara valores por comprimento de barras horizontais
+Gráfico de linhas|Representação que destaca variação em uma sequência como períodos
+Gráfico de dispersão|Representação que posiciona pares de valores em eixos numéricos
+Gráfico de setores|Representação que divide um total em partes de um círculo
+Congelar painéis|Recurso que mantém áreas visíveis durante a rolagem
+Dividir janela|Recurso que separa a visualização da planilha em painéis
+Ocultar linha|Recurso que retira uma linha da visualização sem excluí-la
+Agrupar linhas|Recurso que organiza conjuntos de linhas para expandir ou recolher
+Mesclar células|Recurso que reúne células adjacentes em uma área
+Proteção de planilha|Recurso que limita alterações permitidas nas células e elementos
+Proteção da estrutura da pasta|Recurso que limita mudanças como mover ou excluir planilhas
+Criptografia com senha de abertura|Recurso destinado a restringir acesso ao conteúdo do arquivo
+Permissão de compartilhamento|Condição que define acesso ao arquivo por outros usuários
+Histórico de versões em serviço compatível|Recurso que registra estados anteriores do arquivo armazenado
+Formatação percentual|Apresentação de valor numérico como proporção por cem
+Formatação monetária|Apresentação de valor numérico com símbolo e convenções de moeda
+Formatação de data|Apresentação de valor de série como componentes de calendário
+Formatação de texto|Tratamento da entrada da célula como conteúdo textual
+Formato numérico personalizado|Regra de apresentação definida pelo usuário para valores
+Erro #DIV/0!|Resultado de divisão por zero ou denominador sem valor adequado
+Erro #N/D|Indicação de valor necessário não disponível em uma operação
+Erro #REF!|Indicação de referência inválida em uma fórmula
+Erro #NOME?|Indicação de nome ou texto de fórmula não reconhecido
+Erro #VALOR!|Indicação de tipo ou argumento incompatível com uma operação
+ÉNÚM|Função que testa se o valor é numérico
+ÉTEXTO|Função que testa se o valor é texto
+ÉCÉL.VAZIA|Função que testa se uma referência aponta para célula vazia
+ÉERROS|Função que testa se o valor é qualquer erro
+ÉREF|Função que testa se o valor é uma referência
+TEXTO|Função que converte um valor em texto com formato especificado
+VALOR|Função que converte texto numérico reconhecido em número
+MAIÚSCULA|Função que converte letras de texto para maiúsculas
+MINÚSCULA|Função que converte letras de texto para minúsculas
+PRI.MAIÚSCULA|Função que coloca letras iniciais das palavras em maiúsculas
+[MR]
+Cópia de fórmulas|+Pode alterar referências relativas|+Mantém referências absolutas fixas|-Converte o endereço de célula em texto armazenado ao copiar~Referências continuam parte da fórmula|-Mantém a referência relativa fixa por definição~A relativa se ajusta na cópia
+Sinal de dólar em referências|+Pode fixar a coluna|+Pode fixar a linha|+Pode fixar ambas|-Transforma a fórmula em valor monetário~O símbolo na referência controla fixação
+Intervalos em fórmulas|+Podem conter várias células|+Podem ser usados como argumentos|-São identificados pelo resultado da média~Resultado não define endereço|-Exigem mesclar as células~Intervalo não exige mesclagem
+Valor e formato da célula|+A aparência pode mudar sem alterar o valor|+Arredondamento visual pode ocultar casas|-Diminuir casas exibidas modifica necessariamente o valor calculado~Exibição e valor armazenado podem diferir|-Formato monetário converte texto inválido em número por si~Formato não garante conversão
+Datas como valores de série|+Podem participar de cálculos|+Podem receber diferentes formatos|+Dependem do sistema de datas usado|-São armazenadas como imagens de calendário~Datas são valores, não imagens
+Percentuais no Excel|+Podem ser calculados com valores numéricos|+A exibição percentual representa proporção por cem|-Formatar 1 como percentual produz 1%~O valor 1 é exibido como 100%|-Formato percentual calcula uma razão entre células por si~A razão exige fórmula ou valor adequado
+Texto e número em importações|+Podem exigir conversão de tipos|+Separadores dependem de configurações|-Um código com dígitos é reconhecido como número mesmo quando o tipo importado é texto~Importação pode preservar texto|-Código com zero inicial deve ser número para preservar formato original~Texto pode preservar zeros sem formatação adicional
+Fórmulas e operadores|+Operadores têm precedência|+Parênteses podem controlar a ordem|-A soma é executada antes da multiplicação sem parênteses~Multiplicação tem precedência|-O sinal inicial de igualdade é uma comparação que exige resultado lógico~No início ele introduz fórmula
+Uso de SE|+Avalia uma condição|+Pode retornar resultados diferentes|+Pode usar outras funções nos resultados|-Conta ocorrências no intervalo por definição~Contagem condicional é finalidade de CONT.SE
+Uso de E e OU|+Podem combinar testes lógicos|+Podem ser usados em condições de SE|-E aceita um resultado verdadeiro com as demais condições falsas~E exige todas as condições verdadeiras|-OU requer simultaneidade de condições verdadeiras~OU aceita alguma condição verdadeira
+Tratamento de erros com SEERRO|+Pode retornar uma mensagem alternativa|+Pode reduzir erros exibidos|-Corrige a causa do erro original automaticamente~A causa pode permanecer|-Prova que os dados estão corretos~Ocultar erro não valida dados
+Critérios em SOMASES|+Podem referir-se a colunas diferentes|+Devem ter intervalos compatíveis|+Selecionam valores conforme condições|-São combinados como alternativas livres por padrão~As condições dos pares precisam ser atendidas
+Correspondência exata em PROCV|+É adequada para procurar identificador específico|+Pode exigir informar o modo explicitamente|-Deve encontrar valor aproximado quando não há código igual~Exata pode retornar erro|-Permite retornar coluna à esquerda da primeira por definição~PROCV procura na primeira e retorna coluna indicada à direita ou a própria
+Correspondência aproximada em PROCV|+Pode ser útil para faixas|+Exige organização adequada da primeira coluna|-É equivalente à busca textual por semelhança de palavras~Não é busca por similaridade de texto|-Dispensa considerar a ordem dos dados~Ordenação é relevante nesse modo
+Uso de ÍNDICE e CORRESP|+Pode combinar posição e retorno|+Permite estruturas mais flexíveis de procura|+Pode retornar valor à esquerda da coluna de busca|-Exige que retorno esteja na primeira coluna~Essa restrição não existe nessa combinação
+PROCX em versões compatíveis|+Pode usar intervalos separados de busca e retorno|+Pode definir retorno quando não encontra|-É uma função disponível no Excel 2016~Disponibilidade depende da versão|-Requer que o intervalo de retorno esteja à direita do intervalo de busca~Pode retornar em diferentes direções
+SOMARPRODUTO|+Pode combinar matrizes de dimensões compatíveis|+Pode apoiar médias ponderadas|-Calcula média aritmética por definição~O resultado básico é soma de produtos|-Admite matrizes com dimensões incompatíveis na multiplicação correspondente~Dimensões precisam ser adequadas
+SUBTOTAL e filtros|+Pode ignorar linhas retiradas por filtro|+O número de função define a agregação|+Há modos com tratamento diferente de linhas ocultas|-Os códigos 9 e 109 tratam igualmente as linhas ocultas manualmente~Códigos têm comportamentos distintos
+Filtros de tabela|+Podem restringir linhas exibidas|+Podem combinar critérios em colunas|-Excluem fisicamente os registros filtrados~Registros permanecem|-Alteram necessariamente o valor das células~Filtrar altera visibilidade
+Classificação com cabeçalhos|+Deve preservar associação entre campos da linha|+Pode usar vários níveis|-É seguro ordenar uma coluna isolada sem avaliar os registros~Isso pode desalinhá-los|-Transforma o cabeçalho em dado por definição~Cabeçalhos podem ser identificados e preservados
+Remoção de duplicatas|+Depende das colunas escolhidas|+Pode alterar a quantidade de registros|+Exige cuidado com cópia ou recuperação|-Valores iguais em uma coluna provam duplicidade da entidade~Entidades distintas podem compartilhar valores
+Validação por lista|+Pode oferecer opções de entrada|+Pode apoiar padronização|-É controle completo de segurança do arquivo~Validação não é segurança de acesso|-Garante impedir dados inválidos introduzidos por colagem~Colagens e operações podem exigir conferência adicional
+Validação personalizada|+Pode usar uma fórmula lógica|+Pode considerar outras células|-É a mesma coisa que formatação condicional~Validação limita entrada; formatação altera aparência|-Exige que a regra seja uma imagem~A regra pode ser fórmula
+Regras de formatação condicional|+Podem considerar valores|+Podem usar fórmulas|+Podem ter prioridade definida|-Altera o valor numérico para cumprir a regra~A regra altera apresentação
+Tabela e expansão de dados|+Pode ajustar referências estruturadas|+Pode replicar fórmulas em colunas|-É a mesma coisa que selecionar células coloridas~Tabela é estrutura com recursos próprios|-Dispensa cabeçalhos identificáveis~Cabeçalhos apoiam a estrutura
+Totais de tabela|+Podem usar funções de agregação|+Podem reagir a filtros conforme fórmula|-São uma soma fixa sem escolha de função de agregação~A função pode variar|-Substituem conferência de tipos de dados~Tipos afetam resultados
+Tabela Dinâmica e atualização|+Pode exigir atualizar após mudança da fonte|+Permite reorganizar campos|+Depende do alcance da fonte definida|-Inclui registros novos fora do intervalo de origem sem ampliar a fonte~A fonte precisa abranger os dados
+Agregação em Tabela Dinâmica|+Pode usar soma ou contagem|+Depende do tipo dos valores|-Texto importado como número garante soma correta~Tipo precisa ser verificado|-Uma contagem equivale à soma monetária~Contagem e soma medem coisas diferentes
+Campos de Tabela Dinâmica|+Podem ocupar linhas e colunas|+Podem servir de filtros|-São restritos à área de valores para compor o resumo~Há diferentes áreas|-Representam posições de células fixas por definição~Campos se referem aos atributos da fonte
+Escolha de gráfico|+Depende da mensagem e do tipo de dado|+Deve manter escala compreensível|+Pode exigir evitar excesso de séries|-Um gráfico de setores representa a sequência temporal de modo equivalente a linhas~Linhas ou colunas podem ser mais adequadas
+Eixos de gráfico|+Afetam leitura das magnitudes|+Devem ser coerentes com a comparação|-Podem ser alterados sem afetar interpretação~Escalas afetam percepção|-Substituem identificar a unidade de medida~Unidades continuam necessárias
+Power Query e atualização|+Pode repetir etapas de transformação|+Pode obter dados de fontes compatíveis|-É necessário editar manualmente cada célula a cada execução~Etapas podem ser reaplicadas|-Substitui a verificação de qualidade dos dados~Transformação não elimina conferência
+Junção no Power Query|+Relaciona tabelas por colunas escolhidas|+O tipo de junção afeta linhas resultantes|+Exige avaliar compatibilidade das chaves|-É o mesmo que acrescentar linhas de tabelas~Acrescentar e mesclar têm funções distintas
+Acrescentar no Power Query|+Combina linhas de consultas|+Exige avaliar correspondência de colunas|-Combina colunas por correspondência de chaves por definição~Isso caracteriza junção|-Garante ausência de registros repetidos~Repetições podem permanecer
+Tipos no Power Query|+Podem afetar cálculos e junções|+Podem exigir configuração regional|-Uma coluna de texto aceita cálculo de datas sem conversão de tipo~Tipos afetam processamento|-Conversão de tipo não pode gerar erro~Valores incompatíveis podem gerar erro
+Modelo de Dados e relações|+Pode conectar tabelas por chaves|+Exige examinar cardinalidade|+Pode apoiar análise de várias fontes|-Uma relação um-para-muitos admite repetição na chave do lado um~O lado único exige unicidade
+Macros VBA e segurança|+Podem automatizar ações|+Devem vir de origem confiável|-Um arquivo XLSX precisa executar VBA para ser aberto~XLSX não armazena VBA|-Assinatura ou origem elimina necessidade de avaliar riscos~Riscos ainda precisam de avaliação
+Proteção e confidencialidade no Excel|+Proteção de planilha limita edição|+Controle de acesso ao arquivo trata outra dimensão|-Ocultar uma planilha equivale a criptografar o arquivo~Ocultação não é criptografia|-Proteger células garante segredo dos dados~Proteção de edição não garante confidencialidade
+Fórmula com referência circular|+Refere-se direta ou indiretamente ao próprio resultado|+Pode exigir configuração e modelagem específicas|-É o mesmo que usar referência absoluta~Fixação não cria circularidade por si|-É eliminada por aplicar formato numérico~Formato não remove dependência circular
+Boas práticas em planilhas administrativas|+Identificam fontes e períodos|+Conferem tipos e fórmulas|+Separam entradas e cálculos quando adequado|+Protegem dados e preservam versões relevantes

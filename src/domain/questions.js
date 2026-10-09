@@ -37,6 +37,10 @@ export function normalizeQuestion(raw) {
     throw new Error(`O gabarito deve ser um número inteiro entre 0 e ${count-1}.`);
   }
   const metadata = {};
+  if(raw.grupoPedagogico !== undefined) {
+    if(typeof raw.grupoPedagogico!=='string'||!raw.grupoPedagogico.trim()||raw.grupoPedagogico.length>100) throw new Error('Grupo pedagógico inválido.');
+    metadata.grupoPedagogico=raw.grupoPedagogico;
+  }
   if (multiple) {
     if (!Array.isArray(raw.respostasCorretas) || raw.respostasCorretas.length < 2 || raw.respostasCorretas.length > 4 ||
         new Set(raw.respostasCorretas).size !== raw.respostasCorretas.length || raw.respostasCorretas.some(i=>!Number.isInteger(i)||i<0||i>=4)) throw new Error('Informe de 2 a 4 índices corretos, sem repetição.');
@@ -87,10 +91,18 @@ export function prepareQuestions(source, user, count = 10) {
   const answered = user?.questoesRespondidasHoje || [];
   const wrong = user?.questoesErradasHoje || [];
   const unique = [...new Map(source.map(q => [questionKey(q), q])).values()];
+  const diversify = pool => {
+    const seen = new Set(),first=[],rest=[];
+    for(const q of shuffleArray(pool)) {
+      const group=q.grupoPedagogico||q.id||questionKey(q);
+      if(seen.has(group))rest.push(q);else {seen.add(group);first.push(q);}
+    }
+    return [...first,...rest];
+  };
   const ordered = [
-    ...shuffleArray(unique.filter(q => !answered.includes(q.id))),
-    ...shuffleArray(unique.filter(q => answered.includes(q.id) && !wrong.includes(q.id))),
-    ...shuffleArray(unique.filter(q => answered.includes(q.id) && wrong.includes(q.id)))
+    ...diversify(unique.filter(q => !answered.includes(q.id))),
+    ...diversify(unique.filter(q => answered.includes(q.id) && !wrong.includes(q.id))),
+    ...diversify(unique.filter(q => answered.includes(q.id) && wrong.includes(q.id)))
   ];
   return ordered.slice(0, count).map(q => {
     if (q.formato === 'vf') return {...q};

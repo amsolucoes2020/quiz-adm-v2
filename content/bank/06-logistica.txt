@@ -1,0 +1,143 @@
+[MC]
+Logística|Planejamento e gestão dos fluxos de bens e informações entre origem e uso
+Gestão da cadeia de suprimentos|Integração de organizações e atividades que fornecem valor ao cliente final
+Logística de suprimentos|Gestão do fluxo de materiais que abastece a operação
+Logística de distribuição|Gestão do fluxo de produtos até os destinatários
+Logística reversa|Gestão do retorno de produtos e materiais para reaproveitamento ou destinação
+Estoque de ciclo|Quantidade mantida para atender consumo entre reposições regulares
+Estoque de segurança|Quantidade adicional mantida para enfrentar variações de demanda ou reposição
+Estoque em trânsito|Quantidade que está em deslocamento entre locais
+Estoque sazonal|Quantidade formada para atender variações previstas de demanda em épocas específicas
+Estoque de antecipação|Quantidade formada antes de uma necessidade ou restrição futura prevista
+Ponto de pedido|Nível de estoque que indica a necessidade de iniciar a reposição
+Lote econômico de compra|Quantidade que equilibra custos de pedido e manutenção sob hipóteses do modelo
+Estoque máximo|Limite superior de quantidade definido pela política de abastecimento
+Estoque mínimo|Limite inferior definido pela política de abastecimento
+Cobertura de estoque|Tempo estimado de atendimento da demanda com a quantidade disponível
+Lead time de suprimento|Tempo entre iniciar um pedido e disponibilizar o material recebido
+Tempo de ciclo de pedido|Tempo para completar as etapas de atendimento de uma solicitação
+Tempo de transporte|Tempo de deslocamento entre origem e destino
+Tempo de recebimento|Tempo dedicado à entrada, conferência e disponibilização de materiais
+Tempo de separação|Tempo dedicado à coleta de itens para atender um pedido
+Inventário geral|Conferência física do conjunto de estoques em um momento definido
+Inventário rotativo|Conferência física distribuída por grupos de itens ao longo do tempo
+Acurácia de estoque|Grau de correspondência entre registros e quantidades físicas
+Ruptura de estoque|Indisponibilidade de item demandado no momento do atendimento
+Obsolescência de estoque|Perda de utilidade ou demanda de materiais ao longo do tempo
+Curva ABC de estoques|Classificação de itens conforme sua importância em um critério de valor
+Classificação XYZ de variabilidade|Agrupamento de itens conforme regularidade e previsibilidade da demanda
+Classificação por criticidade|Agrupamento de itens conforme consequências de sua falta
+Padronização de materiais|Definição de especificações comuns para reduzir variedade desnecessária
+Codificação de materiais|Atribuição de identificadores aos itens para controlar registros
+Recebimento de materiais|Entrada e conferência de itens entregues por fornecedores
+Armazenagem|Organização da guarda e conservação de itens em locais adequados
+Picking|Separação de itens para compor pedidos
+Packing|Acondicionamento de itens para expedição
+Expedição|Preparação e liberação de pedidos para envio
+Cross-docking|Transferência de cargas do recebimento à saída com pouca ou nenhuma estocagem
+Consolidação de carga|Agrupamento de remessas para aproveitar capacidade de transporte
+Desconsolidação de carga|Separação de remessas agrupadas para distribuir aos destinos
+Unitização|Agrupamento físico de volumes em uma unidade de movimentação
+Paletização|Organização de volumes sobre uma plataforma de movimentação
+Modal rodoviário|Transporte terrestre realizado por veículos em estradas
+Modal ferroviário|Transporte terrestre realizado por veículos sobre trilhos
+Modal aquaviário|Transporte realizado por embarcações em vias navegáveis
+Modal aéreo|Transporte realizado por aeronaves
+Modal dutoviário|Transporte realizado por tubulações
+Transporte intermodal|Uso de mais de um modal com operações contratuais diferenciadas
+Transporte multimodal|Uso de mais de um modal sob responsabilidade contratual de um operador
+Cabotagem|Navegação entre portos ou pontos do território nacional
+Longo curso|Navegação entre portos de países diferentes
+Transporte de última milha|Etapa final de entrega ao destinatário
+WMS|Sistema de informação para gerenciar operações de armazenagem
+TMS|Sistema de informação para gerenciar operações de transporte
+MRP|Sistema que calcula necessidades de materiais a partir do plano de produção
+DRP|Sistema que calcula necessidades de reposição na distribuição
+EDI|Troca estruturada de documentos e dados eletrônicos entre organizações
+Compra centralizada|Aquisição concentrada em uma unidade responsável
+Compra descentralizada|Aquisição realizada pelas unidades segundo responsabilidades distribuídas
+Compra spot|Aquisição pontual para uma necessidade ou condição definida
+Contrato de fornecimento|Acordo que estabelece condições de entregas de materiais ou serviços
+Desenvolvimento de fornecedores|Ações para ampliar capacidades e desempenho de parceiros de suprimento
+[VF]
+Demanda independente|Necessidade de item não calculada diretamente a partir de outro item produzido
+Demanda dependente|Necessidade de item calculada a partir da demanda de um item relacionado
+Lista de materiais|Relação de componentes e quantidades necessários a um produto
+Plano mestre de produção|Programação de quantidades e períodos de produtos finais
+Registro de estoque|Informação sobre saldo, movimentos e condições dos materiais
+Custo de pedido|Gasto associado à realização de uma solicitação de compra
+Custo de manutenção de estoque|Gasto associado à permanência dos itens armazenados
+Custo de falta|Efeito econômico associado à indisponibilidade de material demandado
+Custo de aquisição|Valor associado à obtenção do material comprado
+Custo de transporte|Gasto associado ao deslocamento de bens entre locais
+FIFO físico|Regra de saída que prioriza os itens recebidos primeiro
+FEFO|Regra de saída que prioriza os itens com vencimento mais próximo
+LIFO físico|Regra de saída que prioriza os itens recebidos por último
+Estocagem aleatória|Alocação de itens em posições disponíveis definidas pelo sistema
+Estocagem dedicada|Alocação de posições previamente reservadas a determinados itens
+Endereçamento logístico|Identificação organizada de posições de armazenagem
+Slotting|Definição de posições de itens considerando características e frequência de uso
+Roteirização|Definição de caminhos e sequência de atendimento no transporte
+Rastreamento de carga|Acompanhamento de localização e eventos durante o deslocamento
+Agendamento de docas|Organização de horários de chegada e utilização de pontos de carga
+OTIF|Indicador de atendimento no prazo e com a quantidade ou composição completa
+Fill rate|Proporção da demanda atendida diretamente com disponibilidade de itens
+Giro de estoque|Frequência de renovação dos itens em um período definido
+Utilização de capacidade de transporte|Relação entre carga utilizada e capacidade disponível
+Taxa de devolução|Proporção de pedidos ou itens retornados em um período definido
+Cadeia fria|Conjunto de condições de temperatura mantidas no fluxo de produtos sensíveis
+Carga fracionada|Transporte de remessas de diferentes embarcadores em uma operação compartilhada
+Carga lotação|Transporte que utiliza capacidade dedicada a uma remessa ou contratante
+Carga perigosa|Produto que exige cuidados específicos por apresentar riscos no transporte
+Carga a granel|Produto transportado sem divisão em embalagens individuais de consumo
+Operador logístico|Prestador que executa atividades logísticas para contratantes
+Transportador|Prestador responsável pelo deslocamento contratado da carga
+Agente de carga|Intermediário que organiza etapas e serviços do transporte
+Centro de distribuição|Instalação que organiza recebimento, guarda e envio de produtos
+Terminal de transbordo|Instalação de transferência de cargas entre veículos ou modais
+Milk run|Rota planejada de coletas ou entregas com múltiplos pontos
+Vendor managed inventory|Arranjo em que o fornecedor gerencia reposição com informações do cliente
+Estoque consignado|Arranjo em que itens ficam no cliente sob propriedade contratualmente preservada do fornecedor
+Reposição contínua|Abastecimento orientado por informações frequentes de consumo
+Reposição periódica|Abastecimento decidido em intervalos regulares de revisão
+[MR]
+Nível de serviço logístico|+Pode incluir prazo de atendimento|+Pode incluir disponibilidade do pedido|-É definido pelo preço do produto isolado~Preço não esgota serviço logístico|-Equivale ao tamanho físico do armazém~Tamanho não determina desempenho
+Gestão de estoques com incerteza|+Considera variabilidade da demanda|+Considera variação de reposição|+Pode utilizar estoque de segurança|-Define reserva pela demanda média sem considerar variação~Incerteza exige avaliar variação
+Hipóteses do lote econômico clássico|+Consideram demanda conhecida e estável|+Consideram custos definidos para pedido e manutenção|-Incluem faltas planejadas no modelo básico~O modelo clássico básico não prevê faltas|-Supõem demanda sem necessidade de reposição~Reposição é parte do modelo
+Revisão contínua de estoques|+Acompanha o saldo para decidir reposição|+Pode usar ponto de pedido|-Inicia reposição em intervalos fixos por definição~Intervalos fixos caracterizam revisão periódica|-Dispensa informação sobre consumo~Saldo depende dos movimentos
+Revisão periódica de estoques|+Avalia necessidades em datas definidas|+Pode repor até um nível-alvo|+Exige considerar o intervalo de revisão|-Usa o instante de cruzamento do ponto de pedido como único gatilho~Esse gatilho caracteriza revisão contínua
+Critérios de compras|+Podem considerar qualidade e prazo|+Podem considerar custo total|-Se resumem ao menor preço unitário~Preço isolado não cobre os critérios|-Dispensam verificar capacidade de fornecimento~Capacidade afeta atendimento
+Custo total de propriedade|+Considera custos além da aquisição|+Pode incluir uso e manutenção|-É definido como preço unitário de aquisição~Há custos adicionais relevantes|-É definido como desconto comercial~Desconto é apenas uma condição da aquisição
+Homologação de fornecedor|+Examina atendimento a requisitos|+Pode verificar capacidade e documentação|-Garante desempenho futuro sem acompanhamento~Desempenho precisa ser acompanhado|-É sinônimo de emitir um pedido~Homologação antecede ou qualifica a contratação
+Avaliação de fornecedor|+Pode examinar entregas e conformidade|+Pode usar indicadores definidos|+Pode orientar ações de desenvolvimento|-É concluída pelo cadastro inicial~Cadastro não substitui avaliação de desempenho
+Dual sourcing|+Utiliza duas fontes de suprimento|+Pode reduzir dependência de uma fonte|-É definido por comprar duas vezes do mesmo fornecedor~Duas compras não são duas fontes|-É sinônimo de fornecimento exclusivo~Exclusividade é outro arranjo
+Single sourcing|+Concentra a contratação em uma fonte escolhida|+Pode existir com alternativas disponíveis|-Decorre da inexistência de uma fonte alternativa disponível~Isso caracteriza sole sourcing|-É definido por consolidar cargas de vários fornecedores~Consolidação é outra decisão
+Sole sourcing|+Ocorre quando há uma fonte disponível para a necessidade|+Pode criar dependência de fornecimento|+Difere da escolha de exclusividade entre alternativas|-É sinônimo de manter dois fornecedores ativos~Isso caracteriza dual sourcing
+Efeito chicote|+Envolve amplificação de variações ao longo da cadeia|+Pode decorrer de distorções de informação|-É a atenuação das variações de pedidos a montante~Amplificação de variação não é queda contínua|-É definido pela conservação física do estoque~Conservação não define esse efeito
+Colaboração na cadeia|+Pode compartilhar previsões e dados|+Pode coordenar reposição|-É a propriedade societária dos elos que define o modelo de colaboração~Colaboração pode ocorrer entre empresas independentes|-Elimina diferenças de interesse~Diferenças podem permanecer
+Rastreabilidade de materiais|+Relaciona lotes a origem e movimentações|+Pode apoiar investigação de falhas|+Exige registros consistentes|-É equivalente à localização atual do veículo~Localização é rastreamento, não toda a rastreabilidade
+Controle de lotes|+Identifica grupos de itens produzidos ou recebidos|+Pode associar dados de origem|-Substitui a verificação de validade~Validade é atributo que precisa de controle|-É definido pela quantidade total vendida~Quantidade vendida não identifica lotes
+Controle de validade|+Acompanha datas relevantes de uso|+Pode orientar prioridade de expedição|-Aplica FIFO como regra equivalente a FEFO~Ordem de chegada e vencimento podem diferir|-Dispensa verificar condições de conservação~Conservação influencia segurança e qualidade
+Gestão de devoluções|+Investiga motivos do retorno|+Define tratamento dos itens recebidos|+Pode envolver ressarcimento ou reposição|-Autoriza recolocar os retornos no estoque vendável sem conferir condição~Condição deve ser verificada
+Remanufatura|+Recupera produtos por um processo estruturado|+Busca condição de desempenho definida|-É a transformação em matéria-prima indistinta~Isso se associa à reciclagem|-É descarte sem aproveitamento~Remanufatura recupera uso
+Reciclagem|+Transforma resíduos em material reaproveitável|+Pode modificar características do produto original|-É o mesmo que reutilizar sem transformação~Reutilização mantém uso sem esse processo|-É transporte de retorno por definição~Retorno é etapa logística, não reciclagem
+Reutilização|+Mantém o uso de produto ou componente|+Pode evitar nova produção|+Pode exigir verificação de condição|-É definida pela transformação em nova matéria-prima~Isso caracteriza reciclagem
+Embalagem primária|+Fica em contato direto com o produto|+Pode contribuir para conservação|-É definida por reunir caixas para transporte~Essa função é de nível terciário|-É o veículo de entrega~Veículo não é embalagem
+Embalagem secundária|+Agrupa unidades primárias|+Pode apoiar apresentação ou manuseio|-É definida pelo contato direto obrigatório com o conteúdo~Contato direto caracteriza a primária|-É a estrutura física do armazém~Estrutura não é embalagem
+Embalagem terciária|+Facilita movimentação e transporte de grupos|+Pode reunir embalagens secundárias|+Pode proteger o conjunto no fluxo|-É definida como embalagem em contato direto com o produto~Contato direto caracteriza a primária
+Cubagem|+Relaciona volume e espaço ocupado|+Pode ser usada no cálculo de frete|-É medida de valor monetário da carga~Valor monetário não mede volume|-É sinônimo de peso real~Peso e volume são dimensões distintas
+Densidade da carga|+Relaciona massa e volume|+Pode influenciar aproveitamento do transporte|-É o número de destinos da rota~Destinos não definem densidade|-É a distância entre armazéns~Distância não define essa relação
+Frete e responsabilidade contratual|+Dependem das condições da operação|+Podem envolver diferentes serviços|+Exigem distinguir custo e transferência de risco|-Transferem o risco ao proprietário do veículo independentemente do contrato~Condições contratuais são determinantes
+Seguro de carga|+Trata cobertura de riscos contratados|+Depende de limites e condições|-Inclui eventos excluídos da apólice no pagamento de indenização~Cobertura depende do contrato|-Substitui cuidados de acondicionamento~Prevenção permanece necessária
+Avaria logística|+Envolve dano ao item ou embalagem|+Pode ocorrer em diferentes etapas|-É sinônimo de atraso na entrega~Atraso e dano são ocorrências distintas|-É definido pela oscilação da demanda~Oscilação não é dano físico
+Perda logística|+Pode envolver extravio ou inutilização|+Exige apuração de origem e efeito|+Pode afetar custo e serviço|-É medida pela quantidade de pedidos recebidos~Pedidos recebidos não medem perdas
+Separação por pedido|+Reúne itens de uma solicitação por vez|+Mantém vínculo direto com o pedido|-É definida pelo agrupamento de vários pedidos na coleta~Isso caracteriza separação por lote|-É conferência de saldos físicos~Conferência de saldos é inventário
+Separação por lote de pedidos|+Agrupa necessidades de várias solicitações|+Pode exigir classificação posterior|-É definida por coletar um pedido isolado~Isso é separação por pedido|-É saída por prazo de validade~Prazo de validade é outra regra
+Separação por zona|+Divide a operação por áreas de armazenagem|+Pode exigir consolidação dos itens|+Permite especialização por área|-É definida pelo transporte entre países~Zonas de separação pertencem ao armazém
+Segurança na armazenagem|+Considera limites de empilhamento|+Considera circulação e acesso|-É a maximização de ocupação sem reservar áreas de circulação~Ocupação precisa respeitar segurança|-Dispensa identificar materiais perigosos~Identificação é necessária
+Layout de armazém|+Organiza posições e fluxos internos|+Considera recebimento e expedição|-É sinônimo de rota rodoviária~Rota externa não é layout interno|-Se define pelo prazo do fornecedor~Prazo é outro parâmetro
+Capacidade de armazenagem|+Depende de posições e condições de uso|+Considera restrições de espaço e carga|+Pode ser diferente da ocupação atual|-É igual ao saldo financeiro do estoque~Valor financeiro não define capacidade física
+Logística urbana|+Considera circulação e entrega em cidades|+Pode envolver restrições de horário|-É definida pela navegação internacional~Navegação internacional é outro contexto|-Dispensa avaliar pontos de parada~Paradas afetam a operação urbana
+Resiliência da cadeia|+Envolve preparação e recuperação diante de interrupções|+Pode combinar alternativas de fornecimento|-É uma política de reduzir reservas sem preparar alternativas de resposta~Eliminar reserva pode reduzir capacidade de resposta|-Exige depender de um único elo~Dependência pode ampliar vulnerabilidade
+Planejamento integrado de demanda e suprimento|+Articula previsões e capacidade|+Considera estoques e entregas|-Se resume ao histórico de vendas~Histórico é uma entrada, não todo o planejamento|-Dispensa participação das áreas operacionais~Capacidade operacional precisa ser considerada
+Gestão logística sustentável|+Considera eficiência de transporte|+Considera redução de perdas|+Considera destinação de resíduos|+Considera os efeitos das operações sobre o ambiente

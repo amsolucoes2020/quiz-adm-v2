@@ -18,6 +18,7 @@ import {
   deleteDoc,
   updateDoc, 
   query,
+  where,
   orderBy,
   limit
 } from '@backend';
@@ -143,8 +144,9 @@ export default function App() {
   const carregarPerguntas = async () => {
     setLoading(true);
     try {
-      const querySnapshot = await getDocs(collection(db, 'questions'));
-      const {isDeferredQuestion} = await import('./data/questionBank');
+      const questionCollection=collection(db,'questions');
+      const querySnapshot = await getDocs(isSandbox?questionCollection:query(questionCollection,where('ativo','==',true)));
+      const {isDeferredQuestion} = await import('./data/questionAvailability');
       const lista = [];
       querySnapshot.forEach((doc) => {
         try { if(!isDeferredQuestion(doc.data())) lista.push({ ...normalizeQuestion(doc.data()), id: doc.id }); }

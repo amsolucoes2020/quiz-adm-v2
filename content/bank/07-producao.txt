@@ -1,0 +1,143 @@
+[MC]
+Produção sob encomenda|Operação que inicia a fabricação a partir de pedido específico
+Produção para estoque|Operação que antecipa fabricação para atender demanda prevista
+Montagem sob encomenda|Operação que finaliza a montagem após o pedido usando componentes disponíveis
+Engenharia sob encomenda|Operação que desenvolve projeto e fabricação para requisitos de um pedido
+Produção em massa|Operação com alto volume e repetição de produtos padronizados
+Processo contínuo|Fluxo de transformação com operação prolongada e poucas interrupções
+Processo em lotes|Fluxo de transformação organizado em grupos de unidades
+Processo por projeto|Fluxo de transformação orientado a uma entrega singular com duração definida
+Processo de oficina|Fluxo de transformação com variedade elevada e roteiros flexíveis
+Processo em linha|Fluxo de transformação com atividades dispostas na sequência de fabricação
+Layout funcional|Arranjo de recursos agrupados por tipo de atividade
+Layout por produto|Arranjo de recursos conforme a sequência de uma oferta
+Layout posicional|Arranjo em que o objeto permanece fixo e os recursos se deslocam
+Layout celular|Arranjo de recursos para atender famílias de itens com necessidades semelhantes
+Layout híbrido|Arranjo que combina diferentes critérios de organização física
+Capacidade de projeto|Produção máxima prevista nas condições de desenho da operação
+Capacidade efetiva|Produção possível considerando condições normais e restrições previstas
+Produção realizada|Quantidade efetivamente entregue no período observado
+Utilização de capacidade|Relação entre produção realizada e capacidade de projeto
+Eficiência de capacidade|Relação entre produção realizada e capacidade efetiva
+Gargalo|Recurso ou etapa que limita o fluxo do sistema
+Tempo de ciclo produtivo|Intervalo entre unidades concluídas em uma operação repetitiva
+Takt time|Ritmo requerido para atender demanda com o tempo disponível
+Tempo de atravessamento|Tempo total de passagem de uma unidade pelo processo
+Tempo de setup|Tempo necessário para preparar recursos para uma operação diferente
+Planejamento agregado|Definição de níveis gerais de produção e recursos para períodos futuros
+Programação da produção|Definição da sequência e dos momentos de execução das atividades
+Sequenciamento|Ordenação dos trabalhos a executar em um recurso
+Balanceamento de linha|Distribuição de tarefas entre postos para compatibilizar cargas e ritmo
+Controle da produção|Acompanhamento da execução em relação ao que foi programado
+Manutenção corretiva|Intervenção realizada após ocorrência de falha
+Manutenção preventiva|Intervenção programada para reduzir possibilidade de falha
+Manutenção preditiva|Intervenção orientada por monitoramento de condição do equipamento
+Manutenção autônoma|Cuidados básicos executados por operadores segundo padrões definidos
+Manutenção detectiva|Verificação destinada a identificar falhas ocultas em funções de proteção
+Inspeção de qualidade|Verificação de características de um item em relação a requisitos
+Controle da qualidade|Atividades operacionais para acompanhar e atender requisitos
+Garantia da qualidade|Atividades planejadas que proporcionam confiança no atendimento de requisitos
+Gestão da qualidade|Orientação e coordenação da organização quanto à qualidade
+Melhoria da qualidade|Ações para aumentar a capacidade de atender requisitos
+Diagrama de Pareto|Representação de categorias ordenadas por importância ou frequência
+Diagrama de causa e efeito|Organização de possíveis causas relacionadas a um problema
+Histograma|Representação da distribuição de frequências de uma variável
+Diagrama de dispersão|Representação de pares de valores para examinar associação entre variáveis
+Folha de verificação|Instrumento estruturado para registrar ocorrências ou medições
+Carta de controle|Representação temporal de medidas com limites estatísticos de acompanhamento
+Fluxograma produtivo|Representação das etapas e decisões de uma operação
+Estratificação de dados|Separação de registros em grupos para examinar padrões
+Diagrama de afinidades|Organização de ideias conforme relações de proximidade temática
+Diagrama de relações|Representação de vínculos de influência entre elementos
+Seiri|Separação do necessário e do desnecessário no ambiente de trabalho
+Seiton|Organização dos itens para facilitar localização e utilização
+Seiso|Limpeza e identificação de condições que geram sujeira
+Seiketsu|Padronização das práticas de utilização, organização e limpeza
+Shitsuke|Desenvolvimento da disciplina para sustentar as práticas estabelecidas
+Lean manufacturing|Abordagem voltada a fluxo de valor e redução de desperdícios
+Just in time|Abordagem de produzir e disponibilizar itens conforme necessidade de consumo
+Kanban|Sinal que autoriza ou orienta reposição em um sistema puxado
+Kaizen|Melhoria contínua por mudanças progressivas no trabalho
+Poka-yoke|Recurso que previne erros ou facilita sua detecção
+[VF]
+Superprodução|Fabricação de quantidade maior ou antes do que o fluxo seguinte necessita
+Espera produtiva|Tempo sem transformação por indisponibilidade de condições de execução
+Transporte desnecessário|Deslocamento de itens que não acrescenta valor ao fluxo
+Movimentação desnecessária|Deslocamento de pessoas que não acrescenta valor à atividade
+Processamento excessivo|Realização de etapas além do necessário ao requisito da oferta
+Refugo|Item não aproveitável nas condições definidas para o processo
+Retrabalho|Execução adicional para adequar um item a requisitos
+Concessão de qualidade|Autorização delimitada para uso de item que não atende requisito especificado
+Não conformidade|Não atendimento de um requisito definido
+Defeito|Não atendimento relacionado ao uso pretendido ou especificado
+Confiabilidade de equipamento|Probabilidade de executar uma função requerida em condições e tempo definidos
+Disponibilidade de equipamento|Condição de estar apto a operar quando requerido
+Manutenibilidade|Facilidade e condições para restaurar uma função por manutenção
+Durabilidade|Capacidade de manter utilização ao longo de uma vida prevista
+Desempenho operacional|Resultado da operação em relação a características relevantes
+Custo de prevenção|Gasto para evitar ocorrências de não conformidade
+Custo de avaliação|Gasto para verificar atendimento a requisitos de qualidade
+Custo de falha interna|Gasto decorrente de não conformidade identificada antes da entrega
+Custo de falha externa|Gasto decorrente de não conformidade identificada depois da entrega
+Custo total da qualidade|Conjunto de gastos de prevenção, avaliação e falhas considerados
+Medição|Processo de obter valor de uma grandeza
+Calibração|Estabelecimento da relação entre indicações e valores de referência
+Verificação metrológica|Confirmação de que condições ou requisitos de medição foram atendidos
+Rastreabilidade metrológica|Relação do resultado a referências por uma cadeia documentada de calibrações
+Incerteza de medição|Parâmetro que caracteriza a dispersão atribuída ao valor medido
+Amostragem de aceitação|Decisão sobre um lote com base no exame de uma amostra
+Inspeção total|Exame das unidades de um conjunto definido
+Amostra aleatória simples|Seleção que atribui chance definida às unidades da população
+Amostragem estratificada|Seleção realizada em grupos previamente separados da população
+Amostragem sistemática|Seleção em intervalos segundo uma regra definida
+MTBF|Tempo médio entre falhas de um equipamento reparável
+MTTR|Tempo médio associado à restauração após falha
+OEE|Indicador que combina disponibilidade, desempenho e qualidade do equipamento
+FPY|Proporção de itens aprovados na primeira passagem sem retrabalho
+Rendimento produtivo|Relação entre saída aproveitável e entrada considerada
+Tolerância de projeto|Faixa de variação admitida para uma característica especificada
+Limite de especificação|Fronteira definida para aceitação de uma característica
+Limite de controle|Fronteira estatística usada para acompanhar comportamento de um processo
+Valor nominal|Valor de referência indicado no projeto ou na especificação
+Variação de processo|Diferença observada entre resultados de uma operação
+[MR]
+Sistema puxado|+Usa demanda do processo seguinte como sinal|+Pode limitar trabalho em andamento|-Autoriza produzir pela previsão sem sinal de consumo~Isso se associa a um sistema empurrado|-Requer ausência de buffers de material entre as etapas~Sistema puxado pode trabalhar com buffers
+Sistema empurrado|+Pode usar programação por previsão|+Libera ordens conforme plano|+Pode antecipar demanda futura|-Depende de retirada física como único gatilho~Retirada é característica do sistema puxado
+Trabalho em processo|+Inclui unidades ainda não concluídas|+Pode existir entre etapas|-É definido pelo estoque de produto acabado~Produto acabado já concluiu transformação|-É equivalente ao refugo~Itens em processo podem ser aproveitáveis
+Produção enxuta e valor|+Considera necessidades do cliente|+Examina atividades que contribuem à entrega|-Define valor pelo custo interno isolado~Valor depende da necessidade atendida|-Considera o deslocamento interno como transformação de valor ao cliente~Movimentações precisam ser examinadas
+Mapa de fluxo de valor|+Representa fluxos de materiais|+Representa fluxos de informações|+Pode registrar tempos e esperas|-É a distribuição dos cargos hierárquicos~Essa distribuição é organograma
+SMED|+Busca reduzir tempos de preparação|+Distingue atividades internas e externas ao setup|-É método de inspeção estatística de lotes~Inspeção por amostra é outro método|-É definido por aumentar tamanho dos lotes~O foco é reduzir preparação
+Setup interno|+Exige parada do recurso para execução|+Pode ser alvo de conversão em atividade externa|-É realizado com equipamento em operação por definição~Isso caracteriza setup externo|-É sinônimo de manutenção corretiva~Preparação e reparo são diferentes
+Setup externo|+Pode ser preparado com o recurso operando|+Pode reduzir o período de parada|-É realizado com parada obrigatória~Isso caracteriza setup interno|-Elimina a necessidade de conferir ferramentas~Conferência pode fazer parte da preparação
+Padronização do trabalho|+Registra uma referência de execução|+Pode ser revisada após melhoria|+Apoia consistência e aprendizagem|-Impede rever métodos diante de evidências~Padrões podem evoluir
+Andon|+Sinaliza condições ou problemas da operação|+Pode solicitar apoio para uma ocorrência|-É método de cálculo de lote econômico~Esse cálculo trata de estoque|-É definido por ocultar falhas para manter ritmo~Sinalização torna ocorrências visíveis
+Jidoka|+Relaciona detecção de anormalidade e interrupção controlada|+Busca evitar propagação de defeitos|-É produção acelerada sem verificação~O foco inclui detecção|-É sinônimo de programação por previsão~Programação e controle de anormalidade são diferentes
+Heijunka|+Busca nivelar produção|+Pode distribuir mix e volume no tempo|+Considera estabilidade do fluxo|-É uma inspeção integral do lote produzido~Inspeção não é nivelamento
+Teoria das restrições|+Examina fatores que limitam o sistema|+Orienta atenção à restrição relevante|-Busca maximizar cada recurso independentemente~O foco é o sistema|-Define o gargalo como recurso com maior custo~Restrição depende da limitação do fluxo
+Buffer produtivo|+Protege o fluxo contra variações|+Pode ser de tempo ou materiais|-É equivalente a produzir sem limite~Buffer é proteção dimensionada|-É estoque vendido ao cliente por definição~Buffer pode proteger etapas internas
+Gestão visual na operação|+Torna condições do trabalho compreensíveis|+Pode mostrar padrões e desvios|+Apoia reação a anormalidades|-É a substituição da capacitação por cartazes de instrução~Sinalização não dispensa aprendizagem
+PDCA produtivo|+Relaciona planejamento e execução|+Inclui verificação de resultados|-Encerra o processo após executar a ação~Verificação e ação completam o ciclo|-Começa por escolher culpados~O ciclo começa pelo planejamento
+Etapa Plan do PDCA|+Define problema e objetivos|+Planeja ações e critérios|-É o registro final dos resultados obtidos~Resultados são examinados em Check|-É a padronização após sucesso~Essa decisão pertence a Act
+Etapa Do do PDCA|+Executa ações planejadas|+Pode coletar dados da execução|+Exige observar condições do teste|-É a comparação final com objetivos~Essa comparação é Check
+Etapa Check do PDCA|+Compara resultados e objetivos|+Examina evidências da execução|-É a elaboração inicial do plano~Isso é Plan|-É definida por executar a solução~Execução é Do
+Etapa Act do PDCA|+Pode padronizar o que funcionou|+Pode orientar ajustes e novo ciclo|-É o levantamento inicial sem usar resultados~Act usa aprendizado|-É o encerramento definitivo do acompanhamento de melhoria~O ciclo pode continuar
+DMAIC|+É uma estrutura de melhoria de processos existentes|+Inclui definição, medição e análise|+Inclui melhoria e controle|-É uma estrutura para criar um produto novo sem processo existente~Foco principal é melhoria de processo existente
+Causa especial de variação|+Decorre de fator não habitual do processo|+Pode exigir investigação específica|-É a variação inerente ao sistema estável~Essa é causa comum|-É definida pelo limite de especificação~Limite é requisito, não causa
+Causa comum de variação|+É inerente às condições do sistema|+Pode exigir mudança no processo para redução|-Indica um evento excepcional isolado~Evento excepcional se associa a causa especial|-É sinônimo de falha de medição~Variação pode ter várias origens
+Estabilidade estatística|+Envolve comportamento com causas comuns predominantes|+É examinada ao longo do tempo|+Não prova atendimento de todas as especificações|-É equivalente a capacidade de atender requisitos~Capacidade é outra análise
+Capacidade de processo|+Relaciona variabilidade e especificações|+Exige condições adequadas de análise|-É o número de máquinas disponíveis~Máquinas definem capacidade produtiva, não capacidade estatística|-É comprovada por uma unidade conforme~Uma unidade não prova capacidade
+Índice Cp|+Compara faixa de especificação e dispersão|+Não considera diretamente o deslocamento da média|-Mede a centralização em relação ao limite mais próximo~Essa característica aparece em Cpk|-É calculado pela quantidade de turnos~Turnos não definem o índice
+Índice Cpk|+Considera a posição da média|+Considera distância ao limite mais próximo|+Depende da dispersão do processo|-Mantém o valor de Cp quando a média se desloca em direção a um limite~Deslocamento pode tornar Cpk menor
+Correlação e causalidade na qualidade|+Associação entre variáveis pode ser observada|+Relação causal exige evidências adicionais|-Uma correlação prova causa por si~Associação não basta|-Ausência de correlação linear prova ausência de relação~Podem existir relações não lineares
+Análise de causa raiz|+Busca fatores que explicam recorrência|+Pode examinar o sistema de trabalho|-É definida por identificar o último erro humano~Erro observado pode não ser raiz|-Dispensa evidências se há opinião majoritária~Causas precisam de investigação
+Cinco porquês|+Explora encadeamento de explicações|+Pode apoiar investigação de causas|+Depende de evidências para evitar suposições|-Usa cinco como quantidade obrigatória de perguntas para concluir a análise~A quantidade não é uma regra absoluta
+FMEA|+Examina modos e efeitos de falhas|+Pode apoiar priorização de riscos|-É inspeção do lote pronto por amostra~Isso é amostragem de aceitação|-É o bloqueio automático da falha durante a execução~Análise não elimina todo risco
+Modo de falha|+Descreve como uma função pode falhar|+É distinto da consequência da falha|-É o prejuízo produzido no usuário por definição~Essa consequência é efeito|-É o fator originador por definição~Fator originador é causa
+Efeito da falha|+Descreve consequências da ocorrência|+Pode ser percebido em etapas posteriores|+Pode afetar usuário ou sistema|-É o mecanismo que originou a falha~Mecanismo originador é causa
+Severidade em FMEA|+Avalia gravidade do efeito|+É distinta da chance de ocorrência|-Mede frequência histórica de falhas~Frequência se relaciona a ocorrência|-Mede facilidade de perceber o defeito~Isso se relaciona a detecção
+Ocorrência em FMEA|+Considera a possibilidade de falha|+Pode usar evidências de frequência|-É gravidade do impacto~Gravidade é severidade|-É capacidade de localizar a falha~Isso é detecção
+Detecção em FMEA|+Considera capacidade dos controles de identificar a falha|+É distinta da gravidade do efeito|+Pode melhorar com controles adequados|-É a chance de o modo de falha ocorrer~Essa é ocorrência
+Auditoria da qualidade|+Examina evidências em relação a critérios|+Deve manter objetividade|-É sinônimo de certificação automática~Auditoria e certificação são processos relacionados, mas distintos|-É definida como inspeção de uma unidade~Auditoria pode examinar o sistema
+Ação corretiva na qualidade|+Procura eliminar causa de uma não conformidade|+Busca prevenir recorrência|-É o reparo do item defeituoso por definição~Reparo é correção|-É registrar a falha sem investigar~Registro não elimina causa
+Correção de não conformidade|+Trata o problema identificado|+Pode envolver reparo ou substituição|-Elimina a causa sistêmica por definição~Isso exige ação corretiva|-É a autorização de uso de item fora do requisito~Aceitação exige condições próprias
+Melhoria operacional sustentada|+Acompanha resultados|+Revisa padrões quando necessário|+Envolve participação das pessoas|+Considera qualidade e fluxo da operação

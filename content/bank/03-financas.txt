@@ -1,0 +1,143 @@
+[MC]
+Ativo|Recurso econômico presente controlado pela entidade em decorrência de eventos passados
+Passivo|Obrigação presente de transferir recurso econômico em decorrência de eventos passados
+Patrimônio líquido|Participação residual nos ativos depois de deduzidos os passivos
+Receita contábil|Aumento patrimonial no resultado que não decorre de contribuição dos proprietários
+Despesa contábil|Redução patrimonial no resultado que não decorre de distribuição aos proprietários
+Regime de competência|Reconhecimento de efeitos econômicos nos períodos em que ocorrem
+Regime de caixa|Reconhecimento de entradas e saídas pelo momento do recebimento ou pagamento
+Balanço patrimonial|Demonstração da posição de ativos, passivos e patrimônio líquido em uma data
+Demonstração do resultado|Demonstração de receitas e despesas que formam o resultado de um período
+Demonstração dos fluxos de caixa|Demonstração das movimentações de disponibilidades em um período
+Custo direto|Gasto de produção identificado diretamente com um objeto de custeio
+Custo indireto|Gasto de produção cuja atribuição a um objeto exige um critério de alocação
+Custo fixo|Gasto de produção cujo total não varia com o volume na faixa relevante
+Custo variável|Gasto de produção cujo total acompanha o volume na faixa relevante
+Custo misto|Gasto de produção composto por parcelas fixas e variáveis
+Margem de contribuição|Receita menos custos e despesas variáveis associados às vendas
+Lucro bruto|Receita líquida de vendas menos custo dos produtos ou serviços vendidos
+Lucro operacional|Resultado das operações antes de itens financeiros e tributos sobre o lucro
+Lucro líquido|Resultado do período depois dos custos, despesas e tributos reconhecidos
+Margem líquida|Relação entre lucro líquido e receita líquida do período
+Liquidez corrente|Relação entre ativo circulante e passivo circulante
+Liquidez seca|Medida de cobertura de obrigações correntes sem considerar os estoques
+Liquidez imediata|Relação entre disponibilidades e passivo circulante
+Liquidez geral|Relação entre ativos realizáveis e obrigações de curto e longo prazo
+Capital circulante líquido|Diferença entre ativo circulante e passivo circulante
+Prazo médio de estocagem|Tempo médio de permanência dos estoques antes da venda
+Prazo médio de recebimento|Tempo médio entre a venda e o recebimento dos clientes
+Prazo médio de pagamento|Tempo médio entre a compra e o pagamento aos fornecedores
+Ciclo operacional|Período entre a aquisição dos estoques e o recebimento das vendas
+Ciclo financeiro|Período entre o pagamento de fornecedores e o recebimento das vendas
+Juros simples|Remuneração calculada sobre o capital inicial em cada período
+Juros compostos|Remuneração calculada sobre capital e juros acumulados dos períodos anteriores
+Valor presente|Quantia equivalente hoje a um fluxo futuro descontado por uma taxa
+Valor futuro|Quantia equivalente em data posterior após capitalização por uma taxa
+Taxa efetiva|Taxa que corresponde ao rendimento ou custo do período considerado
+Valor presente líquido|Soma dos fluxos descontados de um projeto menos o investimento inicial
+Taxa interna de retorno|Taxa que torna nulo o valor presente líquido dos fluxos de um projeto
+Payback simples|Tempo necessário para recuperar o investimento sem descontar os fluxos
+Payback descontado|Tempo necessário para recuperar o investimento com fluxos trazidos a valor presente
+Índice de lucratividade|Relação entre benefícios descontados e investimento inicial de um projeto
+Orçamento estático|Plano financeiro elaborado para um nível de atividade previamente definido
+Orçamento flexível|Plano financeiro ajustável ao nível efetivo de atividade
+Orçamento base zero|Método que exige justificar os gastos a partir de uma base inicial nula
+Orçamento incremental|Método que toma valores anteriores como base e aplica ajustes
+Orçamento contínuo|Plano atualizado pela inclusão de novos períodos à medida que o tempo avança
+Depreciação|Alocação sistemática do valor depreciável de um ativo ao longo da vida útil
+Amortização contábil|Alocação sistemática do valor amortizável de um ativo intangível
+Exaustão|Alocação do custo de recursos naturais conforme seu consumo ou exploração
+Impairment|Reconhecimento de perda quando o valor contábil excede o valor recuperável
+Provisão|Passivo de prazo ou valor incerto reconhecido segundo critérios contábeis
+Ação|Título que representa uma parcela de participação no capital de uma sociedade
+Debênture|Título de dívida emitido por sociedade conforme condições de uma escritura
+Dividendo|Parcela de resultado distribuída aos acionistas conforme regras aplicáveis
+Empréstimo|Operação de crédito que entrega recursos sem vinculação necessária a um bem específico
+Financiamento|Operação de crédito vinculada a uma finalidade ou aquisição definida
+Custo de oportunidade|Retorno da melhor alternativa abandonada ao escolher uma opção
+Custo afundado|Gasto já ocorrido que não pode ser recuperado pela decisão atual
+Custo marginal|Acréscimo no custo total decorrente de uma unidade adicional
+Custo médio|Relação entre custo total e quantidade produzida
+Custo-padrão|Referência planejada de consumo e valor para avaliar custos efetivos
+[VF]
+Contas a receber|Direitos de cobrança decorrentes de operações realizadas
+Contas a pagar|Obrigações de pagamento decorrentes de operações realizadas
+Adiantamento de cliente|Valor recebido antes de satisfazer a obrigação contratada
+Adiantamento a fornecedor|Valor entregue antes de receber o bem ou serviço contratado
+Receita diferida|Receita cujo reconhecimento ainda depende de condições futuras
+Ativo circulante|Recurso classificado para realização no ciclo operacional ou em prazo corrente
+Ativo imobilizado|Bem tangível mantido para uso na operação por mais de um período
+Ativo intangível|Recurso identificável sem substância física
+Investimento permanente|Participação ou aplicação de caráter duradouro classificada fora da operação corrente
+Disponibilidade|Recurso em caixa ou em conta de liquidez imediata
+Fluxo operacional|Movimentação de caixa ligada às atividades principais de geração de receita
+Fluxo de investimento|Movimentação de caixa ligada à aquisição ou alienação de ativos de longo prazo
+Fluxo de financiamento|Movimentação de caixa que altera capital próprio ou endividamento
+Reconciliação bancária|Conferência de diferenças entre registros internos e extratos bancários
+Reserva de liquidez|Recursos mantidos para atender necessidades de pagamento
+Retorno sobre ativos|Relação entre resultado e recursos aplicados nos ativos
+Retorno sobre patrimônio líquido|Relação entre resultado e capital próprio
+Giro do ativo|Relação entre vendas e recursos aplicados nos ativos
+Participação de capital de terceiros|Medida de dependência de recursos provenientes de credores
+Cobertura de juros|Medida da capacidade de resultado para suportar despesas de juros
+Ponto de equilíbrio contábil|Volume em que receitas cobrem custos e despesas considerados no resultado
+Ponto de equilíbrio financeiro|Volume em que receitas cobrem gastos que exigem desembolso no período
+Ponto de equilíbrio econômico|Volume que cobre gastos e remuneração desejada do capital
+Margem de segurança|Excesso de vendas em relação ao ponto de equilíbrio
+Alavancagem operacional|Sensibilidade do resultado operacional à variação das vendas
+Risco de crédito|Possibilidade de perda pelo descumprimento de obrigação de uma contraparte
+Risco de mercado|Possibilidade de perda por mudanças de preços, taxas ou cotações
+Risco de liquidez|Possibilidade de dificuldade de obter recursos ou negociar ativos em condições adequadas
+Risco operacional financeiro|Possibilidade de perda ligada a falhas de processos, pessoas, sistemas ou eventos externos
+Risco cambial|Possibilidade de perda ligada a alterações nas taxas de câmbio
+Custeio por absorção|Método que atribui aos produtos custos de produção fixos e variáveis
+Custeio variável|Método que atribui aos produtos os custos de produção variáveis
+Custeio baseado em atividades|Método que usa atividades e direcionadores para atribuir custos
+Rateio de custos|Distribuição de valores indiretos segundo um critério estabelecido
+Direcionador de custo|Fator usado para relacionar consumo de atividade e objeto de custeio
+Capital próprio|Recursos atribuíveis aos proprietários da entidade
+Capital de terceiros|Recursos obtidos mediante obrigações perante credores
+Capital social|Valor das contribuições dos proprietários formalizado na sociedade
+Reserva de lucros|Parcela de resultados retida segundo destinação definida
+Ajuste de avaliação patrimonial|Registro de variações de valor previstas em normas fora do resultado corrente
+[MR]
+Partidas dobradas|+Cada registro envolve débitos e créditos|+O total debitado corresponde ao total creditado|-Débito representa entrada de dinheiro~Débito é posição de registro e depende da conta|-Crédito representa lucro do período~Crédito não é sinônimo de lucro
+Natureza das contas|+Contas de ativo em geral têm saldo devedor|+Contas de passivo em geral têm saldo credor|+Contas redutoras têm natureza oposta à conta reduzida|-Despesas aumentam pelo crédito na regra geral~Despesas em geral aumentam por débito
+Recebimento de contas a receber|+Pode aumentar disponibilidades|+Pode reduzir direitos contra clientes|-É o reconhecimento inicial da receita pelo recebimento de direito já registrado~Receita pode ter sido reconhecida antes|-Eleva o patrimônio líquido pelo valor integral recebido~Troca de ativos não eleva patrimônio líquido por si
+Pagamento de obrigação já reconhecida|+Pode reduzir disponibilidades|+Pode reduzir passivos|-Gera nova despesa pelo valor integral~A despesa pode ter sido reconhecida antes|-Aumenta o total de ativos~A saída reduz disponibilidades
+Compra de bem imobilizado à vista|+Troca uma disponibilidade por outro ativo|+O uso pode gerar depreciação|+O custo é reconhecido segundo critérios aplicáveis|-É reconhecida como despesa integral na data da compra~Um imobilizado qualificável é reconhecido como ativo
+Estoque na contabilidade|+Pode incluir mercadorias para revenda|+Pode incluir materiais em processamento|-É reconhecido como receita na compra~Compra não gera receita|-Tem natureza credora na regra geral~Estoque é conta de ativo
+Valor realizável líquido de estoque|+Considera preço estimado de venda|+Deduz custos para conclusão e venda|-É o custo de reposição sem ajustes~Custo de reposição não define esse valor|-Equivale à receita recebida em caixa~A estimativa não depende de recebimento já ocorrido
+Perdas estimadas de crédito|+Consideram possibilidade de não recebimento|+Ajustam a mensuração de direitos|+Podem afetar o resultado|-Aumentam o saldo líquido a receber~Perdas reduzem o valor líquido
+Passivo contingente|+Pode decorrer de obrigação possível|+O tratamento depende de probabilidade e mensuração|-É provisionado por ser chamado contingente~Reconhecimento exige critérios próprios|-É reconhecido como obrigação certa no balanço~Incerteza altera o tratamento
+Ativo contingente|+Depende de eventos futuros incertos|+Exige cautela no reconhecimento|-É receita pela existência de uma expectativa~Expectativa por si não autoriza reconhecimento|-É apresentado como dinheiro disponível~Disponibilidade exige recurso existente
+Vida útil de ativo|+Expressa período ou produção esperada de uso|+Pode diferir da duração física|+Pode exigir revisão de estimativas|-Corresponde ao prazo de pagamento do fornecedor~Prazo de pagamento não define uso econômico
+Valor residual de ativo|+É estimativa do valor ao término do uso|+Considera condições esperadas de alienação|-É igual ao saldo do financiamento~Dívida não define valor residual|-É definido pelo lucro anual da empresa~Lucro da empresa não define essa estimativa
+Depreciação linear|+Distribui o valor depreciável de forma uniforme|+Considera vida útil estimada|-Depende do pagamento de cada parcela do bem~Depreciação não segue desembolsos|-Eleva o valor contábil líquido a cada período~A alocação reduz o valor líquido
+Necessidade de capital de giro|+Relaciona aplicações e fontes operacionais correntes|+Pode variar com prazos comerciais|+Pode variar com crescimento da operação|-Equivale ao capital social registrado~Capital social não define essa necessidade
+Tesouraria|+Gerencia disponibilidades e pagamentos|+Acompanha necessidade de recursos financeiros|-Se define pela apuração física do estoque~Inventário físico não define tesouraria|-É a elaboração técnica da demonstração contábil~Elaborar demonstrações é função contábil
+Política de crédito a clientes|+Define critérios para concessão de prazo|+Considera capacidade de pagamento|-Tem por objetivo contabilizar imobilizados~Isso pertence a outra política|-É definida pelo prazo obtido de fornecedores~Prazo de fornecedores é fonte de financiamento
+Política de cobrança|+Organiza o acompanhamento de vencimentos|+Pode prever negociação de valores atrasados|+Deve observar condições contratuais e legais|-É definida pela aprovação do investimento em máquinas~Essa aprovação é orçamento de capital
+Desconto financeiro|+Pode remunerar antecipação de pagamento|+Altera o valor recebido conforme acordo|-É equivalente a desconto por defeito do produto~Desconto financeiro tem fundamento temporal|-É definido pela perda física de estoque~Perda física é outro evento
+Taxa nominal e periodicidade|+Exige identificar a unidade de tempo informada|+Pode indicar capitalização em período distinto|-Pode ser comparada sem considerar periodicidade~Periodicidade é necessária à comparação|-Representa a inflação observada por definição~Inflação e juros são medidas diferentes
+Taxa real de juros|+Considera o efeito da inflação|+Expressa variação do poder de compra|+Depende das taxas nominal e inflacionária|-É calculada sem ajuste do efeito inflacionário~Inflação altera o retorno real
+Equivalência de capitais|+Usa uma data focal|+Depende de uma taxa e de um regime de juros|-Dispensa identificar os momentos dos fluxos~Datas são necessárias|-É definida pela igualdade dos valores nominais~Valores nominais iguais em datas diferentes podem não ser equivalentes
+Desconto de duplicatas|+Antecipa recursos ligados a recebíveis|+Pode envolver encargos financeiros|-Representa aporte de sócios~É operação ligada a recebíveis|-É amortização de ativo intangível~Amortização contábil não define essa operação
+Amortização de dívida|+Reduz o principal devido|+É distinta da remuneração por juros|+Pode integrar cada prestação|-Tem o mesmo significado de amortização de intangível~Uma reduz dívida e a outra aloca custo de ativo
+Sistema Price|+Prevê prestações constantes nas condições contratadas|+A parcela de juros tende a cair ao longo dos pagamentos|-Mantém constante a amortização do principal~A amortização cresce nas condições usuais|-Tem juros calculados sobre o principal original a cada parcela~Juros incidem sobre o saldo devedor
+Sistema de amortização constante|+Mantém parcelas de principal constantes|+Os juros diminuem com o saldo devedor|-Mantém o valor total da prestação constante~A prestação usualmente diminui|-Aumenta o saldo devedor a cada pagamento regular~Amortização reduz o saldo
+Diversificação financeira|+Distribui exposição entre ativos|+Considera relação entre riscos das aplicações|+Pode reduzir risco específico|-Elimina a exposição a movimentos gerais do mercado~Risco de mercado pode permanecer
+Hedge financeiro|+Busca reduzir uma exposição definida|+Pode utilizar instrumentos derivativos|-É definido pela procura de risco para ganho~Essa procura caracteriza especulação|-Elimina custos e riscos de execução~Proteção pode ter custos e riscos próprios
+Contrato futuro|+Padroniza condições de negociação|+Pode envolver ajustes diários|-Exige pagamento integral do ativo na abertura~A negociação usual não exige isso|-É direito de exercer sem obrigação de liquidar~Essa característica se associa a opções
+Opção financeira|+Confere um direito ao titular|+Envolve condições de exercício|+Pode ter prêmio pago pelo titular|-Impõe ao titular a mesma obrigação de um contrato a termo~O titular possui um direito de exercício
+Análise horizontal|+Compara valores em períodos diferentes|+Examina evolução de itens contábeis|-Relaciona cada item ao total da mesma demonstração~Isso caracteriza análise vertical|-É definida pelo registro de débitos e créditos~Isso pertence à escrituração
+Análise vertical|+Examina a composição de uma demonstração|+Expressa itens em relação a uma base do período|-Compara crescimento dos valores entre anos~Variação entre anos caracteriza análise horizontal|-Mede o prazo de recebimento por definição~Prazo de recebimento é outro indicador
+EBITDA|+Desconsidera juros e tributos sobre o lucro|+Desconsidera depreciação e amortização|+É indicador de resultado e não fluxo de caixa|-Equivale ao caixa operacional realizado~Resultado ajustado não equivale a fluxo de caixa
+CAPEX|+Envolve investimentos em ativos de capital|+Pode ampliar capacidade futura|-É definido como despesas correntes de operação~Essas despesas se associam a OPEX|-Corresponde ao dividendo distribuído~Dividendo é destinação aos sócios
+OPEX|+Envolve gastos correntes de operação|+É distinto do investimento de capital|-É definido como aquisição de ativo de longo prazo~Essa aquisição pode compor CAPEX|-Representa contribuição de capital de sócios~Aporte de capital é outro fluxo
+Materialidade contábil|+Relaciona relevância à decisão dos usuários|+Depende da natureza ou magnitude da informação|+É avaliada no contexto da entidade|-É um limite monetário fixo sem considerar contexto e natureza da informação~O contexto afeta a avaliação
+Prudência contábil|+Envolve cautela em julgamentos sob incerteza|+Busca apoiar informação neutra|-Autoriza criar reservas ocultas deliberadas~Prudência não justifica distorções|-Determina superestimar passivos de forma sistemática~Superestimação deliberada não é neutralidade
+Continuidade operacional|+É uma premissa sobre a manutenção das atividades|+Afeta bases de elaboração das demonstrações|-É comprovação da capacidade de pagar as dívidas nos vencimentos~Premissa não garante capacidade de pagamento|-Proíbe revisar a situação da entidade~A premissa deve ser avaliada
+Comparabilidade contábil|+Ajuda a identificar semelhanças e diferenças|+Pode envolver períodos ou entidades|+É favorecida por divulgação dos critérios|-Exige resultados financeiros iguais entre empresas~Comparabilidade não é igualdade dos resultados
+Conciliação de contas|+Compara registros e evidências de suporte|+Procura diferenças que precisam de esclarecimento|-Autoriza eliminar saldos divergentes sem apuração~Diferenças precisam ser investigadas|-É definida pela mudança da natureza de uma conta~Natureza da conta não define conciliação
+Gestão financeira integrada|+Considera investimento e financiamento|+Considera prazos de entradas e saídas|+Considera risco e retorno|+Distingue geração de resultado e disponibilidade de caixa

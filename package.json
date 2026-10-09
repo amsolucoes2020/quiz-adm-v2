@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node --test"
+    "test": "node --test",
+    "bank:build": "node scripts/build-balanced-bank.mjs",
+    "bank:check": "node scripts/build-balanced-bank.mjs --check",
+    "bank:audit": "node scripts/audit-balanced-bank.mjs"
   },
   "dependencies": {
     "firebase": "^10.12.0",

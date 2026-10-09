@@ -1,0 +1,143 @@
+[MC]
+Segmentação de mercado|Divisão do mercado em grupos com características ou necessidades semelhantes
+Seleção de mercado-alvo|Escolha dos grupos de clientes aos quais a empresa pretende atender
+Posicionamento|Definição de como a oferta pretende ser percebida em relação a alternativas
+Diferenciação|Construção de atributos que distinguem a oferta de outras propostas
+Proposta de valor|Conjunto de benefícios relevantes oferecidos a um público definido
+Produto no mix de marketing|Oferta de bens, serviços ou experiências destinada ao mercado
+Preço no mix de marketing|Condições monetárias cobradas pela oferta ao cliente
+Praça no mix de marketing|Meios e canais de disponibilização da oferta ao cliente
+Promoção no mix de marketing|Comunicação usada para apresentar e estimular interesse pela oferta
+Pessoas no marketing de serviços|Participantes humanos que influenciam a entrega e a percepção do serviço
+Necessidade do consumidor|Estado de privação ou exigência que motiva a busca de atendimento
+Desejo do consumidor|Forma de atender uma necessidade moldada por referências pessoais e culturais
+Demanda de mercado|Desejo por uma oferta acompanhado de disposição e capacidade de aquisição
+Valor percebido|Avaliação dos benefícios recebidos em relação aos sacrifícios assumidos
+Satisfação do cliente|Avaliação da experiência em relação às expectativas anteriores
+Marca|Elemento que identifica uma oferta e a distingue de outras
+Identidade de marca|Conjunto de associações que a organização pretende construir
+Imagem de marca|Conjunto de associações que o público efetivamente atribui à oferta
+Brand equity|Valor adicional associado à marca na percepção e resposta do mercado
+Arquitetura de marcas|Organização das relações entre marcas de um portfólio
+Pesquisa exploratória|Investigação inicial para compreender e delimitar um problema de mercado
+Pesquisa descritiva|Investigação que caracteriza públicos, comportamentos ou condições de mercado
+Pesquisa causal|Investigação de relações de causa e efeito entre variáveis
+Pesquisa qualitativa|Investigação aprofundada de significados, percepções e experiências
+Pesquisa quantitativa|Investigação baseada em medidas e tratamento numérico de dados
+Dados primários de mercado|Informações coletadas especificamente para a investigação em curso
+Dados secundários de mercado|Informações já disponíveis de coletas realizadas para outras finalidades
+Amostra de pesquisa|Subconjunto de unidades observado para estudar uma população
+População de pesquisa|Conjunto de unidades sobre o qual a investigação pretende concluir
+Instrumento de coleta|Recurso utilizado para obter informações dos participantes
+Publicidade|Comunicação paga identificável que promove uma oferta ou marca
+Relações públicas|Gestão das relações e da comunicação com públicos relevantes
+Promoção de vendas|Incentivos de duração delimitada para estimular transações
+Venda pessoal|Interação direta de um vendedor com potenciais compradores
+Marketing direto|Comunicação dirigida a destinatários identificáveis buscando uma resposta
+Distribuição intensiva|Disponibilização da oferta em grande número de pontos de venda
+Distribuição seletiva|Disponibilização da oferta por um conjunto escolhido de intermediários
+Distribuição exclusiva|Disponibilização da oferta por intermediários restritos em um território
+Canal direto|Caminho de venda entre produtor e comprador sem intermediário comercial
+Canal indireto|Caminho de venda que inclui intermediários comerciais
+Introdução do produto|Fase inicial de disponibilização e construção de aceitação no mercado
+Crescimento do produto|Fase de expansão da aceitação e das vendas no mercado
+Maturidade do produto|Fase de vendas estabilizadas e competição mais consolidada
+Declínio do produto|Fase de redução persistente da demanda pela oferta
+Extensão de linha|Inclusão de variantes em uma linha de produtos existente
+Preço de penetração|Preço inicial baixo para estimular adoção e participação de mercado
+Preço de desnatamento|Preço inicial alto voltado a compradores com maior disposição de pagar
+Preço baseado em custo|Preço formado a partir dos gastos acrescidos de uma margem
+Preço baseado em valor|Preço orientado pelos benefícios percebidos pelo comprador
+Preço baseado em concorrência|Preço orientado pelas condições praticadas por outras ofertas
+Prospecção comercial|Busca e identificação de potenciais compradores
+Qualificação comercial|Avaliação da adequação e do potencial de um contato para compra
+Apresentação comercial|Exposição da oferta e de seus benefícios ao possível comprador
+Negociação comercial|Construção de condições de troca entre vendedor e comprador
+Pós-venda|Acompanhamento da relação com o cliente depois da transação
+Participação de mercado|Parcela de vendas de uma empresa em relação ao total do mercado definido
+Penetração de mercado|Grau de adoção de uma oferta no público ou mercado considerado
+Share of wallet|Parcela do gasto de um cliente destinada a uma empresa na categoria
+Taxa de conversão|Proporção de contatos ou visitas que realizam a ação esperada
+Retenção de clientes|Capacidade de manter clientes ativos ao longo de um período
+[VF]
+Segmentação geográfica|Agrupamento de clientes conforme localização
+Segmentação demográfica|Agrupamento de clientes conforme atributos como idade e renda
+Segmentação psicográfica|Agrupamento de clientes conforme estilos de vida e referências psicológicas
+Segmentação comportamental|Agrupamento de clientes conforme formas de uso e resposta à oferta
+Segmentação por benefícios|Agrupamento de clientes conforme vantagens procuradas na oferta
+Marketing indiferenciado|Atendimento de diferentes segmentos com uma proposta geral
+Marketing diferenciado|Atendimento de diferentes segmentos com propostas próprias
+Marketing concentrado|Foco em um segmento ou em um conjunto restrito de segmentos
+Micromarketing|Adaptação de ações a públicos locais ou individuais delimitados
+Marketing de nicho|Atendimento de um grupo específico com necessidades particulares
+Lead|Contato que demonstrou interesse ou potencial para uma oferta
+Prospect|Potencial comprador identificado para desenvolvimento comercial
+Cliente recorrente|Comprador que realiza novas transações com a empresa
+Cliente inativo|Comprador sem atividade no período adotado para acompanhamento
+Defensor da marca|Pessoa que recomenda ou apoia espontaneamente uma oferta
+Funil de marketing|Representação das etapas de avanço do público até uma ação desejada
+Jornada do cliente|Sequência de experiências e pontos de contato ao longo de uma relação
+Persona|Representação de perfil de cliente fundamentada em informações do público
+Mapa de empatia|Instrumento para organizar percepções e necessidades de um público
+Ponto de contato|Momento ou canal de interação entre público e organização
+SEO|Práticas para melhorar a presença em resultados orgânicos de busca
+Mídia paga|Exposição obtida pela compra de espaços ou distribuição publicitária
+Mídia própria|Exposição em canais controlados pela organização
+Mídia conquistada|Exposição obtida por menções de terceiros sem compra daquele espaço
+Marketing de conteúdo|Produção e distribuição de material relevante para atrair e desenvolver público
+Alcance de comunicação|Quantidade de pessoas ou contas expostas a uma mensagem
+Impressão de comunicação|Registro de uma exibição de uma mensagem
+Frequência de exposição|Quantidade média de exibições por integrante do público alcançado
+Taxa de cliques|Relação entre cliques e exibições de uma mensagem
+Engajamento de conteúdo|Interações do público com uma publicação ou mensagem
+Custo de aquisição de cliente|Gasto de aquisição dividido pelos clientes obtidos no período definido
+Valor do cliente ao longo da relação|Estimativa de contribuição econômica durante o relacionamento
+Taxa de churn|Proporção de clientes ou contratos perdidos no período definido
+Ticket médio|Relação entre valor total vendido e quantidade de transações
+Receita recorrente mensal|Valor mensal de receitas de contratos com recorrência
+Cross-selling|Oferta de produtos complementares à compra do cliente
+Upselling|Oferta de uma versão ou solução de maior valor para a necessidade do cliente
+Merchandising no ponto de venda|Apresentação e estímulo de compra no ambiente de venda
+Trade marketing|Ações voltadas à relação com canais e intermediários comerciais
+Marketing de relacionamento|Construção e manutenção de vínculos duradouros com clientes
+[MR]
+Composto de comunicação|+Pode combinar publicidade e venda pessoal|+Pode incluir promoção de vendas|-É sinônimo de política de preços~Preço e comunicação são dimensões distintas|-É formado pelos segmentos-alvo~Segmentos são públicos, não instrumentos de comunicação
+Consistência de posicionamento|+Relaciona promessa e experiência entregue|+Considera percepção do público|+Exige coerência entre mensagens e oferta|-É definida pelo logotipo isoladamente~Identidade visual não esgota posicionamento
+Intangibilidade de serviços|+Dificulta examinar a oferta como um bem físico|+Pode exigir evidências que apoiem a avaliação|-Significa que serviço não produz benefícios~Benefícios podem existir sem substância física|-É a variação entre prestadores~Variação é heterogeneidade
+Inseparabilidade de serviços|+Pode associar produção e consumo|+Pode envolver participação do cliente|-Significa armazenamento para venda futura~Armazenamento não define inseparabilidade|-É o prazo de validade de um bem~Validade de bem não define essa característica
+Heterogeneidade de serviços|+Envolve variação na execução|+Pode decorrer de pessoas e contextos|+Exige atenção à consistência da entrega|-Significa ausência de elementos físicos~Essa ausência se relaciona à intangibilidade
+Perecibilidade de serviços|+Envolve capacidade não utilizada que não pode ser estocada|+Pode exigir equilíbrio entre demanda e capacidade|-É perda de validade física de um estoque~A característica trata de capacidade de serviço|-Significa falta de padrão na execução~Falta de padrão se relaciona à heterogeneidade
+Qualidade percebida de serviço|+Considera a experiência do cliente|+Pode envolver confiabilidade e atendimento|-Se define pelo custo interno do prestador~Custo interno não determina percepção|-É igual ao volume vendido~Volume e qualidade percebida são medidas distintas
+Recuperação de serviço|+Responde a uma falha na experiência|+Busca restabelecer confiança|+Pode envolver correção e comunicação|-É definida como primeira apresentação da oferta~A apresentação inicial não é recuperação
+Cocriação de valor|+Inclui participação do cliente na experiência|+Pode envolver interação durante a entrega|-É sinônimo de terceirização do atendimento~Terceirização não define participação do cliente|-Exige que o cliente seja proprietário da empresa~Participação no valor não exige propriedade
+Comunicação integrada|+Articula mensagens entre canais|+Busca coerência na percepção da marca|-Significa repetir o mesmo anúncio sem adaptar formato~Coerência admite adaptação|-Equivale a usar um canal de comunicação~Integração pode envolver vários canais
+Briefing de comunicação|+Registra objetivos e público|+Orienta a produção de uma ação|+Pode definir mensagem e restrições|-É o relatório final de resultados~Briefing antecede a execução
+Teste A/B de campanha|+Compara versões em condições controladas|+Examina resposta a uma variação|-É uma entrevista aprofundada por definição~Entrevista é outro método|-Prova causalidade sem controlar a comparação~Controle é necessário à interpretação
+Viés de amostragem|+Pode tornar a amostra pouco representativa|+Afeta conclusões sobre o público|-É definido pelo tamanho grande da população~Tamanho da população não define o viés|-É corrigido pelo aumento do tamanho mantendo a mesma seleção enviesada~Mais dados enviesados não corrigem seleção inadequada
+Pergunta indutiva de pesquisa|+Pode direcionar a resposta do participante|+Prejudica neutralidade da coleta|+Exige revisão da formulação|-É equivalente a pergunta aberta~Pergunta aberta pode ser neutra
+Escala de avaliação de mercado|+Organiza graus de resposta|+Permite registrar intensidade de percepção|-Garante sinceridade de cada participante~Formato não garante sinceridade|-Dispensa definir o que se pretende medir~Objetivo de medida continua necessário
+Grupo focal|+Usa discussão moderada|+Explora percepções de participantes|-É representativo por ser qualitativo~Qualitativo não assegura representatividade estatística|-É o mesmo que experimento de preço~Experimento tem outro desenho
+Painel de consumidores|+Acompanha participantes ao longo do tempo|+Permite observar mudanças de comportamento|+Exige critérios de composição|-É definido por entrevistar pessoas diferentes em cada coleta~Painel acompanha um conjunto de participantes
+Elasticidade-preço da demanda|+Relaciona variação percentual de quantidade e preço|+Pode apoiar decisões comerciais|-É definida pela margem de lucro~Margem e elasticidade são diferentes|-Mede o nível de satisfação~Satisfação é outra dimensão
+Preço de referência|+É parâmetro usado pelo comprador para comparação|+Pode vir de experiências anteriores|-Equivale ao custo contábil do produtor~Referência do consumidor não é custo de produção|-É a tarifa de frete por definição~Frete pode integrar preço, mas não define referência
+Preço psicológico|+Considera como o preço é percebido|+Pode usar formas de apresentação|+Depende do contexto do consumidor|-É definido pela soma automática de custo e margem~Essa soma caracteriza precificação por custo
+Desconto comercial|+Altera condições de preço da oferta|+Pode considerar volume ou negociação|-É definido pelo reconhecimento de receita~Desconto e reconhecimento são eventos distintos|-Garante crescimento de lucro~Lucro depende de margem e resposta da demanda
+Conflito de canais|+Envolve interesses divergentes entre participantes|+Pode envolver territórios ou preços|-É definido por baixa satisfação de empregados~Isso pertence à gestão interna de pessoas|-É eliminado pela presença de intermediários~Intermediários podem participar do conflito
+Omnicanalidade|+Integra experiências entre canais|+Busca continuidade da relação com o cliente|+Pode articular atendimento e entrega|-É definida pela mera existência de vários canais independentes~Integração distingue omnicanalidade de multicanalidade
+Venda consultiva|+Investiga necessidades do comprador|+Relaciona solução e problema do cliente|-Se define por apresentar o maior desconto~Desconto não define diagnóstico consultivo|-Dispensa conhecer a oferta~Conhecimento da solução é necessário
+Objeção comercial|+Expressa dúvida ou resistência à proposta|+Pode indicar necessidade de esclarecimento|-É sinônimo de decisão final de compra~Objeção pode preceder uma decisão|-É definida por reclamação após a entrega~Reclamação pós-venda é outro momento
+Forecast de vendas|+Estima resultados comerciais futuros|+Pode considerar histórico e oportunidades|+Depende de premissas|-Corresponde ao resultado já realizado~Estimativa futura difere de realização
+Território de vendas|+Delimita responsabilidades comerciais|+Pode ser geográfico ou por contas|-É definido pelo canal de pagamento~Pagamento não delimita território|-É a área total ocupada pelo estoque~Área de estoque não define território comercial
+Conta-chave|+Tem relevância estratégica para o negócio|+Pode exigir gestão dedicada|-É definida pelo cadastro mais antigo~Antiguidade não determina relevância|-É a classificação dada ao contato antes da qualificação comercial~Contato não qualificado não define conta-chave
+Ciclo de vendas|+Abrange etapas até a contratação|+Pode variar com a complexidade da compra|+Permite acompanhar duração do processo|-É a vida útil física do produto~Vida útil não define ciclo comercial
+NPS|+Baseia-se em intenção de recomendação|+Considera proporções de promotores e detratores|-É equivalente à taxa de recompra~Recompra é outro indicador|-Mede lucro do cliente diretamente~Intenção de recomendar não mede lucro
+CSAT|+Avalia satisfação declarada|+Pode se referir a uma interação específica|-É definido por intenção de recomendar~Essa intenção é base do NPS|-É o custo de aquisição do cliente~Custo de aquisição é outro indicador
+CES|+Avalia esforço percebido pelo cliente|+Pode se referir a uma tarefa de atendimento|+Ajuda a examinar facilidade da experiência|-É calculado pela participação de mercado~Participação de mercado não mede esforço
+Fidelização|+Busca estimular continuidade do relacionamento|+Pode envolver valor e experiência|-É uma política de aquisição de clientes sem objetivo de continuidade~Fidelização não é impedimento de saída|-Garante recompra por um cadastro realizado~Cadastro não garante fidelidade
+Programa de lealdade|+Pode recompensar comportamentos de relacionamento|+Exige regras compreensíveis|-Substitui a qualidade da oferta~Recompensas não substituem valor entregue|-É o mesmo que segmentação demográfica~Segmentação e lealdade são instrumentos distintos
+Marketing B2B|+Envolve transações entre organizações|+Pode envolver vários participantes na decisão|+Pode ter demanda derivada|-Se define por vender a consumidores finais individuais~Essa definição corresponde a B2C
+Marketing B2C|+Envolve ofertas a consumidores finais|+Considera necessidades de consumo|-É definido pela revenda entre atacadistas~Revenda entre empresas é B2B|-Exige que a venda ocorra presencialmente~B2C pode ocorrer em diversos canais
+Compra organizacional|+Pode envolver critérios técnicos e econômicos|+Pode envolver usuários e aprovadores|-Se resume à preferência de um usuário~Decisão pode envolver múltiplos papéis|-É igual à compra por impulso do consumidor~Processos podem ser mais estruturados
+Portfólio de produtos|+Reúne ofertas da organização|+Pode conter linhas diferentes|+Exige atenção a complementaridades|-É a lista de clientes ativos~Lista de clientes não é portfólio de produtos
+Cannibalização de vendas|+Ocorre quando uma oferta desloca vendas de outra da mesma empresa|+Pode decorrer do lançamento de uma variante|-É a transferência de vendas para produtos de um concorrente externo~Deslocamento interno não define expansão total|-É a substituição de fornecedor de matéria-prima~Isso pertence a suprimentos
+Marketing responsável|+Exige clareza sobre a oferta|+Considera proteção de dados|+Evita promessas enganosas|+Considera efeitos sobre públicos vulneráveis

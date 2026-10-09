@@ -1,0 +1,144 @@
+# Múltipla escolha: 60 definições, em grupos de cinco conceitos próximos.
+[MC]
+Planejamento|Definição de objetivos e dos caminhos para alcançá-los
+Organização|Distribuição de tarefas, recursos e responsabilidades
+Direção|Orientação das pessoas para realizar o trabalho previsto
+Controle|Comparação dos resultados com padrões e correção de desvios
+Coordenação|Integração dos esforços de unidades que dependem umas das outras
+Eficiência|Relação entre os resultados produzidos e os recursos consumidos
+Eficácia|Grau de alcance dos objetivos estabelecidos
+Efetividade|Impacto duradouro de uma ação sobre a realidade que pretende modificar
+Produtividade|Quantidade produzida por unidade de recurso utilizada
+Economicidade|Obtenção de recursos em condições adequadas de custo e qualidade
+Autoridade formal|Direito de decidir decorrente de uma posição na estrutura
+Responsabilidade|Dever de executar atividades e responder por seus resultados
+Delegação|Atribuição de tarefas e de poderes de decisão a outra pessoa
+Centralização|Concentração do poder de decisão nos níveis superiores
+Descentralização|Distribuição do poder de decisão entre diferentes níveis
+Estrutura funcional|Agrupamento das atividades por especialidades de trabalho
+Estrutura divisional|Agrupamento das atividades por produtos, mercados ou regiões
+Estrutura matricial|Combinação de vínculos funcionais com vínculos a projetos ou produtos
+Estrutura por projetos|Organização de equipes em torno de entregas com começo e término
+Estrutura em rede|Articulação de unidades e parceiros com funções interdependentes
+Cultura organizacional|Valores e pressupostos compartilhados que orientam comportamentos
+Clima organizacional|Percepções dos integrantes sobre o ambiente de trabalho
+Identidade organizacional|Características com que uma organização define quem é
+Imagem organizacional|Percepção que um público forma sobre uma organização
+Reputação organizacional|Avaliação acumulada da organização ao longo de suas relações
+Habilidade técnica|Capacidade de empregar conhecimentos especializados na atividade
+Habilidade humana|Capacidade de interagir e trabalhar com outras pessoas
+Habilidade conceitual|Capacidade de compreender a organização e suas relações como um conjunto
+Papel interpessoal|Atuação gerencial ligada à representação e às relações com pessoas
+Papel informacional|Atuação gerencial ligada à obtenção e à circulação de informações
+Poder legítimo|Influência fundamentada no reconhecimento da posição ocupada
+Poder de recompensa|Influência fundamentada na capacidade de oferecer benefícios
+Poder coercitivo|Influência fundamentada na capacidade de impor sanções
+Poder de especialização|Influência fundamentada no conhecimento reconhecido de uma pessoa
+Poder de referência|Influência fundamentada na identificação e admiração por uma pessoa
+Organização formal|Arranjo de funções e relações deliberadamente estabelecido
+Organização informal|Rede de relações que surge das interações entre os integrantes
+Unidade de comando|Princípio segundo o qual cada subordinado responde a um superior
+Amplitude de controle|Quantidade de subordinados vinculados diretamente a um gestor
+Cadeia escalar|Sequência de níveis de autoridade que conecta posições hierárquicas
+Decisão programada|Escolha tratada com procedimentos previamente estabelecidos
+Decisão não programada|Escolha que exige uma solução para situação nova ou pouco estruturada
+Racionalidade limitada|Decisão sob restrições de informação, tempo e capacidade de processamento
+Solução satisfatória|Alternativa que atende a critérios suficientes para encerrar a busca
+Heurística de decisão|Regra prática que simplifica o julgamento de alternativas
+Sistema aberto|Conjunto que troca recursos e informações com seu ambiente
+Entropia organizacional|Tendência à desorganização que exige renovação de recursos e informações
+Sinergia|Resultado conjunto superior à soma dos resultados isolados
+Equifinalidade|Possibilidade de atingir um resultado por diferentes caminhos
+Feedback|Informação sobre resultados usada para ajustar o funcionamento
+Administração científica|Abordagem centrada na racionalização das tarefas de trabalho
+Teoria clássica|Abordagem centrada nas funções administrativas e na estrutura da organização
+Abordagem burocrática|Modelo baseado em regras, impessoalidade e autoridade legal-racional
+Relações humanas|Abordagem que enfatiza grupos sociais e aspectos humanos no trabalho
+Teoria contingencial|Abordagem que relaciona a adequação da gestão às condições do contexto
+Planejamento estratégico|Definição das escolhas gerais que orientam a organização no longo prazo
+Planejamento tático|Desdobramento das escolhas gerais em objetivos e ações de áreas
+Planejamento operacional|Detalhamento das atividades, prazos e recursos de execução
+Plano de contingência|Preparação de respostas para ocorrências que podem afetar a operação
+Planejamento participativo|Elaboração de objetivos e ações com envolvimento dos interessados
+[VF]
+Departamentalização por clientes|Agrupamento de atividades conforme públicos atendidos
+Departamentalização geográfica|Agrupamento de atividades conforme territórios de atuação
+Departamentalização por processos|Agrupamento de atividades conforme etapas de transformação
+Departamentalização por produtos|Agrupamento de atividades conforme linhas de oferta
+Departamentalização por funções|Agrupamento de atividades conforme especialidades administrativas
+Comunicação descendente|Fluxo de informação dos níveis superiores aos subordinados
+Comunicação ascendente|Fluxo de informação dos subordinados aos níveis superiores
+Comunicação horizontal|Fluxo de informação entre posições de nível hierárquico semelhante
+Comunicação diagonal|Fluxo de informação entre áreas e níveis hierárquicos diferentes
+Comunicação externa|Fluxo de informação entre a organização e públicos de fora dela
+Coordenação por supervisão direta|Integração do trabalho pela orientação de um responsável
+Coordenação por ajuste mútuo|Integração do trabalho pela comunicação entre os próprios envolvidos
+Padronização dos processos|Integração do trabalho pela especificação de como executar atividades
+Padronização dos resultados|Integração do trabalho pela especificação das entregas esperadas
+Padronização das habilidades|Integração do trabalho pela preparação profissional de quem o executa
+Gestor de primeira linha|Responsável pela supervisão direta do trabalho operacional
+Gestor intermediário|Responsável por conectar orientações gerais e execução de áreas
+Alta administração|Grupo responsável pelas decisões gerais da organização
+Assessoria|Unidade que oferece apoio especializado a quem exerce autoridade de linha
+Autoridade de linha|Poder de comando ligado à cadeia principal de execução
+Controle preventivo|Acompanhamento que antecede a realização de uma atividade
+Controle concomitante|Acompanhamento realizado durante a execução de uma atividade
+Controle posterior|Avaliação realizada depois de concluída uma atividade
+Padrão de desempenho|Referência usada para avaliar resultados de uma atividade
+Desvio de desempenho|Diferença identificada entre o resultado e a referência adotada
+Visão mecanicista|Desenho organizacional com alta formalização e funções delimitadas
+Visão orgânica|Desenho organizacional com interação flexível e adaptação de funções
+Formalização|Grau em que regras e procedimentos são registrados para orientar o trabalho
+Especialização do trabalho|Divisão de uma atividade em tarefas mais delimitadas
+Integração organizacional|Articulação entre atividades diferenciadas para realizar objetivos comuns
+Conflito intrapessoal|Tensão entre demandas ou escolhas enfrentadas por uma pessoa
+Conflito interpessoal|Tensão entre pessoas com posições ou interesses divergentes
+Conflito intergrupal|Tensão entre grupos com posições ou interesses divergentes
+Negociação integrativa|Busca de alternativas que ampliem benefícios para as partes
+Negociação distributiva|Disputa pela divisão de um conjunto de recursos delimitado
+Rotina administrativa|Sequência recorrente de atividades que sustenta o funcionamento
+Procedimento administrativo|Descrição ordenada de como realizar uma atividade
+Política organizacional|Diretriz geral que orienta decisões recorrentes
+Regra organizacional|Determinação específica sobre uma conduta ou situação
+Programa administrativo|Conjunto coordenado de ações voltadas a um objetivo definido
+[MR]
+Missão organizacional|+Expressa a razão de existir da organização|+Relaciona a atuação às necessidades que ela atende|-Descreve o estado futuro desejado~Esse é o papel da visão|-Detalha resultados numéricos com prazo~Esse é o papel de metas
+Visão organizacional|+Expressa uma situação futura desejada|+Orienta uma direção para o desenvolvimento|-Descreve a finalidade atual da organização~Essa é a missão|-É a referência numérica de resultado de um período~Isso caracteriza uma meta
+Valores organizacionais|+Expressam princípios considerados relevantes|+Orientam critérios de comportamento|+Ajudam a avaliar a coerência das decisões|-Correspondem aos resultados numéricos de um período~Resultados numéricos são indicadores ou metas
+Objetivos organizacionais|+Expressam resultados que se pretende alcançar|+Orientam a escolha de ações|-Correspondem aos meios escolhidos para alcançar resultados~Meios escolhidos são estratégias e ações|-Representam resultados já observados~Resultados observados não são os objetivos pretendidos
+Metas administrativas|+Detalham resultados esperados|+Podem explicitar prazo e medida|+Permitem verificar o alcance de objetivos|-Correspondem à razão de existir da organização~Essa é a missão
+Recursos organizacionais|+Incluem pessoas e conhecimentos|+Incluem meios materiais e financeiros|-Correspondem às entregas concluídas~Entregas são resultados|-Correspondem ao impacto social alcançado~Impacto é uma dimensão da efetividade
+Stakeholders|+Podem estar dentro da organização|+Podem ser afetados por decisões organizacionais|+Podem influenciar a organização|-São o grupo de proprietários do capital~Proprietários são parte possível de um conjunto mais amplo
+Ambiente de tarefa|+Inclui clientes e fornecedores|+Inclui concorrentes com relação direta à atividade|-É o conjunto de tendências demográficas gerais~Essas tendências pertencem ao macroambiente|-É formado pela cultura compartilhada dos empregados~Essa cultura pertence ao contexto interno
+Macroambiente|+Inclui condições econômicas gerais|+Inclui mudanças demográficas e tecnológicas|+Inclui condições políticas e socioculturais|-É composto pelos procedimentos de uma equipe~Procedimentos de equipe pertencem ao ambiente interno
+Competência organizacional|+Combina recursos e capacidades da organização|+Sustenta a realização de atividades|-Equivale ao conhecimento de um profissional tomado isoladamente~O conceito trata da capacidade coletiva|-É a propriedade de recursos sem capacidade de utilizá-los~Combinação e uso são relevantes
+Aprendizagem organizacional|+Envolve incorporar experiências às práticas|+Pode alterar rotinas compartilhadas|-É a repetição de rotinas sem examinar experiências~Aprendizagem exige incorporar conhecimento|-É o armazenamento de informações sem mudança de compreensão~Guardar informações não demonstra aprendizagem
+Memória organizacional|+Conserva conhecimentos sobre experiências anteriores|+Pode estar em registros e práticas compartilhadas|+Apoia a recuperação de informações úteis|-Corresponde à lista de objetivos futuros~Objetivos futuros integram o planejamento
+Liderança situacional|+Considera condições da tarefa e dos liderados|+Admite adequação do comportamento do líder|-Determina um estilo único independente dos liderados~A adequação depende da situação|-Explica influência pela admiração pessoal pelo líder~Admiração se relaciona ao poder de referência
+Liderança transformacional|+Mobiliza pessoas por propósito e visão|+Estimula desenvolvimento dos liderados|+Pode incentivar novas formas de pensar|-Se define pela troca de recompensa por desempenho acordado~Essa troca caracteriza a liderança transacional
+Liderança transacional|+Utiliza acordos sobre desempenho e recompensa|+Envolve acompanhamento dos compromissos|-É a mobilização por transformação de propósito como elemento central~Esse foco caracteriza liderança transformacional|-É a retirada da orientação e do acompanhamento~Isso se aproxima de intervenção reduzida, não de trocas acompanhadas
+Liderança democrática|+Favorece a participação em decisões|+Mantém o papel de orientação do líder|+Valoriza discussão de alternativas|-Se caracteriza por decisões concentradas sem consulta~Essa concentração caracteriza estilo autocrático
+Liderança autocrática|+Concentra decisões no líder|+Utiliza orientações mais diretas|-Se define pela decisão por consenso do grupo~Consenso está associado à participação|-Se define por regras estabelecidas entre organizações parceiras~Esse arranjo diz respeito a relações interorganizacionais
+Liderança liberal|+Dá maior autonomia à equipe|+Reduz a intervenção direta do líder|-Concentra decisões operacionais no líder~Concentração se associa ao estilo autocrático|-Exige consulta ao grupo para cada decisão do líder~Consulta central ao estilo democrático não define estilo liberal
+Comportamento organizacional|+Estuda atitudes e ações no contexto de trabalho|+Considera níveis individuais e coletivos|+Relaciona pessoas e condições organizacionais|-É o desenho formal dos vínculos hierárquicos~O desenho estrutural é um conceito mais delimitado
+Motivação no trabalho|+Envolve direção e intensidade do esforço|+Envolve persistência em uma atividade|-Equivale à capacidade técnica de executar a tarefa~Capacidade e motivação são conceitos distintos|-É definida pelo local ocupado no organograma~Posição estrutural não define motivação
+Teoria X de McGregor|+Pressupõe necessidade de controle mais forte|+Associa a gestão a uma visão desconfiada do trabalho|-Pressupõe autorrealização como base da autonomia~Essa visão se aproxima da teoria Y|-Classifica necessidades em cinco níveis~Essa classificação é associada a Maslow
+Teoria Y de McGregor|+Admite autocontrole em condições favoráveis|+Reconhece potencial de responsabilidade|+Admite participação no trabalho|-Pressupõe rejeição do trabalho como fundamento da supervisão~Essa visão se aproxima da teoria X
+Fatores higiênicos de Herzberg|+Incluem condições do ambiente de trabalho|+Relacionam-se à prevenção da insatisfação|-São definidos pela realização ligada à tarefa~Realização integra os fatores motivacionais|-Incluem a responsabilidade pelo conteúdo do cargo como fator central~Responsabilidade se associa aos fatores motivacionais
+Fatores motivacionais de Herzberg|+Incluem realização e reconhecimento|+Relacionam-se ao conteúdo do trabalho|+Incluem oportunidades de desenvolvimento|-São definidos pelas condições físicas do ambiente~Condições físicas integram os fatores higiênicos
+Necessidades segundo Maslow|+Incluem necessidades fisiológicas e de segurança|+Incluem necessidades sociais e de estima|-Utilizam a divisão entre fatores higiênicos e motivacionais~Essa divisão é de Herzberg|-São a expectativa de recompensa ligada ao esforço~Esse foco pertence à teoria da expectativa
+Teoria da expectativa|+Relaciona esforço e desempenho percebido|+Considera o valor atribuído às recompensas|+Considera a ligação percebida entre desempenho e recompensa|-Define justiça pela comparação entre contribuições e retornos~Essa comparação é central na teoria da equidade
+Teoria da equidade|+Considera comparações entre contribuições e retornos|+Relaciona motivação à justiça percebida|-Define uma hierarquia de necessidades humanas~Isso remete à teoria de Maslow|-Tem como centro a relação entre esforço, desempenho e recompensa esperada~Esse foco pertence à teoria da expectativa
+Reforço comportamental|+Relaciona consequências à frequência de comportamentos|+Pode utilizar consequências positivas|-Explica motivação pela comparação social de recompensas~Esse é o foco da teoria da equidade|-Classifica necessidades em níveis de realização~Esse foco remete à hierarquia de necessidades
+Gestão da mudança|+Envolve preparar pessoas para novas práticas|+Envolve acompanhar a adoção de novas práticas|+Considera efeitos sobre rotinas e relações|-É concluída pelo anúncio da decisão~Adoção e acompanhamento também são necessários
+Resistência à mudança|+Pode decorrer de incerteza sobre consequências|+Pode decorrer de perda percebida de benefícios|-É prova de incapacidade profissional do grupo~Resistência pode ter diferentes razões|-É eliminada pela divulgação de um comunicado~Comunicação isolada não garante superação
+Organograma|+Representa posições e vínculos formais|+Pode mostrar níveis hierárquicos|-Descreve a ordem das etapas de uma atividade~Essa é a finalidade de um fluxograma|-Representa por si as relações informais de confiança~Vínculos formais não descrevem toda a rede informal
+Manual de organização|+Registra atribuições de unidades|+Registra relações de autoridade|+Pode esclarecer responsabilidades|-É o registro de etapas detalhadas de cada tarefa~Esse registro pertence ao manual de procedimentos
+Administração por objetivos|+Relaciona objetivos acordados e acompanhamento|+Utiliza resultados como referência de avaliação|-Se define pelo estudo de movimentos de uma tarefa~Esse estudo pertence à administração científica|-Avalia o trabalho pela presença física sem considerar resultados~Resultados acordados são referência relevante
+Gestão participativa|+Inclui contribuição dos integrantes em decisões|+Pode ampliar o compartilhamento de informações|+Mantém a necessidade de definir responsabilidades|-É definida pela eliminação de objetivos coletivos~Participação não elimina objetivos
+Autonomia no trabalho|+Envolve liberdade de decisão dentro de limites|+Pode abranger métodos e organização das tarefas|-Equivale à inexistência de responsabilidades~Autonomia convive com responsabilidade|-É a concentração das escolhas no supervisor~Autonomia atribui decisões à pessoa ou equipe
+Prestação de contas|+Explica decisões e resultados aos interessados|+Permite examinar o uso de recursos|-É definida pela transferência de tarefas a subordinados~Essa transferência é delegação|-É definida pela ordem dos cargos no organograma~Essa ordem é hierarquia
+Legitimidade organizacional|+Relaciona a atuação às expectativas sociais|+Envolve reconhecimento de adequação por públicos relevantes|+Pode depender de normas e valores do ambiente|-É o poder concedido pelo cargo gerencial~Poder legítimo individual não define legitimidade da organização
+Risco administrativo|+Envolve incerteza que pode afetar objetivos|+Pode exigir avaliação de probabilidade e impacto|-É definido pela certeza de uma perda~Risco envolve incerteza|-É um resultado desfavorável já ocorrido~Um problema ocorrido é distinto de evento incerto
+Ação corretiva administrativa|+Responde a um desvio identificado|+Procura ajustar a execução aos resultados esperados|-É definida pela elaboração de cenários futuros~Cenários pertencem ao planejamento|-Equivale à distribuição inicial de cargos~Distribuição de cargos pertence à organização
+Integração entre funções administrativas|+Objetivos orientam o arranjo de recursos|+Resultados podem exigir ajustes nos planos|+Direção mobiliza pessoas para executar ações|+Controle fornece informações para novas decisões

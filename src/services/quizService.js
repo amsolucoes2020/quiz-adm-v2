@@ -97,7 +97,7 @@ export async function importQuestions(raw) {
   try {
     for (let i = 0; i < entries.length; i += 400) {
       const batch = writeBatch(db);
-      for (const { q, id } of entries.slice(i, i + 400)) batch.set(doc(db, 'questions', id), q);
+      for (const { q, id } of entries.slice(i, i + 400)) batch.set(doc(db, 'questions', id), {...q,ativo:true});
       await batch.commit();
       imported += entries.slice(i, i + 400).length;
     }

@@ -1,0 +1,143 @@
+[MC]
+Lei|Norma produzida por autoridade competente segundo processo previsto
+Contrato|Acordo que estabelece obrigações e direitos entre partes
+Jurisprudência|Conjunto de entendimentos resultantes de decisões judiciais
+Doutrina jurídica|Estudo e interpretação do direito por especialistas
+Costume jurídico|Prática reiterada reconhecida como juridicamente relevante
+Legalidade administrativa|Atuação pública conforme competências e limites jurídicos
+Impessoalidade administrativa|Atuação pública sem favorecimento pessoal e orientada à finalidade pública
+Moralidade administrativa|Atuação pública conforme padrões de probidade e boa conduta
+Publicidade administrativa|Transparência dos atos públicos observadas restrições juridicamente admitidas
+Eficiência administrativa|Busca de resultados adequados com uso responsável dos recursos públicos
+Pessoa natural|Ser humano como sujeito de direitos e deveres
+Pessoa jurídica|Entidade reconhecida pelo direito como sujeito distinto de seus integrantes
+Capacidade jurídica|Aptidão para titularidade ou exercício de direitos conforme condições legais
+Personalidade jurídica|Qualidade de ser sujeito de direitos e deveres
+Domicílio|Referência jurídica de localização de uma pessoa segundo critérios legais
+Empregado na CLT|Pessoa física que presta serviço não eventual, remunerado e subordinado
+Empregador na CLT|Responsável que assume riscos da atividade e dirige a prestação de serviços
+Trabalhador autônomo|Prestador que organiza sua atividade sem subordinação típica de emprego
+Trabalhador eventual|Prestador cuja atividade não apresenta a continuidade própria do emprego
+Trabalhador avulso|Prestador que atua sem vínculo de emprego permanente com o tomador por intermediação própria
+Consumidor no CDC|Pessoa que adquire ou utiliza produto ou serviço como destinatária final
+Fornecedor no CDC|Agente que desenvolve atividades de produção, circulação ou prestação no mercado
+Produto no CDC|Bem móvel ou imóvel, material ou imaterial, oferecido no mercado
+Serviço no CDC|Atividade fornecida no mercado mediante remuneração conforme enquadramento legal
+Relação de consumo|Vínculo jurídico entre consumidor e fornecedor envolvendo uma oferta
+Dado pessoal na LGPD|Informação relacionada a pessoa natural identificada ou identificável
+Dado pessoal sensível na LGPD|Informação de categoria legalmente protegida como saúde, biometria ou origem racial
+Dado anonimizado|Informação que não permite identificar o titular por meios razoáveis disponíveis
+Titular de dados|Pessoa natural a quem se referem as informações tratadas
+Tratamento de dados|Operação realizada com informações pessoais
+Controlador de dados|Responsável pelas decisões sobre o tratamento de dados pessoais
+Operador de dados|Agente que trata dados pessoais em nome do controlador
+Encarregado de dados|Pessoa indicada para a comunicação entre agentes, titulares e autoridade nos termos aplicáveis
+ANPD|Autoridade responsável por zelar pela proteção de dados pessoais no Brasil
+Agentes de tratamento|Controlador e operador envolvidos no tratamento de dados pessoais
+Finalidade na LGPD|Realização do tratamento para propósitos legítimos, específicos e informados
+Adequação na LGPD|Compatibilidade do tratamento com finalidades informadas e contexto
+Necessidade na LGPD|Limitação do tratamento ao mínimo necessário para suas finalidades
+Qualidade dos dados na LGPD|Exatidão, clareza, relevância e atualização das informações conforme finalidade
+Transparência na LGPD|Disponibilidade de informações claras sobre tratamento e agentes
+Segurança na LGPD|Uso de medidas para proteger dados contra acessos e ocorrências indevidos
+Prevenção na LGPD|Adoção de medidas para evitar danos decorrentes do tratamento
+Não discriminação na LGPD|Vedação de tratamento com fins discriminatórios ilícitos ou abusivos
+Livre acesso na LGPD|Consulta facilitada sobre forma, duração e integralidade do tratamento
+Responsabilização na LGPD|Demonstração de medidas eficazes de cumprimento das normas de proteção
+Ética profissional|Reflexão e orientação da conduta em relação a deveres e consequências do trabalho
+Código de conduta|Registro de padrões de comportamento esperados em uma organização
+Compliance|Estrutura de práticas para observar exigências e compromissos aplicáveis
+Conflito de interesses|Situação em que interesse particular pode interferir em dever ou decisão
+Integridade organizacional|Coerência da atuação com princípios, regras e compromissos éticos
+Responsabilidade civil|Dever de reparar dano conforme pressupostos jurídicos aplicáveis
+Responsabilidade contratual|Responsabilidade decorrente de descumprimento de obrigação assumida em acordo
+Responsabilidade extracontratual|Responsabilidade por dano fora de uma obrigação contratual específica
+Responsabilidade subjetiva|Responsabilidade cuja apuração considera culpa ou dolo segundo o regime aplicável
+Responsabilidade objetiva|Responsabilidade que dispensa provar culpa nos casos previstos
+Marca registrada|Sinal distintivo protegido mediante registro segundo regras aplicáveis
+Patente|Título de proteção de invenção ou modelo de utilidade que atende requisitos legais
+Direito autoral|Proteção jurídica da expressão de obras intelectuais
+Segredo empresarial|Informação de valor econômico preservada por medidas de confidencialidade
+Nome empresarial|Identificação do empresário ou da sociedade no exercício da atividade
+[VF]
+Competência administrativa|Conjunto de atribuições jurídicas conferidas a um órgão ou agente
+Finalidade do ato administrativo|Resultado de interesse público previsto para a atuação
+Forma do ato administrativo|Modo juridicamente exigido de exteriorização da atuação
+Motivo do ato administrativo|Pressuposto de fato e de direito que sustenta a atuação
+Objeto do ato administrativo|Efeito jurídico produzido pela atuação
+Revogação administrativa|Retirada de ato válido por razões de conveniência e oportunidade nos limites legais
+Anulação administrativa|Retirada de ato por ilegalidade
+Convalidação administrativa|Correção de defeito sanável nos limites admitidos pelo direito
+Motivação administrativa|Exposição das razões de fato e de direito de uma decisão
+Discricionariedade administrativa|Margem de escolha juridicamente permitida na atuação pública
+Tributo|Prestação pecuniária compulsória instituída em lei que não constitui sanção de ato ilícito
+Imposto|Tributo cujo fato gerador independe de atuação estatal específica relativa ao contribuinte
+Taxa tributária|Tributo ligado a poder de polícia ou serviço específico e divisível nos termos legais
+Contribuição de melhoria|Tributo relacionado à valorização imobiliária decorrente de obra pública
+Obrigação tributária principal|Dever de pagar tributo ou penalidade pecuniária conforme hipótese legal
+Oferta ao consumidor|Informação suficientemente precisa que apresenta condições da contratação
+Publicidade enganosa|Comunicação capaz de induzir consumidor em erro por conteúdo ou omissão relevante
+Publicidade abusiva|Comunicação que viola valores protegidos como segurança ou não discriminação
+Vício de produto|Inadequação que compromete uso, qualidade, quantidade ou valor nos termos legais
+Defeito de produto|Falha de segurança juridicamente relevante que pode produzir dano
+Consentimento para dados|Manifestação livre, informada e inequívoca para finalidade determinada
+Legítimo interesse|Base legal dependente de análise de finalidade, necessidade e direitos do titular
+Obrigação legal de tratamento|Base vinculada ao cumprimento de exigência legal ou regulatória
+Execução de contrato como base de dados|Tratamento necessário ao contrato ou a procedimentos preliminares relacionados
+Proteção da vida como base de dados|Tratamento necessário à proteção da vida ou da incolumidade física
+Anonimização|Uso de meios para impedir associação direta ou indireta a uma pessoa
+Pseudonimização|Tratamento que separa informações adicionais necessárias à associação ao titular
+Eliminação de dados|Exclusão de informações de um banco de dados conforme condições aplicáveis
+Bloqueio de dados|Suspensão temporária de operações de tratamento com guarda das informações
+Compartilhamento de dados|Comunicação ou transferência de informações entre agentes conforme condições aplicáveis
+Boa-fé objetiva|Padrão de lealdade e cooperação esperado na relação jurídica
+Função social do contrato|Consideração de efeitos e limites sociais da liberdade de contratar
+Autonomia privada|Possibilidade de organizar interesses dentro de limites jurídicos
+Abuso de direito|Exercício que excede limites de finalidade, boa-fé ou costumes admitidos
+Enriquecimento sem causa|Vantagem patrimonial obtida sem fundamento jurídico em detrimento de outra pessoa
+Mediação jurídica|Atuação de terceiro que facilita construção de solução pelas partes
+Conciliação jurídica|Atuação de terceiro que pode propor alternativas para composição
+Arbitragem jurídica|Resolução de controvérsia por árbitro nos limites admitidos em lei
+Jurisdição estatal|Atuação do Estado para decidir controvérsias com efeitos jurídicos
+Negociação jurídica|Construção direta de condições e soluções entre interessados
+[MR]
+Requisitos gerais do negócio jurídico|+Consideram capacidade do agente|+Consideram objeto lícito e possível|+Consideram forma exigida ou não proibida|-São atendidos pela concordância verbal mesmo quando a lei exige forma específica~Alguns negócios exigem forma específica
+Formação contratual|+Pode envolver proposta e aceitação|+Exige observar condições jurídicas|-Uma negociação preliminar sem aceitação já conclui o contrato~Negociações podem preceder a conclusão|-Um acordo afasta normas imperativas~Normas imperativas limitam a autonomia
+Cláusula de confidencialidade|+Pode delimitar informações protegidas|+Pode definir usos permitidos|-Tem como objeto informações destinadas à divulgação pública~O objeto pode ser informação não pública|-Autoriza descumprir dever legal de informação~Deveres legais precisam ser respeitados
+Cláusula penal contratual|+Pode prever consequência do inadimplemento|+Depende de condições e limites jurídicos|+Pode se relacionar a mora ou descumprimento|-É equivalente a tributo devido ao Estado~Cláusula penal tem origem contratual
+Mora contratual|+Pode envolver atraso no cumprimento|+Depende das condições da obrigação|-É a extinção imediata do contrato por caracterização do atraso~Efeitos dependem da relação e das normas|-É sinônimo de defeito de produto~Defeito de produto é outro conceito
+Inadimplemento contratual|+Envolve falta de cumprimento da obrigação|+Pode produzir consequências jurídicas|-Tem a intenção de causar dano como requisito geral de caracterização~Intenção não é requisito geral de todo inadimplemento|-Dispensa examinar o conteúdo contratado~A obrigação precisa ser delimitada
+Direito à informação do consumidor|+Envolve clareza sobre características relevantes|+Pode incluir riscos e condições da oferta|+Exige informação compreensível|-É satisfeito por informação relevante oculta~Clareza e acesso são necessários
+Publicidade e oferta|+Podem vincular o fornecedor quando suficientemente precisas|+Devem ser coerentes com a entrega|-São irrelevantes depois de firmado o contrato~Podem integrar condições da contratação|-Admitem omitir limitações essenciais por serem promocionais~Omissão relevante pode ser enganosa
+Garantia legal do consumidor|+Decorre da legislação aplicável|+É distinta da garantia contratual|-Depende de documento opcional do fornecedor~Sua origem é legal|-Desaparece quando há garantia contratual~As garantias são distintas e podem coexistir
+Garantia contratual do consumidor|+Decorre de compromisso adicional do fornecedor|+Exige examinar condições informadas|+Não afasta a proteção legal aplicável|-Substitui a garantia decorrente da legislação~Direitos legais permanecem
+Responsabilidade por fato do produto|+Pode envolver dano por falha de segurança|+É distinta da discussão de mera inadequação|-É a inadequação estética do produto sem falha de segurança ou dano~Diferença estética pode configurar vício conforme o caso|-Depende de contratação direta entre vítima e fabricante~A proteção não depende sempre de contratação direta
+Cláusula abusiva de consumo|+Pode criar desvantagem incompatível com boa-fé|+É examinada à luz da proteção legal|-É válida por ter sido escrita em destaque~Destaque não torna cláusula abusiva válida|-É definida pela preferência pessoal do comprador por outra condição~Abusividade depende de critérios jurídicos
+Cobrança de consumidor|+Deve respeitar dignidade e regras aplicáveis|+Pode exigir clareza sobre a obrigação|+Não autoriza constrangimento ilícito|-É permitida por ameaça pública quando existe dívida~Existência de dívida não autoriza ameaça ilícita
+Tratamento de dados sem consentimento|+Pode ter outra base legal válida|+Exige respeitar princípios aplicáveis|-É ilícito quando realizado com base em obrigação legal sem consentimento~A LGPD prevê outras bases|-Dispensa finalidade quando existe interesse comercial~Finalidade continua necessária
+Consentimento e finalidade|+Deve se referir a finalidade determinada|+Exige informação adequada ao titular|-Autoriza reutilização em finalidade incompatível com a informada~Consentimento genérico não legitima qualquer uso|-É obtido pela mera disponibilidade pública do dado~Dado público não equivale a consentimento
+Dados pessoais de crianças|+Exigem atenção ao melhor interesse|+Têm condições legais específicas|+Exigem comunicação adequada ao público|-Dispensam considerar o melhor interesse quando o tratamento é comercial~Há proteção específica
+Dados sensíveis e bases legais|+Exigem examinar hipóteses específicas da LGPD|+Podem exigir medidas reforçadas de proteção|-Podem ser tratados por legítimo interesse sem observar as hipóteses específicas para dados sensíveis~Hipóteses específicas precisam ser observadas|-Perdem proteção quando são úteis ao negócio~Utilidade não elimina proteção
+Direitos do titular|+Podem incluir confirmação do tratamento|+Podem incluir acesso e correção|-Permitem eliminar registros cuja guarda é exigida por obrigação legal~Há hipóteses legais de conservação|-Dependem de ser cliente pagante~Titularidade não exige compra
+Retenção de dados|+Deve considerar finalidade e obrigações aplicáveis|+Pode exigir prazo e critérios definidos|+Exige reavaliar necessidade|-É legitimada pelo baixo custo de armazenamento~Baixo custo não define necessidade jurídica
+Incidente com dados pessoais|+Pode envolver acesso ou divulgação indevidos|+Exige avaliação de riscos e medidas|-É a manutenção programada sem comprometimento da proteção dos dados~Manutenção sem comprometimento não define incidente|-Dispensa registro quando há interesse comercial~Interesse comercial não afasta deveres aplicáveis
+Privacidade desde a concepção|+Considera proteção ao desenhar processos|+Pode reduzir coleta desnecessária|-É limitada à publicação final de uma política~Proteção deve ser incorporada ao desenho|-Substitui controles técnicos por consentimento~Consentimento não substitui segurança
+Avaliação de impacto em dados|+Pode examinar riscos aos titulares|+Pode registrar medidas de tratamento|+Ajuda a documentar decisões|-É o mesmo que consentimento individual~Avaliação de impacto é um instrumento distinto
+Discriminação no trabalho|+Pode envolver tratamento injustificado por característica protegida|+Exige examinar contexto e critérios|-É a distinção fundada em requisito pertinente e legítimo da função~Requisitos pertinentes podem justificar distinção|-É permitida pela preferência pessoal do contratante~Preferência não afasta normas protetivas
+Subordinação no emprego|+Relaciona prestação a direção do empregador|+É distinta de simples coordenação entre contratantes|-É definida pelo local físico de trabalho~Local não é critério suficiente|-Deixa de existir pelo uso de computador próprio~Equipamento não elimina subordinação
+Pessoalidade no emprego|+Envolve prestação pela pessoa contratada|+É um elemento a examinar no vínculo|+Difere de serviço livremente substituível|-É comprovada pelo valor da remuneração sem examinar substituição do prestador~Pagamento não prova pessoalidade
+Onerosidade no emprego|+Envolve contraprestação pelo trabalho|+É distinta de prestação gratuita|-É definida pelo risco empresarial assumido~Risco empresarial é outra condição|-Se confunde com eventualidade~Remuneração e frequência são dimensões diferentes
+Não eventualidade no emprego|+Considera inserção da prestação na atividade|+É examinada com as condições da relação|-É comprovada por pagamento sem examinar a continuidade da prestação~Pagamento não define continuidade|-É sinônimo de jornada de tempo integral~Não eventualidade não exige jornada integral
+Primazia da realidade|+Valoriza fatos efetivos da relação|+Pode exigir examinar prática além do documento|+Ajuda a avaliar enquadramento jurídico|-Torna o nome escolhido pelas partes decisivo por si~O nome não substitui fatos
+Dever ético de sigilo|+Protege informações obtidas no exercício profissional|+Convive com obrigações legais de comunicação|-Autoriza encobrir irregularidade diante de dever legal~Sigilo não afasta todo dever de informar|-Se limita ao segredo comercial de concorrentes~Pode abranger diferentes informações restritas
+Canal de denúncia|+Pode permitir relato de suspeitas de irregularidade|+Exige tratamento responsável das informações|-Prova automaticamente a culpa de quem é citado~Relato exige apuração|-É definido pela divulgação pública do nome do denunciante~Proteção e confidencialidade podem ser necessárias
+Apuração de irregularidade|+Deve examinar evidências|+Exige objetividade|+Deve respeitar direitos aplicáveis|-Pode concluir pela mera posição hierárquica~Conclusões precisam de fundamento
+Política de presentes e hospitalidade|+Pode definir limites e critérios|+Pode reduzir conflitos e favorecimentos|-Autoriza uma vantagem indevida quando identificada como presente~Natureza e contexto importam|-É a política de pagamento regular de salário em dinheiro~Presentes e remuneração são instrumentos diferentes
+Conflito potencial de interesses|+Pode exigir declaração e gestão preventiva|+Não prova irregularidade consumada por si|-É irrelevante antes de ocorrer dano~Pode demandar prevenção|-É resolvido pela preferência do interessado~Gestão precisa de critérios independentes
+Corrupção e integridade|+Vantagem indevida pode ter forma não monetária|+Prevenção exige controles e conduta|+Contexto e finalidade são relevantes|-É o pagamento regular de tributo devido ao Estado~Pagamento tributário legítimo não é vantagem indevida
+Licitação e competitividade|+Exigem condições pertinentes ao objeto|+Buscam tratamento adequado aos participantes|-Autorizam favorecer fornecedor por amizade~Favorecimento pessoal é incompatível|-Dispensam justificar requisitos restritivos~Requisitos precisam de fundamento
+Segregação de funções em controle|+Distribui etapas incompatíveis entre responsáveis|+Pode reduzir risco de favorecimento|-É sinônimo de eliminar supervisão~Supervisão permanece necessária|-Garante inexistência de fraude~Controles reduzem riscos sem garantir ausência
+Transparência e sigilo público|+Exigem examinar regras de acesso|+Podem coexistir com proteção de dados|+Exigem fundamento para restrições|-Publicidade autoriza expor dados protegidos sem fundamento de divulgação~Há limites de proteção e sigilo
+Sustentabilidade e ética empresarial|+Consideram efeitos da atuação sobre interessados|+Podem orientar decisões de longo prazo|-São comprovadas por mensagem publicitária isolada~Afirmações exigem coerência com práticas|-Eliminam a necessidade de cumprir a lei~Cumprimento jurídico permanece
+Propriedade intelectual e uso|+Direitos dependem do objeto protegido|+Autorizações podem definir condições|-A indicação de autoria substitui autorização necessária para exploração da obra~Atribuição não substitui autorização quando exigida|-Registro de domínio prova registro de marca~São registros distintos
+Decisão administrativa responsável|+Examina competência e finalidade|+Registra razões relevantes|+Considera direitos dos afetados|+Observa regras e princípios aplicáveis

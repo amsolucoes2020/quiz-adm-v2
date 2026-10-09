@@ -1,0 +1,143 @@
+[MC]
+Produto Interno Bruto|Valor da produção final de bens e serviços dentro de um território em um período
+Renda nacional bruta|Renda atribuída aos residentes considerando fluxos de renda com o exterior
+PIB per capita|Relação entre produção interna e população do território
+Valor adicionado|Diferença entre valor da produção e consumo de insumos intermediários
+Formação bruta de capital fixo|Investimento em ativos produtivos usados por mais de um período
+Inflação|Aumento do nível geral de preços ao longo do tempo
+Deflação|Queda do nível geral de preços ao longo do tempo
+Desinflação|Redução do ritmo de aumento do nível geral de preços
+Estagflação|Convivência de pressão inflacionária com atividade estagnada e dificuldades de emprego
+Hiperinflação|Elevação extremamente rápida e persistente do nível geral de preços
+IPCA|Índice amplo de preços ao consumidor produzido pelo IBGE
+INPC|Índice de preços ao consumidor voltado a famílias de menor faixa de renda definido pelo IBGE
+Deflator do PIB|Medida de preços implícita na relação entre produção nominal e real
+Índice de preços ao produtor|Medida da variação de preços recebidos por produtores na etapa considerada
+Índice de preços de importação|Medida da variação de preços de bens adquiridos do exterior
+Política monetária|Uso de instrumentos de moeda e juros para objetivos macroeconômicos
+Política fiscal|Decisões sobre receitas e despesas governamentais
+Política cambial|Ações e regras relacionadas ao mercado e ao regime de câmbio
+Política comercial|Medidas que regulam relações de troca com o exterior
+Política industrial|Medidas voltadas às capacidades e ao desenvolvimento da estrutura produtiva
+Meta Selic|Referência de taxa de juros definida pelo Copom para a política monetária
+Selic efetiva|Taxa apurada em operações de um dia lastreadas em títulos públicos federais
+Depósito compulsório|Parcela de recursos que instituições financeiras devem recolher conforme regras
+Operação de mercado aberto|Compra ou venda de títulos pelo banco central para gerir condições monetárias
+Redesconto|Operação de assistência de liquidez a instituições financeiras conforme condições aplicáveis
+Demanda econômica|Relação entre quantidades que compradores desejam adquirir e condições de mercado
+Oferta econômica|Relação entre quantidades que vendedores desejam disponibilizar e condições de mercado
+Equilíbrio de mercado|Condição em que quantidade ofertada e demandada se compatibilizam
+Excesso de demanda|Condição em que quantidade procurada supera quantidade oferecida ao preço considerado
+Excesso de oferta|Condição em que quantidade oferecida supera quantidade procurada ao preço considerado
+Concorrência perfeita|Modelo com muitos participantes e agentes tomadores de preço
+Monopólio|Estrutura com um único ofertante no mercado relevante
+Oligopólio|Estrutura com poucos ofertantes e decisões interdependentes
+Concorrência monopolística|Estrutura com muitos ofertantes e produtos diferenciados
+Monopsônio|Estrutura com um único comprador no mercado relevante
+Externalidade|Efeito de uma atividade sobre terceiros não refletido integralmente na transação
+Bem público|Bem com não rivalidade e dificuldade de exclusão nos termos do modelo
+Assimetria de informação|Diferença de informações relevantes entre participantes de uma relação
+Poder de mercado|Capacidade de influenciar condições de preço ou oferta
+Falha de mercado|Condição que impede alocação eficiente no funcionamento do mercado
+Exportação|Venda ou envio econômico de bens e serviços a destinatários no exterior
+Importação|Aquisição econômica de bens e serviços de ofertantes no exterior
+Balança comercial|Registro e saldo das exportações e importações de bens
+Conta de serviços|Registro de transações de serviços entre residentes e não residentes
+Transações correntes|Conta que reúne bens, serviços e fluxos de rendas com o exterior
+Câmbio flutuante|Regime em que cotação é formada principalmente pelas condições de mercado
+Câmbio fixo|Regime em que uma autoridade mantém uma paridade definida
+Flutuação administrada|Regime de mercado com intervenções da autoridade monetária
+Depreciação cambial|Perda de valor de uma moeda em relação a outra em regime de mercado
+Apreciação cambial|Ganho de valor de uma moeda em relação a outra em regime de mercado
+Resultado primário do governo|Diferença entre receitas e despesas antes dos juros considerados
+Resultado nominal do governo|Resultado fiscal que considera os juros conforme metodologia adotada
+Dívida pública bruta|Estoque de obrigações do governo no conceito de abrangência definido
+Dívida pública líquida|Estoque de obrigações menos ativos financeiros no conceito definido
+Necessidade de financiamento público|Recursos necessários para cobrir desequilíbrio fiscal conforme medida adotada
+FMI|Instituição de cooperação monetária e apoio à estabilidade externa dos países
+Banco Mundial|Grupo de instituições voltado a financiamento e apoio ao desenvolvimento
+OMC|Organização que administra acordos e regras do comércio internacional
+OCDE|Organização de cooperação em políticas públicas e desenvolvimento econômico
+BID|Instituição de financiamento do desenvolvimento na América Latina e no Caribe
+[VF]
+Pessoa ocupada|Integrante da população que realizou trabalho segundo critérios estatísticos adotados
+Pessoa desocupada|Integrante sem trabalho que procura e está disponível conforme critérios estatísticos
+Pessoa fora da força de trabalho|Integrante não classificado como ocupado nem desocupado no período de referência
+Força de trabalho|Conjunto de pessoas ocupadas e desocupadas segundo critérios estatísticos
+Pessoa desalentada|Integrante que desejava trabalhar mas não procurou por motivos de desestímulo definidos
+Taxa de desocupação|Relação entre pessoas desocupadas e força de trabalho
+Taxa de participação|Relação entre força de trabalho e população em idade de trabalhar
+Nível de ocupação|Relação entre pessoas ocupadas e população em idade de trabalhar
+Subocupação por insuficiência de horas|Situação de quem trabalha menos horas do que deseja e está disponível segundo critérios
+Subutilização da força de trabalho|Medida que reúne formas definidas de uso insuficiente da oferta de trabalho
+Expansão econômica|Fase de aumento da atividade no ciclo econômico
+Recessão econômica|Fase de retração da atividade conforme critérios de avaliação
+Recuperação econômica|Retomada da atividade depois de uma retração
+Pico do ciclo econômico|Ponto de passagem da expansão para a retração
+Vale do ciclo econômico|Ponto de passagem da retração para a retomada
+Commodities|Bens de referência relativamente padronizada negociados em mercados amplos
+Termos de troca|Relação entre preços das exportações e das importações
+Investimento direto externo|Aplicação ligada a interesse duradouro e influência em entidade de outra economia
+Investimento em carteira|Aplicação em títulos e participações sem o vínculo próprio do investimento direto
+Reservas internacionais|Ativos externos mantidos pela autoridade monetária para finalidades de liquidez e estabilidade
+Tarifa de importação|Tributo aplicado à entrada de bens segundo regras comerciais
+Cota de importação|Limite quantitativo definido para entrada de determinados bens
+Medida técnica comercial|Exigência sobre características ou avaliação de produtos no comércio
+Medida sanitária e fitossanitária|Exigência ligada à proteção de saúde humana, animal ou vegetal
+Subsídio à produção|Apoio público que altera condições econômicas de uma atividade produtiva
+União aduaneira|Integração com redução interna de barreiras e tarifa externa comum
+Área de livre comércio|Integração que reduz barreiras entre membros sem exigir tarifa externa comum
+Mercado comum|Integração que amplia circulação de fatores além de bens e serviços
+União monetária|Integração com adoção de arranjo monetário comum
+Acordo preferencial de comércio|Arranjo que concede condições comerciais favorecidas entre participantes
+Seleção adversa|Problema de informação que afeta a escolha antes da contratação
+Risco moral econômico|Mudança de incentivos ou comportamento após uma relação ou proteção estabelecida
+Sinalização de mercado|Ação usada para comunicar uma característica não diretamente observável
+Triagem de mercado|Mecanismo usado para distinguir características de participantes
+Problema principal-agente|Divergência de interesses e informação entre quem delega e quem atua
+PIB nominal|Valor da produção medido com preços do período observado
+PIB real|Valor da produção medido com ajuste de variações de preços
+PIB potencial|Estimativa de produção sustentável com utilização compatível dos recursos
+Hiato do produto|Diferença entre produção efetiva e potencial no conceito estimado
+Crescimento econômico|Ampliação da produção de bens e serviços ao longo do tempo
+[MR]
+Interpretação do PIB|+É uma medida de fluxo por período|+Refere-se à produção dentro do território|-Mede o patrimônio acumulado das famílias~Patrimônio é estoque, não produção do período|-Equivale ao bem-estar em todas as suas dimensões~Bem-estar envolve dimensões não captadas integralmente
+Produção final e intermediária|+A distinção ajuda a evitar dupla contagem|+O destino de uso importa|+Valor adicionado pode apoiar o cálculo|-O custo dos insumos intermediários é somado novamente ao valor final para calcular o PIB~Isso gera dupla contagem
+Inflação e preços relativos|+Índice agregado reúne itens com pesos|+Um preço pode variar de forma diferente do índice|-Alta de um único item prova inflação geral na mesma proporção~Índice depende do conjunto|-Os itens do índice aumentam na mesma proporção do índice agregado~Variações podem ser diferentes
+Desinflação e poder de compra|+Pode ocorrer com preços ainda subindo|+É diferente de queda do nível geral de preços|-Representa o retorno do nível geral de preços ao valor anterior~Menor ritmo não é reversão do nível|-É sinônimo de deflação~Deflação é queda do nível geral
+Meta de inflação|+É referência para a política monetária|+Exige distinguir objetivo e resultado observado|+Pode orientar expectativas|-É a taxa de juros cobrada por cada banco~Meta de inflação não é taxa de empréstimo
+Copom|+Define a meta Selic|+Avalia condições relevantes à política monetária|-Define a política de gastos de cada ministério~Gastos integram política fiscal|-Calcula sozinho o IPCA das famílias~O IPCA é produzido pelo IBGE
+Transmissão monetária por juros|+Pode afetar condições de crédito|+Pode influenciar decisões de consumo e investimento|-É uma alteração direta dos preços cobrados por cada fornecedor~Efeitos variam e têm defasagens|-Define o preço individual de cada mercadoria~A transmissão não é tabelamento de preços
+Transmissão monetária por expectativas|+Considera crenças sobre condições futuras|+Pode influenciar formação de preços|+Depende de credibilidade e comunicação|-É definida por controle físico de estoques privados~Estoques não definem esse canal
+Política monetária contracionista|+Busca reduzir pressões de demanda ou inflação conforme contexto|+Pode apertar condições financeiras|-É uma decisão de elevar gastos do orçamento público~Gasto público é instrumento fiscal|-É um controle direto dos preços individuais de mercado~Efeitos são condicionais e podem ter defasagens
+Política fiscal expansionista|+Pode envolver aumento de gastos|+Pode envolver redução de tributos|-É definida pelo aumento da meta Selic~Selic é instrumento monetário|-Determina aumento de produção na mesma proporção do gasto~Efeitos dependem das condições
+Política fiscal contracionista|+Pode reduzir impulso da demanda pública|+Pode envolver ajustes de gasto ou arrecadação|+É distinta da política monetária|-É definida pela redução de compulsório~Compulsório é instrumento monetário
+Estabilizadores automáticos|+Respondem ao ciclo sem nova decisão específica|+Podem envolver receitas e transferências|-Dependem de novo pacote aprovado a cada mudança da atividade~Esse seria um ajuste discricionário|-Impedem a fase recessiva pela resposta automática~Resposta automática não garante ausência de recessão
+Sustentabilidade fiscal|+Considera capacidade de honrar obrigações|+Depende de trajetória de receitas, gastos e dívida|-É provada por superávit em um único mês~Um mês não prova a trajetória|-É definida por dívida nominal nula~Sustentabilidade não exige ausência de dívida
+Juros e serviço da dívida pública|+Podem afetar necessidades de financiamento|+Dependem das condições do estoque de obrigações|+Devem ser distinguidos do resultado primário|-Já estão integralmente incluídos na definição de primário~Primário exclui juros no conceito adotado
+Taxa de câmbio e competitividade|+Pode alterar preços relativos externos|+Pode afetar custos de insumos importados|-A perda de valor da moeda doméstica reduz o custo em moeda local do insumo importado~Efeitos dependem de receitas, custos e dívidas|-Apreciação garante queda do preço final importado na mesma proporção~Repasse depende de outras condições
+Cotação direta de moeda|+Pode expressar moeda nacional por unidade estrangeira|+Exige identificar a convenção|-Uma cotação em moeda nacional e sua inversa usam o mesmo numerador~Convenções podem variar|-Na cotação em reais por dólar, aumento do número expressa valorização do real~Interpretação depende da convenção
+Balanço de pagamentos|+Registra transações entre residentes e não residentes|+Inclui contas além de bens|+Exige critérios de residência econômica|-É sinônimo de balança comercial~Balança comercial é parte mais delimitada
+Renda primária no setor externo|+Pode incluir remuneração de investimentos|+Pode incluir remuneração do trabalho conforme residência|-É definida por exportação de mercadorias~Mercadorias pertencem à conta de bens|-É sinônimo de transferência sem contraprestação~Transferências correntes se ligam a renda secundária
+Renda secundária no setor externo|+Pode incluir transferências correntes|+É distinta de remuneração de investimento|-É definida por pagamento de juros~Juros pertencem à renda primária|-É o saldo de exportação de bens~Saldo de bens pertence à conta comercial
+Choque de oferta|+Pode alterar custos ou capacidade de produção|+Pode envolver disponibilidade de insumos|+Pode afetar preços e atividade|-É definido por aumento da intenção de compra~Intenção de compra se relaciona à demanda
+Choque de demanda|+Pode alterar disposição de gasto|+Pode afetar volume e preços|-É definido por perda física de capacidade de uma fábrica~Isso se associa à oferta|-Produz a mesma resposta de preços em economias com capacidades disponíveis diferentes~Condições de oferta influenciam efeitos
+Bem normal|+Tem demanda que tende a crescer com renda nas condições do modelo|+É classificado pela relação com renda|-É definido pela qualidade técnica superior~Qualidade não define essa classificação|-Tem demanda que cai com renda por definição~Esse comportamento caracteriza bem inferior
+Bem inferior|+Tem demanda que tende a cair com renda nas condições do modelo|+É classificação econômica e não julgamento moral|+Depende do público e do contexto|-É classificado pela presença de defeito físico no produto~Defeito não define relação entre demanda e renda
+Bens substitutos|+Podem atender à mesma necessidade|+A demanda de um pode reagir ao preço do outro|-Precisam ser usados juntos por definição~Uso conjunto caracteriza complementaridade|-Exigem fabricação pela mesma empresa~Origem comum não é requisito
+Bens complementares|+Podem ser utilizados conjuntamente|+A demanda pode depender do preço do outro|-São alternativas que se substituem por definição~Isso caracteriza substitutos|-Precisam ter preços iguais~Complementaridade não exige igualdade de preço
+Elasticidade-renda|+Relaciona variação de demanda e renda|+Pode ajudar a classificar bens|+É diferente da elasticidade-preço|-Mede variação da produção por trabalhador~Isso é produtividade
+Elasticidade cruzada|+Relaciona demanda de um bem e preço de outro|+Pode indicar substituição ou complementaridade|-É a relação entre preço próprio e quantidade própria~Essa é elasticidade-preço|-É a taxa de câmbio de duas moedas~Câmbio não define elasticidade cruzada
+Vantagem comparativa|+Considera custo de oportunidade relativo|+Pode existir sem liderança de produtividade absoluta|-É definida pela liderança absoluta de produtividade~Não exige vantagem absoluta generalizada|-É definida pelo tamanho da população~População não determina o conceito
+Vantagem absoluta|+Considera produtividade em uma atividade|+É distinta de custo de oportunidade relativo|+Pode variar entre produtos|-É o mesmo que vantagem comparativa~Os critérios são distintos
+Cadeias globais de valor|+Distribuem etapas produtivas entre economias|+Podem envolver diferentes empresas|-Têm como requisito concentrar as etapas em um território nacional~Distribuição internacional é parte do conceito|-São o comércio de produtos finais sem distribuição de etapas produtivas~Incluem etapas e insumos
+Nearshoring|+Aproxima etapas produtivas de mercados ou operações|+Pode considerar distância e coordenação|-É transferência obrigatória para o país de origem~Retorno ao país se associa a reshoring|-É definido por vender ativos financeiros~Trata de localização produtiva
+Reshoring|+Envolve retorno de atividades ao país de origem|+Pode alterar a organização da cadeia|+Depende de condições econômicas e operacionais|-É a transferência da atividade de origem para fornecedor distante no exterior~Isso não define retorno
+Protecionismo comercial|+Pode usar barreiras ou incentivos seletivos|+Pode alterar custos e condições de concorrência|-É a retirada de barreiras para liberalizar importações~Protecionismo envolve medidas de proteção|-Distribui ganho econômico uniforme entre produtores e consumidores~Efeitos são distribuídos de forma diferente
+Dumping no comércio|+Envolve comparação de preço de exportação com valor normal|+Tem critérios de apuração próprios|-É a venda abaixo do preço de um concorrente sem comparação com valor normal~Preço baixo isolado não define dumping|-É o mesmo que subsídio governamental~Subsídio é instrumento distinto
+Medidas antidumping|+Dependem de investigação e critérios|+Tratam prática definida no comércio|+Podem considerar dano à indústria doméstica|-Têm a existência de importação como fundamento suficiente~Importação isolada não é fundamento suficiente
+Reservas e estabilidade externa|+Podem apoiar liquidez internacional|+Não são o mesmo que receita anual de exportação|-São garantia de ausência de crise externa~Reservas não eliminam todos os riscos|-São o caixa particular de exportadores~Reservas oficiais pertencem à autoridade
+Direitos Especiais de Saque|+São um ativo de reserva internacional do FMI|+Seu valor utiliza uma cesta de moedas|-São moeda comum de varejo usada por consumidores~Não são moeda de uso varejista|-São ações do Banco Mundial~Não representam participação societária
+Produtividade e crescimento|+Relacionam produção e recursos utilizados|+Podem depender de tecnologia e capacidades|+Devem ser distinguidos de aumento de horas trabalhadas|-Mais produção prova produtividade maior sem considerar recursos~É necessário examinar recursos
+Desenvolvimento econômico|+Considera dimensões além do volume produzido|+Pode incluir condições sociais e institucionais|-É medido pelo crescimento do PIB sem considerar dimensões sociais~Crescimento não esgota desenvolvimento|-É medido pela taxa de câmbio isolada~Câmbio não mede todas as dimensões
+Leitura responsável de notícias econômicas|+Identifica fonte e período|+Distingue valor nominal e real|+Distingue taxa e nível|+Considera revisão e metodologia dos indicadores
