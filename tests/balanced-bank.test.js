@@ -74,6 +74,35 @@ test('a full quiz spans ten different definition families and keeps unanswered q
   }
 });
 
+test('editorial contexts cover every topic group and retain one general explanation',()=>{
+  const contexts=JSON.parse(fs.readFileSync(new URL('../content/bank/contexts.json',import.meta.url),'utf8'));
+  for(const [areaIndex,area] of AREAS_ADMINISTRACAO.entries()) {
+    for(const [format,section,total] of [['multipla','MC',12],['vf','VF',8],['multipla_resposta','MR',8]]) {
+      assert.equal(contexts[areaIndex][section].length,total);
+      const rows=bank.filter(q=>q.disciplina===area&&q.formato===format);
+      rows.forEach((q,i)=>{
+        assert.ok(q.pergunta.startsWith(contexts[areaIndex][section][Math.floor(i/5)]));
+        assert.ok(q.explicacao.trim());
+        if(format==='multipla')assert.equal(q.explicacao,`${q.objetivo.split(':').slice(2).join(':')}: ${q.alternativas[q.respostaCorreta]}.`);
+      });
+    }
+  }
+});
+
+test('same-size editorial upgrade refreshes bank-owned local rows without changing IDs or progress',()=>{
+  const source=[...historical,...bank];
+  const profile={pontuacaoGeral:100,questoesRespondidasHoje:[`local-${historical.length}`],conquistasDesbloqueadas:['part_1']};
+  const path=`questions/local-${historical.length}`;
+  const original={...bank[0],pergunta:'Enunciado anterior.'};
+  const input={ [path]:original,'users/test':profile,'questions/custom':{...original,pergunta:'Questão criada pelo professor.'},
+    'settings/localBank':{version:'2026-10-09-balanced-1680',count:source.length} };
+  const updated=upgradeLocalBank(input,source,'2026-10-09-contextual-1680');
+  assert.deepEqual(updated[path],bank[0]);
+  assert.deepEqual(updated['users/test'],profile);
+  assert.deepEqual(updated['questions/custom'],input['questions/custom']);
+  assert.equal(upgradeLocalBank(updated,source,'2026-10-09-contextual-1680'),updated);
+});
+
 test('every authored answer survives shuffling and authoritative server remapping',()=>{
   for(const raw of bank) {
     const q={...normalizeQuestion(raw),id:raw.idBanco};

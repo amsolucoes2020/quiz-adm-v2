@@ -6,6 +6,12 @@ export function upgradeLocalBank(input, questions, version) {
   const saved = input['settings/localBank'];
   if (saved?.version === version && saved.count === questions.length) return input;
   const data = { ...input };
+  // Editorial updates retain each bundled ID, so local progress stays attached.
+  // Only bank-owned entries at their original path are refreshed; custom rows remain.
+  questions.forEach((question,i)=>{
+    const path=`questions/local-${i}`;
+    if(question.idBanco && data[path]?.idBanco===question.idBanco)data[path]=question;
+  });
   // Hot reload of the first conceptual preview briefly saved the active count
   // instead of the source count. Preserve original deletions when repairing it.
   const previousCount = saved?.version === '2026-09-24-concepts-551' && saved.count === 551

@@ -11,4 +11,4 @@ import { createQuestionScope } from '../domain/questionScope.js';
 // Full source order also preserves IDs for the 800-question local bank.
 export const allBundledQuestions = [...original, ...trueFalse, ...additional, ...conceptual, ...multipleAnswers, ...balanced];
 export const { isDeferredQuestion, activeQuestions: bundledQuestions } = createQuestionScope(allBundledQuestions, deferredIds, retiredKeys);
-export const BANK_VERSION = '2026-10-09-balanced-1680';
+export const BANK_VERSION = '2026-10-09-contextual-1680';

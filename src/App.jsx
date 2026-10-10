@@ -74,6 +74,7 @@ export default function App() {
   const [novoFormato, setNovoFormato] = useState('multipla');
   const [streak, setStreak] = useState(0);
   const [mensagemBonus, setMensagemBonus] = useState('');
+  const [avisoMetas, setAvisoMetas] = useState('');
   const [xpUltimaQuestao, setXpUltimaQuestao] = useState(0);
   const [pontosUltimaResposta, setPontosUltimaResposta] = useState(0);
 
@@ -377,6 +378,7 @@ export default function App() {
     setQuizFinalizado(false);
     setTempoRestante(blocoPronto[0]?.formato === 'vf' ? 30 : 60);
     setMensagemBonus('');
+    setAvisoMetas('');
   };
 
   const refazerQuestoesErradas = () => {
@@ -398,6 +400,7 @@ export default function App() {
     setQuizFinalizado(false);
     setTempoRestante(blocoPronto[0]?.formato === 'vf' ? 30 : 60);
     setMensagemBonus('');
+    setAvisoMetas('');
   };
 
   const sairDoQuiz = () => {
@@ -410,7 +413,11 @@ export default function App() {
   const perguntaAtual = perguntasSessao[indicePerguntaAtual];
 
   const showAwards = (result) => {
-    if (result.achievements.length || result.missions.length) alert(`🎉 ${result.achievements.length} conquista(s) e ${result.missions.length} missão(ões)! +${result.awardXp} XP`);
+    const achievements=result.achievements.length, missions=result.missions.length;
+    const notices=[];
+    if(missions)notices.push(`${missions} ${missions===1?'missão concluída':'missões concluídas'}`);
+    if(achievements)notices.push(`${achievements} ${achievements===1?'conquista desbloqueada':'conquistas desbloqueadas'}`);
+    setAvisoMetas(notices.length?`${notices.join(' · ')} · +${result.awardXp} XP`:'');
   };
 
   const handleConfirmarResposta = async () => {
@@ -448,6 +455,7 @@ export default function App() {
       setRespostaConfirmada(false);
       setTempoRestante(perguntasSessao[indicePerguntaAtual+1]?.formato === 'vf' ? 30 : 60);
       setMensagemBonus('');
+      setAvisoMetas('');
       setXpUltimaQuestao(0);
     setPontosUltimaResposta(0);
       setSaveError('');
@@ -533,6 +541,7 @@ export default function App() {
             <p className="text-slate-400 text-sm mb-6">
               {mensagemBonus || 'Sessão de estudo concluída!'}
             </p>
+            {avisoMetas && <p role="status" className="text-sm text-emerald-300 mb-4">{avisoMetas}</p>}
             
             <div className="bg-slate-700/50 p-4 rounded-xl mb-6 border border-slate-600">
               <span className="text-xs text-slate-400 block mb-1">XP Total Ganho nesta Sessão</span>
@@ -667,6 +676,7 @@ export default function App() {
               )}
               <span className="font-bold text-indigo-400 block mb-1">📘 Explicação / Revisão:</span>
               <p className="text-slate-300 leading-relaxed">{perguntaAtual.explicacao}</p>
+              {avisoMetas && <p role="status" className="mt-3 text-emerald-300">{avisoMetas}</p>}
               {perguntaAtual.fonte && <a className="inline-block underline text-indigo-300 mt-2" href={perguntaAtual.fonte} target="_blank" rel="noopener noreferrer">Consultar fonte</a>}
               {perguntaAtual.dataReferencia && <p className="text-slate-400 mt-1">Referência: {perguntaAtual.dataReferencia.split('-').reverse().join('/')}</p>}
             </div>

@@ -6,6 +6,7 @@ import {AREAS_ADMINISTRACAO,normalizeQuestion,questionKey} from '../src/domain/q
 const root=fileURLToPath(new URL('../',import.meta.url));
 const input=path.join(root,'content/bank');
 const files=fs.readdirSync(input).filter(f=>f.endsWith('.txt')).sort();
+const contexts=JSON.parse(fs.readFileSync(path.join(input,'contexts.json'),'utf8'));
 const edition='2026-10-09-balanced-1680';
 const questions=[],report=[];
 const level=(i,total)=>i<total*.5?'Fácil':i<total*.8?'Médio':'Difícil';
@@ -94,6 +95,11 @@ function description(value) {
 }
 for(let areaIndex=0;areaIndex<files.length;areaIndex++) {
   const file=files[areaIndex],area=AREAS_ADMINISTRACAO[areaIndex];
+  const context=(format,i)=>{
+    const text=contexts[areaIndex]?.[format]?.[Math.floor(i/5)];
+    assert.ok(typeof text==='string'&&text.length>=55,`${file} ${format}: context missing`);
+    return text;
+  };
   const blocks={MC:[],VF:[],MR:[]};let section;
   for(const line of fs.readFileSync(path.join(input,file),'utf8').split(/\r?\n/).map(s=>s.trim())) {
     if(!line||line.startsWith('#'))continue;
@@ -108,9 +114,9 @@ for(let areaIndex=0;areaIndex<files.length;areaIndex++) {
     const other=peers.filter(([t])=>t!==term).map(([,d])=>d);
     const alternativas=[...other];alternativas.splice(i%5,0,definition);
     append({disciplina:area,formato:'multipla',dificuldade:level(i,60),tipo:'Conceitos e definições',
-      pergunta:`Qual é a definição de «${term}»?`,alternativas,respostaCorreta:i%5,
+      pergunta:`${context('MC',i)} Nesse contexto, qual descrição corresponde ao conceito de «${term}»?`,alternativas,respostaCorreta:i%5,
       grupoPedagogico:`${areaIndex+1}:mc:${Math.floor(i/5)}`,
-      explicacao:`${term}: ${definition}. ${peers.filter(([t])=>t!==term).map(([t,d])=>`${t}: ${d}.`).join(' ')}`},term,i);
+      explicacao:`${term}: ${definition}.`},term,i);
   });
   blocks.VF.forEach(([term,definition,...rest],i)=>{
     assert.ok(term&&definition&&!rest.length,`${file} VF ${i}`);
@@ -120,8 +126,8 @@ for(let areaIndex=0;areaIndex<files.length;areaIndex++) {
     const falsePeers=group.filter((_,j)=>![true,false,false,true][(Math.floor(i/5)*5+j)%4]);
     const peer=falsePeers[(falsePeers.findIndex(([t])=>t===term)+1)%falsePeers.length];
     append({disciplina:area,formato:'vf',dificuldade:level(i,40),tipo:'Conceitos e definições',
-      pergunta:`«${term}» é a denominação de: ${truth?definition:peer[1]}.`,alternativas:['Verdadeiro','Falso'],respostaCorreta:truth?0:1,
-      explicacao:`${term}: ${definition}.${truth?'':` A definição apresentada corresponde a ${peer[0]}.`}`},term,i);
+      pergunta:`${context('VF',i)} Avalie a afirmação: «${term}» é a denominação de: ${truth?definition:peer[1]}.`,alternativas:['Verdadeiro','Falso'],respostaCorreta:truth?0:1,
+      explicacao:`${term}: ${definition}.`},term,i);
   });
   blocks.MR.forEach(([term,...items],i)=>{
     assert.equal(items.length,4,`${file} MR ${term}: four statements required`);
@@ -138,13 +144,15 @@ for(let areaIndex=0;areaIndex<files.length;areaIndex++) {
     const shift=i%4;
     const order=[0,1,2,3].map(j=>(j+shift)%4);
     append({disciplina:area,formato:'multipla_resposta',dificuldade:level(i,40),tipo:'Conceitos e definições',
-      pergunta:`Quais descrições se aplicam a «${term}»?`,alternativas:order.map(j=>alternativas[j]),
+      pergunta:`${context('MR',i)} Sobre «${term}», selecione as descrições corretas.`,alternativas:order.map(j=>alternativas[j]),
       respostasCorretas:order.flatMap((j,k)=>correct.includes(j)?[k]:[]),explicacoesAlternativas:order.map(j=>explanations[j]),
-      explicacao:correct.map(j=>explanations[j]).join(' ')},term,i);
+      explicacao:`${term}: ${correct.map(j=>explanations[j]).join(' ')}`},term,i);
   });
   report.push({categoria:area,multipla:60,vf:40,multipla_resposta:40});
 }
 assert.equal(files.length,12,'All twelve curricula must be authored before release');
+assert.equal(contexts.length,12,'All categories need editorial contexts');
+for(const group of contexts)for(const [format,total] of [['MC',12],['VF',8],['MR',8]])assert.equal(group[format].length,total);
 assert.equal(questions.length,1680);
 assert.equal(new Set(questions.map(questionKey)).size,1680,'Duplicate stems');
 assert.equal(new Set(questions.map(q=>q.objetivo)).size,1680,'Duplicate learning objectives');

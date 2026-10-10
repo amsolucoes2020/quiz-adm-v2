@@ -2,12 +2,17 @@ import fs from 'node:fs';
 import {normalizeQuestion,questionKey,AREAS_ADMINISTRACAO} from '../src/domain/questions.js';
 const bank=JSON.parse(fs.readFileSync(new URL('../src/data/balancedQuestions.json',import.meta.url)));
 const fold=s=>s.normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+// A shared working situation must not mask duplicated concepts or inflate similarity.
+const conceptStem=s=>s
+  .replace(/^.*?Nesse contexto, qual descrição corresponde ao conceito de /u,'Qual é a definição de ')
+  .replace(/^.*?Avalie a afirmação: /u,'')
+  .replace(/^.*?Sobre («[^»]+»), selecione as descrições corretas\.$/u,'Quais descrições se aplicam a $1?');
 const substantive=s=>fold(s).split(' ').filter(w=>!['qual','quais','e','a','o','de','do','da','as','os','se','aplicam','sobre','selecione','afirmacoes','descricoes','corretas','denominacao','definicao','corresponde','contexto','organizacional','organizacionais','funcao'].includes(w));
 const duplicates=[],near=[],cues=[],lengths=[];
 const seen=new Map();
 const words=new Map();
 bank.forEach((raw,i)=>{
-  normalizeQuestion(raw);const key=fold(raw.pergunta);
+  normalizeQuestion(raw);const key=fold(conceptStem(raw.pergunta));
   if(seen.has(key))duplicates.push([seen.get(key),i]);else seen.set(key,i);
   if(raw.formato!=='vf')raw.alternativas.forEach((text,j)=>{
     const correct=raw.formato==='multipla'?raw.respostaCorreta===j:raw.respostasCorretas.includes(j);
@@ -23,7 +28,7 @@ bank.forEach((raw,i)=>{
 });
 for(let i=0;i<bank.length;i++)for(let j=i+1;j<bank.length;j++) {
   const a=bank[i],b=bank[j];if(a.disciplina!==b.disciplina)continue;
-  const x=new Set(substantive(a.pergunta)),y=new Set(substantive(b.pergunta));
+  const x=new Set(substantive(conceptStem(a.pergunta))),y=new Set(substantive(conceptStem(b.pergunta)));
   if(x.size<2||y.size<2)continue;
   const overlap=[...x].filter(w=>y.has(w)).length;
   const similarity=overlap/(x.size+y.size-overlap);
