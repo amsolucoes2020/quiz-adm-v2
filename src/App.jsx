@@ -2,6 +2,9 @@ import {CompetitionPanel, CompetitionHistory, CompetitionLab} from './components
 import {roomRanking} from './domain/competition';
 import MultipleAnswerOptions from './components/MultipleAnswerOptions';
 import AchievementGallery from './components/AchievementGallery';
+import QuestionFeedback from './components/QuestionFeedback';
+import MessageInbox from './components/MessageInbox';
+import MessageNav from './components/MessageNav';
 import React, { useState, useEffect, useRef } from 'react';
 import { auth, db, isSandbox } from '@backend';
 import { 
@@ -677,6 +680,7 @@ export default function App() {
               <span className="font-bold text-indigo-400 block mb-1">📘 Explicação / Revisão:</span>
               <p className="text-slate-300 leading-relaxed">{perguntaAtual.explicacao}</p>
               {avisoMetas && <p role="status" className="mt-3 text-emerald-300">{avisoMetas}</p>}
+              {user.uid!==ADMIN_UID&&<QuestionFeedback key={`${sessionId.current}:${indicePerguntaAtual}`} question={perguntaAtual} selected={opcaoSelecionada}/>}
               {perguntaAtual.fonte && <a className="inline-block underline text-indigo-300 mt-2" href={perguntaAtual.fonte} target="_blank" rel="noopener noreferrer">Consultar fonte</a>}
               {perguntaAtual.dataReferencia && <p className="text-slate-400 mt-1">Referência: {perguntaAtual.dataReferencia.split('-').reverse().join('/')}</p>}
             </div>
@@ -736,7 +740,7 @@ export default function App() {
             </button>
           </div>
 
-          <div className="flex gap-2 mb-6 bg-slate-900 p-1.5 rounded-xl border border-slate-700">
+          <div className="flex flex-wrap gap-2 mb-6 bg-slate-900 p-1.5 rounded-xl border border-slate-700">
             <button 
               onClick={() => setAbaAtiva('home')}
               className={`flex-1 py-2 text-xs font-semibold rounded-lg transition ${abaAtiva === 'home' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'}`}
@@ -769,8 +773,10 @@ export default function App() {
                 ⚙️ Admin
               </button>
             )}
+            <MessageNav uid={user.uid} active={abaAtiva==='mensagens'} onOpen={()=>setAbaAtiva('mensagens')}/>
           </div>
 
+          {abaAtiva === 'mensagens' && <MessageInbox uid={user.uid}/>}
           {abaAtiva === 'home' && (
             <div>
               <div className="bg-slate-700/40 p-4 rounded-xl border border-slate-600 flex justify-between items-center mb-6">

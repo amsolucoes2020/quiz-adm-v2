@@ -26,7 +26,7 @@ export const limit = count => ({count});
 export const query = (ref,...filters) => ({...ref,filters});
 export const where = (field,op,value) => ({kind:'where',field,op,value});
 export async function getDocs(ref) {
-  let rows=Object.entries(read()).filter(([path,data])=>path.startsWith(ref.table+'/') && (ref.table !== 'questions' || !isDeferredQuestion(data))).map(([path,data])=>snap({path,id:path.split('/')[1]},data));
+  let rows=Object.entries(read()).filter(([path,data])=>path.startsWith(ref.table+'/') && (ref.table !== 'questions' || !isDeferredQuestion(data))).map(([path,data])=>snap({path,id:path.split('/').at(-1)},data));
   for(const filter of ref.filters || []) {
     if(filter.kind==='where') {
       if(filter.op!=='==')throw new Error('Filtro local não suportado.');

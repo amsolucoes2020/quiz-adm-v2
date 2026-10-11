@@ -1,0 +1,11 @@
+# Mensagens e revisão de gabaritos
+
+Depois de confirmar uma resposta, o aluno pode selecionar **Discorda do gabarito? Enviar feedback**. A contestação inclui o comentário, a questão, suas alternativas, o gabarito e a resposta selecionada. A API obtém o conteúdo oficial da questão no banco; o cliente não decide o gabarito da contestação. As seleções são convertidas da ordem embaralhada para a ordem oficial.
+
+A aba **Mensagens** permite iniciar conversas privadas com usuários cadastrados ou com **Administração**. Uma conversa direta tem dois participantes e é reutilizada nos próximos envios. Cada contestação tem uma conversa própria com o aluno e o administrador já autorizado no aplicativo (`MESSAGE_ADMIN_UID`). O administrador responde nessa conversa e pode marcar a revisão como concluída. Uma nova mensagem do aluno reabre a revisão. Isso não altera automaticamente a questão nem concede XP.
+
+As coleções `conversations/{id}/messages`, `mailboxes/{uid}/threads`, `messageReceipts` e `messageLimits` são acessadas pela API autenticada `/api/messages`. As regras Firestore existentes negam acesso direto a essas coleções, inclusive ao administrador pelo SDK do navegador. A API verifica os participantes antes de ler, responder ou alterar o estado de uma conversa. A administração recebe contestações e conversas dirigidas a ela; não lê conversas privadas entre outros usuários. O diretório retorna somente UID, nome e turma; não retorna e-mail ou dados privados de progresso.
+
+O servidor limita textos a 2.000 caracteres e envios a 10 por minuto e 200 por dia UTC por usuário. Recibos vinculados ao UID e ao identificador do envio evitam duplicação em tentativas de reenvio. A marcação de leitura usa a versão vista da conversa para não ocultar uma mensagem que chegou depois. A caixa e o histórico carregam páginas de 50 itens; as consultas usam índices de campo único existentes. A indicação de novas mensagens é consultada a cada minuto, e a conversa aberta é atualizada a cada 20 segundos.
+
+Mensagens são texto simples, sem anexos, envio de e-mail ou notificações externas. React apresenta o texto sem interpretar HTML. No teste local, os mesmos controles são executados pelo adaptador de armazenamento do sandbox. As transações de mensagens não escrevem XP, ranking, conquistas ou estatísticas do quiz.
