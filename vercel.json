@@ -1,11 +1,6 @@
 {
   "framework": "vite",
-  "crons": [
-    {
-      "path": "/api/season",
-      "schedule": "0 3 1 * *"
-    }
-  ],
+  "crons": [],
   "functions": {
     "api/*.js": {
       "maxDuration": 60,

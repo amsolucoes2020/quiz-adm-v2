@@ -1,5 +1,5 @@
 import {identity,services} from '../server/firebase.js';
-import {perform} from '../server/competition.js';
+import {performXP as perform} from '../server/xpService.js';
 export default async function handler(req,res) {
   res.setHeader('Cache-Control','no-store');
   if(req.method!=='POST') return res.status(405).json({error:'Método não permitido.'});

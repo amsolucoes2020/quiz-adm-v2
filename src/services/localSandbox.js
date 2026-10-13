@@ -1,7 +1,6 @@
 import { allBundledQuestions, isDeferredQuestion, BANK_VERSION } from '../data/questionBank';
 import { upgradeLocalBank } from '../domain/localBank';
 import { initialProgress } from '../domain/periods.js';
-import {syncCompetition} from '../domain/competition.js';
 if (!['localhost','127.0.0.1','[::1]'].includes(location.hostname)) throw new Error('Esta prévia é exclusiva para testes locais.');
 const KEY = 'adm-quiz-sandbox-v1.3';
 export const isSandbox = true;
@@ -13,7 +12,7 @@ function seed() {
     'settings/localBank': {version:BANK_VERSION,count:allBundledQuestions.length},
     ...Object.fromEntries(allBundledQuestions.map((q,i)=>['questions/local-'+i,q]))};
 }
-function read() { const raw=localStorage.getItem(KEY); return syncCompetition(raw ? upgradeLocalBank(JSON.parse(raw), allBundledQuestions, BANK_VERSION) : seed()); }
+function read() { const raw=localStorage.getItem(KEY); return raw ? upgradeLocalBank(JSON.parse(raw), allBundledQuestions, BANK_VERSION) : seed(); }
 function write(data) { localStorage.setItem(KEY,JSON.stringify(data)); }
 export const db = {};
 export const auth = {currentUser:user};

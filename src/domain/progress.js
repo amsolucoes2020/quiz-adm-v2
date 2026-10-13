@@ -3,16 +3,16 @@ import { gradeAnswer } from './questions.js';
 import { getPeriods, resetPeriods } from './periods.js';
 import { CONQUISTAS_SISTEMA, DEFAULT_MISSIONS, activeMissions, QUESTION_XP, COMBO_XP, performanceBonus } from './gamification.js';
 
-export function applyQuizEvent(input, event, now = new Date()) {
+export function applyQuizEvent(input, event, now = new Date(), options = {}) {
   let data = resetPeriods(input, DEFAULT_MISSIONS, now);
   const previous = (data.recentQuizEvents || []).find(e => e.id === event.id);
-  if (previous) return { ...previous, data };
+  if (previous) return { ...previous, ...(options.singleXP?{competitivePoints:0}:{}), data };
   const periods = getPeriods(now);
   let xp = 0, comboXp = 0, bonus = '', correct = false, streak = 0;
   let achievementScore = -1, speed = 0;
   let competitivePoints = 0;
   if(data.competition) data.competition={...data.competition};
-  const add = (key, amount = 1) => { data[key] = (data[key] || 0) + amount; };
+  const add = (key, amount = 1) => { if(options.singleXP&&key==='xpTemporada')return;data[key] = (data[key] || 0) + amount; };
   if (event.type === 'answer') {
     const q = event.question;
     correct = gradeAnswer(q,event.selected,event.remaining).correct;
@@ -35,7 +35,7 @@ export function applyQuizEvent(input, event, now = new Date()) {
       ? (data.questoesErradasHoje || []).filter(id => id !== q.id)
       : [...new Set([...(data.questoesErradasHoje || []), q.id])];
     if (!event.review && !repeated) {
-    if(data.competition) {
+    if(!options.singleXP&&data.competition) {
       data.competition.answers++;
       if(correct) data.competition.correct++;
     }
@@ -80,7 +80,7 @@ export function applyQuizEvent(input, event, now = new Date()) {
     }
   } else if (event.type === 'finish') {
     const session = data.partidaAtual;
-    const valid = session?.id === event.id.split(':finish')[0] && session.seasonId===data.competition?.seasonId && !session.finished && session.eligible && session.answers.length === 10 && new Set(session.answers).size === 10;
+    const valid = session?.id === event.id.split(':finish')[0] && (options.singleXP||session.seasonId===data.competition?.seasonId) && !session.finished && session.eligible && session.answers.length === 10 && new Set(session.answers).size === 10;
     if (!event.review && event.total === 10 && valid) {
       data.partidaAtual = {...session, finished:true};
       recordLearningFinish(data, session);
@@ -89,7 +89,7 @@ export function applyQuizEvent(input, event, now = new Date()) {
       data.progressoMissoes.quizzesSemana++;
       xp = performanceBonus(session.correct);
       competitivePoints=xp;
-      if(data.competition) data.competition.quizzes++;
+      if(!options.singleXP&&data.competition) data.competition.quizzes++;
       bonus = xp ? `Desempenho: ${session.correct}/10! +${xp} XP` : 'Bônus de desempenho a partir de 7/10.';
       achievementScore = session.correct;
       if (session.correct === 10) {
@@ -136,7 +136,7 @@ export function applyQuizEvent(input, event, now = new Date()) {
       }
     }
   } while (unlocked);
-  if(data.competition?.status==='active') data.competition.points+=competitivePoints;
+  if(!options.singleXP&&data.competition?.status==='active') data.competition.points+=competitivePoints;
   else competitivePoints=0;
   const result = { id: event.id, xp, comboXp, competitivePoints, awardXp, bonus, correct, streak, achievements, missions };
   data.recentQuizEvents = [...(data.recentQuizEvents || []).slice(-63), result];

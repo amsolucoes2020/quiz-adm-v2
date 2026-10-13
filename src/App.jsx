@@ -1,5 +1,3 @@
-import {CompetitionPanel, CompetitionHistory, CompetitionLab} from './components/Competition';
-import {roomRanking} from './domain/competition';
 import MultipleAnswerOptions from './components/MultipleAnswerOptions';
 import AchievementGallery from './components/AchievementGallery';
 import QuestionFeedback from './components/QuestionFeedback';
@@ -79,7 +77,6 @@ export default function App() {
   const [mensagemBonus, setMensagemBonus] = useState('');
   const [avisoMetas, setAvisoMetas] = useState('');
   const [xpUltimaQuestao, setXpUltimaQuestao] = useState(0);
-  const [pontosUltimaResposta, setPontosUltimaResposta] = useState(0);
 
   const TEMPO_LIMITE = 60; 
   const [tempoRestante, setTempoRestante] = useState(TEMPO_LIMITE);
@@ -105,8 +102,6 @@ export default function App() {
   const [altE, setAltE] = useState('');
   const [respostaCorretaIndex, setRespostaCorretaIndex] = useState(0);
   const [novaExplicacao, setNovaExplicacao] = useState('');
-  const [competitionSeason, setCompetitionSeason] = useState(null);
-  const previousSeason = useRef(null);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
@@ -167,9 +162,7 @@ export default function App() {
     try {
       const querySnapshot = await getDocs(collection(db, 'rankings'));
       const ranking = querySnapshot.docs.map(doc=>doc.data());
-      const mine=ranking.find(row=>row.uid===auth.currentUser?.uid);
-      setRankingAlunos(roomRanking(ranking,mine?.competition));
-      setCompetitionSeason(await loadSeason());
+      setRankingAlunos(ranking.sort((a,b)=>(b.pontuacaoGeral||0)-(a.pontuacaoGeral||0)||String(a.uid).localeCompare(String(b.uid))));
     } catch (err) {
       console.error("Erro ao carregar ranking:", err);
     }
@@ -338,21 +331,13 @@ export default function App() {
     const refresh=async()=>{
       if(operationLock.current) return;
       try { await carregarDadosUsuario(user.uid); await carregarRanking(); }
-      catch(err) { console.error('Não foi possível atualizar a liga local.',err); }
+      catch(err) { console.error('Não foi possível atualizar o progresso.',err); }
     };
     const timer=setInterval(refresh,30000);
     window.addEventListener('focus',refresh);
     return ()=>{clearInterval(timer);window.removeEventListener('focus',refresh);};
   },[user?.uid]);
 
-  useEffect(()=>{
-    const id=userData?.competition?.seasonId;
-    if(previousSeason.current && id && previousSeason.current!==id) {
-      setDisciplinaSelecionada(null);setQuizFinalizado(false);setStreak(0);
-      setAbaAtiva('perfil');
-    }
-    if(id) previousSeason.current=id;
-  },[userData?.competition?.seasonId]);
 
   const prepararBlocoQuestoes = (source, count = 10) => prepareQuestions(source, resetPeriods(userData, DEFAULT_MISSIONS), count);
 
@@ -367,7 +352,6 @@ export default function App() {
     sessionId.current = crypto.randomUUID();
     setSaveError('');
     setXpUltimaQuestao(0);
-    setPontosUltimaResposta(0);
     setDisciplinaSelecionada(disc);
     setPerguntasSessao(blocoPronto);
     setPerguntasErradasSessao([]);
@@ -389,7 +373,6 @@ export default function App() {
     setAcertosSessao(0);
     setPontosSessao(0);
     setXpUltimaQuestao(0);
-    setPontosUltimaResposta(0);
     setSaveError('');
     const blocoPronto = prepararBlocoQuestoes(perguntasErradasSessao, perguntasErradasSessao.length);
 
@@ -438,7 +421,6 @@ export default function App() {
       setRespostaConfirmada(true);
       setMensagemBonus(result.bonus);
       setXpUltimaQuestao(result.xp + result.awardXp);
-      setPontosUltimaResposta(result.competitivePoints || 0);
       setPontosSessao(prev => prev + result.xp + result.awardXp);
       setStreak(result.streak);
       if (result.correct) setAcertosSessao(prev => prev + 1);
@@ -460,7 +442,6 @@ export default function App() {
       setMensagemBonus('');
       setAvisoMetas('');
       setXpUltimaQuestao(0);
-    setPontosUltimaResposta(0);
       setSaveError('');
       return;
     }
@@ -666,7 +647,6 @@ export default function App() {
               <div className="flex justify-between items-center mb-2">
                 <span className="font-bold text-emerald-400 text-sm">
                   +{xpUltimaQuestao} XP Conquistados
-                  <span className="block text-xs text-amber-300 mt-1">+{pontosUltimaResposta} pontos competitivos</span>
                 </span>
                 {mensagemBonus && (
                   <span className="text-[11px] font-extrabold text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20">
@@ -729,7 +709,7 @@ export default function App() {
               <h2 className="text-xl font-bold text-indigo-400">Olá, {userData.nome}!</h2>
               <p className="text-xs text-slate-400">{userData.email}</p>
               <span className="inline-block mt-1 text-[10px] bg-indigo-950 text-indigo-300 border border-indigo-500/30 px-2 py-0.5 rounded-full font-semibold">
-                🗓️ Temporada: {userData.temporadaAtual || getPeriods().seasonName}
+                Seu espaço de aprendizagem
               </span>
             </div>
             <button 
@@ -787,10 +767,9 @@ export default function App() {
               <div className="home-progress-grid">
               <div className="bg-slate-700/40 p-4 rounded-xl border border-slate-600 flex justify-between items-center mb-6">
                 <div>
-                  <span className="text-xs text-slate-400 block">Pontos competitivos ({userData.temporadaAtual || 'Temporada'})</span>
-                  <span className="text-2xl font-black text-emerald-400">{userData.competition?.points || 0} pts</span>
-                  <span className="text-[10px] text-slate-400 block mt-0.5">Vitalício: {userData.pontuacaoGeral || 0} XP</span>
-                  <button className="text-xs text-indigo-300 underline mt-2" onClick={()=>{setAbaAtiva('ranking');carregarRanking();}}>{userData.competition?.status === 'classification' ? '🎯 Classificação · Ver próxima temporada' : `🏅 ${userData.competition?.league || 'Bronze'} · Ver minha liga`}</button>
+                  <span className="text-xs text-slate-400 block">Seu XP</span>
+                  <span className="text-2xl font-black text-emerald-400">{(userData.pontuacaoGeral || 0).toLocaleString('pt-BR')} XP</span>
+                  <button className="text-xs text-indigo-300 underline mt-2" onClick={()=>{setAbaAtiva('ranking');carregarRanking();}}>Ver ranking geral →</button>
                 </div>
                 {perguntas.length === 0 && isUserAdminAutorizado && (
                   <button 
@@ -936,13 +915,13 @@ export default function App() {
           )}
 
           {abaAtiva === 'ranking' && (
-            <CompetitionPanel profile={userData} rows={rankingAlunos} season={competitionSeason} uid={user.uid}/>
+            <section className="space-y-4"><h3 className="text-xl font-bold">Ranking geral</h3><p className="text-sm text-slate-400">Todos os participantes, classificados pelo XP acumulado.</p><ol className="space-y-2">{rankingAlunos.map((row,index)=><li key={row.uid} className={`flex items-center gap-3 p-4 rounded-xl border ${row.uid===user.uid?'bg-indigo-950 border-indigo-500/30':'bg-slate-900 border-slate-700'}`}><span className="w-8 font-bold text-indigo-400">{index+1}º</span><span className="flex-1 text-sm font-semibold break-words min-w-0">{row.nome}{row.uid===user.uid&&' · Você'}</span><span className="font-bold text-emerald-400 whitespace-nowrap">{(row.pontuacaoGeral||0).toLocaleString('pt-BR')} XP</span></li>)}</ol></section>
           )}
 
           {abaAtiva === 'perfil' && (
             <div className="space-y-4">
               <div className="bg-slate-900 p-5 rounded-xl border border-slate-700 flex items-center gap-4">
-                <div className={`w-14 h-14 bg-indigo-600 rounded-full flex items-center justify-center text-xl font-bold text-white shadow-inner ${userData.leagueBadges?.includes('Top 3') ? 'ring-4 ring-amber-400' : ''}`}>
+                <div className="w-14 h-14 bg-indigo-600 rounded-full flex items-center justify-center text-xl font-bold text-white shadow-inner">
                   {userData.nome ? userData.nome.charAt(0).toUpperCase() : 'U'}
                 </div>
                 <div>
@@ -960,12 +939,12 @@ export default function App() {
               </div>
               <div className="grid grid-cols-2 gap-3">
                 <div className="bg-slate-900 p-4 rounded-xl border border-slate-700">
-                  <span className="text-[11px] text-slate-400 block mb-1">🏆 Pontos competitivos</span>
-                  <span className="text-2xl font-black text-emerald-400">{userData.competition?.points || 0} pts</span>
+                  <span className="text-[11px] text-slate-400 block mb-1">Seu XP</span>
+                  <span className="text-2xl font-black text-emerald-400">{(userData.pontuacaoGeral||0).toLocaleString('pt-BR')} XP</span>
                 </div>
 
                 <div className="bg-slate-900 p-4 rounded-xl border border-slate-700">
-                  <span className="text-[11px] text-slate-400 block mb-1">👑 Posição na sala</span>
+                  <span className="text-[11px] text-slate-400 block mb-1">Posição no ranking geral</span>
                   <span className="text-2xl font-black text-amber-400">
                     #{rankingAlunos.findIndex(a => a.uid === user.uid) !== -1 
                       ? rankingAlunos.findIndex(a => a.uid === user.uid) + 1 
@@ -988,12 +967,11 @@ export default function App() {
                 </div>
               </div>
 
-              <CompetitionHistory profile={userData}/>
               <AchievementGallery data={userData} />
 
               <div className="bg-slate-900 p-4 rounded-xl border border-slate-700 space-y-2 text-xs">
                 <div className="flex justify-between py-1.5 border-b border-slate-800">
-                  <span className="text-slate-400">XP Vitalício (Total Histórico)</span>
+                  <span className="text-slate-400">XP acumulado</span>
                   <span className="font-bold text-emerald-400">{userData.pontuacaoGeral || 0} XP</span>
                 </div>
                 <div className="flex justify-between py-1.5 border-b border-slate-800">
@@ -1014,11 +992,6 @@ export default function App() {
 
           {abaAtiva === 'admin' && isUserAdminAutorizado && (
             <div>
-              <div className="bg-slate-900 border border-slate-700 p-4 rounded-xl mb-4">
-                <h4 className="font-bold">Temporadas mensais automáticas</h4>
-                <p className="text-sm text-slate-400 mt-2">O mês encerra à meia-noite de Brasília. Resultados, promoções e rebaixamentos são registrados antes da nova temporada. {isSandbox ? 'Na prévia local, o processamento acontece ao abrir o app ou enquanto ele estiver em uso.' : 'A temporada é processada no servidor, com agendamento mensal e verificação ao acessar o aplicativo.'}</p>
-              </div>
-              {isSandbox && <CompetitionLab/>}
 
               <div className="bg-slate-900 p-4 rounded-xl border border-indigo-500/30 mb-6">
                 <h4 className="text-xs font-bold text-indigo-300 mb-1 flex items-center gap-1">

@@ -1,7 +1,6 @@
-import {competitionRow, enrollCompetition} from '../domain/competition';
-import { collection, doc, getDoc, getDocs, query, orderBy, limit, runTransaction, writeBatch } from '@backend';
+import { collection, doc, getDocs, runTransaction, writeBatch } from '@backend';
 import { auth, db, isSandbox } from '@backend';
-import { getPeriods, resetPeriods, newSeasonData } from '../domain/periods';
+import { resetPeriods } from '../domain/periods';
 import { DEFAULT_MISSIONS } from '../domain/gamification';
 import { applyQuizEvent } from '../domain/progress';
 import { validateImport } from '../domain/questions';
@@ -10,8 +9,7 @@ const ADMIN_UID = 'ktCddjGUigN8Spm6x9wrdFgzBZy2';
 const assertAdmin = () => {
   if (auth.currentUser?.uid !== ADMIN_UID) throw new Error('Acesso restrito ao administrador.');
 };
-const seasonRef = () => doc(db, 'settings', 'season');
-const publicProfile = competitionRow;
+const publicProfile = (uid,data)=>({uid,nome:data.nome,pontuacaoGeral:data.pontuacaoGeral||0});
 async function request(action,payload={}) {
   const token=await auth.currentUser?.getIdToken();
   if(!token) throw new Error('Entre novamente para continuar.');
@@ -24,10 +22,9 @@ async function request(action,payload={}) {
 export async function createProfile(uid, data) {
   if(!isSandbox) return request('createProfile',{data});
   return runTransaction(db, async tx => {
-    const season = await tx.get(seasonRef());
     const existing = await tx.get(doc(db, 'users', uid));
     if (existing.exists()) return existing.data();
-    const profile = { ...data, temporadaAtual: season.data().name, competition:enrollCompetition(season.data()) };
+    const profile = { ...data };
     tx.set(doc(db, 'users', uid), profile);
     tx.set(doc(db, 'rankings', uid), publicProfile(uid, profile));
     return profile;
@@ -36,28 +33,17 @@ export async function createProfile(uid, data) {
 
 export async function loadSeason() {
   if(!isSandbox) return request('loadSeason');
-  try {
-    const snapshot = await getDoc(seasonRef());
-    if (snapshot.exists()) return snapshot.data();
-  } catch (error) {
-    // Older deployments may not yet allow the settings collection.
-    if (error.code !== 'permission-denied') throw error;
-  }
-  const users = await getDocs(query(collection(db, 'rankings'), orderBy('xpTemporada', 'desc'), limit(1)));
-  return { name: users.docs[0]?.data().temporadaAtual || getPeriods().seasonName, legacy: true };
+  return {name:'XP geral',leaguesEnabled:false};
 }
 
 export async function loadProfile(uid) {
   if(!isSandbox) return request('loadProfile');
   return runTransaction(db, async tx => {
-    const season = await tx.get(seasonRef());
-    const currentSeason = season.data();
     const ref = doc(db, 'users', uid);
     const snapshot = await tx.get(ref);
     if (!snapshot.exists()) return null;
     const original = snapshot.data();
     let data = resetPeriods(original, DEFAULT_MISSIONS);
-    if (currentSeason?.name && data.temporadaAtual !== currentSeason.name) data = newSeasonData(data, currentSeason.name);
     if (JSON.stringify(original) !== JSON.stringify(data)) tx.update(ref, data);
     tx.set(doc(db, 'rankings', uid), publicProfile(uid, data));
     return data;
@@ -68,14 +54,11 @@ export async function saveQuizEvent(uid, event) {
   if(!isSandbox) return request('saveQuizEvent',{event});
   if (auth.currentUser?.uid !== uid) throw new Error('Entre novamente para continuar.');
   return runTransaction(db, async tx => {
-    const season = await tx.get(seasonRef());
     const ref = doc(db, 'users', uid);
     const snapshot = await tx.get(ref);
     if (!snapshot.exists()) throw new Error('Perfil não encontrado.');
     const original = snapshot.data();
-    const data = season.data()?.name && original.temporadaAtual !== season.data().name
-      ? newSeasonData(original, season.data().name) : original;
-    const result = applyQuizEvent(data, event);
+    const result = applyQuizEvent(original, event,new Date(),{singleXP:true});
     tx.update(ref, result.data);
     tx.set(doc(db, 'rankings', uid), publicProfile(uid, result.data));
     return result;
