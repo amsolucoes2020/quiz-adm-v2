@@ -573,26 +573,26 @@ export default function App() {
     }
 
     return (
-      <div className="min-h-screen bg-slate-900 text-white flex flex-col items-center p-4">
-        <div className="w-full max-w-md bg-slate-800 rounded-2xl p-6 shadow-xl border border-slate-700 mt-6">
+      <div className="quiz-shell min-h-screen bg-slate-900 text-white flex flex-col items-center p-4">
+        <div className="quiz-card w-full max-w-md bg-slate-800 rounded-2xl p-6 shadow-xl border border-slate-700 mt-6">
           
-          <div className="flex justify-between items-center mb-3">
-            <span className="text-[11px] font-semibold px-2.5 py-1 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+          <div className="quiz-toolbar mb-3">
+            <span className="quiz-category text-[11px] font-semibold px-2.5 py-1 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
               {perguntaAtual.disciplina} {isModoRefazer && '(Refazendo)'}
             </span>
             
-            <div className={`px-3 py-1 rounded-full text-xs font-black border flex items-center gap-1.5 ${
+            <div aria-label="Tempo restante" className={`quiz-timer px-3 py-1 rounded-full text-xs font-black border flex items-center gap-1.5 ${
               tempoRestante <= 10 
-                ? 'bg-red-500/20 text-red-400 border-red-500/40 animate-pulse' 
+                ? 'bg-red-500/20 text-red-400 border-red-500/40'
                 : 'bg-slate-700 text-amber-400 border-slate-600'
             }`}>
-              ⏱️ {tempoRestante}s
+              <span aria-hidden="true">⏱️</span><span>{String(tempoRestante).padStart(2,'0')}s</span>
             </div>
 
             <button
               disabled={saving}
               onClick={sairDoQuiz}
-              className="text-xs bg-red-500/20 text-red-400 border border-red-500/30 px-2.5 py-1 rounded-lg hover:bg-red-500/30 transition"
+              className="quiz-exit text-xs bg-red-500/20 text-red-400 border border-red-500/30 px-2.5 py-1 rounded-lg hover:bg-red-500/30 transition"
             >
               🚪 Sair
             </button>
@@ -605,16 +605,16 @@ export default function App() {
 
           <div className="w-full bg-slate-700 h-1.5 rounded-full mb-4 overflow-hidden">
             <div 
-              className={`h-full transition-all duration-1000 ${
+              className={`quiz-time-fill h-full ${
                 tempoRestante <= 10 ? 'bg-red-500' : 'bg-indigo-500'
               }`}
-              style={{ width: `${(tempoRestante / (perguntaAtual.formato === 'vf' ? 30 : 60)) * 100}%` }}
+              style={{ transform: `scaleX(${Math.max(0,Math.min(1,tempoRestante / (perguntaAtual.formato === 'vf' ? 30 : 60)))})` }}
             ></div>
           </div>
 
           <div className="flex gap-2 mb-4">
             <span className="text-[10px] bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 px-2 py-0.5 rounded font-bold">
-              Dificuldade: {perguntaAtual.dificuldade} ({QUESTION_XP[perguntaAtual.dificuldade]} XP por acerto inédito hoje){perguntaAtual.formato === 'vf' && ' · −3 XP aos 10s e −6 XP aos 20s; tempo esgotado: 0 XP'}
+              {perguntaAtual.dificuldade} · {QUESTION_XP[perguntaAtual.dificuldade]} XP
             </span>
             {perguntaAtual.tipo && (
               <span className="text-[10px] bg-slate-700 px-2 py-0.5 rounded text-slate-300">
@@ -623,7 +623,7 @@ export default function App() {
             )}
           </div>
 
-          <h3 className="text-base font-semibold mb-6 text-slate-100 leading-relaxed">
+          <h3 className="question-heading text-base font-semibold mb-6 text-slate-100 leading-relaxed">
             {perguntaAtual.pergunta}
           </h3>
 
@@ -721,10 +721,10 @@ export default function App() {
     const missoesExibidas = missoesAtivas.filter(m => (filtroMissao === 'Todas' || m.tipo === filtroMissao) && (situacaoMissao === 'Todas' || (situacaoMissao === 'Concluídas') === missoesConcluidas.includes(m.id)));
 
     return (
-      <div className="min-h-screen bg-slate-900 text-white flex flex-col items-center p-4">
-        <div className="w-full max-w-xl bg-slate-800 rounded-2xl p-6 shadow-xl border border-slate-700 my-4">
+      <div className="app-shell min-h-screen bg-slate-900 text-white flex flex-col items-center p-4">
+        <div className="app-panel w-full max-w-xl bg-slate-800 rounded-2xl p-6 shadow-xl border border-slate-700 my-4">
           
-          <div className="flex justify-between items-center mb-6">
+          <div className="app-header flex justify-between items-center mb-6">
             <div>
               <h2 className="text-xl font-bold text-indigo-400">Olá, {userData.nome}!</h2>
               <p className="text-xs text-slate-400">{userData.email}</p>
@@ -740,7 +740,8 @@ export default function App() {
             </button>
           </div>
 
-          <div className="flex flex-wrap gap-2 mb-6 bg-slate-900 p-1.5 rounded-xl border border-slate-700">
+          <nav aria-label="Menu principal" className="app-nav flex flex-wrap gap-2 mb-6 bg-slate-900 p-1.5 rounded-xl border border-slate-700">
+            <div className="app-brand"><span className="brand-symbol">A</span><div>Academia ADM<small>Aprenda. Evolua. Conquiste.</small></div></div>
             <button 
               onClick={() => setAbaAtiva('home')}
               className={`flex-1 py-2 text-xs font-semibold rounded-lg transition ${abaAtiva === 'home' ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'}`}
@@ -774,11 +775,16 @@ export default function App() {
               </button>
             )}
             <MessageNav uid={user.uid} active={abaAtiva==='mensagens'} onOpen={()=>setAbaAtiva('mensagens')}/>
-          </div>
+          </nav>
 
           {abaAtiva === 'mensagens' && <MessageInbox uid={user.uid}/>}
           {abaAtiva === 'home' && (
             <div>
+              <section className="learning-hero">
+                <div className="hero-copy"><span className="eyebrow">SUA PRÓXIMA CONQUISTA COMEÇA AQUI</span><h1>Construa conhecimento.<br/>Avance na sua carreira.</h1><p>Uma partida por vez, novos conceitos para levar à sua vida profissional.</p><button onClick={()=>iniciarQuizPorDisciplina('Todas')} className="hero-start">Começar uma partida <span aria-hidden="true">→</span></button><span className="hero-caption">10 questões · {formato==='vf'?'Verdadeiro ou falso':formato==='multipla_resposta'?'Múltiplas respostas':'Múltipla escolha'}</span></div>
+                <div className="hero-art" aria-hidden="true"><div className="orbit orbit-one"/><div className="orbit orbit-two"/><div className="career-symbol">↗</div><span className="art-label">O próximo nível<br/>é seu.</span><span className="art-spark">✦</span></div>
+              </section>
+              <div className="home-progress-grid">
               <div className="bg-slate-700/40 p-4 rounded-xl border border-slate-600 flex justify-between items-center mb-6">
                 <div>
                   <span className="text-xs text-slate-400 block">Pontos competitivos ({userData.temporadaAtual || 'Temporada'})</span>
@@ -804,13 +810,15 @@ export default function App() {
                 )}
               </div>
 
-              <div className="mb-5 p-4 rounded-xl bg-indigo-950 border border-indigo-500/40">
+              <div className="career-card mb-5 p-4 rounded-xl bg-indigo-950 border border-indigo-500/40">
                 <strong>Nível {carreira.level} — {carreira.nome}</strong>
                 <p className="text-sm mt-2">🔥 {dailyStreak(userData)} dias de sequência · Recorde: {userData.maiorSequenciaDias || 0}</p>
                 <p className="text-xs text-slate-300 mt-2">5 questões diferentes por dia mantêm sua sequência.</p>
                 <progress className="w-full mt-3" max="100" value={carreira.percent} aria-label="Progresso de carreira" />
                 <p className="text-xs">{carreira.next ? `${carreira.next.xp-userData.pontuacaoGeral} XP para ${carreira.next.nome}` : 'Diretor: último nível alcançado!'}</p>
               </div>
+              </div>
+              <section className="mission-preview"><div><span className="eyebrow">UM POUCO TODOS OS DIAS</span><h3>Seu próximo objetivo</h3></div><div className="mission-preview-items">{missoesAtivas.filter(m=>m.tipo==='Diária').slice(0,2).map(m=><button key={m.id} onClick={()=>setAbaAtiva('missoes')}><span className="mission-dot">{missoesConcluidas.includes(m.id)?'✓':'○'}</span><span><strong>{m.nome}</strong><small>{Math.min(m.alvo,m.progresso(userData))}/{m.alvo} · +{m.xp} XP</small></span><span aria-hidden="true">→</span></button>)}</div></section>
               <label className="block text-sm mb-4">Formato da partida
                 <select className="w-full bg-slate-900 rounded p-3 mt-2" value={formato} onChange={e=>setFormato(e.target.value)}>
                   <option value="multipla">Múltipla escolha</option>
@@ -818,17 +826,19 @@ export default function App() {
                   <option value="multipla_resposta">Múltiplas respostas</option>
                 </select>
               </label>
-              <p className="text-xs text-slate-400 mb-4">Bônus por partida de 10 questões: 7–8 acertos +20 XP · 9 +40 XP · 10 +60 XP. O bônus exige 10 questões inéditas no dia. {formato === 'multipla_resposta' ? 'Após errar, a segunda tentativa correta vale metade do XP; as seguintes não dão XP no dia.' : 'Revisões e repetições no dia não rendem XP.'}</p>
-              <h3 className="text-sm font-semibold text-slate-300 mb-3">{formato === 'multipla_resposta' ? 'Banco de teste · 10 questões conceituais' : 'Escolha uma Área da Administração:'}</h3>
-              <div className="space-y-2 max-h-96 overflow-y-auto pr-1">
-                {(formato === 'multipla_resposta' ? ['Todas'] : listaDisciplinas).map((disc, idx) => (
+              <details className="study-rules text-xs text-slate-400 mb-4"><summary>Como funciona a pontuação?</summary><p className="mt-2">Bônus por partida: 7–8 acertos +20 XP · 9 +40 XP · 10 +60 XP, com 10 questões inéditas no dia. {formato==='multipla_resposta'?'A segunda tentativa correta vale metade do XP; as seguintes não dão XP no dia.':'Revisões e repetições no dia não rendem XP.'}</p></details>
+              <div className="category-heading"><div><span className="eyebrow">EXPLORE SEUS INTERESSES</span><h3>O que vamos aprender hoje?</h3></div><span>12 áreas de conhecimento</span></div>
+              <div className="category-grid">
+                {listaDisciplinas.map((disc, idx) => (
                   <button
                     key={idx}
                     onClick={() => iniciarQuizPorDisciplina(disc)}
-                    className="w-full bg-slate-900 hover:bg-slate-700/80 border border-slate-700 p-3.5 rounded-xl text-left flex justify-between items-center transition"
+                    className={`category-card category-tone-${idx%6}`}
                   >
-                    <span className="text-sm font-medium text-slate-200">{disc}</span>
-                    <span className="text-xs text-indigo-400 font-semibold">Jogar →</span>
+                    <span className="category-icon" aria-hidden="true">{['✦','🏛️','👥','📊','📣','💡','📦','⚙️','🧭','⚖️','💻','📗','🌎'][idx]}</span>
+                    <strong>{disc==='Todas'?'Desafio completo':disc}</strong>
+                    <span className="category-caption">{disc==='Todas'?'Uma seleção de todas as áreas':`${perguntas.filter(q=>q.disciplina===disc&&(q.formato||'multipla')===formato).length} questões disponíveis`}</span>
+                    <span className="category-arrow" aria-hidden="true">↗</span>
                   </button>
                 ))}
               </div>
